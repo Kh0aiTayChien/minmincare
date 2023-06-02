@@ -1,0 +1,42 @@
+
+.headerpc {
+    /*background: white;*/
+    background-image: url("/images/header/Group 900.svg");
+    background-size: 105vw auto;
+    height: 25vh;
+    width: 100vw;
+    background-position: center top -45px;
+}
+
+.inline-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.inline-list-left li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.inline-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 20vw;
+}
+
+.inline-list-right li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}

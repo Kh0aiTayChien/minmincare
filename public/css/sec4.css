@@ -1,0 +1,71 @@
+.sec4pc {
+    background-image: url("/images/sec4/Group 825.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center top 230px;
+    /*background-color: aqua;*/
+}
+
+.container1sec4 {
+    /*display: block;*/
+}
+
+.banner1sec4 {
+    float: left;
+    margin-left: 12%;
+    margin-top: 5%;
+    width: 35vw;
+}
+
+.header1sec4 {
+    float: right;
+    margin-top: 5%;
+    margin-right: 14.5%;
+    width: 30vw;
+}
+
+.clear {
+    clear: both;
+}
+
+.content1sec4 {
+    float: right;
+    width: 35vw;
+    margin-right: 9%;
+    margin-top: 4%;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.button2 {
+    width: 15vw;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.banner2sec4 {
+    /*position: absolute;*/
+    /*float: right;*/
+    width: 35vw;
+
+    margin-left: 55%;
+}
+
+.content2sec4 {
+    position: absolute;
+    /*float: left;*/
+    width: 35vw;
+    margin-left: 12%;
+    margin-top: -30%;
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.button3 {
+    width: 15vw;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 35%;
+}
