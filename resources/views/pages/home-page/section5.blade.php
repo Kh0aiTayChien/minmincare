@@ -19,11 +19,11 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5" style="height: 20%"
+                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-sec-5 active">
+                        <div class="content-sec-5 active ms-5">
                             <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 50%; height: 15rem">
+                            <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                     Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu tại viện dinh dưỡng quốc
                                     gia
@@ -55,14 +55,14 @@
             <div class="carousel-item " id="2">
                 <div class="row gx-4">
                     <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5" style="height: 20%"
+                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-sec-5">
+                        <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
-                            <div class=" mt-3 " style="width: 50%; height: 15rem">
+                            <div class=" mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                     Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin
                                     chiết xuất từ nghệ tươi. Dưới dạng hạt nano tinh khiết có kích thước siêu nhỏ 20 nm
@@ -97,11 +97,11 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5" style="height: 20%"
+                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-sec-5">
+                        <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 50%; height: 15rem">
+                            <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                     GMP - Good manufacturing practice là một hệ thống để đảm bảo rằng các sản phẩm
                                     được sản xuất liên tục và kiểm soát theo tiêu chuẩn chất lượng. GMP bao gồm tất cả
@@ -133,14 +133,14 @@
             <div class="carousel-item " id="4">
                 <div class="row gx-4">
                     <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5" style="height: 20%"
+                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-sec-5">
+                        <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 50%; height: 15rem">
+                            <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                     Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng của sản phẩm.
                                     Đối với Min Min Care, nguyên liệu hoàn toàn 100% tự nhiên được tuyển chọn từ nguồn
@@ -174,14 +174,14 @@
             <div class="carousel-item " id="5">
                 <div class="row gx-4">
                     <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5" style="height: 20%"
+                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-sec-5">
+                        <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 50%; height: 15rem">
+                            <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                     Min Min Care đạt được các chứng nhận bao gồm quản lý an toàn thực phẩm FDA Mỹ -
                                     đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn
@@ -232,7 +232,9 @@
     .sm-arrow {
         width: 70px; /* Đặt chiều rộng mong muốn */
         height: auto;
-    /
+    }
+    .image-rule{
+        scale: 80%;
     }
 
     .carousel-fade .carousel-item {
