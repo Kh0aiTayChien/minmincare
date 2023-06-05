@@ -1,0 +1,9 @@
+.sec1pc {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4a5568;
+}
+body {
+    overflow-x: hidden;
+    background-color: white;
+}

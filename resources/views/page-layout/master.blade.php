@@ -23,7 +23,11 @@
         src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js">
     </script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link href="{{asset('/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/headerstyle.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec4.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')
