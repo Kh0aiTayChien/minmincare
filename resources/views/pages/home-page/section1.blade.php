@@ -22,12 +22,12 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
-            <img src="{{asset('images/sec1/arrow-l.png')}}" alt="" style="">
+            <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
-            <img src="{{asset('images/sec1/arrow-r.png')}}" alt="" style="">
+            <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>
         </button>
     </div>
