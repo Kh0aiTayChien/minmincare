@@ -30,6 +30,9 @@
     <link href="{{asset('/css/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec4.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec6.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec10.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')

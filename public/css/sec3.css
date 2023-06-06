@@ -1,16 +1,22 @@
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/Fonts/Mulish-SemiBold.ttf");
+}
+
 .sec3pc {
     height: 100vh;
 }
 
 .headersec3 {
-    margin-left: 15%;
-    margin-top: 8%;
-    width: 26vw;
+    margin-left: 13%;
+    margin-top: 5%;
+    width: 28vw;
 }
 
 .contentsec3 {
-    width: 26vw;
-    margin-left: 17%;
+    font-family: 'Mulish-SemiBold', sans-serif;
+    width: 28vw;
+    margin-left: 15%;
     font-size: 15px;
     margin-top: 3%;
     text-align: justify;
@@ -26,8 +32,9 @@
 
 .buttonvideo {
     position: absolute;
-    right: 300px;
+    right: 200px;
     /*margin-top: 15%;*/
+    width: 22vw;
 }
 
 .button1 {

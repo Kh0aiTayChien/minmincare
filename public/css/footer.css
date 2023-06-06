@@ -1,0 +1,60 @@
+.footerpc {
+    background-image: url("/images/footer/Group 828.png");
+}
+
+@font-face {
+    font-family: 'Mulish-Medium';
+    src: url("/Fonts/Mulish-Medium.ttf");
+}
+
+.linefooter {
+    width: 110vw;
+    margin-top: -2%;
+    margin-left: -5%;
+}
+
+.linkphone {
+    display: inline;
+}
+
+.phoneicon {
+    width: 15vw;
+}
+
+.emailicon {
+    width: 20vw;
+}
+
+.adressicon {
+    width: 20vw;
+}
+
+.intro {
+    font-family: 'Mitr-Medium', sans-serif;
+    /*font-weight: bold;*/
+    color: white;
+    font-size: 35px;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.intro1 {
+    font-family: 'Mulish-Medium', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.intro2 {
+    width: 20vw;
+}
+
+.contentLeftfooter {
+    margin-left: 10%!important;
+    margin-top: -3%!important;
+}
+
+.contentMidfooter {
+    margin-left: 12%!important;
+}
