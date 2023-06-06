@@ -34,7 +34,7 @@
         </ul>
     </div>
 
-    <div class="right-action">
+    <div class="right-action shadow-effect">
         <div><img src="{{asset('images/sec1/cart.png')}}" alt=""></div>
         <br>
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
@@ -42,10 +42,11 @@
 
 </div>
 <style>
-    .right-action {
+    .right-action{
         margin-right: 2%;
-        margin-top: 60vh;
+        margin-top: 58vh;
         float: right;
+        scale: 70%;
     }
 
     .list-product .list-product-button {
