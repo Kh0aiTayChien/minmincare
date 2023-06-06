@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="499.001" height="159.297" viewBox="0 0 499.001 159.297">
-    <g id="Group_928" data-name="Group 928" transform="translate(-965.399 -1207.083)">
+<svg xmlns="http://www.w3.org/2000/svg" width="547" height="173.297" viewBox="0 0 547 173.297">
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.tttf");
+        }
+
+    </style>
+    <g id="Group_928" data-name="Group 928" transform="translate(-965.399 -1202.083)">
         <text id="Nơi_hội_tụ_tinh_hoa" data-name="Nơi hội tụ tinh hoa" transform="translate(965.399 1351.38)"
-              fill="#f79420" font-size="57.877" font-family="SegoeUI, Segoe UI">
+              fill="#f79420" font-size="57.877" font-family="Mitr-Regular, Mitr">
             <tspan x="0" y="0">Nơi hội tụ tinh hoa</tspan>
         </text>
         <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(965.4 1287.083)" fill="#59843d"
-              font-size="74" font-family="SegoeUI, Segoe UI">
+              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
             <tspan x="0" y="0">MIN MIN CARE</tspan>
         </text>
     </g>

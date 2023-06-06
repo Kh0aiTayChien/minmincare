@@ -1,14 +1,16 @@
 .sec2 {
     background-image: url("/images/sec2/Rectangle 107.png");
-    background-size: 95vw 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    background-position: 150px 0;
+    /*height: 100vh;*/
 }
 
 .headersec2 {
-    margin-left: 55%;
+    margin-left: 52%;
     margin-top: 1%;
+    width: 25vw;
 }
 
 .contentsec2 {
@@ -34,3 +36,7 @@
     text-align: justify;
 }
 
+.contentsec2img {
+    width: 40vw;
+    margin-left: 47%;
+}
