@@ -240,6 +240,9 @@
     .carousel-fade .carousel-item {
         transition: opacity 0.5s ease-in-out; /* Đặt thời gian chuyển đổi là 0.5 giây */
     }
+    .content-sec-5{
+        font-family: "Mulish SemiBold", sans-serif;
+    }
 </style>
 <script>
 
