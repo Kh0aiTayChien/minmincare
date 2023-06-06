@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc63fc2-e6b7-4d64-b879-890f5c7acf6a" name="Changes" comment="change git ignore">
+    <list default="true" id="5fc63fc2-e6b7-4d64-b879-890f5c7acf6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section5.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section5.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,21 +234,9 @@
       <workItem from="1685587824166" duration="724000" />
       <workItem from="1685674243281" duration="1249000" />
     </task>
-    <task id="LOCAL-00001" summary="change git ignore">
-      <created>1685942001681</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685942001681</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="change git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change git ignore" />
   </component>
 </project>

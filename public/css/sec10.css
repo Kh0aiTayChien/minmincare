@@ -1,0 +1,109 @@
+.sec10pc {
+    background-image: url("/images/sec10/Rectangle 4.png");
+    background-size: cover;
+}
+
+.headersec10 {
+    margin-left: 15%;
+    width: 73vw;
+}
+
+.daily {
+    /*position: absolute;*/
+    margin-top: -7.5%;
+    margin-left: 17%;
+}
+
+.svg-input {
+    /*width: 271.266px;*/
+    height: 45.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    margin-right: 0.5%;
+    /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
+}
+
+.svg-input::placeholder {
+    padding-left: 10px;
+}
+
+.svg-input:focus {
+    outline: none;
+}
+
+.formOutline {
+    width: 30vw;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.submitbutton {
+    width: 18.5vw;
+    height: 55.891px;
+    position: absolute;
+}
+
+.dailybutton {
+    border: none;
+    background: none;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: -7.5%;
+}
+
+.button4 {
+    width: 17.5vw;
+    height: 45px;
+}
+
+.form-customer {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: -30%;
+}
+
+.svg-input-customer {
+    /*width: 271.266px;*/
+    height: 40.891px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
+}
+
+.svg-input-customer::placeholder {
+    padding-left: 10px;
+}
+
+.svg-input-bot {
+    width: 25vw;
+    height: 100.008px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    padding: 10px; /* Tùy chỉnh khoảng cách giữa chữ và viền của input */
+    box-sizing: border-box;
+}
+
+.svg-input-bot::placeholder {
+    white-space: pre-wrap;
+}
+
+.customer-button {
+    border: none;
+    background: none;
+}
+
+.button5 {
+    width: 26.5vw;
+    position: absolute;
+    margin-left: -2%;
+}

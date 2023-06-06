@@ -1,11 +1,15 @@
+@font-face {
+    font-family: 'Mitr-Medium';
+    src: url("/Fonts/Mitr-Medium.ttf");
+}
 
 .headerpc {
     /*background: white;*/
-    background-image: url("/images/header/Group 900.svg");
-    background-size: 105vw auto;
+    background-image: url("/images/header/Asset 1.png");
+    background-size: 102vw auto;
     height: 25vh;
     width: 100vw;
-    background-position: center top -45px;
+    background-position: center top -30px;
     background-repeat: no-repeat;
 }
 
@@ -18,26 +22,36 @@
 
 .inline-list-left li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 55px;
+    margin-top: 10px;
 }
 .inline-container {
     display: flex;
     align-items: center;
 }
 
-.logo {
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 20vw;
+.logo {;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 12vw;
 }
 
 .inline-list-right li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 54px;
+    margin-top: 10px;
 }
 
 ul li a {
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: #404041;
+}
+
+ul li a p {
+    font-family: 'Mitr-Medium', sans-serif;
+}
+
+ul li a:hover {
+    color: #59843D;
 }

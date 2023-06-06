@@ -1,8 +1,21 @@
+@font-face {
+    font-family: 'Mitr-SemiBold';
+    src: url("/Fonts/Mitr-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Mitr-Regular';
+    src: url("/Fonts/Mitr-Regular.tttf");
+}
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/Fonts/Mulish-SemiBold.ttf");
+}
+
 .sec4pc {
     background-image: url("/images/sec4/Group 825.png");
     background-repeat: no-repeat;
     background-size: 100% 70%;
-    background-position: center top 230px;
+    background-position: center top 220px;
     /*background-color: aqua;*/
 }
 
@@ -12,15 +25,15 @@
 
 .banner1sec4 {
     float: left;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-top: 5%;
-    width: 35vw;
+    width: 32vw;
 }
 
 .header1sec4 {
     float: right;
     margin-top: 5%;
-    margin-right: 14.5%;
+    margin-right: 17.5%;
     width: 30vw;
 }
 
@@ -30,9 +43,9 @@
 
 .content1sec4 {
     float: right;
-    width: 35vw;
-    margin-right: 9%;
-    margin-top: 4%;
+    width: 32vw;
+    margin-right: 15%;
+    margin-top: 2%;
     font-size: 15px;
     text-align: justify;
     color: white;
@@ -41,31 +54,53 @@
 .button2 {
     width: 15vw;
     margin-top: 2%;
-    margin-left: 7%;
+    margin-left: 4.5%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
 .banner2sec4 {
     /*position: absolute;*/
     /*float: right;*/
-    width: 35vw;
-
-    margin-left: 55%;
+    width: 32vw;
+    margin-top: 2%;
+    margin-left: 52.5%;
 }
 
 .content2sec4 {
     position: absolute;
-    /*float: left;*/
-    width: 35vw;
-    margin-left: 12%;
+    width: 32vw;
+    margin-left: 15%;
     margin-top: -30%;
     color: white;
-    text-align: justify;
     font-size: 15px;
+    text-align: justify;
 }
 
 .button3 {
     width: 15vw;
     position: absolute;
     margin-top: -15%;
-    margin-left: 35%;
+    margin-left: 33%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    /*transition: filter 0.3s ease-in-out;*/
 }
+
+.headersec4 {
+    font-family: 'Mitr-SemiBold', sans-serif;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    font-size: 20px;
+}
+
+.contentsec4 {
+    font-family: 'Mulish-SemiBold', sans-serif;
+
+}
+
+.textRight {
+    float: right;
+}
+
+.testsec4:hover {
+    fill: yellow;
+}
+

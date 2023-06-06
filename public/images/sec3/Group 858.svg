@@ -1,12 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="499" height="163.138" viewBox="0 0 499 163.138">
-    <g id="Group_858" data-name="Group 858" transform="translate(-301.888 -2479.766)">
+<svg xmlns="http://www.w3.org/2000/svg" width="503" height="180.138" viewBox="0 0 503 180.138">
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.tttf");
+        }
+    </style>
+    <g id="Group_858" data-name="Group 858" transform="translate(-297.888 -2474.766)">
         <text id="Khởi_nguồn" data-name="Khởi nguồn" transform="translate(800.888 2541.766)" fill="#f79420"
-              font-size="57.877" font-family="SegoeUI, Segoe UI">
-            <tspan x="-297.015" y="0">Khởi nguồn</tspan>
+              font-size="57.877" font-family="Mitr-Regular, Mitr">
+            <tspan x="-322.895" y="0">Khởi nguồn</tspan>
         </text>
         <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(800.888 2623.904)" fill="#59843d"
-              font-size="74" font-family="SegoeUI, Segoe UI">
-            <tspan x="-498.777" y="0">MIN MIN CARE</tspan>
+              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="-502.09" y="0">MIN MIN CARE</tspan>
         </text>
     </g>
 </svg>
