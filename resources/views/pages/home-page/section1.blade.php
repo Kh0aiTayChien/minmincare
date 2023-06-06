@@ -1,9 +1,9 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
     <div class="call-out-button position-absolute" style="z-index: 200; padding-top: 30%">
-        <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-1">
+        <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-1 mitr-medium">
             ĐĂNG KÍ ĐẠI LÝ
         </button>
-        <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2">
+        <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 mitr-medium">
             MUA SẢN PHẨM
         </button>
     </div>
@@ -47,7 +47,13 @@
         border-color: white;
         border-width: 2px;
     }
+    .btn-outline-white:hover{
+        background-color: #59843d;
+    }
     .green-bg{
         background-color: #59843d;
+    }
+    .mitr-medium{
+        font-family: Mitr-Medium, Mitr, sans-serif;
     }
 </style>
