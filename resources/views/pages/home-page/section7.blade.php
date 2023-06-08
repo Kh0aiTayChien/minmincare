@@ -8,10 +8,10 @@
 
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow" aria-label="Previous">
-            <img src="{{asset('images/arrow-l.png')}}" alt="Previous"/>
+            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect">
         </button>
         <button class="custom-next-arrow" aria-label="Next">
-            <img src="{{asset('images/arrow-r.png')}}" alt="Previous"/>
+            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect">
         </button>
 
         <div class="carousel-sec-7">
@@ -69,11 +69,15 @@
     }
 
     .custom-prev-arrow {
-        left: 4rem;
+        left: 2rem;
+        z-index: 2;
+        scale: 75%;
     }
 
     .custom-next-arrow {
-        right: 4rem;
+        right: 2rem;
+        z-index: 2;
+        scale: 75%;
     }
 
     .slick-dots {
@@ -115,6 +119,35 @@
             dots: true,
             prevArrow: $('.custom-prev-arrow'),
             nextArrow: $('.custom-next-arrow'),
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        prevArrow: $('.custom-prev-arrow'),
+                        nextArrow: $('.custom-next-arrow'),
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        prevArrow: $('.custom-prev-arrow'),
+                        nextArrow: $('.custom-next-arrow'),
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        prevArrow: $('.custom-prev-arrow'),
+                        nextArrow: $('.custom-next-arrow'),
+                    }
+                }
+            ]
         });
     });
 </script>

@@ -8,53 +8,47 @@
         </button>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="d-block " alt="img-slide">
+                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="d-block " alt="img-slide">
+                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="d-block " alt="img-slide">
+                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
-            <img src="{{asset('images/arrow-l.png')}}" alt="" style="" class="img-fluid">
+            <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
-            <img src="{{asset('images/arrow-r.png')}}" alt="" style="" class="img-fluid">
+            <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 </div>
 <style>
+    .img-slide{
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        object-position: center;
+    }
     .section1{
-        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
     }
     .carousel-control-prev {
         margin-left: -4%;
-        z-index: 9999;
     }
 
     .carousel-control-next {
         margin-right: -4%;
-        z-index: 9999;
-    }
-    @media only screen and (max-width: 800px) {
-        .carousel-control-prev {
-            margin-left: 5%;
-            scale: 70%;
-        }
-
-        .carousel-control-next {
-            margin-right: 5%;
-            scale: 70%;
-        }
     }
     .btn-outline-white {
         border-color: white;
@@ -68,5 +62,20 @@
     }
     .mitr-medium{
         font-family: Mitr-Medium, Mitr, sans-serif;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .call-out-button {
+            display: none;
+        }
+        .carousel-control-prev {
+            margin-left: 10%;
+            scale: 50%;
+        }
+
+        .carousel-control-next {
+            margin-right: 10%;
+            scale: 50%;
+        }
     }
 </style>
