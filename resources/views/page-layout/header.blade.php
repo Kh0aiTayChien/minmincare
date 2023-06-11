@@ -7,11 +7,13 @@
             <li class="list-product position-relative">
                 <a href="#"><p>SẢN PHẨM</p></a>
                 <div class="list-product-button position-absolute">
-                    <button class="btn btn-outline-white btn-sm rounded-pill border-white  border-2 bg-white mt-4">
+                    <button class="btn btn-outline-white btn-sm rounded-pill border-white
+                    border-2 bg-white mt-4 mitr-medium">
                         NGŨ CỐC MẸ BẦU
                     </button>
                     <br>
-                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white  border-2 mt-2">
+                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white
+                    border-2 mt-2 mitr-medium">
                         NGŨ CỐC MẸ SAU SINH
                     </button>
                 </div>
@@ -33,24 +35,28 @@
             </li>
         </ul>
     </div>
-    <div class="right-action">
+
+    <div class="right-action shadow-effect">
         <div><img src="{{asset('images/sec1/cart.png')}}" alt=""></div>
         <br>
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
     </div>
 
 </div>
-
 <style>
-    .right-action {
+    .right-action{
         margin-right: 2%;
-        margin-top: 60vh;
+        margin-top: 58vh;
         float: right;
+        scale: 70%;
     }
 
     .list-product .list-product-button {
         width: 300%;
         display: none;
+    }
+    .btn:hover{
+        color: #59843D;
     }
 </style>
 

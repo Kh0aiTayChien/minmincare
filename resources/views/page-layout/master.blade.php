@@ -22,6 +22,8 @@
     <script
         src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js">
     </script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('/css/headerstyle.css')}}" rel="stylesheet">
