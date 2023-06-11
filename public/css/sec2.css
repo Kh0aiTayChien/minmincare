@@ -1,4 +1,4 @@
-.sec2 {
+.sec2pc {
     background-image: url("/images/sec2/Rectangle 107.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,30 +13,53 @@
     width: 25vw;
 }
 
-.contentsec2 {
-    width: 33vw;
-    margin-left: 55%;
-}
+/*.contentsec2 {*/
+/*    width: 33vw;*/
+/*    margin-left: 55%;*/
+/*}*/
 
-.contentsec2line1 {
-    position: absolute;
-    width: 24vw;
-    margin-left: 62.5%;
-    margin-top: 4%;
-    font-size: 13px;
-    text-align: justify;
-}
+/*.contentsec2line1 {*/
+/*    position: absolute;*/
+/*    width: 24vw;*/
+/*    margin-left: 62.5%;*/
+/*    margin-top: 4%;*/
+/*    font-size: 13px;*/
+/*    text-align: justify;*/
+/*}*/
 
-.contentsec2linebot {
-    position: absolute;
-    width: 24vw;
-    margin-left: 62.5%;
-    margin-top: -5%;
-    font-size: 13px;
-    text-align: justify;
-}
+/*.contentsec2linebot {*/
+/*    position: absolute;*/
+/*    width: 24vw;*/
+/*    margin-left: 62.5%;*/
+/*    margin-top: -5%;*/
+/*    font-size: 13px;*/
+/*    text-align: justify;*/
+/*}*/
 
 .contentsec2img {
     width: 40vw;
     margin-left: 47%;
+}
+
+.sec2mb {
+    display: none;
+    background-image: url("/images/sec2/Group 1266.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .sec2pc {
+        display: none;
+    }
+    .sec2mb {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .headersec2mb {
+        width: 50vw;
+    }
+    .contentsec2imgmb {
+        width: 90vw;
+    }
 }
