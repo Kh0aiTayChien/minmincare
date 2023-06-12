@@ -45,16 +45,21 @@
         <img src="{{asset('images/sec10/Group 3888.png')}}" class="formOutline">
         <form class="form-customer">
             <label class="name" for="fullname"></label>
-            <input class="svg-input-customer" placeholder="Họ và tên" type="text" id="fullname" name="fullname" required><br><br>
+            <input class="svg-input-customer" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
+                   required><br><br>
 
             <label for="phone"></label>
-            <input class="svg-input-customer" placeholder="Số điện thoại" type="tel" id="phone" name="phone" required><br><br>
+            <input class="svg-input-customer" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
+                   required><br><br>
 
             <label for="address"></label>
-            <input class="svg-input-customer" placeholder="Địa chỉ" type="text" id="address" name="address" required><br><br>
+            <input class="svg-input-customer" placeholder="Địa chỉ" type="text" id="address" name="address"
+                   required><br><br>
 
             <label for="address"></label>
-            <textarea class="svg-input-bot" placeholder="Bạn quan tâm sản phẩm nào của Min Min Care, bạn cần tư vấn về sản phẩm..." id="address" name="address" required></textarea>
+            <textarea class="svg-input-bot"
+                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care, bạn cần tư vấn về sản phẩm..."
+                      id="address" name="address" required></textarea>
             <br>
 
             <button class="customer-button">
@@ -62,4 +67,54 @@
             </button>
         </form>
     </div>
+</div>
+
+<div class="sec10mb">
+   <div class="dailymb">
+        <img src="{{asset('images/sec10/dailymb.png')}}" class="bannerdaily">
+       <form class="formdailymb">
+           <label class="name" for="fullnamemb"></label>
+           <input class="svg-input-mb" placeholder="Họ và tên" type="text" id="fullname" name="fullname" required>
+
+           <label for="phone"></label>
+           <input class="svg-input-mb" placeholder="Số điện thoại" type="tel" id="phone" name="phone" required>
+
+           <label for="address"></label>
+           <input class="svg-input-mb" placeholder="Địa chỉ" type="text" id="address" name="address" required>
+
+           <input class="submitbutton-mb" type="image" src="{{asset('images/sec10/Group 1332.png')}}" alt="Submit">
+       </form>
+{{--       <button class="customer-button-mb">--}}
+{{--           <img src="{{asset('images/sec10/Group 5083.png')}}" class="button5mb">--}}
+{{--       </button>--}}
+   </div>
+    <button class="daily-button-mb">
+        <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
+    </button>
+    <div class="customer-mb">
+        <form class="form-customer-mb">
+            <label class="name" for="fullname"></label>
+            <input class="svg-input-customer-mb" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
+                   required><br>
+
+            <label for="phone"></label>
+            <input class="svg-input-customer-mb" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
+                   required><br>
+
+            <label for="address"></label>
+            <input class="svg-input-customer-mb" placeholder="Địa chỉ" type="text" id="address" name="address"
+                   required><br>
+
+            <label for="address"></label>
+            <textarea class="svg-input-bot-mb"
+                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Car..."
+                      id="address" name="address" required></textarea>
+            <br>
+
+            <button class="customer-button-mb">
+                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5mb">
+            </button>
+        </form>
+    </div>
+    <div class="spacesec10mb"></div>
 </div>

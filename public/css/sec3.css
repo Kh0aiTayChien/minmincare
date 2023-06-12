@@ -42,3 +42,39 @@
     margin-top: 2%;
     width: 15vw;
 }
+
+.sec3mb {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec3pc {
+        display: none;
+    }
+    .sec3mb {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .headersec3mb {
+        margin-top: 5%;
+        width: 45vw;
+    }
+    .contentsec3mb {
+        width: 80vw;
+        text-align: justify;
+        justify-content: center;
+        font-size: 15px;
+        margin-left: 10%;
+        font-family: 'Mulish-SemiBold', sans-serif;
+    }
+    .button1mb {
+    width: 38vw;
+    }
+    .headersec4mb {
+        width: 45vw;
+    }
+    .utube {
+        margin-left: 10%;
+    }
+}

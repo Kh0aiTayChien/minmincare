@@ -1,4 +1,4 @@
-<div class="sec2">
+<div class="sec2pc">
     {{--    <img src="{{asset('images/Rectangle 107.png')}}" class="bannersec2">--}}
     <object data="{{asset('images/sec2/Group 928.svg')}}" class="headersec2"></object>
 {{--    <p class="contentsec2line1">Công thức CO-NUMAX đột phá được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu từ--}}
@@ -16,4 +16,9 @@
 {{--    <object data="{{asset('images/sec2/Group 957.svg')}}" class="contentsec2"></object>--}}
 {{--    <p class="contentsec2linebot">Chứng nhận bởi Viện nghiên cứu hợp tác khoa học kỹ thuật châu Á - Thái Bình Dương</p>--}}
 <img src="{{asset('images/sec2/Thay Sec 2-03.png')}}" class="contentsec2img">
+</div>
+
+<div class="sec2mb">
+    <object data="{{asset('images/sec2/Group 928.svg')}}" class="headersec2mb"></object>
+    <img src="{{asset('images/sec2/Sec 2 - Mobile-03.png')}}" class="contentsec2imgmb">
 </div>
