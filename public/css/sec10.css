@@ -4,6 +4,7 @@
 }
 
 .headersec10 {
+    margin-top: 5%;
     margin-left: 15%;
     width: 73vw;
 }
@@ -180,7 +181,7 @@
     .button4mb {
         position: absolute;
         width: 45vw;
-        margin-top: -14%;
+        margin-top: -14 %;
         margin-left: 5%;
     }
     .bannercustomermb {
