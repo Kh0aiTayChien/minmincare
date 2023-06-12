@@ -58,3 +58,59 @@
 .contentMidfooter {
     margin-left: 12%!important;
 }
+
+.footermb {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footerpc {
+        display: none;
+    }
+    .footermb {
+        display: block;
+        background-image: url("/images/footer/Group 1269.png");
+    }
+    .logofootermb {
+        width: 60vw;
+        margin-left: 5%;
+    }
+    .linkcontactmb {
+        display: flex;
+    }
+    .phonelogomb {
+        width: 45vw;
+        margin-left: 12%;
+    }
+    .maillogomb {
+        width: 45vw;
+    }
+    .linkaddressmb {
+        margin-left: 5%;
+    }
+    .addresslogomb {
+        width: 80vw;
+    }
+    .footerleft {
+        width: 45vw;
+    }
+    .footerright {
+        width: 50vw;
+    }
+    .contentfooter {
+        display: flex;
+    }
+    .leftfootermb {
+        margin-top: -25%;
+        margin-left: 6%;
+    }
+    .rightfootermb {
+        margin-top: -27%;
+        margin-left: 3%;
+    }
+    .linefootermb {
+        margin-top: -3%;
+        width: 110vw;
+        margin-left: -5%;
+    }
+}

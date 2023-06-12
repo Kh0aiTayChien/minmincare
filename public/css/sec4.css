@@ -104,3 +104,43 @@
     fill: yellow;
 }
 
+.sec4mb {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec4pc {
+        display: none;
+    }
+    .sec4mb {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/sec4/Group 1262.png");
+        background-size: cover;
+    }
+    .header1sec4mb {
+        justify-content: center;
+        width: 100vw;
+        font-size: 15px;
+        /*margin-left: 20%;*/
+        font-family: 'Mitr-SemiBold', sans-serif;
+        color: white;
+        padding-top: 4%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    }
+    .contentsec4mb {
+        font-size: 15px;
+        margin-left: 10%;
+        width: 80vw;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        text-align: justify;
+        color: white;
+    }
+    .bannersec4mb {
+        width: 80vw;
+    }
+    .button2mb {
+        width: 38vw;
+    }
+}

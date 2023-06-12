@@ -74,7 +74,7 @@
     border-radius: 10px;
     border: none;
     background-color: #fff;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
 }
 
@@ -88,7 +88,7 @@
     border-radius: 15px;
     border: none;
     background-color: #fff;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     padding: 10px; /* Tùy chỉnh khoảng cách giữa chữ và viền của input */
     box-sizing: border-box;
 }
@@ -102,8 +102,140 @@
     background: none;
 }
 
+.sec10mb {
+    display: none;
+}
+
 .button5 {
     width: 26.5vw;
     position: absolute;
     margin-left: -2%;
+}
+
+@media screen and (max-width: 768px) {
+    .sec10pc {
+        display: none;
+    }
+    .sec10mb {
+        display: block;
+        /*text-align: center;*/
+        /*justify-content: center;*/
+        background-image: url("/images/sec10/Group 1270.png");
+        background-size: cover;
+        background-position: center top 25px;
+    }
+    .headersec10mb {
+        width: 90vw;
+        height: 40vh;
+        margin-top: -15%;
+    }
+    .dailymb {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90vw;
+        background-color: white;
+        /*height: 18vh;*/
+        border-radius: 10px;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+    .bannerdaily {
+        width: 70vw;
+        left: 0!important;
+    }
+    .formdailymb {
+        display: inline;
+    }
+    .svg-input-mb {
+        width: 27vw;
+        border: none;
+        border-radius: 20px;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+        padding-left: 10px;
+    }
+
+    /*.svg-input-mb {*/
+    /*    height: 25px;*/
+    /*    width: 25vw;*/
+    /*    !*border-radius: 27.445px;*!*/
+    /*    border: none;*/
+    /*    background-color: #fff;*/
+    /*    !*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));*!*/
+    /*    margin-right: 0.5%;*/
+    /*    padding-left: 10px;*/
+    /*}*/
+    .svg-input-mb::placeholder {
+        font-size: 12px;
+    }
+    .submitbutton-mb{
+        /*position: absolute;*/
+        width: 40vw;
+        margin-top: 5%;
+        margin-left: 55%;
+    }
+    .daily-button-mb {
+        border: none;
+        background: none;
+        /*margin-top: -50%;*/
+    }
+    .button4mb {
+        position: absolute;
+        width: 45vw;
+        margin-top: -14%;
+        margin-left: 5%;
+    }
+    .bannercustomermb {
+        width: 50vw;
+        margin-left: 5%;
+    }
+    .customer-mb {
+        width: 50vw;
+        margin-left: 5%;
+        background-image: url("/images/sec10/Group 5084.png");
+        background-size: 100% 100%;
+    }
+    .form-customer-mb {
+        padding-top: 30%;
+    }
+    .svg-input-customer-mb {
+        border-radius: 5px;
+        border: none;
+        padding-left: 10px;
+        margin-top: 5%;
+        /*margin-top: -10%!important;*/
+        width: 42vw;
+        margin-left: 5%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+    .svg-input-customer-mb::placeholder {
+        font-size: 12px;
+        color: #A6A8AB;
+    }
+    .svg-input-customer-mb:focus {
+        outline: none;
+    }
+    .svg-input-bot-mb {
+        border-radius: 5px;
+        border: none;
+        padding-left: 10px;
+        margin-top: 5%;
+        /*margin-top: -10%!important;*/
+        width: 42vw;
+        margin-left: 5%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+    .svg-input-bot-mb::placeholder {
+        font-size: 12px;
+        color: #A6A8AB;
+    }
+    .customer-button-mb {
+        border: none;
+        background: none;
+    }
+    .button5mb {
+        width: 45vw;
+        margin-left: 3%;
+    }
+    .spacesec10mb {
+        height: 15px;
+    }
 }
