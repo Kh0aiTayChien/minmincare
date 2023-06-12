@@ -167,6 +167,20 @@
         .img-sec9{
             scale: 70%;
         }
+        .custom-prev-arrow-9 {
+            left: -17px;
+            position: absolute;
+            top: 40%;
+            scale: 50%;
+            opacity: 50%;
+        }
+        .custom-next-arrow-9 {
+            right: -17px;
+            position: absolute;
+            top: 40%;
+            scale: 50%;
+            opacity: 50%;
+        }
     }
 
 </style>

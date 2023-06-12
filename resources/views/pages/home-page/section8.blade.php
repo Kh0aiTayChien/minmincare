@@ -98,7 +98,7 @@
     </div>
 
 </div>
-<div class="section-8-mobile position-relative">
+<div class="section-8-mobile position-relative mt-3">
     <div class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid" style="width: 70%">
     </div>
@@ -187,7 +187,7 @@
     }
 
     .rounded-custom {
-        border-radius: 4%
+        border-radius: 14px
     }
 
     .green-border {
@@ -227,14 +227,16 @@
         }
 
         .custom-prev-arrow-8 {
-            left: 1rem;
-            scale: 70%;
+            left: -17px;
+            scale: 50%;
             z-index: 2;
+            opacity: 50%;
         }
         .custom-next-arrow-8 {
-            right: 1rem;
-            scale: 70%;
+            right: -17px;
+            scale: 50%;
             z-index: 2;
+            opacity: 50%;
         }
     }
     @media only screen and (min-width: 800px) {
