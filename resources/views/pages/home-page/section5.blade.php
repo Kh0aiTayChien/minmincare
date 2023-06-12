@@ -1,4 +1,4 @@
-<div class="section-5 position-relative">
+<div class="section-5 position-relative mt-5">
     <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
         <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
@@ -12,11 +12,11 @@
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"
                     aria-label="Slide 5"></button>
         </div>
-        <div class="carousel-inner ">
+        <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
+                    <div class="col boder-radius">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
@@ -31,7 +31,7 @@
                                     dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục
                                     năng lượng, tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
                             </div>
-                            <div class="mt-1 w-50">
+                            <div class="w-50" style="margin-top: 11%">
                             <span class="btn ">
                                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -54,8 +54,8 @@
             </div>
             <div class="carousel-item " id="2">
                 <div class="row gx-4">
-                    <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
+                    <div class="col boder-radius">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
@@ -70,7 +70,7 @@
                                     nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn dịch, đồng thời
                                     giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ giảm đau.</p>
                             </div>
-                            <div class="mt-1 w-50">
+                            <div class="w-50" style="margin-top: 11%">
                             <span class="btn ">
                                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -93,8 +93,8 @@
             </div>
             <div class="carousel-item " id="3">
                 <div class="row gx-4">
-                    <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid" alt="Image 1">
+                    <div class="col boder-radius">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
@@ -109,7 +109,7 @@
                                     bao bì, nguồn nước…), cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh
                                     cá nhân của nhân viên.</p>
                             </div>
-                            <div class="mt-1 w-50">
+                            <div class="w-50" style="margin-top: 11%">
                             <span class="btn ">
                                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -132,8 +132,8 @@
             </div>
             <div class="carousel-item " id="4">
                 <div class="row gx-4">
-                    <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
+                    <div class="col boder-radius">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
@@ -150,7 +150,7 @@
                                     Đồng thời bổ sung thêm đường isomalt có vị ngọt nhẹ, vẫn sử dụng được cho người
                                     ăn kiêng hoặc bị tiểu đường.</p>
                             </div>
-                            <div class="mt-1 w-50">
+                            <div class="w-50" style="margin-top: 11%">
                             <span class="btn ">
                                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -173,8 +173,8 @@
             </div>
             <div class="carousel-item " id="5">
                 <div class="row gx-4">
-                    <div class="col">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block img-fluid " alt="Image 1">
+                    <div class="col boder-radius">
+                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
@@ -187,7 +187,7 @@
                                     đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn
                                     hệ thống quản lý chất lượng ISO quốc tế..</p>
                             </div>
-                            <div class="mt-1 w-50">
+                            <div class="w-50" style="margin-top: 11%">
                             <span class="btn ">
                                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -336,14 +336,20 @@
                 display: block;
             }
             .custom-prev-arrow-5 {
-                left: 1rem;
-                scale: 70%;
+                left: -17px;
+                scale: 50%;
                 z-index: 2;
+                opacity: 50%;
             }
             .custom-next-arrow-5 {
-                right: 1rem;
-                scale: 70%;
+                right: -17px;
+                scale: 50%;
                 z-index: 2;
+                opacity: 50%;
+            }
+            .custom-prev-arrow-5,
+            .custom-next-arrow-5 {
+                top: 40%;
             }
         }
         @media only screen and (min-width: 800px) {
@@ -353,6 +359,9 @@
             .section-5-mobile{
                 display: none;
             }
+        }
+        .boder-radius{
+            border-radius: 23px;
         }
     </style>
     <script>
@@ -395,6 +404,7 @@
     }
     .image-rule{
         scale: 80%;
+        border-radius: 23px;
     }
 
     .carousel-fade .carousel-item {

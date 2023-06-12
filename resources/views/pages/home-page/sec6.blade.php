@@ -17,7 +17,7 @@
 </div>
 <div class="sec6mob">
     <div class="d-flex align-content-center justify-content-center">
-        <svg class="headersec6" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 874 189.915">
+        <svg class="headersec6mb" xmlns="http://www.w3.org/2000/svg" width="874" height="150.915" viewBox="0 0 874 189.915">
             <g id="Group_835" data-name="Group 835" transform="translate(-295.88 -992.737)">
                 <text id="Với_đội_ngũ" data-name="Với đội ngũ" transform="translate(295.88 1059.737)" fill="#f79421"
                       font-size="57.877" font-family="Mitr-Regular, Mitr">
@@ -29,11 +29,6 @@
                 </text>
             </g>
         </svg>
-    </div>
-    <div class="row" style="">
-        <div class="col"></div>
-        <div class="col mt-4 mb-4">
-        </div>
     </div>
 
     <div class="slick-carousel position-relative">
@@ -61,9 +56,12 @@
     </div>
     <style>
         .sec6mob{
-            height: 100vh;
+
         }
 
+        .headersec6mb{
+            width: 70%;
+        }
         .carousel-sec-6 {
             width: 70%;
             margin: 0px auto;
@@ -141,14 +139,20 @@
                 display: block;
             }
             .custom-prev-arrow-6 {
-                left: 1rem;
-                scale: 70%;
+                left: -17px;
+                scale: 50%;
                 z-index: 2;
+                opacity: 50%;
             }
             .custom-next-arrow-6 {
-                right: 1rem;
-                scale: 70%;
+                right: -17px;
+                scale: 50%;
                 z-index: 2;
+                opacity: 50%;
+            }
+            .custom-prev-arrow-6,
+            .custom-next-arrow-6 {
+                top: 40%;
             }
         }
         @media only screen and (min-width: 800px) {

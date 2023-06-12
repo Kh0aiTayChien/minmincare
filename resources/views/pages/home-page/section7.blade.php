@@ -1,9 +1,6 @@
 <div class="section-7">
-    <div class="row" style="">
-        <div class="col"></div>
-        <div class="col mt-4 mb-4">
+    <div class="d-flex justify-content-center align-content-center pt-3 pb-3" style="">
             <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 70%">
-        </div>
     </div>
 
     <div class="slick-carousel position-relative">
@@ -106,6 +103,29 @@
         background-color: #59843d; /* Màu nền xanh cho dot active */
         border-color: #59843d; /* Viền xanh cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
+    }
+    @media only screen and (max-width: 800px) {
+        .custom-prev-arrow,
+        .custom-next-arrow {
+            top: 40%;
+        }
+
+        .custom-prev-arrow {
+            left: -17px;
+            z-index: 2;
+            scale: 50%;
+            opacity: 50%;
+        }
+
+        .custom-next-arrow {
+            right: -17px;
+            z-index: 2;
+            scale: 50%;
+            opacity: 50%;
+        }
+        .section-7 {
+            height: 65%;
+        }
     }
 
 </style>
