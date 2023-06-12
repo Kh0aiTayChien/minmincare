@@ -190,7 +190,7 @@
             infinite: true,
             speed: 900,
             slidesToShow: 3,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             dots: true,
             prevArrow: $('.custom-prev-arrow-9'),
             nextArrow: $('.custom-next-arrow-9'),
