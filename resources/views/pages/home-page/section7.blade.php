@@ -1,6 +1,6 @@
 <div class="section-7">
     <div class="d-flex justify-content-center align-content-center pt-3 pb-3" style="">
-            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 70%">
+            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 50%">
     </div>
 
     <div class="slick-carousel position-relative">
@@ -58,7 +58,7 @@
     .custom-prev-arrow,
     .custom-next-arrow {
         position: absolute;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
         background: none;
         border: none;
@@ -66,15 +66,15 @@
     }
 
     .custom-prev-arrow {
-        left: 2rem;
+        left: 100px;
         z-index: 2;
-        scale: 75%;
+        scale: 70%;
     }
 
     .custom-next-arrow {
-        right: 2rem;
+        right: 100px;
         z-index: 2;
-        scale: 75%;
+        scale: 70%;
     }
 
     .slick-dots {

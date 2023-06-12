@@ -127,13 +127,14 @@
         background: none;
         border: none;
         cursor: pointer;
+        scale: 75%;
     }
 
    .custom-prev-arrow-9 {
-        left: 4rem;
+        left: 100px;
     }
     .custom-next-arrow-9 {
-        right: 4rem;
+        right: 100px;
     }
 
     .slick-dots {

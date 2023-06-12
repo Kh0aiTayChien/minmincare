@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc63fc2-e6b7-4d64-b879-890f5c7acf6a" name="Changes" comment="change git ignore">
+    <list default="true" id="5fc63fc2-e6b7-4d64-b879-890f5c7acf6a" name="Changes" comment="1-to-3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section5.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section5.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page-layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page-layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section7.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section7.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section8.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section8.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home-page/section9.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home-page/section9.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +159,15 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-elfinder" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/elfinder-flysystem-driver" />
+      <path value="$PROJECT_DIR$/vendor/revolution/laravel-google-sheets" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/pulkitjalan/google-apiclient" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
   <component name="ProjectId" id="2NxPVv8jQBu4aUHOAIt6uMjWZZg" />
@@ -167,7 +180,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/chien/Project LandingPage/demo-admin/resources/views/admin/article/trashBin&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/landing-page/minmincare/public/images/sec1&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -179,15 +192,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\landing-page\minmincare\public\images\sec1" />
       <recent name="$PROJECT_DIR$/resources/views/admin/article/trashBin" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\landing-page\minmincare\public\images\btn-curve.png" />
       <recent name="$PROJECT_DIR$/resources/views/admin/article" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views/admin/article/index" />
       <recent name="$PROJECT_DIR$/resources/views/admin/articles" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -234,6 +248,7 @@
       <workItem from="1685555500810" duration="5245000" />
       <workItem from="1685587824166" duration="724000" />
       <workItem from="1685674243281" duration="1249000" />
+      <workItem from="1686584555289" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="change git ignore">
       <created>1685942001681</created>
@@ -242,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685942001681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix-mobile-button">
+      <created>1686557018359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686557018359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1-to-3">
+      <created>1686560073905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686560073905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +279,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change git ignore" />
+    <MESSAGE value="fix-mobile-button" />
+    <MESSAGE value="1-to-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-to-3" />
   </component>
 </project>

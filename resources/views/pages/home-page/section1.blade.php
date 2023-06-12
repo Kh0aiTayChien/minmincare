@@ -37,6 +37,9 @@
     </div>
 </div>
 <style>
+    .btn-curve{
+        width: 55%;
+    }
     .img-slide {
         object-fit: cover;
         width: 100%;
@@ -50,11 +53,13 @@
     }
 
     .carousel-control-prev {
-        margin-left: -4%;
+        margin-left: 30px;
+        scale: 70%;
     }
 
     .carousel-control-next {
-        margin-right: -4%;
+        margin-right: 30px;
+        scale: 70%;
     }
 
     .btn-outline-white {

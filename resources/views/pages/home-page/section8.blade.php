@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="col-4 position-relative">
-            <div class="position-absolute sec-8-next" style="padding-top: 80%; padding-left: 29%; z-index: 999">
+            <div class="position-absolute sec-8-next shadow-effect" style="">
                 <img src="{{asset('images/arrow-r.png')}}" alt="Arrow" class="arrow-img ">
             </div>
             <div class="card rounded-custom shadow-effect article-next card-next-1"
@@ -170,6 +170,13 @@
         background: url({{asset('images/sec8/mon-with-son.png')}}) no-repeat center center;
         background-size: cover;
         height: 150vh;
+    }
+    .sec-8-next{
+        padding-top: 90%;
+        float: right;
+        right: 100px;
+        z-index: 2;
+        scale: 70%
     }
     .section-8-mobile {
         background: url({{asset('images/sec8/mon-son-mobile.png')}}) no-repeat center center;
