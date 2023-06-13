@@ -52,9 +52,9 @@
 }
 
 .button2 {
-    width: 15vw;
+    width: 13vw;
     margin-top: 2%;
-    margin-left: 4.5%;
+    margin-left: 5.5%;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
@@ -77,10 +77,10 @@
 }
 
 .button3 {
-    width: 15vw;
+    width: 13vw;
     position: absolute;
     margin-top: -15%;
-    margin-left: 33%;
+    margin-left: 35%;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
     /*transition: filter 0.3s ease-in-out;*/
 }
@@ -107,6 +107,19 @@
 .sec4mb {
     display: none;
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .sec4pc {
+        background-image: url("/images/sec4/Group 825.png");
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        background-position: center top 270px;
+    }
+    .button3 {
+        margin-top: -20%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .sec4pc {

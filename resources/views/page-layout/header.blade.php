@@ -6,17 +6,17 @@
             </li>
             <li class="list-product position-relative">
                 <a href="#"><p>SẢN PHẨM</p></a>
-                <div class="list-product-button position-absolute">
-                    <button class="btn btn-outline-white btn-sm rounded-pill border-white
-                    border-2 bg-white mt-4 mitr-medium">
-                        NGŨ CỐC MẸ BẦU
-                    </button>
-                    <br>
-                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white
-                    border-2 mt-2 mitr-medium">
-                        NGŨ CỐC MẸ SAU SINH
-                    </button>
-                </div>
+{{--                <div class="list-product-button position-absolute">--}}
+{{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white--}}
+{{--                    border-2 bg-white mt-4 mitr-medium">--}}
+{{--                        NGŨ CỐC MẸ BẦU--}}
+{{--                    </button>--}}
+{{--                    <br>--}}
+{{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white--}}
+{{--                    border-2 mt-2 mitr-medium">--}}
+{{--                        NGŨ CỐC MẸ SAU SINH--}}
+{{--                    </button>--}}
+{{--                </div>--}}
             </li>
             <li>
                 <a href="#"><p>ĐẠI LÝ</p></a>
