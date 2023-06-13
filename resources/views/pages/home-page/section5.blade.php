@@ -1,5 +1,5 @@
 <div class="section-5 position-relative mt-5">
-    <div class="position-absolute sec-5-dot" style="">
+    <div class="position-absolute start-50 top-50 sec-5-dot" style="">
             <span class="btn ">
                 <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -192,14 +192,12 @@
     </div>
     <style>
         .sec-5-dot{
-            top: 70%;
-            right: 30%;
-            float: right;
+            transform: translate(75px, 200px);
             z-index: 999
         }
-        @media screen and (aspect-ratio: 4/3) {
+        @media screen and (max-aspect-ratio: 16/10) {
             .sec-5-dot{
-                right: 20%;
+                right: 20vw;
                 top: 80%;
             }
         }
@@ -342,7 +340,7 @@
     }
 
     .shadow-effect {
-        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.5));
     }
 
     .circle {
