@@ -15,7 +15,7 @@
     <img src="{{asset('images/sec6/anh chuyen gia.jpg')}}" class="proImg">
     <img src="{{asset('images/sec6/anh chuyen gia.jpg')}}" class="proImg">
 </div>
-<div class="sec6mob">
+<div class="sec6mob mt-5">
     <div class="d-flex align-content-center justify-content-center">
         <svg class="headersec6mb" xmlns="http://www.w3.org/2000/svg" width="874" height="150.915" viewBox="0 0 874 189.915">
             <g id="Group_835" data-name="Group 835" transform="translate(-295.88 -992.737)">

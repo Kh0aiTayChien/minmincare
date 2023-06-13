@@ -49,7 +49,7 @@
             </div>
             <div class="mt-3 d-flex justify-content-center ">
                 <div class="d-flex align-content-center justify-content-center">
-                    <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium ">XEM
+                    <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
                         THÊM</a>
                 </div>
             </div>
@@ -183,6 +183,9 @@
         background-position: left;
         background-size: cover;
         height: 115vh;
+    }
+    .longer-btn {
+        width: 200px; /* Điều chỉnh chiều dài của nút */
     }
     .circle-sec-8 {
         height: 15px;
