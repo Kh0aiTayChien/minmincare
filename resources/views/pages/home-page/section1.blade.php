@@ -11,10 +11,10 @@
 
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-1 mitr-medium">
+                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium">
                 ĐĂNG KÍ ĐẠI LÝ
             </button>
-            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 mitr-medium">
+            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium">
                 MUA SẢN PHẨM
             </button>
         </div>
@@ -74,13 +74,15 @@
     }
 
     .carousel-control-prev {
-        margin-left: 30px;
+        float: left;
+        margin-left: -5%;
         scale: 70%;
         z-index: 999;
     }
 
     .carousel-control-next {
-        margin-right: 30px;
+        float: right;
+        margin-right: -5%;
         scale: 70%;
         z-index: 999;
     }

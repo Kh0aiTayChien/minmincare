@@ -1,6 +1,6 @@
 <div class="section-7">
     <div class=" pt-3 pb-3 me-5" style="">
-            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 35%; margin-left: 50%">
+            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" class="share-joy" style="">
     </div>
 
     <div class="slick-carousel position-relative">
@@ -104,6 +104,10 @@
         border-color: #59843d; /* Viền xanh cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
     }
+    .share-joy{
+        width: 35%;
+        margin-left: 50%
+    }
     @media only screen and (max-width: 800px) {
         .custom-prev-arrow,
         .custom-next-arrow {
@@ -125,6 +129,10 @@
         }
         .section-7 {
             height: 65%;
+        }
+        .share-joy{
+            width: 70%;
+            margin-left: 25%
         }
     }
 

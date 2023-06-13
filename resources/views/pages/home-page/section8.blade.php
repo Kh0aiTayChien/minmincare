@@ -197,7 +197,7 @@
     }
 
     .rounded-custom {
-        border-radius: 14px
+        border-radius: 23px
     }
 
     .green-border {
