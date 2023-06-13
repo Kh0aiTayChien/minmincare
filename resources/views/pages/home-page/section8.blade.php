@@ -49,13 +49,13 @@
             </div>
             <div class="mt-3 d-flex justify-content-center ">
                 <div class="d-flex align-content-center justify-content-center">
-                    <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium ">XEM
+                    <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
                         THÊM</a>
                 </div>
             </div>
         </div>
         <div class="col-4 position-relative">
-            <div class="position-absolute sec-8-next" style="padding-top: 80%; padding-left: 29%; z-index: 999">
+            <div class="position-absolute sec-8-next shadow-effect" style="">
                 <img src="{{asset('images/arrow-r.png')}}" alt="Arrow" class="arrow-img ">
             </div>
             <div class="card rounded-custom shadow-effect article-next card-next-1"
@@ -98,7 +98,7 @@
     </div>
 
 </div>
-<div class="section-8-mobile position-relative">
+<div class="section-8-mobile position-relative mt-3">
     <div class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid" style="width: 70%">
     </div>
@@ -171,11 +171,21 @@
         background-size: cover;
         height: 150vh;
     }
+    .sec-8-next{
+        padding-top: 90%;
+        float: right;
+        right: 100px;
+        z-index: 2;
+        scale: 70%
+    }
     .section-8-mobile {
         background: url({{asset('images/sec8/mon-son-mobile.png')}}) no-repeat center center;
         background-position: left;
         background-size: cover;
         height: 115vh;
+    }
+    .longer-btn {
+        width: 200px; /* Điều chỉnh chiều dài của nút */
     }
     .circle-sec-8 {
         height: 15px;
@@ -187,7 +197,7 @@
     }
 
     .rounded-custom {
-        border-radius: 4%
+        border-radius: 14px
     }
 
     .green-border {
@@ -227,14 +237,16 @@
         }
 
         .custom-prev-arrow-8 {
-            left: 1rem;
-            scale: 70%;
+            left: -17px;
+            scale: 50%;
             z-index: 2;
+            opacity: 50%;
         }
         .custom-next-arrow-8 {
-            right: 1rem;
-            scale: 70%;
+            right: -17px;
+            scale: 50%;
             z-index: 2;
+            opacity: 50%;
         }
     }
     @media only screen and (min-width: 800px) {

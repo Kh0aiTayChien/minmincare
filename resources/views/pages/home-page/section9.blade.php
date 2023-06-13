@@ -17,7 +17,7 @@
         </button>
 
         <div class="carousel-sec-9">
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green "
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green"
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green"
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green"
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green"
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
+            <div class="card rounded-custom border-green"
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body">
@@ -91,6 +91,10 @@
             </div>
         </div>
     </div>
+    <div class="d-flex align-content-center justify-content-center">
+        <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
+            THÊM</a>
+    </div>
 </div>
 <style>
     .section-9{
@@ -103,11 +107,14 @@
     }
 
     .section-9.slick-slide {
-        margin: 5px;
+        margin: 10px;
     }
 
     .section-9.slick-slide img {
-        width: 100%;
+        width: 90%;
+    }
+    .border-green{
+        border: 2px solid #59843d;
     }
 
      .slick-dots li button:before {
@@ -127,13 +134,15 @@
         background: none;
         border: none;
         cursor: pointer;
+        scale: 75%;
+        z-index: 2;
     }
 
    .custom-prev-arrow-9 {
-        left: 4rem;
+        left: 100px;
     }
     .custom-next-arrow-9 {
-        right: 4rem;
+        right: 100px;
     }
 
     .slick-dots {
@@ -167,6 +176,20 @@
         .img-sec9{
             scale: 70%;
         }
+        .custom-prev-arrow-9 {
+            left: -17px;
+            position: absolute;
+            top: 40%;
+            scale: 50%;
+            opacity: 50%;
+        }
+        .custom-next-arrow-9 {
+            right: -17px;
+            position: absolute;
+            top: 40%;
+            scale: 50%;
+            opacity: 50%;
+        }
     }
 
 </style>
@@ -176,7 +199,7 @@
             infinite: true,
             speed: 900,
             slidesToShow: 3,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             dots: true,
             prevArrow: $('.custom-prev-arrow-9'),
             nextArrow: $('.custom-next-arrow-9'),

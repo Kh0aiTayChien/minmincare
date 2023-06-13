@@ -1,6 +1,14 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
     <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse" style="z-index: 200; padding-top: 30%">
-        <img src="{{asset('images/sec1/btn-curve.png')}}" alt="" class="mt-5 btn-curve">
+
+        <div class="position-relative d-flex flex-column-reverse">
+            <div class="arrow-down position-absolute">
+                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="">
+            </div>
+            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
+            <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
+        </div>
+
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
                 class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-1 mitr-medium">
@@ -37,6 +45,22 @@
     </div>
 </div>
 <style>
+    .btn-curve{
+        width: 100%;
+    }
+    .btn-curve-mobile{
+        display: none;
+    }
+    .arrow-down{
+        margin-left: 49%;
+        margin-bottom: 5px;
+        scale: 70%;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+    }
+    .arrow-down:hover {
+        transform: translate(0%, -70%);
+    }
     .img-slide {
         object-fit: cover;
         width: 100%;
@@ -50,16 +74,20 @@
     }
 
     .carousel-control-prev {
-        margin-left: -4%;
+        margin-left: 30px;
+        scale: 70%;
+        z-index: 999;
     }
 
     .carousel-control-next {
-        margin-right: -4%;
+        margin-right: 30px;
+        scale: 70%;
+        z-index: 999;
     }
 
     .btn-outline-white {
         border-color: white;
-        border-width: 2px;
+        border-width: 5px;
     }
 
     .btn-outline-white:hover {
@@ -73,23 +101,40 @@
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
     }
-
+    @media only screen and (max-width: 1200px) {
+        .arrow-down{
+            margin-left: 48%;
+            margin-bottom: 3px;
+            scale: 50%;
+        }
+    }
     @media only screen and (max-width: 800px) {
         .call-out-button {
             display: none !important;
         }
         .btn-curve{
-            width: 50%;
+            display: none;
+        }
+        .btn-curve-mobile{
+            display: block;
+            width: 100vw;
+        }
+        .arrow-down{
+            margin-left: 45%;
+            margin-bottom: 2px;
+            scale: 50%;
         }
 
         .carousel-control-prev {
             margin-left: 1px;
             scale: 50%;
+            z-index: 999;
         }
 
         .carousel-control-next {
             margin-right: 1px;
             scale: 50%;
+            z-index: 999;
         }
     }
 </style>

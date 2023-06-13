@@ -1,4 +1,21 @@
 <div class="section-5 position-relative mt-5">
+    <div class="position-absolute sec-5-dot" style="">
+            <span class="btn ">
+                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
+                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    </span>
+        <span class="btn ">
+                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
+                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    </span>
+        <div class="mt-4 ms-5">
+            <span class="circle green-bg" id="1"></span>
+            <span class="circle" id="2"></span>
+            <span class="circle" id="3"></span>
+            <span class="circle" id="4"></span>
+            <span class="circle" id="5"></span>
+        </div>
+    </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
         <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
@@ -31,23 +48,6 @@
                                     dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục
                                     năng lượng, tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
                             </div>
-                            <div class="w-50" style="margin-top: 11%">
-                            <span class="btn ">
-                                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            </span>
-                                <span class="btn ">
-                                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            </span>
-                            </div>
-                            <div class="mt-4 ms-5">
-                                <span class="circle green-bg" id="1"></span>
-                                <span class="circle" id="2"></span>
-                                <span class="circle" id="3"></span>
-                                <span class="circle" id="4"></span>
-                                <span class="circle" id="5"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,23 +70,6 @@
                                     nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn dịch, đồng thời
                                     giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ giảm đau.</p>
                             </div>
-                            <div class="w-50" style="margin-top: 11%">
-                            <span class="btn ">
-                                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            </span>
-                                <span class="btn ">
-                                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            </span>
-                            </div>
-                            <div class="mt-4 ms-5">
-                                <span class="circle green-bg" id="1"></span>
-                                <span class="circle" id="2"></span>
-                                <span class="circle" id="3"></span>
-                                <span class="circle" id="4"></span>
-                                <span class="circle" id="5"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,23 +91,6 @@
                                     các khía cạnh của sản xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược,
                                     bao bì, nguồn nước…), cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh
                                     cá nhân của nhân viên.</p>
-                            </div>
-                            <div class="w-50" style="margin-top: 11%">
-                            <span class="btn ">
-                                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            </span>
-                                <span class="btn ">
-                                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            </span>
-                            </div>
-                            <div class="mt-4 ms-5">
-                                <span class="circle green-bg" id="1"></span>
-                                <span class="circle" id="2"></span>
-                                <span class="circle" id="3"></span>
-                                <span class="circle" id="4"></span>
-                                <span class="circle" id="5"></span>
                             </div>
                         </div>
                     </div>
@@ -150,23 +116,6 @@
                                     Đồng thời bổ sung thêm đường isomalt có vị ngọt nhẹ, vẫn sử dụng được cho người
                                     ăn kiêng hoặc bị tiểu đường.</p>
                             </div>
-                            <div class="w-50" style="margin-top: 11%">
-                            <span class="btn ">
-                                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            </span>
-                                <span class="btn ">
-                                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            </span>
-                            </div>
-                            <div class="mt-4 ms-5">
-                                <span class="circle green-bg" id="1"></span>
-                                <span class="circle" id="2"></span>
-                                <span class="circle" id="3"></span>
-                                <span class="circle" id="4"></span>
-                                <span class="circle" id="5"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,78 +136,75 @@
                                     đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn
                                     hệ thống quản lý chất lượng ISO quốc tế..</p>
                             </div>
-                            <div class="w-50" style="margin-top: 11%">
-                            <span class="btn ">
-                                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            </span>
-                                <span class="btn ">
-                                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
-                                     data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            </span>
-                            </div>
-                            <div class="mt-4 ms-5">
-                                <span class="circle green-bg" id="1"></span>
-                                <span class="circle" id="2"></span>
-                                <span class="circle" id="3"></span>
-                                <span class="circle" id="4"></span>
-                                <span class="circle" id="5"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
-<div class="section-5-mobile">
-        <div class="d-flex align-content-center justify-content-center">
-            <img src="{{asset('images/sec5/rule.png')}}" alt="" style="width: 80%" class="img-fluid">
+<div class="section-5-mobile mt-3">
+    <div class="d-flex align-content-center justify-content-center">
+        <img src="{{asset('images/sec5/rule.png')}}" alt="" style="width: 80%" class="img-fluid">
+    </div>
+    <div class="row" style="">
+        <div class="col"></div>
+        <div class="col mt-4 mb-4">
         </div>
-        <div class="row" style="">
-            <div class="col"></div>
-            <div class="col mt-4 mb-4">
-            </div>
-        </div>
+    </div>
 
-        <div class="slick-carousel position-relative">
-            <button class="custom-prev-arrow-5" aria-label="Previous">
-                <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
-            </button>
-            <button class="custom-next-arrow-5" aria-label="Next">
-                <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
-            </button>
+    <div class="slick-carousel position-relative">
+        <button class="custom-prev-arrow-5" aria-label="Previous">
+            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
+        </button>
+        <button class="custom-next-arrow-5" aria-label="Next">
+            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
+        </button>
 
-            <div class="carousel-sec-5">
-                <div class="card rounded-custom shadow-effect"
-                     style="width:100%; height: 70% ">
-                    <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                        <div class="d-flex align-content-center justify-content-center">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card rounded-custom shadow-effect"
-                     style="width:100%; height: 70% ">
-                    <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                        <div class="d-flex align-content-center justify-content-center">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
-                        </div>
+        <div class="carousel-sec-5">
+            <div class="card rounded-custom shadow-effect"
+                 style="width:100%; height: 70% ">
+                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
+                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
+                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                    <div class="d-flex align-content-center justify-content-center">
+                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
                     </div>
                 </div>
             </div>
+            <div class="card rounded-custom shadow-effect"
+                 style="width:100%; height: 70% ">
+                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
+                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
+                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                    <div class="d-flex align-content-center justify-content-center">
+                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
     <style>
-        .section-5-mobile{
+        .sec-5-dot{
+            top: 70%;
+            right: 30%;
+            float: right;
+            z-index: 999
+        }
+        @media screen and (aspect-ratio: 4/3) {
+            .sec-5-dot{
+                right: 20%;
+                top: 80%;
+            }
+        }
+
+        .section-5-mobile {
             height: 100vh;
         }
 
@@ -297,6 +243,7 @@
         .custom-prev-arrow-5 {
             left: 4rem;
         }
+
         .custom-next-arrow-5 {
             right: 4rem;
         }
@@ -312,6 +259,7 @@
         .section-5-mobile.slick-dots li {
             margin: 0 5px;
         }
+
         .section-5-mobile.slick-dots button {
             background-color: #fff; /* Màu nền trắng cho dot không active */
             border: 2px solid #59843d; /* Viền xanh cho dot không active */
@@ -328,39 +276,47 @@
             border-color: #59843d; /* Viền xanh cho dot active */
             color: transparent; /* Màu chữ trắng cho dot active */
         }
+
         @media only screen and (max-width: 800px) {
-            .section-5{
+            .section-5 {
                 display: none;
             }
-            .section-5-mobile{
+
+            .section-5-mobile {
                 display: block;
             }
+
             .custom-prev-arrow-5 {
                 left: -17px;
                 scale: 50%;
                 z-index: 2;
                 opacity: 50%;
             }
+
             .custom-next-arrow-5 {
                 right: -17px;
                 scale: 50%;
                 z-index: 2;
                 opacity: 50%;
             }
+
             .custom-prev-arrow-5,
             .custom-next-arrow-5 {
                 top: 40%;
             }
         }
+
         @media only screen and (min-width: 800px) {
-            .section-5{
+            .section-5 {
                 display: block;
             }
-            .section-5-mobile{
+
+            .section-5-mobile {
                 display: none;
             }
         }
-        .boder-radius{
+
+        .boder-radius {
             border-radius: 23px;
         }
     </style>
@@ -402,15 +358,16 @@
         width: 70px; /* Đặt chiều rộng mong muốn */
         height: auto;
     }
-    .image-rule{
+
+    .image-rule {
         scale: 80%;
-        border-radius: 23px;
     }
 
     .carousel-fade .carousel-item {
         transition: opacity 0.5s ease-in-out; /* Đặt thời gian chuyển đổi là 0.5 giây */
     }
-    .content-sec-5{
+
+    .content-sec-5 {
         font-family: "Mulish SemiBold", sans-serif;
     }
 </style>
@@ -419,7 +376,6 @@
         $(this).find('.carousel-item.active .content-sec-5').removeClass('active').hide();
         $(this).find('.carousel-item:not(.active) .content-sec-5').addClass('active').show();
     });
-
 
 
     $('#carouselExampleFade').on('slide.bs.carousel', function (e) {

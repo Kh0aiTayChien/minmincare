@@ -1,4 +1,4 @@
-<div class="sec10pc">
+<div class="sec10pc mt-5">
     <svg class="headersec10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
          width="1352.4" height="249.6"
          viewBox="0 0 1352.4 249.6">
@@ -69,7 +69,7 @@
     </div>
 </div>
 
-<div class="sec10mb">
+<div class="sec10mb mt-5">
    <div class="dailymb">
         <img src="{{asset('images/sec10/dailymb.png')}}" class="bannerdaily">
        <form class="formdailymb">

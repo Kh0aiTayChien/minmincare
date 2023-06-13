@@ -37,10 +37,11 @@
     </div>
 
     <div class="right-action shadow-effect">
-        <div><img src="{{asset('images/sec1/cart.png')}}" alt="" class="cart"></div>
+        <div><img src="{{asset('images/sec1/cart.png')}}" alt="" class="cart ms-2"></div>
         <br>
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
     </div>
+
     <div id="popup" style="display: none;" class="shadow-effect">
         <div class="green-bg mitr-medium text-white " style="height: 2rem ; border-radius: 23px 23px 0 0 ">
             <p class=" text-center ">GIỎ HÀNG CỦA TÔI </p>
@@ -48,8 +49,8 @@
                 <i class="fas fa-times"></i>
             </span>
         </div>
-        <div class="cart-product-list p-2 mb-5">
-            <div class="card shadow-effect mb-3" style="height: 6rem">
+        <div class="cart-product-list p-2 mb-5" style="background-color: #ddd">
+            <div class="card shadow-effect mb-3" style="height: 7rem">
                 <div class="row no-gutters p-1">
                     <div class="col-3">
                         <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
@@ -74,13 +75,17 @@
                                 <div class="col-12">
                                     -
                                 </div>
+                                <div >
+                                    <i class="fas fa-times cancel-item"></i>
+                                </div>
+
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card shadow-effect mb-3" style="height: 6rem">
+            <div class="card shadow-effect mb-3" style="height: 7rem">
                 <div class="row no-gutters p-1">
                     <div class="col-3">
                         <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
@@ -105,13 +110,17 @@
                                 <div class="col-12">
                                     -
                                 </div>
+                                <div >
+                                    <i class="fas fa-times cancel-item"></i>
+                                </div>
+
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card shadow-effect mb-3" style="height: 6rem">
+            <div class="card shadow-effect mb-3" style="height: 7rem">
                 <div class="row no-gutters p-1">
                     <div class="col-3">
                         <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
@@ -136,68 +145,10 @@
                                 <div class="col-12">
                                     -
                                 </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card shadow-effect mb-3" style="height: 6rem">
-                <div class="row no-gutters p-1">
-                    <div class="col-3">
-                        <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
-                    </div>
-                    <div class="col-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tiêu đề</h5>
-                            <p class="card-text">Nội dung</p>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="green-bg h-100 text-white text-center mitr-medium">
-                            <div class="row">
-                                <div class="col-12">
-                                    +
+                                <div >
+                                    <i class="fas fa-times cancel-item"></i>
                                 </div>
 
-                                <div class="col-12">
-                                    12
-                                </div>
-
-                                <div class="col-12">
-                                    -
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card shadow-effect mb-3" style="height: 6rem">
-                <div class="row no-gutters p-1">
-                    <div class="col-3">
-                        <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
-                    </div>
-                    <div class="col-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tiêu đề</h5>
-                            <p class="card-text">Nội dung</p>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="green-bg h-100 text-white text-center mitr-medium">
-                            <div class="row">
-                                <div class="col-12">
-                                    +
-                                </div>
-
-                                <div class="col-12">
-                                    12
-                                </div>
-
-                                <div class="col-12">
-                                    -
-                                </div>
                             </div>
 
                         </div>
@@ -208,17 +159,17 @@
         <div class="d-flex align-content-center justify-content-center mitr-medium">
             THÔNG TIN LIÊN HỆ
         </div>
-        <form class="p-3 mitr-medium ">
+        <form class="p-3  ">
             <div class="form-group">
-                <input type="text" class="form-control shadow-effect mt-2" id="fullName" placeholder="Nhập họ và tên">
+                <input type="text" class="form-control shadow-effect card-text mt-2" id="fullName" placeholder="Nhập họ và tên">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control shadow-effect mt-2" id="phone" placeholder="Số điện thoại">
+                <input type="text" class="form-control shadow-effect card-text mt-2" id="phone" placeholder="Số điện thoại">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control shadow-effect mt-2" id="address" placeholder="Nhập địa chỉ">
+                <input type="text" class="form-control shadow-effect card-text mt-2" id="address" placeholder="Nhập địa chỉ">
             </div>
-            <button type="submit" class="btn green-bg btn-block mt-2 w-100 text-white">ĐẶT MUA NGAY</button>
+            <button type="submit" class="btn green-bg btn-block mt-2 w-100 text-white mitr-medium">ĐẶT MUA NGAY</button>
         </form>
     </div>
 </div>
@@ -253,7 +204,6 @@
         max-height: 300px; /* Đặt chiều cao tối đa của phần tử */
         overflow-y: auto; /* Sử dụng thanh cuộn dọc khi nội dung vượt quá kích thước */
         overflow-x: hidden;
-        border-radius: 12px;
     }
     .cart-product-list::-webkit-scrollbar {
         width: 6px;
@@ -304,6 +254,11 @@
 
     .close-icon i:hover {
         color: red;
+    }
+
+    .cancel-item{
+        color: red;
+        cursor: pointer;
     }
 </style>
 
