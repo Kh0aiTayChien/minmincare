@@ -4,7 +4,7 @@
 }
 
 .headersec10 {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 15%;
     width: 73vw;
 }
@@ -113,6 +113,21 @@
     margin-left: -2%;
 }
 
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    .daily {
+        /*position: absolute;*/
+        margin-top: -6%;
+        margin-left: 18%;
+    }
+    .svg-input {
+        width: 15.5vw;
+    }
+    .dailybutton {
+        margin-left: 67%;
+        margin-top: -6.5%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sec10pc {
         display: none;
@@ -181,7 +196,7 @@
     .button4mb {
         position: absolute;
         width: 45vw;
-        margin-top: -14 %;
+        margin-top: -15.5%;
         margin-left: 5%;
     }
     .bannercustomermb {

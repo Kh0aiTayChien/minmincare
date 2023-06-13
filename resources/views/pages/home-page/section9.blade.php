@@ -94,7 +94,7 @@
 </div>
 <style>
     .section-9{
-        height: 100vh;
+        /*height: 100vh;*/
     }
 
     .carousel-sec-9 {

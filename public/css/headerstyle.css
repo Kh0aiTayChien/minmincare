@@ -16,7 +16,7 @@
 .inline-list-left li {
     display: inline-block;
     margin-right: 55px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .inline-container {
     display: flex;
@@ -24,6 +24,7 @@
 }
 
 .logo {
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
     width: 12vw;
@@ -32,7 +33,7 @@
 .inline-list-right li {
     display: inline-block;
     margin-right: 54px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 ul li a {

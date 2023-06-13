@@ -101,15 +101,17 @@
         display: flex;
     }
     .leftfootermb {
-        margin-top: -25%;
+        /*position: absolute;*/
+        /*margin-top: -40%;*/
         margin-left: 6%;
     }
     .rightfootermb {
-        margin-top: -27%;
+        /*position: absolute;*/
+        margin-top: -1%;
         margin-left: 3%;
     }
     .linefootermb {
-        margin-top: -3%;
+        margin-top: -5.5%;
         width: 110vw;
         margin-left: -5%;
     }
