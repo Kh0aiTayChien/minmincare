@@ -1,6 +1,6 @@
 <div class="section-7">
-    <div class="d-flex justify-content-center align-content-center pt-3 pb-3" style="">
-            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 50%">
+    <div class=" pt-3 pb-3 me-5" style="">
+            <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" style="width: 35%; margin-left: 50%">
     </div>
 
     <div class="slick-carousel position-relative">
