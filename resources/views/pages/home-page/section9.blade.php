@@ -17,94 +17,44 @@
         </button>
 
         <div class="carousel-sec-9">
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
+            @foreach($news as $article)
+                <div class="d-flex justify-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:20rem; height: 70% ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title height-text-card green-text">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4>
+                            <p class="card-text height-text-card">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}
+                            </p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
+                                    CHI TIẾT</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="card rounded-custom shadow-effect me-1"
-                     style="width:20rem; height: 70% ">
-                    <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
-                        <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                            <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
         </div>
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
+        <a href="#"
+           class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
             THÊM</a>
     </div>
 </div>
 <style>
-    .section-9{
+    .section-9 {
         /*height: 100vh;*/
+    }
+
+    .height-img-card {
+        height: 240px;
+        width: 404px;
+    }
+    .height-text-card{
+        height: 5rem;
     }
 
     .carousel-sec-9 {
@@ -119,11 +69,12 @@
     .section-9.slick-slide img {
         width: 90%;
     }
-    .border-up{
+
+    .border-up {
         border-radius: 22px 22px 0 0;
     }
 
-     .slick-dots li button:before {
+    .slick-dots li button:before {
         font-size: 20px;
         color: white;
     }
@@ -131,7 +82,8 @@
     .slick-slide:not(.slick-active) {
         opacity: 0.5;
     }
-    .slick-slide.slick-active{
+
+    .slick-slide.slick-active {
 
     }
 
@@ -147,9 +99,10 @@
         z-index: 2;
     }
 
-   .custom-prev-arrow-9 {
+    .custom-prev-arrow-9 {
         left: 100px;
     }
+
     .custom-next-arrow-9 {
         right: 100px;
     }
@@ -165,6 +118,7 @@
     .section-9.slick-dots li {
         margin: 0 5px;
     }
+
     .section-9.slick-dots button {
         background-color: #fff; /* Màu nền trắng cho dot không active */
         border: 2px solid #59843d; /* Viền xanh cho dot không active */
@@ -181,13 +135,16 @@
         border-color: #59843d; /* Viền xanh cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
     }
-    .btn-long{
+
+    .btn-long {
         width: 150px;
     }
+
     @media only screen and (max-width: 800px) {
-        .img-sec9{
+        .img-sec9 {
             scale: 70%;
         }
+
         .custom-prev-arrow-9 {
             left: -17px;
             position: absolute;
@@ -195,6 +152,7 @@
             scale: 50%;
             opacity: 50%;
         }
+
         .custom-next-arrow-9 {
             right: -17px;
             position: absolute;
@@ -202,7 +160,8 @@
             scale: 50%;
             opacity: 50%;
         }
-        .space_sec9{
+
+        .space_sec9 {
             display: none;
         }
     }
