@@ -18,10 +18,10 @@ use Illuminate\Routing\Router;
 |
 */
 
-//Route::get('/', function () {
-//    return view('pages/home-page/index');
-//});
 Route::get('/', function () {
+    return view('pages/home-page/index');
+});
+Route::get('/gioi-thieu', function () {
     return view('pages/gioi-thieu/index');
 });
 Route::middleware('throttle:10,60')->group(function (Router $router) {
