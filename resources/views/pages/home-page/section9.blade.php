@@ -23,8 +23,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -37,8 +36,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -51,8 +49,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -65,8 +62,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -79,8 +75,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -93,8 +88,7 @@
                     <img class="card-img-top border-up" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title green-text">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                            cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
+                        <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng ....</p>
                         <div class="d-flex align-content-center justify-content-center mitr-medium ">
                             <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM CHI TIẾT</a>
                         </div>
@@ -207,6 +201,9 @@
             top: 40%;
             scale: 50%;
             opacity: 50%;
+        }
+        .space_sec9{
+            display: none;
         }
     }
 
