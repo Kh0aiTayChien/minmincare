@@ -84,7 +84,7 @@
     <div class="contentfooter">
         <div class="leftfootermb">
             <svg class="footerleft" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="467.349" height="541.473"
+                 width="467.349"
                  viewBox="0 0 467.349 541.473">
                 <defs>
                     <filter id="GIỚI_THIỆU" x="0" y="0" width="234" height="109" filterUnits="userSpaceOnUse">
@@ -185,7 +185,7 @@
         </div>
         <div class="rightfootermb">
             <svg class="footerright" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="505" height="583.473" viewBox="0 0 505 583.473">
+                 width="505" viewBox="0 0 505 583.473">
                 <defs>
                     <filter id="Đăng_ký_đại_lý" x="0" y="445.473" width="493" height="138" filterUnits="userSpaceOnUse">
                         <feOffset dx="7" dy="7" input="SourceAlpha"/>

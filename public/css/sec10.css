@@ -4,7 +4,7 @@
 }
 
 .headersec10 {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 15%;
     width: 73vw;
 }
@@ -17,7 +17,7 @@
 
 .svg-input {
     /*width: 271.266px;*/
-    height: 45.891px;
+    height: 50.891px;
     width: 16vw;
     border-radius: 27.445px;
     border: none;
@@ -45,7 +45,7 @@
 
 .submitbutton {
     width: 18.5vw;
-    height: 55.891px;
+    height: 60.891px;
     position: absolute;
 }
 
@@ -59,7 +59,7 @@
 
 .button4 {
     width: 17.5vw;
-    height: 45px;
+    height: 50px;
 }
 
 .form-customer {
@@ -113,6 +113,21 @@
     margin-left: -2%;
 }
 
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    .daily {
+        /*position: absolute;*/
+        margin-top: -6%;
+        margin-left: 18%;
+    }
+    .svg-input {
+        width: 15.5vw;
+    }
+    .dailybutton {
+        margin-left: 67%;
+        margin-top: -6.5%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sec10pc {
         display: none;
@@ -141,7 +156,7 @@
     }
     .bannerdaily {
         width: 70vw;
-        left: 0!important;
+        margin-left: 2%;
     }
     .formdailymb {
         display: inline;
@@ -152,6 +167,8 @@
         border-radius: 20px;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
         padding-left: 10px;
+        margin-left: 1%;
+        margin-top: 3%;
     }
 
     /*.svg-input-mb {*/
@@ -181,7 +198,7 @@
     .button4mb {
         position: absolute;
         width: 45vw;
-        margin-top: -14 %;
+        margin-top: -15.5%;
         margin-left: 5%;
     }
     .bannercustomermb {

@@ -1,0 +1,31 @@
+.bannersec2-GT {
+    margin-left: 15%;
+    width: 35vw;
+    margin-top: 5%;
+}
+
+.headersec2-GT {
+    width: 25vw;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+.contentsec2-GT {
+    position: absolute;
+    margin-top: -20%;
+    width: 28vw;
+    text-align: justify;
+    right: 0;
+    margin-right: 16%;
+    font-size: 15px;
+}
+
+.sentencesec2-GT {
+    position: absolute;
+    width: 30vw;
+    text-align: justify;
+    right: 0;
+    margin-right: 14%;
+    font-size: 15px;
+    margin-top: -15%;
+}

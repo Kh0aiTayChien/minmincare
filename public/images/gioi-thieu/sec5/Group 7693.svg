@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386.961" height="76.197"
+     viewBox="0 0 386.961 76.197">
+    <defs>
+        <filter id="Rectangle_162" x="0" y="0" width="386.961" height="75" filterUnits="userSpaceOnUse">
+            <feOffset dx="5" dy="5" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="2.5" result="blur"/>
+            <feFlood flood-opacity="0.349"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_7693" data-name="Group 7693" transform="translate(-528.858 -4315.585)">
+        <g transform="matrix(1, 0, 0, 1, 528.86, 4315.59)" filter="url(#Rectangle_162)">
+            <g id="Rectangle_162-2" data-name="Rectangle 162" transform="translate(2.5 2.5)" fill="#fff" stroke="#fff"
+               stroke-miterlimit="10" stroke-width="3">
+                <rect width="371.961" height="60" rx="30" stroke="none"/>
+                <rect x="1.5" y="1.5" width="368.961" height="57" rx="28.5" fill="none"/>
+            </g>
+        </g>
+        <text id="CÂU_CHUYỆN_VỀ_MS_NGA" data-name="CÂU CHUYỆN VỀ MS NGA" transform="translate(531.358 4330.783)"
+              fill="#59843d" font-size="22" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.1em">
+            <tspan x="29.054" y="25">CÂU CHUYỆN VỀ MS NGA</tspan>
+        </text>
+    </g>
+</svg>

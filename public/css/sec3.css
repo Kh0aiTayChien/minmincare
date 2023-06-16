@@ -3,9 +3,9 @@
     src: url("/Fonts/Mulish-SemiBold.ttf");
 }
 
-.sec3pc {
-    height: 100vh;
-}
+/*.sec3pc {*/
+/*    height: 90vh;*/
+/*}*/
 
 .headersec3 {
     margin-left: 13%;
@@ -27,39 +27,60 @@
     position: absolute;
     right: 0;
     width: 50vw;
-    height: 90vh;
+    /*height: 90vh;*/
 }
 
 .buttonvideo {
     position: absolute;
-    right: 200px;
-    /*margin-top: 15%;*/
+    right: 12%;
     width: 22vw;
 }
 
 .button1 {
-    margin-left: 30%;
+    margin-left: 31%;
     margin-top: 2%;
-    width: 15vw;
+    width: 13vw;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
 }
 
 .sec3mb {
     display: none;
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .imgvideo {
+        height: unset;
+    }
+
+    .button1 {
+        margin-bottom: 6%;
+    }
+
+    .headersec3 {
+        margin-top: 7%;
+    }
+
+    .buttonvideo {
+        margin-top: -3%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sec3pc {
         display: none;
     }
+
     .sec3mb {
         display: block;
         text-align: center;
         justify-content: center;
     }
+
     .headersec3mb {
         margin-top: 5%;
-        width: 45vw;
+        width: 50vw;
     }
+
     .contentsec3mb {
         width: 80vw;
         text-align: justify;
@@ -68,13 +89,16 @@
         margin-left: 10%;
         font-family: 'Mulish-SemiBold', sans-serif;
     }
+
     .button1mb {
-    width: 38vw;
+        width: 38vw;
     }
+
     .headersec4mb {
-        width: 45vw;
+        width: 50vw;
     }
+
     .utube {
-        margin-left: 10%;
+        margin-left: 7%;
     }
 }

@@ -1,0 +1,30 @@
+.sec5-GT {
+    background-image: url("/images/gioi-thieu/sec5/Group 1297.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center top 220px;
+}
+
+.headersec5-GT {
+    width: 25vw;
+    margin-left: 25%;
+    margin-top: -40%;
+}
+.bannersec5-GT {
+    width: 40vw;
+    margin-left: 5%;
+}
+.textsec5-GT {
+    width: 35vw;
+    font-size: 15px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -45%;
+    color: white;
+}
+.btn-start {
+    margin-top: -18%;
+    margin-left: 30%;
+    width: 20vw;
+}

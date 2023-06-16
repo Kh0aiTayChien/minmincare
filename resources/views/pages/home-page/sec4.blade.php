@@ -40,25 +40,22 @@
 </span><br><br><span class="contentsec4 textRight">Tăng cường khả năng sản xuất lượng sữa tự nhiên cho mẹ chỉ sau 1 tuần sử dụng. Ngoài bổ sung dinh dưỡng, khoáng chất, vitamin mà còn giúp mẹ sau sinh hồi phục sức khỏe, tăng sức đề kháng, hệ miễn dịch, ngăn ngừa lão hóa, nhanh lành vết thương nhờ vào việc ứng dụng công nghệ Nano Curcumin vào sản phẩm.</span>
         </p><br>
         <a href="#">
-            <svg class="button3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
-                <g id="Group_881" data-name="Group 881" transform="translate(-1005 -3794.557)">
-                    <g id="Group_880" data-name="Group 880">
-                        <g id="Group_879" data-name="Group 879">
-                            <g id="Group_877" data-name="Group 877">
-                                <g id="Group_876" data-name="Group 876">
-                                    <g id="Group_875" data-name="Group 875">
-                                        <path id="Path_1519" data-name="Path 1519"
-                                              d="M1238.005,3807.6a27,27,0,1,1,0,54H1045.239a27,27,0,0,1,0-54h192.766m0-3H1045.239a30,30,0,0,0-30,30h0a30,30,0,0,0,30,30h192.766a30,30,0,0,0,30-30h0a30,30,0,0,0-30-30Z"
-                                              fill="#fff"/>
-                                    </g>
+            <svg class="button3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283.2" height="90.24"
+                 viewBox="0 0 283.2 90.24">
+                <g id="Group_888" data-name="Group 888" transform="translate(-637.8 -4269.517)">
+                    <g id="Group_887" data-name="Group 887">
+                        <g id="Group_886" data-name="Group 886">
+                            <g id="Group_884" data-name="Group 884">
+                                <g id="Group_883" data-name="Group 883">
+                                    <rect id="Rectangle_96" data-name="Rectangle 96" width="252.766" height="60" rx="30"
+                                          transform="translate(648.038 4279.731)" fill="#fff"/>
                                 </g>
                             </g>
-                            <g id="Group_878" data-name="Group 878">
-                                <text class="testsec4" id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT"
-                                      transform="translate(1140.522 3842.765)" fill="#fff" font-size="22"
-                                      font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
-                                    <tspan x="-77.622" y="0">XEM CHI TIẾT</tspan>
+                            <g id="Group_885" data-name="Group 885">
+                                <text id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT" transform="translate(773.321 4318.025)"
+                                      fill="#59843d" font-size="22" font-family="Mitr-Medium, Mitr" font-weight="500"
+                                      letter-spacing="0.1em">
+                                    <tspan x="-83.655" y="0">XEM CHI TIẾT</tspan>
                                 </text>
                             </g>
                         </g>

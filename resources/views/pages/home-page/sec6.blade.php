@@ -60,7 +60,7 @@
         }
 
         .headersec6mb{
-            width: 70%;
+            width: 65vw;
         }
         .carousel-sec-6 {
             width: 70%;

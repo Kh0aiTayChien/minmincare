@@ -41,7 +41,7 @@
     <button class="dailybutton">
         <img src="{{asset('images/sec10/Group 3887.png')}}" class="button4">
     </button>
-    <div>
+    <div class="">
         <img src="{{asset('images/sec10/Group 3888.png')}}" class="formOutline">
         <form class="form-customer">
             <label class="name" for="fullname"></label>
