@@ -3,14 +3,26 @@
     src: url("/Fonts/Mitr-Medium.ttf");
 }
 
+
 .headerpc {
-    /*background: white;*/
-    background-image: url("/images/header/Asset 1.png");
-    background-size: 102vw auto;
     height: 25vh;
     width: 100vw;
+}
+
+
+.headerpc .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/header/Asset 1.png");
+    background-size: 102vw auto;
     background-position: center top -15px;
     background-repeat: no-repeat;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    z-index: -1;
 }
 
 .inline-list-left li {
@@ -18,6 +30,7 @@
     margin-right: 55px;
     margin-top: 25px;
 }
+
 .inline-container {
     display: flex;
     align-items: center;
@@ -73,36 +86,52 @@ ul.iconmb {
     .headerpc {
         display: none;
     }
+
     .sec3pc {
         display: none;
     }
+
     .sec4pc {
         display: none;
     }
+
     .sec6pc {
         display: none;
     }
+
     .sec10pc {
         display: none;
     }
+
     .headermb {
         display: inline;
-        background-image: url("/images/header/Group 1275.png");
-        background-size: 105vw auto;
         height: 25vh;
         width: 100vw;
+    }
+    .background-image-mb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/images/header/Group 1275.png");
+        background-size: 105vw auto;
         background-position: center top -20px;
         background-repeat: no-repeat;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        z-index: -1;
     }
     .logomb {
         width: 28vw;
         margin-left: 2%;
         margin-top: 1%;
     }
+
     .menu {
         width: 5vw;
         position: absolute;
-        right: 5px!important;
+        right: 5px !important;
         margin-top: -2%;
     }
 }

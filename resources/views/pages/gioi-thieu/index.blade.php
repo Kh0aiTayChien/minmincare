@@ -1,0 +1,9 @@
+@extends('page-layout.master')
+@section('section')
+    @include('pages.home-page.section1')
+    @include('pages.gioi-thieu.sec2')
+    @include('pages.gioi-thieu.sec3')
+    @include('pages.gioi-thieu.sec4')
+    @include('pages.gioi-thieu.sec5')
+    @include('pages.gioi-thieu.sec6')
+@stop
