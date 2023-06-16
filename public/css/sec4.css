@@ -49,6 +49,7 @@
     font-size: 15px;
     text-align: justify;
     color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .button2 {
@@ -74,6 +75,7 @@
     color: white;
     font-size: 15px;
     text-align: justify;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .button3 {
@@ -81,13 +83,13 @@
     position: absolute;
     margin-top: -15%;
     margin-left: 35%;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     /*transition: filter 0.3s ease-in-out;*/
 }
 
 .headersec4 {
     font-family: 'Mitr-SemiBold', sans-serif;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    /*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));*/
     font-size: 20px;
 }
 

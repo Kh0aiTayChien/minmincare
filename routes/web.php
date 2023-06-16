@@ -18,8 +18,11 @@ use Illuminate\Routing\Router;
 |
 */
 
+//Route::get('/', function () {
+//    return view('pages/home-page/index');
+//});
 Route::get('/', function () {
-    return view('pages/home-page/index');
+    return view('pages/gioi-thieu/index');
 });
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send",[SendController::class,'index'])->name('send');

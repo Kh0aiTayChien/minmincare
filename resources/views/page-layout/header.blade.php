@@ -1,4 +1,5 @@
-<div class="headerpc fixed-top">
+<div class="headerpc fixed-top" id="myHeader">
+    <div class="background-image"></div>
     <div class="inline-container justify-content-center align-items-center">
         <ul class="inline-list-left">
             <li>
@@ -263,9 +264,10 @@
 </style>
 
 <div class="headermb fixed-top">
+    <div class="background-image-mb"></div>
     <div class="inline-container justify-content-center align-items-center">
         <img src="{{asset('images/header/Group 903.svg')}}" class="logomb">
-        <img src="{{asset('images/header/Group 1299.png')}}" class="menu">
+        <img src="{{asset('images/header/Group 34.png')}}" class="menu">
     </div>
     <nav>
         <ul class="hide iconmb">
@@ -327,5 +329,21 @@
         navLinks.on('click', function () {
             hiddenList.addClass('hide'); // Thêm class 'hide' để ẩn danh sách
         });
+    });
+    $(window).scroll(function myScrollPCFunction() {
+        var header = $('.headerpc');
+        var background = header.find('.background-image');
+        var scrollTop = $(window).scrollTop();
+        var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
+
+        background.css('opacity', Math.max(opacity, 0.7)); // Giới hạn opacity tối thiểu là 0.7
+    });
+    $(window).scroll(function myScrollMBFunction() {
+        var headermb = $('.headermb');
+        var background = headermb.find('.background-image-mb');
+        var scrollTop = $(window).scrollTop();
+        var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
+
+        background.css('opacity', Math.max(opacity, 0.5)); // Giới hạn opacity tối thiểu là 0.7
     });
 </script>

@@ -33,6 +33,11 @@
     <link href="{{asset('/css/sec6.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec10.css')}}" rel="stylesheet">
     <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2-GT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec3-GT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec4-GT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec5-GT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec6-GT.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')
