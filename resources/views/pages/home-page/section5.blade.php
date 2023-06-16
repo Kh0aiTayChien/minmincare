@@ -145,7 +145,7 @@
 
 </div>
 
-<div class="section-5-mobile mt-3">
+<div class="section-5-mobile mt-3 mb-5">
     <div class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/sec5/rule.png')}}" alt="" style="width: 80%" class="img-fluid">
     </div>
@@ -203,7 +203,7 @@
         }
 
         .section-5-mobile {
-            height: 100vh;
+            height: 90vh;
         }
 
         .carousel-sec-5 {
@@ -340,7 +340,7 @@
     }
 
     .shadow-effect {
-        filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
     .circle {
