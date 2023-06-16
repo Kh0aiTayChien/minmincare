@@ -1,5 +1,3 @@
-input
-
 <div class="table-responsive">
     <table class="table">
         <thead>
@@ -10,7 +8,7 @@ input
             <th class="col-lg-1">Ảnh đại diện</th>
             <th class="col-lg-2">Nội dung</th>
             @if($conditionView === 'index')
-                <th class="col-lg-1">Số thứ tự</th>
+{{--                <th class="col-lg-1">Số thứ tự</th>--}}
                 <th class="col-lg-1">Trạng thái</th>
                 <th class="col-lg-1">Ngày tạo</th>
                 <th class="col-lg-1">Ngày cập nhật</th>
@@ -29,13 +27,13 @@ input
                 </td>
                 <td class="col-lg-2">{{ Str::limit(strip_tags($article->content), 100) }}</td>
                 @if($conditionView === 'index')
-                    @if($article->status == 1)
-                        <td class="col-lg-1"><input type="input" value="{{ $article->order_number }}"
-                                                    style="width: 3rem"
-                                                    class="order-number status-{{$article->status}}"></td>
-                    @elseif($article->status == 0)
-                        <td></td>
-                    @endif
+{{--                    @if($article->status == 1)--}}
+{{--                        <td class="col-lg-1"><input type="input" value="{{ $article->order_number }}"--}}
+{{--                                                    style="width: 3rem"--}}
+{{--                                                    class="order-number status-{{$article->status}}"></td>--}}
+{{--                    @elseif($article->status == 0)--}}
+{{--                        <td></td>--}}
+{{--                    @endif--}}
                     <td class="col-lg-1 ">
                         @if($article->status == 1)
                             Công khai
@@ -90,45 +88,45 @@ input
     {!! $articles->appends(request()->query())->links() !!}
 </div>
 <script>
-    $(document).on('change', 'input.order-number', function (event) {
-        let id = $(this).closest('tr.article-row').data('id');
-        let currentOrderNumber = $(this).val();
-        // Gửi yêu cầu AJAX để kiểm tra và cập nhật order_number
-        $.ajax({
-            type: 'POST',
-            url: '{{ route("admin.updateOrderNumber") }}',
-            data: {
-                _token: '{{ csrf_token() }}',
-                id: id,
-                orderNumber: currentOrderNumber
-            },
-            success: function (response) {
-                if (response.exists) {
-                    alert('Giá trị đã tồn tại trong cơ sở dữ liệu. Vui lòng nhập giá trị khác.');
-                    $(this).val(response.currentOrderNumber);
-                } else {
-                    // Gửi yêu cầu AJAX để cập nhật order_number
-                    $.ajax({
-                        type: 'POST',
-                        url: '{{ route("admin.updateOrderNumber") }}',
-                        data: {
-                            _token: '{{ csrf_token() }}',
-                            id: id,
-                            orderNumber: currentOrderNumber
-                        },
-                        success: function (response) {
-                            if (response.success) {
-                                $(this).val(response.newOrderNumber);
-                            } else {
-                                alert(response.message);
-                                $(this).val(response.olderNumber);
-                            }
-                        }.bind(this)
-                    });
-                }
-            }.bind(this)
-        });
-    });
+    {{--$(document).on('change', 'input.order-number', function (event) {--}}
+    {{--    let id = $(this).closest('tr.article-row').data('id');--}}
+    {{--    let currentOrderNumber = $(this).val();--}}
+    {{--    // Gửi yêu cầu AJAX để kiểm tra và cập nhật order_number--}}
+    {{--    $.ajax({--}}
+    {{--        type: 'POST',--}}
+    {{--        url: '{{ route("admin.updateOrderNumber") }}',--}}
+    {{--        data: {--}}
+    {{--            _token: '{{ csrf_token() }}',--}}
+    {{--            id: id,--}}
+    {{--            orderNumber: currentOrderNumber--}}
+    {{--        },--}}
+    {{--        success: function (response) {--}}
+    {{--            if (response.exists) {--}}
+    {{--                alert('Giá trị đã tồn tại trong cơ sở dữ liệu. Vui lòng nhập giá trị khác.');--}}
+    {{--                $(this).val(response.currentOrderNumber);--}}
+    {{--            } else {--}}
+    {{--                // Gửi yêu cầu AJAX để cập nhật order_number--}}
+    {{--                $.ajax({--}}
+    {{--                    type: 'POST',--}}
+    {{--                    url: '{{ route("admin.updateOrderNumber") }}',--}}
+    {{--                    data: {--}}
+    {{--                        _token: '{{ csrf_token() }}',--}}
+    {{--                        id: id,--}}
+    {{--                        orderNumber: currentOrderNumber--}}
+    {{--                    },--}}
+    {{--                    success: function (response) {--}}
+    {{--                        if (response.success) {--}}
+    {{--                            $(this).val(response.newOrderNumber);--}}
+    {{--                        } else {--}}
+    {{--                            alert(response.message);--}}
+    {{--                            $(this).val(response.olderNumber);--}}
+    {{--                        }--}}
+    {{--                    }.bind(this)--}}
+    {{--                });--}}
+    {{--            }--}}
+    {{--        }.bind(this)--}}
+    {{--    });--}}
+    {{--});--}}
     $(document).ready(function () {
         $('form#delete-article').submit(function (e) {
             e.preventDefault();
