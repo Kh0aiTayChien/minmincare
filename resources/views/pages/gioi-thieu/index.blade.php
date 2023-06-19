@@ -7,4 +7,5 @@
     @include('pages.gioi-thieu.sec5')
     @include('pages.gioi-thieu.sec6')
     @include('pages.gioi-thieu.sec7')
+    @include('pages.home-page.sec10')
 @stop

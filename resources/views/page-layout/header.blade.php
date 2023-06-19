@@ -3,7 +3,7 @@
     <div class="inline-container justify-content-center align-items-center">
         <ul class="inline-list-left">
             <li>
-                <a href="#"><p>GIỚI THIỆU</p></a>
+                <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>
             </li>
             <li class="list-product position-relative">
                 <a href="#"><p>SẢN PHẨM</p></a>
@@ -20,10 +20,10 @@
 {{--                </div>--}}
             </li>
             <li>
-                <a href="#"><p>ĐẠI LÝ</p></a>
+                <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
             </li>
         </ul>
-        <img src="{{asset('images/header/Group 903.svg')}}" class="logo">
+        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo"></a>
         <ul class="inline-list-right">
             <li>
                 <a href="#"><p>KIẾN THỨC</p></a>
