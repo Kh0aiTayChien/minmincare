@@ -28,3 +28,14 @@
     margin-left: 30%;
     width: 20vw;
 }
+
+@media screen and (min-width: 1700px) and (max-width: 1920px){
+    .sec5-GT {
+        background-position: center top 265px;
+    }
+    .btn-start {
+        margin-top: -35%;
+        width: 15vw;
+        margin-left: 35%;
+    }
+}
