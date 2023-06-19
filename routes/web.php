@@ -21,8 +21,11 @@ use Illuminate\Routing\Router;
 //Route::get('/', function () {
 //    return view('pages/home-page/index');
 //});
+//Route::get('/', function () {
+//    return view('pages/gioi-thieu/index');
+//});
 Route::get('/', function () {
-    return view('pages/gioi-thieu/index');
+    return view('pages/dai-ly/index');
 });
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send",[SendController::class,'index'])->name('send');

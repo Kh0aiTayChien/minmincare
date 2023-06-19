@@ -1,0 +1,18 @@
+.headersec3-DL {
+    width: 30vw;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.contentsec3-DL {
+    width: 30vw;
+    margin-left: 15%;
+}
+
+.bannersec3-DL {
+    width: 50vw;
+    float: right;
+    margin-top: -15%;
+    clear: both;
+}

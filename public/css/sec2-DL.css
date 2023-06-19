@@ -1,0 +1,28 @@
+.sec2-DL {
+    background-image: url("/images/dai-ly/sec2/Group 3173.png");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: center top 320px;
+}
+
+.headersec2-DL {
+    /*margin-top: 3%;*/
+    margin-left: 15%;
+    width: 73vw;
+}
+.bannersec2-DL {
+    width: 45vw;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.headerbannersec2-DL {
+    position: absolute;
+    /*background-color: yellow;*/
+    width: 30vw;
+    margin-top: 40%;
+}
+.conditionsec2-DL {
+    margin-top: -8%;
+    width: 70vw;
+    margin-left: 15%;
+}
