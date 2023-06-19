@@ -6,6 +6,7 @@ use App\Http\Controllers\MediaController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SendController;
+use App\Http\Controllers\HomePage\IndexController;
 use Illuminate\Routing\Router;
 /*
 |--------------------------------------------------------------------------
@@ -18,13 +19,13 @@ use Illuminate\Routing\Router;
 |
 */
 
-//Route::get('/', function () {
-//    return view('pages/home-page/index');
-//});
-//Route::get('/', function () {
-//    return view('pages/gioi-thieu/index');
-//});
-Route::get('/', function () {
+Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
+
+Route::get('/gioi-thieu', function () {
+    return view('pages/gioi-thieu/index');
+});
+
+Route::get('/dai-ly', function () {
     return view('pages/dai-ly/index');
 });
 Route::middleware('throttle:10,60')->group(function (Router $router) {

@@ -1,76 +1,68 @@
-<div class="section-9">
-    <div class="d-flex align-content-center justify-content-center img-sec9">
-        <img src="{{asset('images/sec9/tintuc.png')}}" alt="" style="" class="img-fluid">
-    </div>
-    <div class="row" style="">
-        <div class="col"></div>
-        <div class="col mt-4 mb-4">
-        </div>
+<div class="section-7">
+    <div class="d-flex align-content-center justify-content-center img-sec7">
+        <img src="{{asset('images/gioi-thieu/sec7/thuonghieuxungtam.png')}}" alt="" style="" class="img-fluid">
     </div>
 
     <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow-9" aria-label="Previous">
+        <button class="custom-prev-arrow-7" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
         </button>
-        <button class="custom-next-arrow-9" aria-label="Next">
+        <button class="custom-next-arrow-7" aria-label="Next">
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
         </button>
 
-        <div class="carousel-sec-9">
-            @foreach($news as $article)
-                <div class="d-flex justify-content-center">
-                    <div class="card rounded-custom shadow-effect me-1"
-                         style="width:20rem; height: 70% ">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title height-text-card green-text">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4>
-                            <p class="card-text height-text-card">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}
-                            </p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                                <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
+        <div class="carousel-sec-7">
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+            </div>
 
         </div>
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <a href="#"
-           class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
+        <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
             THÊM</a>
     </div>
 </div>
 <style>
-    .section-9 {
+    .section-7{
         /*height: 100vh;*/
     }
 
-    .height-img-card {
-        height: 240px;
-        width: 404px;
+    .img-sec7{
+        scale: 70%;
     }
-    .height-text-card{
-        height: 5rem;
+    .shadow-effect {
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
-    .carousel-sec-9 {
+    .carousel-sec-7 {
         width: 70%;
         margin: 0px auto;
     }
 
-    .section-9.slick-slide {
+    .section-7.slick-slide {
         margin: 10px;
     }
 
-    .section-9.slick-slide img {
+    .section-7.slick-slide img {
         width: 90%;
     }
-
-    .border-up {
+    .border-up{
         border-radius: 22px 22px 0 0;
     }
 
@@ -82,13 +74,12 @@
     .slick-slide:not(.slick-active) {
         opacity: 0.5;
     }
-
-    .slick-slide.slick-active {
+    .slick-slide.slick-active{
 
     }
 
-    .custom-prev-arrow-9,
-    .custom-next-arrow-9 {
+    .custom-prev-arrow-7,
+    .custom-next-arrow-7 {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -99,11 +90,10 @@
         z-index: 2;
     }
 
-    .custom-prev-arrow-9 {
+    .custom-prev-arrow-7 {
         left: 100px;
     }
-
-    .custom-next-arrow-9 {
+    .custom-next-arrow-7 {
         right: 100px;
     }
 
@@ -115,11 +105,10 @@
         margin-top: 1rem;
     }
 
-    .section-9.slick-dots li {
+    .slick-dots li {
         margin: 0 5px;
     }
-
-    .section-9.slick-dots button {
+   .slick-dots button {
         background-color: #fff; /* Màu nền trắng cho dot không active */
         border: 2px solid #59843d; /* Viền xanh cho dot không active */
         color: transparent; /* Màu chữ xanh cho dot không active */
@@ -130,38 +119,33 @@
         cursor: pointer;
     }
 
-    .section-9.slick-dots .slick-active button {
+    .slick-dots .slick-active button {
         background-color: #59843d; /* Màu nền xanh cho dot active */
         border-color: #59843d; /* Viền xanh cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
     }
-
-    .btn-long {
+    .btn-long{
         width: 150px;
     }
-
     @media only screen and (max-width: 800px) {
-        .img-sec9 {
+        .img-sec7{
             scale: 70%;
         }
-
-        .custom-prev-arrow-9 {
+        .custom-prev-arrow-7 {
             left: -17px;
             position: absolute;
             top: 40%;
             scale: 50%;
             opacity: 50%;
         }
-
-        .custom-next-arrow-9 {
+        .custom-next-arrow-7 {
             right: -17px;
             position: absolute;
             top: 40%;
             scale: 50%;
             opacity: 50%;
         }
-
-        .space_sec9 {
+        .space_sec7{
             display: none;
         }
     }
@@ -169,15 +153,15 @@
 </style>
 <script>
     $(document).ready(function () {
-        $('.carousel-sec-9').slick({
+        $('.carousel-sec-7').slick({
             infinite: true,
             // variableWidth: true,
             speed: 900,
             slidesToShow: 3,
             slidesToScroll: 3,
             dots: true,
-            prevArrow: $('.custom-prev-arrow-9'),
-            nextArrow: $('.custom-next-arrow-9'),
+            prevArrow: $('.custom-prev-arrow-7'),
+            nextArrow: $('.custom-next-arrow-7'),
             responsive: [
                 {
                     breakpoint: 1024,

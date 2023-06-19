@@ -182,7 +182,7 @@
         background: url({{asset('images/sec8/mon-son-mobile.png')}}) no-repeat center center;
         background-position: left;
         background-size: cover;
-        height: 115vh;
+        height: 100vh;
     }
     .longer-btn {
         width: 200px; /* Điều chỉnh chiều dài của nút */
@@ -201,7 +201,7 @@
     }
 
     .green-border {
-        border: 2px solid #59843d;
+        border: 3px solid #59843d;
     }
 
     .green-text {

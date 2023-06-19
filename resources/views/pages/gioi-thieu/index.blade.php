@@ -6,4 +6,5 @@
     @include('pages.gioi-thieu.sec4')
     @include('pages.gioi-thieu.sec5')
     @include('pages.gioi-thieu.sec6')
+    @include('pages.gioi-thieu.sec7')
 @stop
