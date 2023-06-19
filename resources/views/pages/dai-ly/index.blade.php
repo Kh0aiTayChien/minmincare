@@ -1,0 +1,10 @@
+@extends('page-layout.master')
+@section('section')
+    @include('pages.home-page.section1')
+    @include('pages.dai-ly.sec2')
+    @include('pages.dai-ly.sec3')
+    @include('pages.dai-ly.sec4')
+    @include('pages.dai-ly.sec5')
+    @include('pages.dai-ly.sec6')
+    @include('pages.dai-ly.sec8')
+@stop

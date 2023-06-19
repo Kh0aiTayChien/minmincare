@@ -19,9 +19,14 @@ use Illuminate\Routing\Router;
 |
 */
 
-Route::get('/', [IndexController::class,'index'])->name('homepage.index');
+Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
+
 Route::get('/gioi-thieu', function () {
     return view('pages/gioi-thieu/index');
+});
+
+Route::get('/dai-ly', function () {
+    return view('pages/dai-ly/index');
 });
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send",[SendController::class,'index'])->name('send');
