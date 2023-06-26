@@ -7,17 +7,17 @@
             </li>
             <li class="list-product position-relative">
                 <a href="#"><p>SẢN PHẨM</p></a>
-{{--                <div class="list-product-button position-absolute">--}}
-{{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white--}}
-{{--                    border-2 bg-white mt-4 mitr-medium">--}}
-{{--                        NGŨ CỐC MẸ BẦU--}}
-{{--                    </button>--}}
-{{--                    <br>--}}
-{{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white--}}
-{{--                    border-2 mt-2 mitr-medium">--}}
-{{--                        NGŨ CỐC MẸ SAU SINH--}}
-{{--                    </button>--}}
-{{--                </div>--}}
+                {{--                <div class="list-product-button position-absolute">--}}
+                {{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white--}}
+                {{--                    border-2 bg-white mt-4 mitr-medium">--}}
+                {{--                        NGŨ CỐC MẸ BẦU--}}
+                {{--                    </button>--}}
+                {{--                    <br>--}}
+                {{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white--}}
+                {{--                    border-2 mt-2 mitr-medium">--}}
+                {{--                        NGŨ CỐC MẸ SAU SINH--}}
+                {{--                    </button>--}}
+                {{--                </div>--}}
             </li>
             <li>
                 <a href="#"><p>ĐẠI LÝ</p></a>
@@ -43,138 +43,21 @@
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
     </div>
 
-    <div id="popup" style="display: none;" class="shadow-effect">
-        <div class="green-bg mitr-medium text-white " style="height: 2rem ; border-radius: 23px 23px 0 0 ">
-            <p class=" text-center ">GIỎ HÀNG CỦA TÔI </p>
-            <span class="close-icon">
-                <i class="fas fa-times"></i>
-            </span>
-        </div>
-        <div class="cart-product-list p-2 mb-5" style="background-color: #ddd">
-            <div class="card shadow-effect mb-3" style="height: 7rem">
-                <div class="row no-gutters p-1">
-                    <div class="col-3">
-                        <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
-                    </div>
-                    <div class="col-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tiêu đề</h5>
-                            <p class="card-text">Nội dung</p>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="green-bg h-100 text-white text-center mitr-medium">
-                            <div class="row">
-                                <div class="col-12">
-                                    +
-                                </div>
-
-                                <div class="col-12">
-                                    12
-                                </div>
-
-                                <div class="col-12">
-                                    -
-                                </div>
-                                <div >
-                                    <i class="fas fa-times cancel-item"></i>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card shadow-effect mb-3" style="height: 7rem">
-                <div class="row no-gutters p-1">
-                    <div class="col-3">
-                        <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
-                    </div>
-                    <div class="col-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tiêu đề</h5>
-                            <p class="card-text">Nội dung</p>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="green-bg h-100 text-white text-center mitr-medium">
-                            <div class="row">
-                                <div class="col-12">
-                                    +
-                                </div>
-
-                                <div class="col-12">
-                                    12
-                                </div>
-
-                                <div class="col-12">
-                                    -
-                                </div>
-                                <div >
-                                    <i class="fas fa-times cancel-item"></i>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card shadow-effect mb-3" style="height: 7rem">
-                <div class="row no-gutters p-1">
-                    <div class="col-3">
-                        <img src="https://th.bing.com/th/id/R.a0cb66aa63dcb9365146fe8576d0e190?rik=B96%2fIXioAgwaaw&riu=http%3a%2f%2fsavican.vn%2fwp-content%2fuploads%2f2014%2f08%2fHop-sua-300x285.jpg&ehk=xe2FRDtkXN2P5MJdEclJvQah%2bL1Wm4pZ6hAkxG6Q%2bQM%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Ảnh">
-                    </div>
-                    <div class="col-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tiêu đề</h5>
-                            <p class="card-text">Nội dung</p>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="green-bg h-100 text-white text-center mitr-medium">
-                            <div class="row">
-                                <div class="col-12">
-                                    +
-                                </div>
-
-                                <div class="col-12">
-                                    12
-                                </div>
-
-                                <div class="col-12">
-                                    -
-                                </div>
-                                <div >
-                                    <i class="fas fa-times cancel-item"></i>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex align-content-center justify-content-center mitr-medium">
-            THÔNG TIN LIÊN HỆ
-        </div>
-        <form class="p-3  ">
-            <div class="form-group">
-                <input type="text" class="form-control shadow-effect card-text mt-2" id="fullName" placeholder="Nhập họ và tên">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control shadow-effect card-text mt-2" id="phone" placeholder="Số điện thoại">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control shadow-effect card-text mt-2" id="address" placeholder="Nhập địa chỉ">
-            </div>
-            <button type="submit" class="btn green-bg btn-block mt-2 w-100 text-white mitr-medium">ĐẶT MUA NGAY</button>
-        </form>
-    </div>
+    @include('page-layout.cart')
 </div>
 <style>
+    .mitr-medium {
+        font-family: Mitr-Medium, Mitr, sans-serif;
+    }
+
+    .green-bg {
+        background-color: #59843d;
+    }
+
+    .shadow-effect {
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+    }
+
     .right-action {
         margin-right: 2%;
         margin-top: 58vh;
@@ -201,15 +84,17 @@
         border-radius: 23px;
         max-height: 800px;
     }
+
     .cart-product-list {
         max-height: 300px; /* Đặt chiều cao tối đa của phần tử */
         overflow-y: auto; /* Sử dụng thanh cuộn dọc khi nội dung vượt quá kích thước */
         overflow-x: hidden;
     }
+
     .cart-product-list::-webkit-scrollbar {
         width: 6px;
-        border-radius: 23px; /* Border radius cho thanh cuộn trên Firefox */\
-    background-clip: padding-box;
+        border-radius: 23px; /* Border radius cho thanh cuộn trên Firefox */
+        \ background-clip: padding-box;
     }
 
     .cart-product-list::-webkit-scrollbar-track {
@@ -254,12 +139,26 @@
     }
 
     .close-icon i:hover {
-        color: red;
+        color: orange;
+        cursor: pointer;
     }
 
-    .cancel-item{
-        color: red;
+    .cancel-item:hover {
+        color: orange;
         cursor: pointer;
+    }
+
+    .plus {
+        cursor: pointer;
+    }
+
+    .subtraction {
+        cursor: pointer;
+    }
+
+    .cart-img {
+        height: 6rem;
+        width: auto;
     }
 </style>
 
@@ -345,5 +244,146 @@
         var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
 
         background.css('opacity', Math.max(opacity, 0.5)); // Giới hạn opacity tối thiểu là 0.7
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.buy-button').click(function () {
+            let productId = $(this).data('id');
+            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $.ajax({
+                url: '/buy-action',
+                method: 'POST',
+                data: {
+                    product: productId,
+                    _token: csrfToken,
+                },
+                success: function (response) {
+                    if (response.status === undefined) {
+                        $('.cart-product-list').append(response);
+                    } else if (response.status === 'exist_cart') {
+                        let quantity = response.quantity;
+                        let cart = response.cart;
+                        $("#" + cart).find(".quantity").text(quantity);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý khi có lỗi xảy ra
+                    console.error(error);
+                }
+            });
+        });
+
+        $(document).on('click', '.plus', function () {
+            let cartID = $(this).data('id');
+            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $.ajax({
+                url: '/plus',
+                method: 'POST',
+                data: {
+                    cart: cartID,
+                    _token: csrfToken,
+                },
+                success: function (response) {
+                    if (response.status === "ok") {
+                        let quantity = response.quantity;
+                        let cart = response.cart;
+                        $("#" + cart).find(".quantity").text(quantity);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý khi có lỗi xảy ra
+                    console.error(error);
+                }
+            });
+        });
+
+        $(document).on('click', '.subtraction', function () {
+            let cartID = $(this).data('id');
+            console.log(cartID);
+            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $.ajax({
+                url: '/subtraction',
+                method: 'POST',
+                data: {
+                    cart: cartID,
+                    _token: csrfToken,
+                },
+                success: function (response) {
+                    if (response.status === "ok") {
+                        let quantity = response.quantity;
+                        let cart = response.cart;
+                        $("#" + cart).find(".quantity").text(quantity);
+                    } else if (response.status === "delete") {
+                        let cart = response.cart;
+                        $("#" + cart).fadeOut();
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý khi có lỗi xảy ra
+                    console.error(error);
+                }
+            });
+        });
+
+        $(document).on('click', '.cancel-item', function () {
+            let cartID = $(this).data('id');
+            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $.ajax({
+                url: '/delete_cart',
+                method: 'POST',
+                data: {
+                    cart: cartID,
+                    _token: csrfToken,
+                },
+                success: function (response) {
+                    if (response.status === "ok") {
+                        let quantity = response.quantity;
+                        let cart = response.cart;
+                        $("#" + cart).find(".quantity").text(quantity);
+                    } else if (response.status === "delete") {
+                        let cart = response.cart;
+                        $("#" + cart).fadeOut();
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý khi có lỗi xảy ra
+                    console.error(error);
+                }
+            });
+        });
+
+        $("#cart-form").submit(function(e) {
+            e.preventDefault();
+            var formData = new FormData($(this)[0]);
+            // let name = $('.name').val()
+            // let phone = $('.phone').val()
+            // let address = $('.address').val()
+            console.log(formData);
+            // let cartID = form.data('id');
+            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+
+
+            $.ajax({
+                url: '/send',
+                method: 'POST',
+                data: {
+                  formData
+                },
+                processData: false,
+                contentType: false,
+                headers: {
+                    'X-CSRF-TOKEN': csrfToken
+                },
+                success: function(response) {
+                    $('.card-cart').fadeOut();
+                    alert('Thông tin đã được gửi thành công! Xin cảm ơn quý khách hàng đã mua hàng');
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        });
+
     });
 </script>
