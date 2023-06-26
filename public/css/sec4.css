@@ -102,9 +102,9 @@
     float: right;
 }
 
-.testsec4:hover {
-    fill: yellow;
-}
+/*.testsec4:hover {*/
+/*    fill: yellow;*/
+/*}*/
 
 .sec4mb {
     display: none;
