@@ -9,7 +9,7 @@
 </div>
 
 <div class="sec4mb-GT">
-    <object data="{{asset('images/gioi-thieu/sec4/Group 1345.svg')}}" class="headersec4mb-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec4/Group 1339.png')}}" class="headersec4mb-GT"></object>
     <p class="contentsec2mb-GT">Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga.
         Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của
         thương hiệu hướng tới việc giúp mẹ bầu và mẹ sau sinh làm tròn thiên chức thiêng liêng.</p>
@@ -22,7 +22,7 @@
     <p class="contentsec2mb-GT">Để chăm sóc một gia đình khỏe mạnh và hạnh phúc, người mẹ cũng phải là một người khoẻ
         mạnh và hạnh phúc. Và Min Min Care cũng hướng tới điều đó dưới vai trò một người đồng hành cùng người mẹ để họ
         làm tròn thiên chức của mình.</p>
-    <object data="{{asset('images/gioi-thieu/sec5/Group 1346.svg')}}" class="headersec5mb-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec5/Group 1341.png')}}" class="headersec5mb-GT"></object>
 </div>
 
 <div class="sec4-GT-test row-test">

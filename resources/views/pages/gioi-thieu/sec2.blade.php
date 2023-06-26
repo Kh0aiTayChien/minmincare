@@ -15,7 +15,7 @@
 {{--</div>--}}
 
 <div class="sec2mb-GT">
-    <object data="{{asset('images/gioi-thieu/sec2/Group 1337.svg')}}" class="header1sec2mb-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec2/Group 1337.png')}}" class="header1sec2mb-GT"></object>
     <p class="headersec2mb-GT">GIẢI PHÁP DINH DƯỠNG CAO CẤP VÀ TOÀN DIỆN
         SỐ 1 DÀNH RIÊNG CHO MẸ BẦU VÀ MẸ SAU SINH
         ĐẾN TỪ CHUYÊN GIA HÀNG ĐẦU</p>
