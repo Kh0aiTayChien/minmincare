@@ -27,7 +27,7 @@
 </div>
 
 <div class="sec2-GT-test">
-    <div class="row">
+    <div class="row-test">
         <img src="{{asset('images/gioi-thieu/sec2/Group 5135.png')}}" class="col-xxl-4 col-md-5 imgsec2-GT-test">
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
             <object data="{{asset('images/gioi-thieu/sec2/Group 7691.svg')}}" class="headersec2-GT-test"></object>

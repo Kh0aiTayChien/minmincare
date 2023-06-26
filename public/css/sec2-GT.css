@@ -40,7 +40,7 @@
     margin-top: 5%;
 }
 
-.row {
+.row-test {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,8 +57,6 @@
 .containersec2-GT-test {
     margin-left: 3%;
 }
-
-
 
 @media screen and (max-width: 768px) {
     .sec2-GT {

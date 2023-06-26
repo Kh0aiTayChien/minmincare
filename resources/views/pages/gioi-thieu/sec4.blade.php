@@ -25,7 +25,7 @@
     <object data="{{asset('images/gioi-thieu/sec5/Group 1346.svg')}}" class="headersec5mb-GT"></object>
 </div>
 
-<div class="sec4-GT-test row">
+<div class="sec4-GT-test row-test">
     <img src="{{asset('images/gioi-thieu/sec4/Group 5130.png')}}" class="col-md-5 col-xxl-4 imgsec4-GT-test">
     <div class="col-md-5 col-xxl-4 containersec4-GT-test">
         <object data="{{asset('images/gioi-thieu/sec4/Group 7691.png')}}" class="headersec4-GT-test"></object><br><br>

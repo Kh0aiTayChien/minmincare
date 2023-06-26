@@ -56,7 +56,7 @@
         background-size: 100% 100%;
     }
     .headersec5mb-GT {
-        width: 50vw;
+        width: 60vw;
         margin-top: 3%;
     }
     .textsec5mb-GT {
@@ -66,6 +66,7 @@
         text-align: justify;
         font-family: Mulish-SemiBold, sans-serif;
         color: white;
+        padding-top: 3%;
     }
     .bannersec5mb-GT {
         width: 90vw;
