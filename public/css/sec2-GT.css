@@ -50,8 +50,17 @@
 .headersec2-GT-test {
     width: 70%;
 }
-.textsec2-GT-test {
+.text1sec2-GT-test {
     text-align: justify;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843D;
+    font-size: 16px;
+}
+
+.text2sec2-GT-test {
+    text-align: justify;
+    font-family: Mulish-SemiBold, sans-serif;
+    font-size: 15px;
 }
 
 .containersec2-GT-test {
