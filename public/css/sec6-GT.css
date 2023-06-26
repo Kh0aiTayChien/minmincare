@@ -16,3 +16,27 @@
     margin-right: 10%;
     margin-top: 3%;
 }
+
+.sec6mb-GT {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec6-GT {
+        display: none;
+    }
+    .sec6mb-GT {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .imgsec6mb-GT {
+        width: 90vw;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .headersec6mb-GT {
+        width: 60vw;
+        margin-top: 3%;
+    }
+}
