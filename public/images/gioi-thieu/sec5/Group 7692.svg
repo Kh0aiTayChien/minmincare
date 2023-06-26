@@ -1,4 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620.783" height="176.703" viewBox="0 0 620.783 176.703">
+<svg xmlns="http://www.w3.org/2000/svg" width="650.783" height="176.703" viewBox="0 0 620.783 176.703">
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
     <g id="Group_7692" data-name="Group 7692" transform="translate(-283.521 -3509.132)">
         <text id="THƯƠNG_HIỆU" data-name="THƯƠNG HIỆU" transform="translate(903.46 3580.132)" fill="#59843d"
               font-size="35.682" font-family="Mitr-SemiBold, Mitr" font-weight="600" letter-spacing="0.025em">
