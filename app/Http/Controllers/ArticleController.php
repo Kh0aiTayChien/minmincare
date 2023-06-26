@@ -68,7 +68,7 @@ class ArticleController extends Controller
         }
         $article->save();
         $conditionView = 'index';
-        return redirect()->route('articles.index', ['conditionView' => $conditionView])->with('success', 'Word created successfully!');
+        return redirect()->route('articles.index', ['conditionView' => $conditionView])->with('success', 'Tạo bài viết thành công!');
     }
 
     public function show($id)

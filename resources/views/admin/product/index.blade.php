@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Danh sách bài viết') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Danh sách sản phẩm') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -28,7 +28,7 @@
         </div>
         <div class="card-body">
             <div class="">
-                <form method="GET" action="{{ route('articles.index',['conditionView' => $conditionView]) }}" class="row g-3 mb-4">
+                <form method="GET" action="{{ route('products.index')}}" class="row g-3 mb-4">
                     <div class="col-md-2">
                         <div class="input-group">
                             <input type="text" class="form-control" id="search" name="search" placeholder="Gõ từ khóa tìm kiếm vào"
@@ -57,7 +57,7 @@
                 </form>
 
             </div>
-            @include('admin/article/index/page',compact('articles','conditionView'))
+            @include('admin/product/index/page',compact('products'))
         </div>
     </div>
 @endsection
