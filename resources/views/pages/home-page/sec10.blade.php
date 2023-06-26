@@ -92,9 +92,11 @@
         <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
     </button>
     <div class="customer-mb">
+        <p class="text1customersec10mb">Nhận tư vấn từ</p>
+        <p class="text2customersec10mb">MIN MIN CARE</p>
         <form class="form-customer-mb">
             <label class="name" for="fullname"></label>
-            <input class="svg-input-customer-mb" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
+            <input class="svg-input-customer-mb  customer-top" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
                    required><br>
 
             <label for="phone"></label>

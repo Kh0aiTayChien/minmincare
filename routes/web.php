@@ -22,9 +22,7 @@ use Illuminate\Routing\Router;
 
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
 
-Route::get('/gioi-thieu', function () {
-    return view('pages/gioi-thieu/index');
-});
+Route::view('/gioi-thieu', 'pages.gioi-thieu.index')->name('gioi-thieu.index');
 
 Route::get('/dai-ly', function () {
     return view('pages/dai-ly/index');
@@ -36,6 +34,7 @@ Route::post('/subtraction',[CartController::class, 'subtraction'])->name('homepa
 Route::post('/delete_cart',[CartController::class, 'delete_cart'])->name('homepage.cart.delete');
 //Route::post('/send',[CartController::class, 'send'])->name('homepage.cart.send');
 
+Route::view('/dai-ly', 'pages.dai-ly.index')->name('dai-ly.index');
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send",[CartController::class,'send'])->name('homepage.cart.send');
 });

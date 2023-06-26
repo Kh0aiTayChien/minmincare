@@ -1,5 +1,5 @@
 <div class="sec6-DL">
-    <img src="{{asset('images/dai-ly/sec6/Group 3181.svg')}}" class="headersec6-DL">
+    <object data="{{asset('images/dai-ly/sec6/Group 3181.svg')}}" class="headersec6-DL"></object><br>
     <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL">
         <img src="/images/dai-ly/sec5/Group 3180.png" class="buttonvideo-DL">
     </button>
