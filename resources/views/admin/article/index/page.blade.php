@@ -135,6 +135,8 @@
                 var url = $(this).attr('action');
                 var token = $(this).find('input[name="_token"]').val();
                 var row = $(this).closest('.article-row');
+                console.log(token)
+                console.log(url)
                 $.ajax({
                     url: url,
                     type: 'DELETE',

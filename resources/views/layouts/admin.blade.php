@@ -78,6 +78,10 @@
                 ['name' => 'Danh sách bài viết', 'route' => route('articles.index',['conditionView' => 'index'])],
                 //Thêm các item con khác tương tự ở đây
             ];
+            $products = [
+                ['name' => 'Sản phẩm mới', 'route' => route('products.create')],
+                ['name' => 'Danh sách sản phẩm', 'route' => route('products.index')],
+            ];
 
             $categories = [
                 ['name' => 'Bài viết mới', 'route' => 'articles.create'],
@@ -126,6 +130,24 @@
                         <li class="nav-item {{ Nav::isRoute($article['route']) }}">
                             <a class="nav-link" href="{{ $article['route'] }}">
                                 <span>{{ __($article['name']) }}</span>
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
+               aria-controls="products">
+                <i class="fas fa-newspaper"></i>
+                <span>Sản phẩm</span>
+            </a>
+            <div class="collapse" id="products">
+                <ul class="nav flex-column">
+                    @foreach ($products as $product)
+                        <li class="nav-item {{ Nav::isRoute($product['route']) }}">
+                            <a class="nav-link" href="{{ $product['route'] }}">
+                                <span>{{ __($product['name']) }}</span>
                             </a>
                         </li>
                     @endforeach
