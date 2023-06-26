@@ -22,14 +22,12 @@
     border-radius: 27.445px;
     border: none;
     background-color: #fff;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     margin-right: 0.5%;
+    padding: 10px;
     /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
 }
 
-.svg-input::placeholder {
-    padding-left: 10px;
-}
 
 .svg-input:focus {
     outline: none;
@@ -40,7 +38,7 @@
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 3%;
-    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .submitbutton {
@@ -53,7 +51,7 @@
     border: none;
     background: none;
     position: absolute;
-    margin-left: 68%;
+    margin-left: 67.5%;
     margin-top: -7.5%;
 }
 
@@ -76,11 +74,12 @@
     border: none;
     background-color: #fff;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px;
     /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
 }
 
-.svg-input-customer::placeholder {
-    padding-left: 10px;
+.svg-input-customer:focus {
+    outline: none;
 }
 
 .svg-input-bot {
@@ -96,6 +95,10 @@
 
 .svg-input-bot::placeholder {
     white-space: pre-wrap;
+}
+
+.svg-input-bot:focus {
+    outline: none;
 }
 
 .customer-button {
@@ -208,11 +211,8 @@
     .customer-mb {
         width: 50vw;
         margin-left: 5%;
-        background-image: url("/images/sec10/Group 5084.png");
+        background-image: url("/images/sec10/Group 5082.png");
         background-size: 100% 100%;
-    }
-    .form-customer-mb {
-        padding-top: 30%;
     }
     .svg-input-customer-mb {
         border-radius: 5px;
@@ -229,6 +229,9 @@
         color: #A6A8AB;
     }
     .svg-input-customer-mb:focus {
+        outline: none;
+    }
+    .svg-input-bot-mb:focus {
         outline: none;
     }
     .svg-input-bot-mb {
@@ -252,8 +255,31 @@
     .button5mb {
         width: 45vw;
         margin-left: 3%;
+        padding-bottom: 5%;
     }
     .spacesec10mb {
         height: 15px;
+    }
+    .text1customersec10mb {
+        font-family: 'Mitr-Regular', Mitr;
+        /*font-weight: bold;*/
+        color: white;
+        padding-top: 5%;
+        font-size: 15px;
+        text-align: center;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+    .customer-top {
+        margin-top: -10% !important;
+    }
+    .text2customersec10mb {
+        font-family: Mitr-SemiBold, sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: -10%;
+        /*margin-left: 18%;*/
+        font-size: 20px;
+        text-align: center;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
 }

@@ -29,6 +29,10 @@
     width: 20vw;
 }
 
+.sec5mb-GT {
+    display: none;
+}
+
 @media screen and (min-width: 1700px) and (max-width: 1920px){
     .sec5-GT {
         background-position: center top 265px;
@@ -37,5 +41,39 @@
         margin-top: -35%;
         width: 15vw;
         margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec5-GT {
+        display: none;
+    }
+    .sec5mb-GT {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/gioi-thieu/sec5/Group 1262.png");
+        background-size: 100% 100%;
+    }
+    .headersec5mb-GT {
+        width: 60vw;
+        margin-top: 3%;
+    }
+    .textsec5mb-GT {
+        width: 90vw;
+        margin-left: 5%;
+        font-size: 14px;
+        text-align: justify;
+        font-family: Mulish-SemiBold, sans-serif;
+        color: white;
+        padding-top: 3%;
+    }
+    .bannersec5mb-GT {
+        width: 90vw;
+        margin-bottom: 3%;
+    }
+    .btn-startmb-GT {
+        width: 50vw;
+        margin-bottom: 2%;
     }
 }

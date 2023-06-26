@@ -114,9 +114,9 @@ ul.iconmb {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url("/images/header/Group 1275.png");
+        background-image: url("/images/header/Group 1281.png");
         background-size: 105vw auto;
-        background-position: center top -20px;
+        background-position: center top -5px;
         background-repeat: no-repeat;
         opacity: 1;
         transition: opacity 0.5s ease;
@@ -125,13 +125,13 @@ ul.iconmb {
     .logomb {
         width: 28vw;
         margin-left: 2%;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     .menu {
         width: 5vw;
         position: absolute;
         right: 5px !important;
-        margin-top: -2%;
+        margin-top: -1%;
     }
 }
