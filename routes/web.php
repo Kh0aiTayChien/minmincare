@@ -6,6 +6,7 @@ use App\Http\Controllers\HomePage\CartController;
 use App\Http\Controllers\HomePage\IndexController;
 use App\Http\Controllers\Introduce\IntroduceController;
 use App\Http\Controllers\MediaController;
+use App\Http\Controllers\News\NewsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SalesAgent\SalesAgentController;
 use Illuminate\Routing\Router;
@@ -27,6 +28,7 @@ Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
 Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
 
 Route::get('/dai-ly', [SalesAgentController::class, 'index'])->name('dai-ly.index');
+Route::get('/tin-tuc', [NewsController::class, 'index'])->name('tin-tuc.index');
 Route::view('/dai-ly', 'pages.dai-ly.index')->name('dai-ly.index');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
 Route::post('/buy-action',[CartController::class, 'buy_action'])->name('homepage.cart.buy_action');

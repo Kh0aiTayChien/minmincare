@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/tarkhov/postboot/v1.0.3/dist/css/postboot.min.css"/>
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('/css/headerstyle.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec2.css')}}" rel="stylesheet">
@@ -46,7 +47,8 @@
     <link href="{{asset('/css/sec5-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec6-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec8-DL.css')}}" rel="stylesheet">
-
+    <link href="{{asset('/css/sec1-TT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2-TT.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')

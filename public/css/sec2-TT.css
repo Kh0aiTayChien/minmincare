@@ -1,0 +1,43 @@
+.sec2-TT {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.datetime {
+    display: flex;
+}
+
+.imgdatetime {
+    width: 3.5%;
+}
+
+.textdatetime {
+    position: absolute;
+    margin-left: 2%;
+    font-size: 12px;
+    font-family: Mulish-Black, sans-serif;
+    color: #F79421;
+}
+
+.linknews {
+    text-decoration: none;
+    color: #59833D;
+}
+
+.titlenews {
+    font-family: Mitr-Medium, sans-serif;
+    margin-top: 2%;
+}
+
+.titletext {
+    font-family: Mulish-SemiBold, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.newscontent {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: none;
+}

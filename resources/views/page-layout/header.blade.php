@@ -29,7 +29,7 @@
                 <a href="#"><p>KIẾN THỨC</p></a>
             </li>
             <li>
-                <a href="#"><p>TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>
             </li>
             <li>
                 <a href="#Information"><p>LIÊN HỆ</p></a>
