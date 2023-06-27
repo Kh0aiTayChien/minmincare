@@ -147,7 +147,7 @@
 
 <div class="section-5-mobile mt-3 mb-5">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec5/rule.png')}}" alt="" style="width: 45vw" class="img-fluid">
+        <img src="{{asset('images/sec5/rule-mobile.png')}}" alt="" style="width: 80vw" class="img-fluid">
     </div>
     <div class="row" style="">
         <div class="col"></div>

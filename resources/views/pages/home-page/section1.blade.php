@@ -84,12 +84,16 @@
         margin-left: -5%;
         scale: 70%;
         z-index: 999;
+        margin-top: 28%;
+        height: 70px; /* Đặt độ dài mới */
     }
 
     .carousel-control-next {
+        scale: 70%;
         float: right;
         margin-right: -5%;
-        scale: 70%;
+        margin-top: 28%;
+        height: 70px; /* Đặt độ dài mới */
         z-index: 999;
     }
 
