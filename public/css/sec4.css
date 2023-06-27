@@ -4,11 +4,15 @@
 }
 @font-face {
     font-family: 'Mitr-Regular';
-    src: url("/Fonts/Mitr-Regular.tttf");
+    src: url("/Fonts/Mitr-Regular.ttf");
 }
 @font-face {
     font-family: 'Mulish-SemiBold';
     src: url("/Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url("/Fonts/Mulish-Black.ttf");
 }
 
 .sec4pc {

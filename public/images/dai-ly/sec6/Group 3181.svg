@@ -1,6 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="504" height="189.786" viewBox="0 0 504 189.786">
-  <g id="Group_3181" data-name="Group 3181" transform="translate(-708 -6820.89)">
-    <text id="Đại_gia_đình" data-name="Đại gia đình" transform="translate(960 6887.89)" fill="#f79420" font-size="57.877" font-family="Mitr-Regular, Mitr"><tspan x="-172.3" y="0">Đại gia đình</tspan></text>
-    <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(960 6979.676)" fill="#59843d" font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600"><tspan x="-251.045" y="0">MIN MIN CARE</tspan></text>
-  </g>
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
+    <g id="Group_3181" data-name="Group 3181" transform="translate(-708 -6820.89)">
+        <text id="Đại_gia_đình" data-name="Đại gia đình" transform="translate(960 6887.89)" fill="#f79420"
+              font-size="57.877" font-family="Mitr-Regular, Mitr">
+            <tspan x="-172.3" y="0">Đại gia đình</tspan>
+        </text>
+        <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(960 6979.676)" fill="#59843d"
+              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="-251.045" y="0">MIN MIN CARE</tspan>
+        </text>
+    </g>
 </svg>
