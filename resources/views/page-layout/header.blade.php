@@ -32,7 +32,7 @@
                 <a href="#"><p>TIN TỨC</p></a>
             </li>
             <li>
-                <a href="#"><p>LIÊN HỆ</p></a>
+                <a href="#Information"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -165,28 +165,30 @@
 <div class="headermb fixed-top">
     <div class="background-image-mb"></div>
     <div class="inline-container justify-content-center align-items-center">
-        <img src="{{asset('images/header/Group 903.svg')}}" class="logomb">
+        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logomb"></a>
         <img src="{{asset('images/header/Group 34.png')}}" class="menu">
     </div>
     <nav>
         <ul class="hide iconmb">
             <li class="contact linetop">
-                <a href="#sec2" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ BĐS CƯ TRÚ</p></a>
+                <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink textlinktop">GIỚI
+                        THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec3" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ CHƯƠNG TRÌNH</p></a>
+                <a href="#" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN PHẨM</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec5" class="linktext aniUtil_dramatic ani_fadeIn"><p>TỔNG QUAN BĐS HUNGARY</p></a>
+                <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI LÝ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p>LỢI ÍCH VÀ QUYỀN LỢI</p></a>
+                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p>ĐIỀU KIỆN VÀ QUY TRÌNH</p></a>
+                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#addInformationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p>LIÊN HỆ</p></a>
+                <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                </a>
             </li>
         </ul>
     </nav>
@@ -353,7 +355,7 @@
             });
         });
 
-        $("#cart-form").submit(function(e) {
+        $("#cart-form").submit(function (e) {
             e.preventDefault();
             var formData = new FormData($(this)[0]);
             // let name = $('.name').val()
@@ -368,18 +370,18 @@
                 url: '/send',
                 method: 'POST',
                 data: {
-                  formData
+                    formData
                 },
                 processData: false,
                 contentType: false,
                 headers: {
                     'X-CSRF-TOKEN': csrfToken
                 },
-                success: function(response) {
+                success: function (response) {
                     $('.card-cart').fadeOut();
                     alert('Thông tin đã được gửi thành công! Xin cảm ơn quý khách hàng đã mua hàng');
                 },
-                error: function(xhr, status, error) {
+                error: function (xhr, status, error) {
                     console.error(error);
                 }
             });

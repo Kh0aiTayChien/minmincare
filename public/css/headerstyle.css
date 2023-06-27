@@ -125,7 +125,7 @@ ul.iconmb {
     .logomb {
         width: 28vw;
         margin-left: 2%;
-        margin-top: 2%;
+        margin-top: 8%;
     }
 
     .menu {
@@ -133,5 +133,17 @@ ul.iconmb {
         position: absolute;
         right: 5px !important;
         margin-top: -1%;
+    }
+    .linktext {
+        color: white;
+        text-align: center;
+    }
+    .textlink {
+        margin-top: 10%;
+        font-size: 25px;
+        font-family: Mitr-SemiBold, sans-serif;
+    }
+    .textlinktop {
+        margin-top: 20%
     }
 }

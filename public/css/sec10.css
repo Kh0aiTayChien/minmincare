@@ -174,7 +174,9 @@
         margin-left: 1%;
         margin-top: 3%;
     }
-
+    .svg-input-mb:focus {
+        outline: none;
+    }
     /*.svg-input-mb {*/
     /*    height: 25px;*/
     /*    width: 25vw;*/
