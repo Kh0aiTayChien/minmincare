@@ -17,18 +17,7 @@
 </div>
 <div class="sec6mob mt-5">
     <div class="d-flex align-content-center justify-content-center">
-        <svg class="headersec6mb" xmlns="http://www.w3.org/2000/svg" width="874" height="150.915" viewBox="0 0 874 189.915">
-            <g id="Group_835" data-name="Group 835" transform="translate(-295.88 -992.737)">
-                <text id="Với_đội_ngũ" data-name="Với đội ngũ" transform="translate(295.88 1059.737)" fill="#f79421"
-                      font-size="57.877" font-family="Mitr-Regular, Mitr">
-                    <tspan x="0" y="0">Với đội ngũ</tspan>
-                </text>
-                <text id="CHUYÊN_GIA_HÀNG_ĐẦU" data-name="CHUYÊN GIA HÀNG ĐẦU" transform="translate(295.88 1151.652)"
-                      fill="#59833d" font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
-                    <tspan x="0" y="0">CHUYÊN GIA HÀNG ĐẦU</tspan>
-                </text>
-            </g>
-        </svg>
+        <img src="{{asset('images/sec6/chuyen-gia-mobile.png')}}" alt="" style="width: 80vw" class="img-fluid">
     </div>
 
     <div class="slick-carousel position-relative">

@@ -130,10 +130,8 @@ class CartController extends Controller
         $session = Session::where('session_code', $sessionID)->firstOrFail();
 
         $cartID = $request->input('cart');
-        dd($sessionID);
-        $carts = Cart::where('id', $cartID)
-            ->where('session_id', $session->id)
-            ->get();
+
+        $carts = Cart::where('session_id', $session->id)->get();
         $viewData = [
             'status' => 'send',
         ];
@@ -141,6 +139,7 @@ class CartController extends Controller
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
 
         $rows = [];
+
         foreach ($carts as $cart) {
             $row = [
                 $request->name,
@@ -151,11 +150,13 @@ class CartController extends Controller
                 $cart->Product->price,
                 $cart->quantity * $cart->Product->price
             ];
-            $rows[] = $row;
 
-            Sheets::sheet('chien')->append($rows);
-            $session->delete();
-            return response()->json($viewData);
+            $rows[] = $row; // Append the row to the $rows array
         }
+        array_push($rows, []);
+        Sheets::sheet('chien')->append($rows);
+
+        $session->delete();
+        return response()->json($viewData);
     }
 }

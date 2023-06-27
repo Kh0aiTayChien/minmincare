@@ -21,7 +21,7 @@ class IndexController extends Controller
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
-            $cookie = Cookie::make($sessionCookie, $sessionId, 1440);
+            $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
                 ->view('pages/home-page/index', ['news' => $news])
                 ->withCookie($cookie);
