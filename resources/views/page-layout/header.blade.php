@@ -15,7 +15,7 @@
         <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo"></a>
         <ul class="inline-list-right">
             <li>
-                <a href="#"><p>KIẾN THỨC</p></a>
+                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>
             </li>
             <li>
                 <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>
@@ -319,7 +319,7 @@
                 <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI LÝ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
+                <a href="{{asset('kien-thuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
             </li>
             <li class="contact linemenu">
                 <a href="{{asset('tin-tuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
