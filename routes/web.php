@@ -1,14 +1,16 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
-use App\Http\Controllers\MediaController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\SendController;
-use App\Http\Controllers\HomePage\IndexController;
 use App\Http\Controllers\HomePage\CartController;
+use App\Http\Controllers\HomePage\IndexController;
+use App\Http\Controllers\Introduce\IntroduceController;
+use App\Http\Controllers\MediaController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SalesAgent\SalesAgentController;
 use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,11 +24,10 @@ use Illuminate\Routing\Router;
 
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
 
-Route::view('/gioi-thieu', 'pages.gioi-thieu.index')->name('gioi-thieu.index');
+Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
 
-Route::get('/dai-ly', function () {
-    return view('pages/dai-ly/index');
-});
+Route::get('/dai-ly', [SalesAgentController::class, 'index'])->name('dai-ly.index');
+Route::view('/dai-ly', 'pages.dai-ly.index')->name('dai-ly.index');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
 Route::post('/buy-action',[CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus',[CartController::class, 'plus'])->name('homepage.cart.plus');

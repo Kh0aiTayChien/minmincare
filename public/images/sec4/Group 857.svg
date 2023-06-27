@@ -6,9 +6,8 @@
         }
         @font-face {
         font-family: 'Mitr-Regular';
-        src: url("/Fonts/Mitr-Regular.tttf");
+        src: url("/Fonts/Mitr-Regular.ttf");
         }
-
     </style>
     <g id="Group_857" data-name="Group 857" transform="translate(-1014.899 -3372.601)">
         <text id="Niềm_tự_hào_của" data-name="Niềm tự hào của" transform="translate(1014.9 3439.601)" fill="#f79420"

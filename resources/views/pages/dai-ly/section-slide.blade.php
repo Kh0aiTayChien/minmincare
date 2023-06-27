@@ -150,7 +150,7 @@
 
 </div>
 
-<div class="section-slide-mobile mt-3 mb-5">
+<div class="section-slide-mobile mt-3">
     <div class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/sec5/rule.png')}}" alt="" style="width: 45vw" class="img-fluid">
     </div>
@@ -219,7 +219,7 @@
         }
 
         .section-slide-mobile {
-            height: 110vh;
+            /*height: 110vh;*/
         }
 
         .carousel-section-slide {

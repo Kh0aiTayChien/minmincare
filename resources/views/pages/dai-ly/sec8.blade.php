@@ -1,5 +1,5 @@
 <div class="sec8-DL">
-    <svg class="headersec2-DL" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    <svg class="headersec8-DL" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
          width="1352.4" height="249.6"
          viewBox="0 0 1352.4 249.6">
         <g id="Group_3884" data-name="Group 3884" transform="translate(-289.32 -2215.743)">
@@ -42,4 +42,32 @@
         <img src="{{asset('images/sec10/Group 3887.png')}}" class="button4">
     </button>
     <img src="{{asset('images/dai-ly/sec8/Group 3173.svg')}}" class="contentsec8-DL">
+</div>
+
+<div class="dailymb2-DL">
+    <div class="dailymb">
+        <img src="{{asset('images/sec10/dailymb.png')}}" class="bannerdaily">
+        <form class="formdailymb">
+            <label class="name" for="fullnamemb"></label>
+            <input class="svg-input-mb" placeholder="Họ và tên" type="text" id="fullname" name="fullname" required>
+
+            <label for="phone"></label>
+            <input class="svg-input-mb" placeholder="Số điện thoại" type="tel" id="phone" name="phone" required>
+
+            <label for="address"></label>
+            <input class="svg-input-mb" placeholder="Địa chỉ" type="text" id="address" name="address" required>
+
+            <input class="submitbutton-mb" type="image" src="{{asset('images/sec10/Group 1332.png')}}" alt="Submit">
+        </form>
+        {{--       <button class="customer-button-mb">--}}
+        {{--           <img src="{{asset('images/sec10/Group 5083.png')}}" class="button5mb">--}}
+        {{--       </button>--}}
+    </div>
+    <button class="daily-button-mb">
+        <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
+    </button>
+</div>
+
+<div class="sec8mb-DL">
+    <img src="{{asset('images/dai-ly/sec8/Asset 13.png')}}" class="contentsec8mb-DL col-11">
 </div>

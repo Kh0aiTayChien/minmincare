@@ -21,7 +21,7 @@
                 <a href="#"><p>TIN TỨC</p></a>
             </li>
             <li>
-                <a href="#"><p>LIÊN HỆ</p></a>
+                <a href="#Information"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -337,6 +337,40 @@
     }
 
 </style>
+
+<div class="headermb fixed-top">
+    <div class="background-image-mb"></div>
+    <div class="inline-container justify-content-center align-items-center">
+        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logomb"></a>
+        <img src="{{asset('images/header/Group 34.png')}}" class="menu">
+    </div>
+    <nav>
+        <ul class="hide iconmb">
+            <li class="contact linetop">
+                <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink textlinktop">GIỚI
+                        THIỆU</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN PHẨM</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI LÝ</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
 <script>
     $(document).on('click',function(e){
         if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
@@ -526,7 +560,7 @@
                 data: {
                     name: name,
                     phone: phone,
-                    address: address
+                    address: address,
                 },
                 headers: {
                     'X-CSRF-TOKEN': csrfToken
