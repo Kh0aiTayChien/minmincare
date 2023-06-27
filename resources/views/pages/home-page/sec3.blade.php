@@ -10,11 +10,17 @@
                         aria-label="Close"></button>
                 <div class="modal-body d-flex justify-content-center align-items-center">
                     <div>
-                        <iframe id="video-iframe" width="1100" height="600" class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/rExo9QFiew4"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                        <div style="width: 1100px; height: 600px; float: none; clear: both; margin: 2px auto;">
+                            <embed
+                                src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1"
+                                wmode="transparent"
+                                type="video/mp4"
+                                width="100%" height="100%"
+                                allow="autoplay; encrypted-media; picture-in-picture"
+                                allowfullscreen
+                                title="Keyboard Cat"
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
