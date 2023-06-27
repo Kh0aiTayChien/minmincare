@@ -1,120 +1,95 @@
-@foreach($products as $product)
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{$product->image}}" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">{{$product->name}}</h5>
-            <p class="card-text">{{$product->description}}</p>
-            <p class="card-text">{{$product->price}}</p>
-            <button class="btn btn-outline-info buy-button" data-id="{{$product->id}}"></button>
-        </div>
+<div class=" d-flex justify-content-center align-items-center custom-mt">
+    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 70%">
+</div>
+
+<div class=" container-fluid p-5">
+    <div class="row d-flex justify-content-center align-content-center">
+        @foreach($products as $product)
+            <div class="col-xl-2 col-lg-3 col-sm-4 col-xs-12 ms-3 shadow-effect">
+                <div class="card border-radius mb-3" style="">
+                    <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">
+                            <p class="text-center mitr-medium
+                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
+                        </p>
+                        <p class="card-text text-center mitr-big orange-text
+                        ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
+
+                        <p class="card-text text-center mitr-small">Xem chi tiết</p>
+                        <div class="d-flex justify-content-center align-content-center">
+                            <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                                border-white text-white border-2 green-bg mitr-small buy-button"
+                                    data-id="{{$product->id}}">
+                                THÊM VÀO GIỎ HÀNG
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
     </div>
-@endforeach
+</div>
 
-{{--<script>--}}
-{{--    $(document).ready(function() {--}}
-{{--        $('.buy-button').click(function() {--}}
-{{--            let productId = $(this).data('id');--}}
-{{--            let csrfToken = $('meta[name="csrf-token"]').attr('content');--}}
-{{--            $.ajax({--}}
-{{--                url: '/buy-action',--}}
-{{--                method: 'POST',--}}
-{{--                data: {--}}
-{{--                    product: productId,--}}
-{{--                    _token: csrfToken,--}}
-{{--                },--}}
-{{--                success: function(response) {--}}
-{{--                    if (response.status === undefined) {--}}
-{{--                        $('.cart-product-list').append(response);--}}
-{{--                    } else if (response.status === 'exist_cart') {--}}
-{{--                        let quantity = response.quantity;--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).find(".quantity").text(quantity);--}}
-{{--                    }--}}
-{{--                },--}}
-{{--                error: function(xhr, status, error) {--}}
-{{--                    // Xử lý khi có lỗi xảy ra--}}
-{{--                    console.error(error);--}}
-{{--                }--}}
-{{--            });--}}
-{{--        });--}}
 
-{{--        $(document).on('click', '.plus', function() {--}}
-{{--            let cartID = $(this).data('id');--}}
-{{--            let csrfToken = $('meta[name="csrf-token"]').attr('content');--}}
-{{--            $.ajax({--}}
-{{--                url: '/plus',--}}
-{{--                method: 'POST',--}}
-{{--                data: {--}}
-{{--                    cart: cartID,--}}
-{{--                    _token: csrfToken,--}}
-{{--                },--}}
-{{--                success: function(response) {--}}
-{{--                    if (response.status === "ok") {--}}
-{{--                        let quantity = response.quantity;--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).find(".quantity").text(quantity);--}}
-{{--                    }--}}
-{{--                },--}}
-{{--                error: function(xhr, status, error) {--}}
-{{--                    // Xử lý khi có lỗi xảy ra--}}
-{{--                    console.error(error);--}}
-{{--                }--}}
-{{--            });--}}
-{{--        });--}}
+<style>
+    .custom-mt {
+        margin-top: 8rem;
+        transform: translate(1%, 0);
+    }
 
-{{--        $(document).on('click', '.subtraction', function() {--}}
-{{--            let cartID = $(this).data('id');--}}
-{{--            console.log(cartID);--}}
-{{--            let csrfToken = $('meta[name="csrf-token"]').attr('content');--}}
-{{--            $.ajax({--}}
-{{--                url: '/subtraction',--}}
-{{--                method: 'POST',--}}
-{{--                data: {--}}
-{{--                    cart: cartID,--}}
-{{--                    _token: csrfToken,--}}
-{{--                },--}}
-{{--                success: function(response) {--}}
-{{--                    if (response.status === "ok") {--}}
-{{--                        let quantity = response.quantity;--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).find(".quantity").text(quantity);--}}
-{{--                    }else if(response.status === "delete"){--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).fadeOut();--}}
-{{--                    }--}}
-{{--                },--}}
-{{--                error: function(xhr, status, error) {--}}
-{{--                    // Xử lý khi có lỗi xảy ra--}}
-{{--                    console.error(error);--}}
-{{--                }--}}
-{{--            });--}}
-{{--        });--}}
+    .article-show {
+        margin: 0 5rem 0 5rem;
+    }
 
-{{--        $(document).on('click', '.cancel-item', function() {--}}
-{{--            let cartID = $(this).data('id');--}}
-{{--            let csrfToken = $('meta[name="csrf-token"]').attr('content');--}}
-{{--            $.ajax({--}}
-{{--                url: '/delete_cart',--}}
-{{--                method: 'POST',--}}
-{{--                data: {--}}
-{{--                    cart: cartID,--}}
-{{--                    _token: csrfToken,--}}
-{{--                },--}}
-{{--                success: function(response) {--}}
-{{--                    if (response.status === "ok") {--}}
-{{--                        let quantity = response.quantity;--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).find(".quantity").text(quantity);--}}
-{{--                    }else if(response.status === "delete"){--}}
-{{--                        let cart = response.cart;--}}
-{{--                        $("#" + cart).fadeOut();--}}
-{{--                    }--}}
-{{--                },--}}
-{{--                error: function(xhr, status, error) {--}}
-{{--                    // Xử lý khi có lỗi xảy ra--}}
-{{--                    console.error(error);--}}
-{{--                }--}}
-{{--            });--}}
-{{--        });--}}
-{{--    });--}}
-{{--</script>--}}
+    .height-img-card {
+        height: 240px;
+        width: 404px;
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .card {
+        overflow: hidden;
+    }
+
+    .card-title {
+        height: 3rem;
+    }
+
+    .border-radius {
+        border-radius: 23px;
+    }
+
+    .shadow-effect {
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+    }
+
+    .mitr-small {
+        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-size: small;
+    }
+
+    .mitr-medium {
+        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-size: medium;
+    }
+
+    .mitr-big {
+        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-size: large;
+    }
+
+    .green-text {
+        color: #59843d;
+    }
+
+    .green-bg {
+        background-color: #59843d;
+    }
+
+    .orange-text {
+        color: #F79420
+    }
+</style>
