@@ -5,7 +5,7 @@
                 </div>
                 <div class="col-7">
                     <div class="card-body" style="padding: 0 0 0 0">
-                        <h5 class="card-title" style="margin-bottom: 1px">{{$cart->Product->name}}</h5>
+                        <h5 class="card-title" style="margin-bottom: 1px">{{\Illuminate\Support\Str::limit($cart->Product->name,24)}}</h5>
                         <p class="card-text">{{preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($cart->Product->description),30))}}</p>
                     </div>
                 </div>
