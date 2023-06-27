@@ -407,12 +407,12 @@
                     _token: csrfToken,
                 },
                 success: function (response) {
+                    $('.cart').trigger('click');
                     if (response.status === undefined) {
                         $('.cart-product-list').append(response);
                         $('.empty-image').addClass('d-none');
                     } else if (response.status === 'exist_cart') {
                         let quantity = response.quantity;
-                        console.log(quantity);
                         let cart = response.cart;
                         $("#" + cart).find(".quantity").text(quantity);
                     }

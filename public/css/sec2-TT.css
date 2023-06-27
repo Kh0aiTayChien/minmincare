@@ -1,7 +1,15 @@
-.sec2-TT {
+
+.sec2-TT{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+     margin: 0 15rem 0 15rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec2-TT{
+        margin: 0 1rem 0 1rem;
+    }
 }
 
 .datetime {
@@ -13,9 +21,6 @@
 }
 
 .textdatetime {
-    position: absolute;
-    margin-left: 2%;
-    font-size: 12px;
     font-family: Mulish-Black, sans-serif;
     color: #F79421;
 }
@@ -27,7 +32,6 @@
 
 .titlenews {
     font-family: Mitr-Medium, sans-serif;
-    margin-top: 2%;
 }
 
 .titletext {
@@ -37,7 +41,5 @@
 }
 
 .newscontent {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border: none;
+    font-family: Mulish-SemiBold, sans-serif;
 }

@@ -1,5 +1,5 @@
 <div class=" d-flex justify-content-center align-items-center custom-mt">
-    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 70%">
+    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%">
 </div>
 
 <div class=" container-fluid p-5">
@@ -34,7 +34,7 @@
 
 <style>
     .custom-mt {
-        margin-top: 8rem;
+        margin-top: 5rem;
         transform: translate(1%, 0);
     }
 

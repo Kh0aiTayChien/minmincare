@@ -1,17 +1,19 @@
-<div class="sec2-TT">
+<div class="sec2-TT ">
     @foreach($news as $article)
-        <div class="card flex-row newscontent col-xxl-9 col-10  row-test ">
-            <img class="card-img-left col-3  height-img-card " src="{{$article->image}}"/>
-            <div class="card-body col-9 ">
-                <div class="datetime col-7">
-                    <img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}" class="col-3 imgdatetime">
-                    <p class="textdatetime">{{$article->created_at}}</p>
-                </div>
-                <a href="#" class="linknews col-9"><h4 class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4></a>
-                <p class="card-text col-12 titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+        <div class="card mb-4 mt-4 border-0 ">
+            <div class="row">
+            <div class="col-lg-4 col-xs-12">
+                <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
+            </div>
+            <div class="card-body col-lg-8 col-xs-12">
+                <p class="textdatetime p-2"> <img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}" class="imgdatetime">  {{$article->created_at}}</p>
+
+                <div class="green-text"><h4 class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4></div>
+                <p class="card-text newscontent ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+            </div>
             </div>
         </div>
-        <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews col-xxl-9 col-sm-10">
+        <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews mt-4 mb-4">
     @endforeach
 </div>
 <div class="d-flex justify-content-center align-content-center mt-3 mb-3">
@@ -21,7 +23,7 @@
     .height-img-card {
         height: 240px;
         width: 404px;
-        object-fit: contain;
+        border-radius: 23px;
         max-width: 100%;
         max-height: 100%;
     }
@@ -45,5 +47,13 @@
     .page-item.active .page-link{
         background-color: #59833D;
         border-color: #59833D;
+    }
+
+    .border-radius {
+        border-radius: 23px;
+    }
+
+    .green-text {
+        color: #59843d;
     }
 </style>
