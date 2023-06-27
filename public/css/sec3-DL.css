@@ -16,3 +16,35 @@
     margin-top: -15%;
     clear: both;
 }
+
+.sec3mb-DL {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec3-DL {
+        display: none;
+    }
+    .sec3mb-DL {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .headersec3mb-DL {
+        width: 50vw;
+        margin-top: 5%;
+    }
+    .content1sec3mb-DL {
+        margin-top: 1%;
+    }
+    .content3sec3mb-DL {
+        margin-top: -3%;
+    }
+    .content4sec3mb-DL {
+        margin-top: 2%;
+    }
+    .content5sec3mb-DL {
+        margin-top: -2%;
+    }
+}

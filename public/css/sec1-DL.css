@@ -1,0 +1,14 @@
+.sec1-DL {
+    background-image: url("/images/sec1/mom-son.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sec1-DL {
+        /*background-position: */
+        background-size: 300% 100%;
+    }
+}

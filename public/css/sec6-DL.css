@@ -2,3 +2,31 @@
     background-color: #F1F1F2;
     text-align: center;
 }
+
+.headersec6-DL {
+    width: 25vw;
+}
+
+.sec6mb-DL {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec6-DL {
+        display: none;
+    }
+    .sec6mb-DL {
+        display: block;
+        text-align: center;
+        background-color: #F1F1F2;
+        padding-bottom: 7%;
+    }
+    .headersec6mb-DL {
+        width: 50vw;
+        margin-top: 4%;
+    }
+    .utubesec6-DL {
+        margin-left: 10%;
+        padding-bottom: 7%;
+    }
+}

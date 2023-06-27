@@ -1,5 +1,5 @@
 <div class="sec5-GT">
-    <object data="{{asset('images/gioi-thieu/sec5/Group 7692.svg')}}" class="headersec5-GT"></object>
+    <img src="{{asset('images/gioi-thieu/sec5/Group 7692.svg')}}" class="headersec5-GT">
     <img src="{{asset('images/gioi-thieu/sec5/Group 1340.png')}}" class="bannersec5-GT">
     <p class="textsec5-GT"><span>Do kinh tế khó khăn nên Ms Nga đi làm sớm hơn 6 tháng vì thế bị giảm sữa nhiều. Là một người mẹ, Ms Nga nhận thức được rất rõ nỗi đau khi không đủ sữa cho con.
         </span><br><br><span>Qua nghiên cứu từ sách vở và nguồn nước ngoài uy tín Ms Nga đã khám phá ra bột ngũ cốc từ các loại hạt giúp tăng cường lượng sữa tự nhiên. Tuy nhiên, chất lượng sản phẩm trên thị trường thời điểm đó chưa đáp ứng được nhu cầu.

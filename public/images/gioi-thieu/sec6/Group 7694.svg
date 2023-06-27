@@ -1,14 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1320.749" height="210.733" viewBox="0 0 1320.749 210.733">
-  <g id="Group_7694" data-name="Group 7694" transform="translate(-297.69 -4544.976)">
-    <text id="TỪ_CON_NGƯỜI" data-name="TỪ CON NGƯỜI" transform="translate(570.764 4622.976)" fill="#59843d" font-size="67.415" font-family="Mitr-SemiBold, Mitr" font-weight="600"><tspan x="0" y="0">TỪ CON NGƯỜI</tspan></text>
-    <text id="VÌ_CON_NGƯỜI" data-name="VÌ CON NGƯỜI" transform="translate(1088.439 4724.709)" fill="#59843d" font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600"><tspan x="0" y="0">VÌ CON NGƯỜI</tspan></text>
-    <text id="Bắt_đầu" data-name="Bắt đầu" transform="translate(541.69 4624.648)" fill="#f79420" font-size="61.409" font-family="Mitr-Regular, Mitr"><tspan x="-243.241" y="0">Bắt đầu</tspan></text>
-    <g id="Group_1338" data-name="Group 1338">
-      <g id="Group_1337" data-name="Group 1337">
-        <g id="Group_1336" data-name="Group 1336">
-          <text id="Mục_tiêu_cũng" data-name="Mục tiêu cũng" transform="translate(645.859 4724.708)" fill="#f79420" font-size="61.409" font-family="Mitr-Regular, Mitr"><tspan x="0" y="0">Mục tiêu cũng</tspan></text>
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
+    <g id="Group_7694" data-name="Group 7694" transform="translate(-297.69 -4544.976)">
+        <text id="TỪ_CON_NGƯỜI" data-name="TỪ CON NGƯỜI" transform="translate(570.764 4622.976)" fill="#59843d"
+              font-size="67.415" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="0" y="0">TỪ CON NGƯỜI</tspan>
+        </text>
+        <text id="VÌ_CON_NGƯỜI" data-name="VÌ CON NGƯỜI" transform="translate(1088.439 4724.709)" fill="#59843d"
+              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="0" y="0">VÌ CON NGƯỜI</tspan>
+        </text>
+        <text id="Bắt_đầu" data-name="Bắt đầu" transform="translate(541.69 4624.648)" fill="#f79420" font-size="61.409"
+              font-family="Mitr-Regular, Mitr">
+            <tspan x="-243.241" y="0">Bắt đầu</tspan>
+        </text>
+        <g id="Group_1338" data-name="Group 1338">
+            <g id="Group_1337" data-name="Group 1337">
+                <g id="Group_1336" data-name="Group 1336">
+                    <text id="Mục_tiêu_cũng" data-name="Mục tiêu cũng" transform="translate(645.859 4724.708)"
+                          fill="#f79420" font-size="61.409" font-family="Mitr-Regular, Mitr">
+                        <tspan x="0" y="0">Mục tiêu cũng</tspan>
+                    </text>
+                </g>
+            </g>
         </g>
-      </g>
     </g>
-  </g>
 </svg>

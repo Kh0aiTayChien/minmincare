@@ -30,7 +30,7 @@
 </div>
 
 <div class="sec6-GT-test">
-    <img src="{{asset('images/gioi-thieu/sec6/Group 7694.svg')}}" class="headersec6-GT">
+    <object data="{{asset('images/gioi-thieu/sec6/Group 7694.svg')}}" class="headersec6-GT"></object>
     <div class="row-test containersec6-GT-test">
         <img src="{{asset('images/gioi-thieu/sec6/Group 5126.png')}}" class="imgsec6-GT-test col-md-5 col-xxl-4">
         <div class="col-md-5 col-xxl-4 contentsec6-GT-test">

@@ -1,13 +1,37 @@
 .sec8-DL {
     background-image: url("/images/dai-ly/sec8/Group 2096.png");
     background-repeat: no-repeat;
-    background-size: 105% 100%;
-    background-position: center top 120px;
+    background-size: 120% 100%;
+    background-position: center top 180px;
 }
 
 .contentsec8-DL {
     width: 40vw;
     margin-left: 55%;
-    margin-top: 5%;
-    /*margin-bottom: 8%;*/
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
+
+.sec8mb-DL {
+    display: none;
+}
+
+.headersec8-DL {
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 73vw;
+}
+
+@media screen and (max-width: 768px) {
+    .sec8-DL {
+        display: none;
+    }
+    .sec8mb-DL {
+        display: block;
+    }
+    .contentsec8mb-DL {
+        /*width: 80vw;*/
+        margin-left: 10%;
+    }
+}
+
