@@ -49,6 +49,7 @@
     <link href="{{asset('/css/sec8-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec1-TT.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec2-TT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2-KT.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')
