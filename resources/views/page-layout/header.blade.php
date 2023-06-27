@@ -34,45 +34,6 @@
     {{--    @include('page-layout.cart')--}}
 </div>
 
-
-<div class="headermb fixed-top">
-    <div class="background-image-mb"></div>
-    <div class="inline-container justify-content-center align-items-center">
-        <img src="{{asset('images/header/Group 903.svg')}}" class="logomb">
-        <img src="{{asset('images/header/Group 34.png')}}" class="menu">
-    </div>
-    <nav>
-        <ul class="hide iconmb">
-            <li class="contact linetop">
-                <a href="#sec2" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ BĐS CƯ TRÚ</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec3" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ CHƯƠNG TRÌNH</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec5" class="linktext aniUtil_dramatic ani_fadeIn"><p>TỔNG QUAN BĐS HUNGARY</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p>LỢI ÍCH VÀ QUYỀN LỢI</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p>ĐIỀU KIỆN VÀ QUY TRÌNH</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#addInformationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p>LIÊN HỆ</p></a>
-            </li>
-        </ul>
-    </nav>
-    {{--    <div class="right-action shadow-effect">--}}
-    {{--        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>--}}
-    {{--        <br>--}}
-    {{--        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>--}}
-    {{--    </div>--}}
-    {{--    <div class="overlay d-none">--}}
-    {{--        @include('page-layout.cart')--}}
-    {{--    </div>--}}
-</div>
-
 <div class="Clogo ">
     <div class="right-action shadow-effect">
         <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>
@@ -101,7 +62,7 @@
     @media only screen and (max-width: 800px) {
         .Clogo {
             margin-left: 75vw;
-            z-index: 9999;
+            z-index: 1000;
         }
         .overlay {
             height: 100vh;
@@ -115,7 +76,7 @@
         #popup {
             position: fixed;
             float: right;
-            top: 3rem !important;
+            top: 5rem !important;
             right: 10% !important;
             width: 80% !important;
 
@@ -123,6 +84,7 @@
             border-radius: 23px;
             max-height: 800px;
             transform: none !important;
+            z-index: 1000 !important;
         }
     }
 
@@ -372,12 +334,12 @@
 
 
 <script>
-    $(document).on('click',function(e){
-        if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
-            console.log(1)
-            $(".popup").addClass('d-none');
-        }
-    });
+    // $(document).on('click',function(e){
+    //     if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
+    //         console.log(1)
+    //         $(".popup").addClass('d-none');
+    //     }
+    // });
     $(document).ready(function () {
         $('.list-product').hover(
             function () {
