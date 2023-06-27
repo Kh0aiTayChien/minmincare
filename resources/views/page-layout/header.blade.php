@@ -7,17 +7,6 @@
             </li>
             <li class="list-product position-relative">
                 <a href="#"><p>SẢN PHẨM</p></a>
-                {{--                <div class="list-product-button position-absolute">--}}
-                {{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white--}}
-                {{--                    border-2 bg-white mt-4 mitr-medium">--}}
-                {{--                        NGŨ CỐC MẸ BẦU--}}
-                {{--                    </button>--}}
-                {{--                    <br>--}}
-                {{--                    <button class="btn btn-outline-white btn-sm rounded-pill border-white bg-white--}}
-                {{--                    border-2 mt-2 mitr-medium">--}}
-                {{--                        NGŨ CỐC MẸ SAU SINH--}}
-                {{--                    </button>--}}
-                {{--                </div>--}}
             </li>
             <li>
                 <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
@@ -37,15 +26,106 @@
         </ul>
     </div>
 
+    {{--    <div class="right-action shadow-effect">--}}
+    {{--        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>--}}
+    {{--        <br>--}}
+    {{--        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>--}}
+    {{--    </div>--}}
+    {{--    @include('page-layout.cart')--}}
+</div>
+
+
+<div class="headermb fixed-top">
+    <div class="background-image-mb"></div>
+    <div class="inline-container justify-content-center align-items-center">
+        <img src="{{asset('images/header/Group 903.svg')}}" class="logomb">
+        <img src="{{asset('images/header/Group 34.png')}}" class="menu">
+    </div>
+    <nav>
+        <ul class="hide iconmb">
+            <li class="contact linetop">
+                <a href="#sec2" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ BĐS CƯ TRÚ</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec3" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ CHƯƠNG TRÌNH</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec5" class="linktext aniUtil_dramatic ani_fadeIn"><p>TỔNG QUAN BĐS HUNGARY</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p>LỢI ÍCH VÀ QUYỀN LỢI</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p>ĐIỀU KIỆN VÀ QUY TRÌNH</p></a>
+            </li>
+            <li class="contact linemenu">
+                <a href="#addInformationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p>LIÊN HỆ</p></a>
+            </li>
+        </ul>
+    </nav>
+    {{--    <div class="right-action shadow-effect">--}}
+    {{--        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>--}}
+    {{--        <br>--}}
+    {{--        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>--}}
+    {{--    </div>--}}
+    {{--    <div class="overlay d-none">--}}
+    {{--        @include('page-layout.cart')--}}
+    {{--    </div>--}}
+</div>
+
+<div class="Clogo ">
     <div class="right-action shadow-effect">
-        <div><img src="{{asset('images/sec1/cart.png')}}" alt="" class="cart ms-2"></div>
+        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>
         <br>
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
     </div>
-
-    @include('page-layout.cart')
+    <div class="overlay d-none">
+        @include('page-layout.cart')
+    </div>
 </div>
+
 <style>
+    .Clogo {
+        margin-left: 90vw;
+        position: fixed;
+        z-index: 9999;
+        height: 40px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .Clogo {
+            margin-left: 85vw;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .Clogo {
+            margin-left: 75vw;
+            z-index: 9999;
+        }
+        .overlay {
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        #popup {
+            position: fixed;
+            float: right;
+            top: 3rem !important;
+            right: 10% !important;
+            width: 80% !important;
+
+            background-color: white;
+            border-radius: 23px;
+            max-height: 800px;
+            transform: none !important;
+        }
+    }
+
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
     }
@@ -60,9 +140,10 @@
 
     .right-action {
         margin-right: 2%;
-        margin-top: 58vh;
+        margin-top: 70vh;
         float: right;
         scale: 70%;
+        height: 15px;
     }
 
     .list-product .list-product-button {
@@ -75,6 +156,7 @@
     }
 
     #popup {
+        z-index: 9999 !important;
         position: fixed;
         top: 50%;
         right: 0;
@@ -160,40 +242,108 @@
         height: 6rem;
         width: auto;
     }
+
+    .cart {
+        cursor: pointer;
+    }
+
+    /*.cart-circle{*/
+    /*    width: 18px;*/
+    /*    height: 18px;*/
+    /*    border-radius: 50%;*/
+    /*    background-color: white;*/
+    /*    position: relative;*/
+    /*}*/
+    .cart-circle {
+        width: 18px;
+        height: 18px;
+        border-radius: 100%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        background: white;
+    }
+
+    .cart-circle:before,
+    .cart-circle:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    /* PLUS */
+    .cart-circle.plus:before,
+    .cart-circle.plus:after {
+        background: #59843d;
+    }
+
+    .cart-circle.plus:before {
+        width: 2px;
+        margin: 4px auto;
+    }
+
+    .cart-circle.plus:after {
+        margin: auto 4px;
+        height: 2px;
+        box-shadow: none;
+    }
+
+    /* MINUS */
+    .cart-circle.minus:before {
+        background: #59843d;
+        margin: auto 4px;
+        height: 2px;
+    }
+
+    .lds-dual-ring {
+        display: inline-block;
+        transform: translate(37%, 120%);
+        width: 80px;
+        height: 80px;
+    }
+
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid #dfc;
+        border-color: #59843d transparent #59843d transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+    }
+
+    @keyframes lds-dual-ring {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
 </style>
-
-<div class="headermb fixed-top">
-    <div class="background-image-mb"></div>
-    <div class="inline-container justify-content-center align-items-center">
-        <img src="{{asset('images/header/Group 903.svg')}}" class="logomb">
-        <img src="{{asset('images/header/Group 34.png')}}" class="menu">
-    </div>
-    <nav>
-        <ul class="hide iconmb">
-            <li class="contact linetop">
-                <a href="#sec2" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ BĐS CƯ TRÚ</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec3" class="linktext aniUtil_dramatic ani_fadeIn"><p>VỀ CHƯƠNG TRÌNH</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec5" class="linktext aniUtil_dramatic ani_fadeIn"><p>TỔNG QUAN BĐS HUNGARY</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p>LỢI ÍCH VÀ QUYỀN LỢI</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p>ĐIỀU KIỆN VÀ QUY TRÌNH</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="#addInformationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p>LIÊN HỆ</p></a>
-            </li>
-        </ul>
-    </nav>
-</div>
-
-
 <script>
+    $(document).on('click',function(e){
+        if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
+            console.log(1)
+            $(".popup").addClass('d-none');
+        }
+    });
     $(document).ready(function () {
         $('.list-product').hover(
             function () {
@@ -203,12 +353,14 @@
                 $(this).find('.list-product-button').slideUp(300); // Ẩn từ từ khi di chuột ra
             }
         );
-        $('.cart').click(function () {
-            $('#popup').fadeIn();
+        $('.cart').on('click touchstart', function () {
+            $('.popup').removeClass('d-none');
+            $('.overlay').removeClass('d-none');
         });
 
-        $('.close-icon').click(function () {
-            $('#popup').fadeOut();
+        $('.close-icon').on('click touchstart', function () {
+            $('.popup').addClass('d-none');
+            $('.overlay').addClass('d-none');
         });
 
     });
@@ -248,7 +400,7 @@
 </script>
 <script>
     $(document).ready(function () {
-        $('.buy-button').click(function () {
+        $('.buy-button').on('click', function () {
             let productId = $(this).data('id');
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
             $.ajax({
@@ -261,8 +413,10 @@
                 success: function (response) {
                     if (response.status === undefined) {
                         $('.cart-product-list').append(response);
+                        $('.empty-image').addClass('d-none');
                     } else if (response.status === 'exist_cart') {
                         let quantity = response.quantity;
+                        console.log(quantity);
                         let cart = response.cart;
                         $("#" + cart).find(".quantity").text(quantity);
                     }
@@ -275,6 +429,7 @@
         });
 
         $(document).on('click', '.plus', function () {
+            $('body').prop('disabled', true);
             let cartID = $(this).data('id');
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
             $.ajax({
@@ -296,6 +451,9 @@
                     console.error(error);
                 }
             });
+            setTimeout(function () {
+                $('body').prop('disabled', false);
+            }, 200);
         });
 
         $(document).on('click', '.subtraction', function () {
@@ -316,7 +474,10 @@
                         $("#" + cart).find(".quantity").text(quantity);
                     } else if (response.status === "delete") {
                         let cart = response.cart;
-                        $("#" + cart).fadeOut();
+                        $("#" + cart).remove();
+                        if ($('.cart-product-list').find('.card-cart').length == 0) {
+                            $('.empty-image').removeClass('d-none');
+                        }
                     }
                 },
                 error: function (xhr, status, error) {
@@ -329,6 +490,7 @@
         $(document).on('click', '.cancel-item', function () {
             let cartID = $(this).data('id');
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
+
             $.ajax({
                 url: '/delete_cart',
                 method: 'POST',
@@ -337,14 +499,12 @@
                     _token: csrfToken,
                 },
                 success: function (response) {
-                    if (response.status === "ok") {
-                        let quantity = response.quantity;
-                        let cart = response.cart;
-                        $("#" + cart).find(".quantity").text(quantity);
-                    } else if (response.status === "delete") {
-                        let cart = response.cart;
-                        $("#" + cart).fadeOut();
+                    let cart = response.cart;
+                    $("#" + cart).remove();
+                    if ($('.cart-product-list').find('.card-cart').length == 0) {
+                        $('.empty-image').removeClass('d-none');
                     }
+                    console.log($("#" + cart))
                 },
                 error: function (xhr, status, error) {
                     // Xử lý khi có lỗi xảy ra
@@ -353,33 +513,43 @@
             });
         });
 
-        $("#cart-form").submit(function(e) {
+        $('#cart-form').submit(function (e) {
             e.preventDefault();
-            var formData = new FormData($(this)[0]);
-            // let name = $('.name').val()
-            // let phone = $('.phone').val()
-            // let address = $('.address').val()
-            console.log(formData);
-            // let cartID = form.data('id');
+            let name = $('.name').val()
+            let phone = $('.phone').val()
+            let address = $('.address').val()
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
-
 
             $.ajax({
                 url: '/send',
                 method: 'POST',
                 data: {
-                  formData
+                    name: name,
+                    phone: phone,
+                    address: address
                 },
-                processData: false,
-                contentType: false,
                 headers: {
                     'X-CSRF-TOKEN': csrfToken
                 },
-                success: function(response) {
-                    $('.card-cart').fadeOut();
-                    alert('Thông tin đã được gửi thành công! Xin cảm ơn quý khách hàng đã mua hàng');
+                success: function (response) {
+                    $('.card-cart').remove();
+                    $('.lds-dual-ring').removeClass('d-none');
+                    $('.empty-image').addClass('d-none');
+                    setTimeout(function () {
+                        $('.cart-product-list').hide();
+                        $('.send-form').hide();
+                        $('.lds-dual-ring').addClass('d-none');
+                        $('.send-image').removeClass('d-none'); // Ẩn lớp 'send-image' sau 5 giây
+                    }, 1500);
+                    setTimeout(function () {
+                        $('.empty-image').removeClass('d-none');
+                        $('.send-image').addClass('d-none'); // Ẩn lớp 'send-image' sau 5 giây
+                        $('.cart-product-list').show(); // Ẩn lớp 'cart-product-list' sau 5 giây
+                        $('.send-form').show();
+                    }, 3000);
+                    $('.empty-image').removeClass('d-none');
                 },
-                error: function(xhr, status, error) {
+                error: function (xhr, status, error) {
                     console.error(error);
                 }
             });

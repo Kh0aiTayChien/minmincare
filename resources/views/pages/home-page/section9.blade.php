@@ -56,7 +56,6 @@
     .height-text-card{
         height: 5rem;
     }
-
     .carousel-sec-9 {
         width: 70%;
         margin: 0px auto;

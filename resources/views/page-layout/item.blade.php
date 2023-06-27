@@ -15,16 +15,18 @@
                             <div >
                                 <i class="fas fa-times cancel-item" data-id="{{$cart->id}}"></i>
                             </div>
-                            <div class="col-12 plus" data-id="{{$cart->id}}">
-                                +
+                            <div class="col-12 plus d-flex align-content-center justify-content-center" data-id="{{$cart->id}}">
+                                <div class="cart-circle plus">
+                                </div>
                             </div>
 
                             <div class="col-12 quantity">
                                 {{$cart->quantity}}
                             </div>
 
-                            <div class="col-12 subtraction" data-id="{{$cart->id}}">
-                                -
+                            <div class="col-12 subtraction d-flex align-content-center justify-content-center" data-id="{{$cart->id}}">
+                                <div class="cart-circle minus">
+                                </div>
                             </div>
                         </div>
 
