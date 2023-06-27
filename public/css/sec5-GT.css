@@ -5,15 +5,17 @@
     background-position: center top 220px;
 }
 
-.headersec5-GT-test {
+.headersec5-GT {
     width: 25vw;
     margin-left: 25%;
     margin-top: -40%;
 }
+
 .bannersec5-GT {
     width: 40vw;
     margin-left: 5%;
 }
+
 .textsec5-GT {
     width: 35vw;
     font-size: 15px;
@@ -24,6 +26,7 @@
     color: white;
     font-family: Mulish-SemiBold, sans-serif;
 }
+
 .btn-start {
     margin-top: -18%;
     margin-left: 30%;
@@ -34,10 +37,11 @@
     display: none;
 }
 
-@media screen and (min-width: 1700px) and (max-width: 1920px){
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
     .sec5-GT {
         background-position: center top 265px;
     }
+
     .btn-start {
         margin-top: -35%;
         width: 15vw;
@@ -49,6 +53,7 @@
     .sec5-GT {
         display: none;
     }
+
     .sec5mb-GT {
         display: block;
         text-align: center;
@@ -56,10 +61,12 @@
         background-image: url("/images/gioi-thieu/sec5/Group 1262.png");
         background-size: 100% 100%;
     }
+
     .headersec5mb-GT {
         width: 60vw;
         margin-top: 3%;
     }
+
     .textsec5mb-GT {
         width: 90vw;
         margin-left: 5%;
@@ -69,12 +76,14 @@
         color: white;
         padding-top: 3%;
     }
+
     .bannersec5mb-GT {
         width: 90vw;
         margin-bottom: 3%;
     }
+
     .btn-startmb-GT {
         width: 50vw;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 }

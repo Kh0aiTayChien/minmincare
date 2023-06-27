@@ -17,7 +17,7 @@
 
 .svg-input {
     /*width: 271.266px;*/
-    height: 40.891px;
+    height: 35.891px;
     width: 16vw;
     border-radius: 27.445px;
     border: none;
@@ -43,7 +43,7 @@
 
 .submitbutton {
     width: 18.5vw;
-    height: 50.891px;
+    /*height: 50.891px;*/
     position: absolute;
 }
 
@@ -51,13 +51,13 @@
     border: none;
     background: none;
     position: absolute;
-    margin-left: 68%;
-    margin-top: -7.5%;
+    margin-left: 67%;
+    margin-top: -6.5%;
 }
 
 .button4 {
     width: 18vw;
-    height: 40px;
+    /*height: 40px;*/
 }
 
 .form-customer {
@@ -124,9 +124,10 @@
     }
     .svg-input {
         width: 15.5vw;
+        height: 45px;
     }
     .dailybutton {
-        margin-left: 67%;
+        margin-left: 66.5%;
         margin-top: -6.5%;
     }
 }

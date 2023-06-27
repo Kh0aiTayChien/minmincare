@@ -1,6 +1,6 @@
 @extends('page-layout.master')
 @section('section')
-    @include('pages.home-page.section1')
+    @include('pages.dai-ly.sec1')
     @include('pages.gioi-thieu.sec2')
     @include('pages.gioi-thieu.sec3')
     @include('pages.gioi-thieu.sec4')

@@ -21,3 +21,12 @@
         </div>
     </div>
 </div>
+
+<div class="sec6mb-DL">
+    <object data="{{asset('images/dai-ly/sec6/Group 3181.svg')}}" class="headersec6mb-DL"></object>
+    <div class="utubesec6-DL" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+                allowfullscreen></iframe>
+        <br>
+    </div>
+</div>

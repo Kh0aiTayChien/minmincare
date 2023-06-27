@@ -1,6 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="681" height="155.38" viewBox="0 0 681 155.38">
-  <g id="Group_3173" data-name="Group 3173" transform="translate(-942.254 -2047.688)">
-    <text id="_chỉ_nhận_hợp_tác_đại_lý_nếu" data-name=" chỉ nhận hợp tác đại lý nếu" transform="translate(942.254 2183.068)" fill="#fff" font-size="47.872" font-family="Mitr-Regular, Mitr"><tspan x="0" y="0" xml:space="preserve"> chỉ nhận hợp tác đại lý nếu</tspan></text>
-    <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(1119.187 2132.688)" fill="#fff" font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600"><tspan x="0" y="0">MIN MIN CARE</tspan></text>
-  </g>
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
+    <g id="Group_3173" data-name="Group 3173" transform="translate(-942.254 -2047.688)">
+        <text id="_chỉ_nhận_hợp_tác_đại_lý_nếu" data-name=" chỉ nhận hợp tác đại lý nếu"
+              transform="translate(942.254 2183.068)" fill="#fff" font-size="47.872" font-family="Mitr-Regular, Mitr">
+            <tspan x="0" y="0" xml:space="preserve"> chỉ nhận hợp tác đại lý nếu</tspan>
+        </text>
+        <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(1119.187 2132.688)" fill="#fff"
+              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="0" y="0">MIN MIN CARE</tspan>
+        </text>
+    </g>
 </svg>

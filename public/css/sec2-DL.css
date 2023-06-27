@@ -2,14 +2,15 @@
     background-image: url("/images/dai-ly/sec2/Group 3173.png");
     background-repeat: no-repeat;
     background-size: 100% 60%;
-    background-position: center top 320px;
+    background-position: center top 220px;
 }
 
 .headersec2-DL {
-    margin-top: 3%;
+    margin-top: -8%;
     margin-left: 15%;
     width: 73vw;
 }
+
 .bannersec2-DL {
     width: 45vw;
     margin-left: 10%;
@@ -50,4 +51,51 @@
 
 .left4 {
     margin-left: 71%;
+}
+
+.sec2mb-DL {
+    display: none;
+}
+
+.dailymb2-DL {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec2-DL {
+        display: none;
+    }
+    .dailymb2-DL {
+        display: block;
+    }
+    .sec2mb-DL {
+        margin-top: -10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/dai-ly/sec2/Group 3173.png");
+        /*background-image: url("/images/dai-ly/sec2/background.png");*/
+        /*background-image: url("/images/sec10/Group 5082.png");*/
+        background-size: cover;
+        /*background-position: center top 50px;*/
+        /*background-repeat: no-repeat;*/
+    }
+    .headerbannersec2mb-DL {
+        width: 50vw;
+        margin-top: 20%;
+    }
+    .contentsec2mb-DL {
+        /*width: 90vw;*/
+        margin-left: 10%;
+    }
+    .condition1sec2mb-DL {
+        margin-top: -12%;
+    }
+    .conditionsec2mb-DL {
+        padding-bottom: 5%;
+    }
+    .dailymb2-DL {
+        margin-top: -20%;
+    }
 }

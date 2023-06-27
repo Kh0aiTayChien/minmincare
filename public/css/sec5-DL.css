@@ -3,7 +3,7 @@
 }
 
 .headersec5-DL {
-    width: 60vw;
+    width: 40vw;
     margin-top: 2%;
 }
 
@@ -19,4 +19,26 @@
 .buttonvideo-DL {
     width: 70vw;
     height: 70vh;
+}
+
+.sec5mb-DL {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec5-DL {
+        display: none;
+    }
+    .sec5mb-DL {
+        display: block;
+        text-align: center;
+    }
+    .headersec5mb-DL {
+        width: 65vw;
+        margin-top: 5%;
+    }
+    .utubesec5-DL {
+        margin-left: 10%;
+        margin-bottom: 7%;
+    }
 }

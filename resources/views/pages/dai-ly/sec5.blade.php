@@ -22,6 +22,15 @@
     </div>
 </div>
 
+<div class="sec5mb-DL">
+    <object data="{{asset('images/dai-ly/sec5/Group 3179.svg')}}" class="headersec5mb-DL"></object>
+    <div class="utubesec5-DL" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+                allowfullscreen></iframe>
+        <br>
+    </div>
+</div>
+
 <script>
     var modal = document.getElementById('exampleModal-DL');
     var iframe = document.getElementById('video-iframe-DL');

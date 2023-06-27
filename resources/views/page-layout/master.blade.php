@@ -39,6 +39,7 @@
     <link href="{{asset('/css/sec4-GT.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec5-GT.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec6-GT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec1-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec2-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec3-DL.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec4-DL.css')}}" rel="stylesheet">
