@@ -18,7 +18,7 @@
                 <a href="#"><p>KIẾN THỨC</p></a>
             </li>
             <li>
-                <a href="#"><p>TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>
             </li>
             <li>
                 <a href="#Information"><p>LIÊN HỆ</p></a>
@@ -322,7 +322,7 @@
                 <a href="#sec6" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#sec9" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
             </li>
             <li class="contact linemenu">
                 <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>

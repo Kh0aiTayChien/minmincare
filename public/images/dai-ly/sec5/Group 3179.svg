@@ -1,4 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="836" height="189.786" viewBox="0 0 836 189.786">
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
     <g id="Group_3179" data-name="Group 3179" transform="translate(-542 -5614.507)">
         <text id="Khách_hàng" data-name="Khách hàng" transform="translate(960 5681.507)" fill="#f79420"
               font-size="57.877" font-family="Mitr-Regular, Mitr">
