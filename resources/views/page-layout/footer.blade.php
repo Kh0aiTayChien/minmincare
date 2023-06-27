@@ -1,5 +1,5 @@
 <div class="footerpc">
-    <img src="{{asset('images/footer/Group 3841.png')}}" class="linefooter">
+    <img src="{{asset('images/footer/Group 3841.png')}}" class="linefooter" id="Information">
     <!-- Footer -->
     <footer class="text-center text-lg-start text-muted">
         <section class="">
@@ -74,7 +74,7 @@
 </div>
 
 <div class="footermb">
-    <img src="{{asset('images/footer/Group 4239.png')}}" class="linefootermb">
+    <img src="{{asset('images/footer/Group 4239.png')}}" class="linefootermb" id="Informationmb">
     <img src="{{asset('images/footer/Group 930.png')}}" class="logofootermb">
     <div class="linkcontactmb">
         <a href="#" class="linkphonemb"><img src="{{asset('images/footer/Group 5083.png')}}" class="phonelogomb"></a>
