@@ -202,10 +202,6 @@
             }
         }
 
-        .section-5-mobile {
-            height: 90vh;
-        }
-
         .carousel-sec-5 {
             width: 70%;
             margin: 0px auto;
