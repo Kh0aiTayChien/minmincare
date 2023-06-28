@@ -41,9 +41,9 @@
             </div>
             <div class="form-group mt-2 shadow-effect">
                 <input type="text" class="form-control address border-0" name="address"
-                       placeholder="Địa chỉ của bạn(bắt buộc)"
-                       oninvalid="this.setCustomValidity('Vui lòng nhập địa chỉ')"
-                       oninput="this.setCustomValidity('')"
+                       placeholder="Địa chỉ của bạn"
+{{--                       oninvalid="this.setCustomValidity('Vui lòng nhập địa chỉ')"--}}
+{{--                       oninput="this.setCustomValidity('')"--}}
                        required>
             </div>
             <button type="submit"
