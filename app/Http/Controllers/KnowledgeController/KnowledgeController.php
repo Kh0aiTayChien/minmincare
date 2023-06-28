@@ -16,7 +16,7 @@ class KnowledgeController extends Controller
         $categorySlug = 'kien-thuc-me-bau';
         $knowledges = Article::whereHas('category', function ($query) use ($categorySlug) {
             $query->where('slug', $categorySlug);
-        })->paginate(1);
+        })->paginate(3);
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
