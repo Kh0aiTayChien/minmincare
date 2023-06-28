@@ -137,11 +137,13 @@ ul.iconmb {
     .linktext {
         color: white;
         text-align: center;
+        /*margin-right: 5%;*/
     }
     .textlink {
         margin-top: 10%;
         font-size: 25px;
         font-family: Mitr-SemiBold, sans-serif;
+        margin-right: 8%;
     }
     .textlinktop {
         margin-top: 20%

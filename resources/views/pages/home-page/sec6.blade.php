@@ -44,9 +44,6 @@
         </div>
     </div>
     <style>
-        .sec6mob{
-            height: 90vh;
-        }
 
         .headersec6mb{
             width: 65vw;

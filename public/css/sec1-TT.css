@@ -1,3 +1,14 @@
 .bannersec1-TT {
     width: 100vw;
 }
+
+@media screen and (max-width: 768px) {
+    .sec1-TT {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .bannersec1-TT {
+        width: 200%;
+    }
+}
