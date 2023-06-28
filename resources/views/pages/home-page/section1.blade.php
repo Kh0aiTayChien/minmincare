@@ -141,12 +141,14 @@
             margin-left: 1px;
             scale: 50%;
             z-index: 999;
+            margin-top: 85vw;
         }
 
         .carousel-control-next {
             margin-right: 1px;
             scale: 50%;
             z-index: 999;
+            margin-top: 85vw;
         }
     }
 </style>
