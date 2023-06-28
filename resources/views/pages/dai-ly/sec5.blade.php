@@ -1,7 +1,7 @@
 <div class="sec5-DL">
     <object data="{{asset('images/dai-ly/sec5/Group 3179.svg')}}" class="headersec5-DL"></object>
     <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL">
-        <img src="/images/dai-ly/sec5/Group 3180.png" class="buttonvideo-DL">
+        <img src="/images/dai-ly/sec5/Asset 3.png" class="buttonvideo-DL">
     </button>
     <div class="modal fade" id="exampleModal-DL" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen">
