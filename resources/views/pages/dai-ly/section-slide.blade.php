@@ -13,7 +13,7 @@
             <span class="circle" id="2"></span>
             <span class="circle" id="3"></span>
             <span class="circle" id="4"></span>
-            <span class="circle" id="5"></span>
+{{--            <span class="circle" id="5"></span>--}}
         </div>
     </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
@@ -26,8 +26,8 @@
                     aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
+{{--            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"--}}
+{{--                    aria-label="Slide 5"></button>--}}
         </div>
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
@@ -38,14 +38,14 @@
                     <div class="col-4 ms-5" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-section-slideactive ms-5">
+                        <div class="content-section-slide active ms-5">
                             <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                 <ul class="list-unstyled">
-                                    <li><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
+                                    <li class="text-justify"><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
+                                    <li class="text-justify"><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
                                 </ul>
                                 </p>
                             </div>
@@ -61,14 +61,13 @@
                     <div class="col-4 ms-5" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-section-slideactive ms-5">
-                            <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
+                        <div class="content-section-slide ms-5">
+                            <img src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                 <ul class="list-unstyled">
-                                    <li><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.</li>
+                                    <li class="text-justify"><span class="dot"></span> Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</li>
                                 </ul>
                                 </p>
                             </div>
@@ -84,14 +83,13 @@
                     <div class="col-4 ms-5" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-section-slideactive ms-5">
-                            <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
+                        <div class="content-section-slide ms-5">
+                            <img src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                 <ul class="list-unstyled">
-                                    <li><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất</li>
+                                    <li class="text-justify"><span class="dot"></span> Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</li>
                                 </ul>
                                 </p>
                             </div>
@@ -107,37 +105,14 @@
                     <div class="col-4 ms-5" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
-                        <div class="content-section-slideactive ms-5">
-                            <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
+                        <div class="content-section-slide ms-5">
+                            <img src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify">
                                 <ul class="list-unstyled">
-                                    <li><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item   " id="5">
-                <div class="row gx-4">
-                    <div class="col-7 boder-radius" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
-                    </div>
-                    <div class="col-4 ms-5" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
-                             alt="Image 2">
-                        <div class="content-section-slideactive ms-5">
-                            <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 70%; height: 10rem">
-                                <p class="text-justify">
-                                <ul class="list-unstyled">
-                                    <li><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Hệ thống cấp độ đại lý rõ ràng có mức quyền lợi khác nhau </li>
+                                    <li class="text-justify"><span class="dot"></span> Được tham gia các chương trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức </li>
+                                    <li class="text-justify"><span class="dot"></span> Có event/ hoạt động ý nghĩa hàng tháng, hàng năm </li>
                                 </ul>
                                 </p>
                             </div>
@@ -387,8 +362,8 @@
 </style>
 <script>
     $('#carouselExampleFade').on('slide.bs.carousel', function () {
-        $(this).find('.carousel-item.active .content-sec-5').removeClass('active').hide();
-        $(this).find('.carousel-item:not(.active) .content-sec-5').addClass('active').show();
+        $(this).find('.carousel-item.active .content-section-slide').removeClass('active').hide();
+        $(this).find('.carousel-item:not(.active) .content-section-slide').addClass('active').show();
     });
 
 

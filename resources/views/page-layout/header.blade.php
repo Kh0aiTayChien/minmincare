@@ -6,7 +6,7 @@
                 <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>
             </li>
             <li class="list-product position-relative">
-                <a href="#"><p>SẢN PHẨM</p></a>
+                <a href="{{asset('san-pham')}}"><p>SẢN PHẨM</p></a>
             </li>
             <li>
                 <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
@@ -313,7 +313,7 @@
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN PHẨM</p></a>
+                <a href="{{asset('san-pham')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN PHẨM</p></a>
             </li>
             <li class="contact linemenu">
                 <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI LÝ</p></a>

@@ -7,12 +7,14 @@
 .headersec4-DL {
     width: 30vw;
     margin-top: 2%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
 }
 
 .contentsec4-DL {
     /*width: 90%;*/
     margin-top: 3%;
     margin-bottom: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
 }
 
 .sec4mb-DL {
