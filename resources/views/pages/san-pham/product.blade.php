@@ -7,7 +7,9 @@
         @foreach($products as $product)
             <div class=" col-lg-3 col-sm-4 col-xs-12 custom-ms shadow-effect">
                 <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
-                    <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title d-flex justify-content-center">
                             <p class="text-center mitr-medium
@@ -53,7 +55,7 @@
         }
     }
     .custom-mt {
-        margin-top: 5rem;
+        padding-top: 6rem;
         transform: translate(1%, 0);
     }
     .custom-ms{
@@ -65,8 +67,8 @@
     }
 
     .height-img-card {
-        height: 240px;
-        width: 404px;
+        height: 225px;
+        width: 150px;
         object-fit: contain;
         max-width: 100%;
         max-height: 100%;
