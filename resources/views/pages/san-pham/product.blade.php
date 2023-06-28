@@ -5,10 +5,10 @@
 <div class=" container-fluid p-5">
     <div class="row d-flex justify-content-center align-content-center">
         @foreach($products as $product)
-            <div class="col-xl-2 col-lg-3 col-sm-4 col-xs-12 ms-3 shadow-effect">
+            <div class="col-xl-3 col-lg-3 col-sm-4 col-xs-12 ms-3 shadow-effect">
                 <div class="card border-radius mb-3" style="">
-                    <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
-                    <div class="card-body">
+                    <img class="card-img-top height-img-" src="{{$product->image}}" alt="Card image cap">
+                    <div class="card-body">card
                         <h5 class="card-title d-flex justify-content-center">
                             <p class="text-center mitr-medium
                             green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
