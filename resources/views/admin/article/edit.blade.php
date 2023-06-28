@@ -49,6 +49,7 @@
 
             <div class="card shadow mb-4">
                 <div class="card-profile-image mt-4 ">
+                    <h5 class="font-weight-bold title-image d-none">Ảnh bài viết thay đổi </h5>
                     <img id="image-review" src="" alt="" style="max-width: 100%; max-height: 200px;">
                 </div>
                 <script>
@@ -57,6 +58,9 @@
                         reader.onload = function(){
                             var preview = document.getElementById('image-review');
                             preview.src = reader.result;
+
+                            var Element = document.querySelector('.title-image');
+                            Element.classList.remove('d-none');
                         }
                         reader.readAsDataURL(event.target.files[0]);
                     }
@@ -66,8 +70,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center">
-                                <h5 class="font-weight-bold">Ảnh cho bài viết</h5>
-                                <img src="{{$article->image}}" alt="">
+                                <h5 class="font-weight-bold" >Ảnh cho bài viết</h5>
+                                <img src="{{$article->image}}" style="width: 300px; height: 200px" alt="">
                             </div>
                         </div>
                     </div>
