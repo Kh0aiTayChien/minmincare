@@ -2,10 +2,10 @@
     <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%">
 </div>
 
-<div class=" container-fluid p-5">
-    <div class="row d-flex justify-content-center align-content-center">
+<div class=" container-fluid custom-padding">
+    <div class="row gx-5 gy-4 pos-center">
         @foreach($products as $product)
-            <div class="col-xl-2 col-lg-3 col-sm-4 col-xs-12 ms-3 shadow-effect">
+            <div class=" col-lg-3 col-sm-4 col-xs-12 custom-ms shadow-effect">
                 <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
                     <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
                     <div class="card-body">
@@ -33,9 +33,31 @@
 
 
 <style>
+
+    .pos-center{
+    }
+    .custom-ms{
+        margin-left: 3rem;
+    }
+    .custom-padding{
+        padding: 4rem 8rem 8rem 8rem;
+    }
+    @media screen and (max-width: 767px) {
+        .pos-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .custom-padding{
+            padding: 2rem 2rem 2rem 2rem;
+        }
+    }
     .custom-mt {
         margin-top: 5rem;
         transform: translate(1%, 0);
+    }
+    .custom-ms{
+        margin-left: 0
     }
 
     .article-show {
