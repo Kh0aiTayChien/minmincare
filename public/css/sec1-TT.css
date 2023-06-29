@@ -1,5 +1,10 @@
 .bannersec1-TT {
     width: 100vw;
+    margin-bottom: 4%;
+}
+
+.bannersec1-KT {
+    width: 100vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -9,6 +14,9 @@
         justify-content: center;
     }
     .bannersec1-TT {
+        width: 200%;
+    }
+    .bannersec1-KT {
         width: 200%;
     }
 }

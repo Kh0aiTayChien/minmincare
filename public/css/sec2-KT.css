@@ -2,3 +2,9 @@
     padding-right: 25px;
     margin-top: 4%;
 }
+
+@media only screen and (max-width: 600px) {
+    .menuKT {
+        padding-right: 0;
+    }
+}
