@@ -291,10 +291,6 @@
             transform: rotate(360deg);
         }
     }
-    .draggable {
-        position: absolute;
-        cursor: move;
-    }
 </style>
 
 <div class="headermb fixed-top">
