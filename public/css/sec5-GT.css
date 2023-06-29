@@ -74,9 +74,10 @@
         text-align: justify;
         font-family: Mulish-SemiBold, sans-serif;
         color: white;
-        padding-top: 3%;
     }
-
+    .texttopsec5mb-GT {
+        padding-top: 6%;
+    }
     .bannersec5mb-GT {
         width: 90vw;
         margin-bottom: 3%;
