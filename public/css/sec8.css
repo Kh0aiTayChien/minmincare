@@ -1,0 +1,54 @@
+.sec8 {
+    display: block;
+    background-image: url("/images/sec8/Group 3884.png");
+    background-size: 100% 110%;
+    background-position: center top -50px;
+    margin-bottom: 4%;
+    padding-bottom: 5%;
+}
+
+.sec8mb {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec8 {
+        display: none;
+    }
+    .sec8mb {
+        /*background-image: url("/images/kien-thuc/sec1/Asset 2.png");*/
+        background-size: 200% 100%;
+        background-position: center;
+        background-color: #F1F1F2;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 4%;
+    }
+    .headersec8mb {
+        margin-top: 3%;
+        /*margin-left: 0;*/
+    }
+    .imgsec8mb {
+        padding-top: 3%;
+    }
+    .bannersec8mb {
+        /*margin-left: 15%;*/
+        width: 140%;
+    }
+}
+/*.contentsec8 {*/
+/*    !*display: block;*!*/
+/*    padding-bottom: 10%;*/
+/*}*/
+
+.headersec8 {
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.imgsec8 {
+    margin-left: 50%;
+    padding-top: 3%;
+}
