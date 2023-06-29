@@ -42,7 +42,7 @@
         margin-left: 3rem;
     }
     .custom-padding{
-        padding: 4rem 8rem 8rem 8rem;
+        padding: 0 8rem 8rem 8rem;
     }
     @media screen and (max-width: 767px) {
         .pos-center {
@@ -55,7 +55,7 @@
         }
     }
     .custom-mt {
-        padding-top: 6rem;
+        padding-top: 8rem;
         transform: translate(1%, 0);
     }
     .custom-ms{

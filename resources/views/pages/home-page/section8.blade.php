@@ -14,7 +14,8 @@
                         riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
                     <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white">XEM CHI TIẾT</a>
+                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium
+                        text-white"> <div class="mx-4">XEM CHI TIẾT</div></a>
                     </div>
                 </div>
             </div>
@@ -26,7 +27,8 @@
                         riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
                     <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white">XEM CHI TIẾT</a>
+                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white">
+                            <div class="mx-4">XEM CHI TIẾT</div></a>
                     </div>
                 </div>
             </div>
@@ -38,7 +40,8 @@
                         riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
                     <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white">XEM CHI TIẾT</a>
+                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white">
+                            <div class="mx-4">XEM CHI TIẾT</div></a>
                     </div>
                 </div>
             </div>
@@ -46,12 +49,6 @@
                 <span class="circle-sec-8 me-1 circle-sec-8-1" id="1"></span>
                 <span class="circle-sec-8 me-1 bg-white" id="2"></span>
                 <span class="circle-sec-8 me-1 bg-white" id="3"></span>
-            </div>
-            <div class="mt-3 d-flex justify-content-center ">
-                <div class="d-flex align-content-center justify-content-center">
-                    <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
-                        THÊM</a>
-                </div>
             </div>
         </div>
         <div class="col-4 position-relative">
@@ -65,9 +62,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
             <div class="card rounded-custom shadow-effect article-next d-none"
@@ -77,9 +71,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
             <div class="card rounded-custom shadow-effect article-next d-none"
@@ -89,9 +80,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
         </div>
