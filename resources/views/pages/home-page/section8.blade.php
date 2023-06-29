@@ -65,9 +65,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
             <div class="card rounded-custom shadow-effect article-next d-none"
@@ -77,9 +74,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
             <div class="card rounded-custom shadow-effect article-next d-none"
@@ -89,9 +83,6 @@
                     <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
                     <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
                         cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test shadow-test">XEM CHI TIẾT</a>
-                    </div>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -55,43 +56,45 @@ class ProductController extends Controller
         return redirect()->route('products.index')->with('success', 'Tạo sản phẩm thành công!');
     }
 
-
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
-        //
+        $product = Product::findOrFail($id);
+        return view('admin/product/edit', ['product' => $product] );
     }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required|string|',
+            'price' => 'required|numeric',
+            'description' => 'required',
+        ], [
+            'name.unique' => 'Sản phẩm đã tồn tại',
+            'price.required' => 'Không được để trống',
+            'description.required' => 'Không được để trống'
+        ]);
+        $product = Product::findOrFail($id);
+        $product->name = $validatedData['name'];
+        $product->price = $validatedData['price'];
+        $product->description = $validatedData['description'];
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('upload/images'), $imageName); // Lưu ảnh vào thư mục trên server
+            $product->image = '/upload/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
+        }
+        $product->save();
+        return redirect()->route('products.index')->with('success', 'Cập nhật sản phẩm thành công!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        //
+        $product = Product::findOrFail($id);
+        $product->delete();
     }
 }

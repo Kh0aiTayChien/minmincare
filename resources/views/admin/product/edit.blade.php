@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Bài viết mới') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Sản phẩm mới') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -49,13 +49,13 @@
 
             <div class="card shadow mb-4">
                 <div class="card-profile-image mt-4 ">
-                    <h5 class="font-weight-bold title-image d-none">Ảnh bài viết thay đổi </h5>
+                    <h5 class="font-weight-bold title-image d-none">Ảnh sản phẩm thay đổi </h5>
                     <img id="image-review" src="" alt="" style="max-width: 100%; max-height: 200px;">
                 </div>
                 <script>
                     function previewImage(event) {
                         var reader = new FileReader();
-                        reader.onload = function(){
+                        reader.onload = function () {
                             var preview = document.getElementById('image-review');
                             preview.src = reader.result;
 
@@ -70,8 +70,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center">
-                                <h5 class="font-weight-bold" >Ảnh cho bài viết</h5>
-                                <img src="{{$article->image}}" style="width: 300px; height: 200px" alt="">
+                                <h5 class="font-weight-bold">Ảnh sản phẩm hiện tại </h5>
+                                <img src="{{$product->image}}" style="width: 300px; " alt="">
                             </div>
                         </div>
                     </div>
@@ -91,40 +91,30 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{route('articles.update',['article' => $article->id ])}}" autocomplete="off" enctype="multipart/form-data">
+                    <form method="POST" action="{{route('products.update',[ $product->id ])}}" autocomplete="off"
+                          enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <input type="hidden" name="_method" value="PATCH">
 
-                        <h6 class="heading-small text-muted mb-4">Sửa bài viết </h6>
+                        <h6 class="heading-small text-muted mb-4">Sửa sản phẩm </h6>
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-6">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="title">Tiêu đề<span
+                                        <label class="form-control-label" for="title">Tên sản phẩm<span
                                                 class="small text-danger">*</span></label>
-                                        <input type="text" id="title" class="form-control" name="title"
-                                               placeholder="tiêu đề của bài viết" value="{{$article->title}}">
+                                        <input type="text" id="name" class="form-control" name="name"
+                                               placeholder="Tên sản phẩm" value="{{$product->name}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-6">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
-                                        <select id="category" class="form-control" name="category">
-                                            <option value="">-- Chọn chủ đề --</option>
-                                            @foreach($categories as $category)
-                                                <option value="{{ $category->id }}" {{ $category->id == $article->category_id ? 'selected' : '' }}>{{ $category->title }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="slug">Slug<span
+                                        <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>
-                                        <input type="text" id="slug" class="form-control" name="slug" value="{{$article->slug}}"
-                                               placeholder="link không dấu của bài viết">
+                                        <input type="text" id="name" class="form-control" name="price"
+                                               placeholder="Giá sản phẩm" value="{{$product->price}}">
                                     </div>
                                 </div>
                             </div>
@@ -132,38 +122,20 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <label class="form-control-label" for="content">Nội dung <span
+                                        <label class="form-control-label" for="content">Miêu tả về sản phẩm <span
                                                 class="small text-danger">*</span><span
                                                 class="small text-danger">*</span></label>
-                                        <textarea class="form-control" id="editor" name="content" rows="10">
-                                        {{$article->content}}
-                                        </textarea>
+                                        <textarea class="form-control" id="editor" name="description" rows="10"
+                                                 >{{$product->description}} </textarea>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-12">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="order_number">Số thự tự<span
-                                                class="small text-danger">*</span></label>
-                                        <input type="number" id="order_number" class="form-control" name="order_number" value="{{$article->order_number}}"
-                                               placeholder="Số thự tự - mặc định là 1">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="status">Trạng thái<span class="small text-danger">*</span></label>
-                                        <select class="form-control" id="status" name="status">
-                                            <option value="0" {{ $article->status == 0 ? 'selected' : '' }}>Draft</option>
-                                            <option value="1" {{ $article->status == 1 ? 'selected' : '' }}>Published</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="image"> Ảnh cho bài viết <span
+                                        <label class="form-control-label" for="image"> Ảnh cho sản phẩm <span
                                                 class="small text-danger">*</span></label>
                                         <input type="file" id="image" class="form-control" name="image"
-                                               placeholder="chọn file ảnh" onchange="previewImage(event)">
+                                               placeholder="chọn file ảnh" onchange="previewImage(event)"
+                                               >
                                     </div>
                                 </div>
                             </div>

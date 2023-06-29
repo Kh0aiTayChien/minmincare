@@ -29,7 +29,7 @@
                     </a>
                 </td>
                 <td class="col-lg-1">
-                    <form action="{{route('articles.destroy',[ $product->id ])}}" method="POST" id="delete-product">
+                    <form action="{{route('products.destroy',[ $product->id ])}}" method="POST" id="delete-product">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger">Xóa
@@ -51,10 +51,10 @@
         $('form#delete-product').submit(function (e) {
             e.preventDefault();
 
-            if (confirm("Bạn có muốn xóa bài viết này không ? Nó sẽ được đưa vào thùng rác ")) {
-                var url = $(this).attr('action');
-                var token = $(this).find('input[name="_token"]').val();
-                var row = $(this).closest('.product-row');
+            if (confirm("Bạn có muốn xóa sản phẩm này không ? Nó sẽ được xóa vĩnh viễn")) {
+                let url = $(this).attr('action');
+                let token = $(this).find('input[name="_token"]').val();
+                let row = $(this).closest('.product-row');
                 $.ajax({
                     url: url,
                     type: 'DELETE',
