@@ -19,6 +19,8 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script
         src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js">
     </script>

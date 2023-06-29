@@ -25,20 +25,13 @@
             </li>
         </ul>
     </div>
-
-    {{--    <div class="right-action shadow-effect">--}}
-    {{--        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>--}}
-    {{--        <br>--}}
-    {{--        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>--}}
-    {{--    </div>--}}
-    {{--    @include('page-layout.cart')--}}
 </div>
 
 <div class="Clogo ">
     <div class="right-action ">
         <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"></div>
         <br>
-        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
+        <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="scale: 90%"></div>
     </div>
     <div class="overlay d-none">
         @include('page-layout.cart')
@@ -207,6 +200,7 @@
 
     .cart {
         cursor: pointer;
+        transform: translate( 11px, 0);
     }
 
     /*.cart-circle{*/
@@ -337,12 +331,6 @@
 
 
 <script>
-    // $(document).on('click',function(e){
-    //     if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
-    //         console.log(1)
-    //         $(".popup").addClass('d-none');
-    //     }
-    // });
     $(document).ready(function () {
         $('.list-product').hover(
             function () {
@@ -554,38 +542,8 @@
             });
         });
         $(document).ready(function() {
-            // Lấy tham chiếu đến phần tử giỏ hàng
-            var popup = $("#popup");
-
-            // Thiết lập các biến toàn cục
-            var isDragging = false;
-            var offset = { x: 0, y: 0 };
-
-            // Bắt sự kiện khi chuột được nhấn xuống
-            popup.mousedown(function(event) {
-                isDragging = true;
-
-                // Lấy tọa độ chuột khi nhấn xuống
-                offset.x = event.clientX - popup.offset().left;
-                offset.y = event.clientY - popup.offset().top;
-            });
-
-            // Bắt sự kiện khi chuột được di chuyển
-            $(document).mousemove(function(event) {
-                if (!isDragging) return;
-
-                // Tính toán vị trí mới cho giỏ hàng
-                var x = event.clientX - offset.x;
-                var y = event.clientY - offset.y;
-
-                // Di chuyển giỏ hàng tới vị trí mới
-                popup.css({ left: x, top: y });
-            });
-
-            // Bắt sự kiện khi chuột được nhả ra
-            $(document).mouseup(function() {
-                isDragging = false;
-            });
+            let popup = $("#popup");
+            popup.draggable();
         });
     });
 </script>
