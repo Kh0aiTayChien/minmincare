@@ -1,10 +1,10 @@
 <div class="sec2-TT">
     <div class="row-test mb-4">
-        <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-7 menuKT">
+        <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT">
             <img src="{{asset('images/kien-thuc/sec2/Asset 6.png')}}" class="col-12"></a>
-        <a href="{{asset('kien-thuc/me-sau-sinh')}}" class="col-xxl-4 col-sm-4 col-7 menuKT"><img
+        <a href="{{asset('kien-thuc/me-sau-sinh')}}" class="col-xxl-4 col-sm-4 col-9 menuKT"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 1.png')}}" class="col-12"></a>
-        <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-7 menuKT"><img
+        <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-9 menuKT"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 4.png')}}" class="col-12"></a>
     </div>
     @foreach($articles as $article)
@@ -17,7 +17,7 @@
                     <p class="textdatetime p-2"> <img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}" class="imgdatetime">  {{$article->created_at}}</p>
 
                     <div class="green-text"><h4 class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4></div>
-                    <p class="card-text newscontent ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+                    <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
                 </div>
             </div>
         </div>
