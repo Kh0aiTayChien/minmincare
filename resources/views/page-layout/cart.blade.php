@@ -1,4 +1,4 @@
-<div id="popup" style="" class="shadow-effect d-none popup">
+<div id="popup" style="" class="shadow-effect d-none popup draggable">
     <div class="green-bg mitr-medium text-white " style="height: 2rem ; border-radius: 23px 23px 0 0 ">
         <p class=" text-center ">GIỎ HÀNG CỦA TÔI </p>
         <span class="close-icon">

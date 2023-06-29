@@ -19,8 +19,15 @@
 
     <!-- Favicon -->
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
+    <style>
+        .bg-gradient-green {
+            background-color: #59843d;
+            background-image: linear-gradient(180deg,#59843d 10%,white 100%);
+            background-size: cover;
+        }
+    </style>
 </head>
-<body class="bg-gradient-primary min-vh-100 d-flex justify-content-center align-items-center">
+<body class="bg-gradient-green min-vh-100 d-flex justify-content-center align-items-center">
 
 @yield('main-content')
 

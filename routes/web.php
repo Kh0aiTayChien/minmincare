@@ -32,16 +32,13 @@ Route::get('/kien-thuc/me-sau-sinh', [Knowledge2Controller::class, 'index'])->na
 Route::get('/kien-thuc/dinh-duong-cho-con', [Knowledge3Controller::class, 'index'])->name('kien-thuc.dinh-duong-cho-con.index');
 Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
 
-Route::get('/dai-ly', [SalesAgentController::class, 'index'])->name('dai-ly.index');
+Route::get('/dai-ly', [SalesAgentController::class,'index'])->name('dai-ly.index');
 Route::get('/tin-tuc', [NewsController::class, 'index'])->name('tin-tuc.index');
-Route::view('/dai-ly', 'pages.dai-ly.index')->name('dai-ly.index');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');
 Route::post('/subtraction', [CartController::class, 'subtraction'])->name('homepage.cart.subtraction');
 Route::post('/delete_cart', [CartController::class, 'delete_cart'])->name('homepage.cart.delete');
-
-Route::view('/dai-ly', 'pages.dai-ly.index')->name('dai-ly.index');
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send", [CartController::class, 'send'])->name('homepage.cart.send');
 });

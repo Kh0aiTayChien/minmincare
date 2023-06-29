@@ -25,20 +25,13 @@
             </li>
         </ul>
     </div>
-
-    {{--    <div class="right-action shadow-effect">--}}
-    {{--        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>--}}
-    {{--        <br>--}}
-    {{--        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>--}}
-    {{--    </div>--}}
-    {{--    @include('page-layout.cart')--}}
 </div>
 
 <div class="Clogo ">
-    <div class="right-action shadow-effect">
-        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>
+    <div class="right-action ">
+        <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"></div>
         <br>
-        <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
+        <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="scale: 90%"></div>
     </div>
     <div class="overlay d-none">
         @include('page-layout.cart')
@@ -120,9 +113,9 @@
     #popup {
         z-index: 9999 !important;
         position: fixed;
-        top: 50%;
-        right: 0;
-        transform: translate(-50%, -50%);
+        top: 15vh;
+        right: 15vw;
+        /*transform: translate(-50%, -50%);*/
         width: 300px;
         background-color: white;
         border-radius: 23px;
@@ -207,6 +200,7 @@
 
     .cart {
         cursor: pointer;
+        transform: translate( 11px, 0);
     }
 
     /*.cart-circle{*/
@@ -297,7 +291,6 @@
             transform: rotate(360deg);
         }
     }
-
 </style>
 
 <div class="headermb fixed-top">
@@ -334,12 +327,6 @@
 
 
 <script>
-    // $(document).on('click',function(e){
-    //     if(!(($(e.target).closest("#popup").length > 0 ) || ($(e.target).closest(".cart").length > 0))){
-    //         console.log(1)
-    //         $(".popup").addClass('d-none');
-    //     }
-    // });
     $(document).ready(function () {
         $('.list-product').hover(
             function () {
@@ -550,6 +537,9 @@
                 }
             });
         });
-
+        $(document).ready(function() {
+            let popup = $("#popup");
+            popup.draggable();
+        });
     });
 </script>
