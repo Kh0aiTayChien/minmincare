@@ -35,8 +35,8 @@
 </div>
 
 <div class="Clogo ">
-    <div class="right-action shadow-effect">
-        <div><img src="{{asset('images/header/cart-no-number.png')}}" alt="" class="cart"></div>
+    <div class="right-action ">
+        <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"></div>
         <br>
         <div><img src="{{asset('images/sec1/message.png')}}" alt=""></div>
     </div>
@@ -120,9 +120,9 @@
     #popup {
         z-index: 9999 !important;
         position: fixed;
-        top: 50%;
-        right: 0;
-        transform: translate(-50%, -50%);
+        top: 15vh;
+        right: 15vw;
+        /*transform: translate(-50%, -50%);*/
         width: 300px;
         background-color: white;
         border-radius: 23px;
@@ -297,7 +297,10 @@
             transform: rotate(360deg);
         }
     }
-
+    .draggable {
+        position: absolute;
+        cursor: move;
+    }
 </style>
 
 <div class="headermb fixed-top">
@@ -550,6 +553,39 @@
                 }
             });
         });
+        $(document).ready(function() {
+            // Lấy tham chiếu đến phần tử giỏ hàng
+            var popup = $("#popup");
 
+            // Thiết lập các biến toàn cục
+            var isDragging = false;
+            var offset = { x: 0, y: 0 };
+
+            // Bắt sự kiện khi chuột được nhấn xuống
+            popup.mousedown(function(event) {
+                isDragging = true;
+
+                // Lấy tọa độ chuột khi nhấn xuống
+                offset.x = event.clientX - popup.offset().left;
+                offset.y = event.clientY - popup.offset().top;
+            });
+
+            // Bắt sự kiện khi chuột được di chuyển
+            $(document).mousemove(function(event) {
+                if (!isDragging) return;
+
+                // Tính toán vị trí mới cho giỏ hàng
+                var x = event.clientX - offset.x;
+                var y = event.clientY - offset.y;
+
+                // Di chuyển giỏ hàng tới vị trí mới
+                popup.css({ left: x, top: y });
+            });
+
+            // Bắt sự kiện khi chuột được nhả ra
+            $(document).mouseup(function() {
+                isDragging = false;
+            });
+        });
     });
 </script>
