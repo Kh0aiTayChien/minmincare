@@ -130,6 +130,10 @@
         <img src="{{asset('images/dai-ly/section-slide/quyenloimobile.png')}}" alt="" style="width: 45vw" class="img-fluid">
     </div>
 
+    <div class="d-flex align-content-center justify-content-center">
+        <img class=" px-1 mb-3" src="{{asset('images/dai-ly/section-slide/hand-shake.png')}}" alt="Card image">
+    </div>
+
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-section-slide" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
@@ -138,22 +142,20 @@
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
         </button>
 
-        <div class="carousel-section-slide">
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title green-text">CHIẾT KHẤU HẤP DẪN</h4>
-                    <p class="card-text text-justify"> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.
+        <div class="carousel-section-slide mt-2">
+            <div class="shadow-effect"
+                 style="width:100%;">
+                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
+                <div class="card-body" style="">
+                    <p class="card-text text-justify" style=""> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.
                         Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.
                         Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</p>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title green-text">HỖ TRỢ ĐÀO TẠO</h4>
+            <div class=" rounded-custom shadow-effect"
+                 style="width:100%; ">
+                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" alt="Card image">
+                <div class="card-body" >
                     <p class="card-text text-justify "> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
                         Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</p>
 {{--                    <div class="d-flex align-content-center justify-content-center">--}}
@@ -161,20 +163,18 @@
 {{--                    </div>--}}
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title green-text">HỖ TRỢ TRUYỀN THÔNG MARKETING</h4>
+            <div class=" rounded-custom shadow-effect"
+                 style="width:100%;  ">
+                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" alt="Card image">
+                <div class="card-body" >
                     <p class="card-text text-justify">Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất
                         Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</p>
                 </div>
             </div>
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
+            <div class=" rounded-custom shadow-effect"
+                 style="width:100%; ">
+                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title green-text">CHÍNH SÁCH CHĂM SÓC, HỖ TRỢ, ƯU ĐÃI CHO ĐẠI LÝ</h4>
                     <p class="card-text text-justify"> Hệ thống cấp độ đại lý rõ ràng có mức quyền lợi khác nhau
                         Được tham gia các chương trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức
                         Có event/ hoạt động ý nghĩa hàng tháng, hàng năm</p>
@@ -237,7 +237,7 @@
         }
 
         .section-slide-mobile.slick-slide {
-            margin: 5px;
+            margin: 0;
         }
 
         .section-slide-mobile.slick-slide img {
@@ -308,6 +308,25 @@
             .section-slide-mobile {
                 display: block;
             }
+            .section-slide-mobile  .slick-slide {
+                overflow: auto;
+            }
+
+            .section-slide-mobile .slick-track {
+                height: 19rem !important;
+            }
+            .section-slide-mobile .slick-list draggable{
+                height: 19rem !important;
+            }
+            .section-slide-mobile .slick-slide {
+                margin: 0 20px 20px 20px !important;
+            }
+            .section-slide-mobile .slick-dots {
+                margin-top: -20px !important;
+            }
+            .section-slide-mobile .card-text{
+                margin-bottom: 5px;
+            }
 
             .custom-prev-arrow-section-slide {
                 left: -17px;
@@ -327,6 +346,7 @@
             .custom-next-arrow-section-slide {
                 top: 40%;
             }
+
         }
 
         @media only screen and (min-width: 800px) {
