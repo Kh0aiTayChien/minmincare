@@ -11,7 +11,7 @@
                 <div class="modal-body d-flex justify-content-center align-items-center">
                     <div>
                         <div style="width: 1100px; height: 600px; float: none; clear: both; margin: 2px auto;">
-                            <embed
+                            <embed id="video-iframe"
                                 src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1"
                                 wmode="transparent"
                                 type="video/mp4"
@@ -106,7 +106,11 @@
     </a><br>
     <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>
 </div>
-
+<style>
+    .btn-close{
+        cursor: pointer;
+    }
+</style>
 <script>
     var modal = document.getElementById('exampleModal');
     var iframe = document.getElementById('video-iframe');
