@@ -143,7 +143,7 @@
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title">CHIẾT KHẤU HẤP DẪN</h4>
+                    <h4 class="card-title green-text">CHIẾT KHẤU HẤP DẪN</h4>
                     <p class="card-text text-justify"> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.
                         Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.
                         Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</p>
@@ -153,8 +153,8 @@
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title">HỖ TRỢ ĐÀO TẠO</h4>
-                    <p class="card-text text-justify"> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
+                    <h4 class="card-title green-text">HỖ TRỢ ĐÀO TẠO</h4>
+                    <p class="card-text text-justify "> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
                         Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</p>
 {{--                    <div class="d-flex align-content-center justify-content-center">--}}
 {{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>--}}
@@ -165,7 +165,7 @@
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title">HỖ TRỢ TRUYỀN THÔNG MARKETING</h4>
+                    <h4 class="card-title green-text">HỖ TRỢ TRUYỀN THÔNG MARKETING</h4>
                     <p class="card-text text-justify">Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất
                         Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</p>
                 </div>
@@ -174,7 +174,7 @@
                  style="width:100%; height: 70% ">
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">
-                    <h4 class="card-title">CHÍNH SÁCH CHĂM SÓC, HỖ TRỢ, ƯU ĐÃI CHO ĐẠI LÝ</h4>
+                    <h4 class="card-title green-text">CHÍNH SÁCH CHĂM SÓC, HỖ TRỢ, ƯU ĐÃI CHO ĐẠI LÝ</h4>
                     <p class="card-text text-justify"> Hệ thống cấp độ đại lý rõ ràng có mức quyền lợi khác nhau
                         Được tham gia các chương trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức
                         Có event/ hoạt động ý nghĩa hàng tháng, hàng năm</p>
@@ -185,6 +185,14 @@
     <style>
         .rounded-custom {
             border-radius: 23px
+        }
+
+        .card-text {
+            font-family: "Mulish SemiBold", sans-serif;
+        }
+
+        .card-title {
+            font-family: "Mulish Black", sans-serif;
         }
 
         .green-border {
