@@ -58,7 +58,7 @@
         }
     }
     .custom-mt {
-        padding-top: 8rem;
+        padding-top: 4rem;
         transform: translate(1%, 0);
     }
     .custom-ms{
