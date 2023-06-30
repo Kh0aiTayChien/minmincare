@@ -57,6 +57,13 @@
             margin-left: 75vw;
             z-index: 1000;
         }
+        .right-action {
+            margin-right: 10% !important;
+            margin-top: 70vh;
+            float: right;
+            scale: 70%;
+            height: 15px;
+        }
         .overlay {
             height: 100vh;
             width: 100vw;
@@ -203,13 +210,6 @@
         transform: translate( 11px, 0);
     }
 
-    /*.cart-circle{*/
-    /*    width: 18px;*/
-    /*    height: 18px;*/
-    /*    border-radius: 50%;*/
-    /*    background-color: white;*/
-    /*    position: relative;*/
-    /*}*/
     .cart-circle {
         width: 18px;
         height: 18px;

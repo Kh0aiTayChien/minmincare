@@ -31,15 +31,15 @@
         <div class="carousel-sec-6">
             <div class="card rounded-custom shadow-effect"
                  style="width:100%; height: 70% ">
-                <img class="" src="{{asset('images/sec6/chuyengia.png')}}" alt="Card image">
+                <img class="" src="{{asset('images/sec6/chuyen-gia.png')}}" alt="Card image">
             </div>
             <div class="card rounded-custom shadow-effect"
                  style="width:100%; height: 70% ">
-                <img class="" src="{{asset('images/sec6/chuyengia.png')}}" alt="Card image">
+                <img class="" src="{{asset('images/sec6/chuyen-gia.png')}}" alt="Card image">
             </div>
             <div class="card rounded-custom shadow-effect"
                  style="width:100%; height: 70% ">
-                <img class="" src="{{asset('images/sec6/chuyengia.png')}}" alt="Card image">
+                <img class="" src="{{asset('images/sec6/chuyen-gia.png')}}" alt="Card image">
             </div>
         </div>
     </div>
