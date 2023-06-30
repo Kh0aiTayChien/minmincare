@@ -169,7 +169,7 @@
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 31rem">
                     <h4 class="card-title green-text">CÔNG THỨC ĐỘC QUYỀN CO-NUMAX</h4>
-                    <p class="card-text" style="height: 31rem">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu tại viện dinh dưỡng
+                    <p class="card-text text-justify" style="height: 31rem">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu tại viện dinh dưỡng
                         quốc gia và các chuyên gia uy tín, giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
                         dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục năng lượng,
                         tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
@@ -180,7 +180,7 @@
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 31rem">
                     <h4 class="card-title green-text">CÔNG NGHỆ NANO CURCUMIN CAO CẤP</h4>
-                    <p class="card-text " style="height: 31rem">Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin
+                    <p class="card-text text-justify" style="height: 31rem">Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin
                         chiết xuất từ nghệ tươi. Dưới dạng hạt nano tinh khiết có kích thước siêu nhỏ 20 nm có khả năng
                         thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi phục sức khỏe, nhanh lành vết thương,
                         chống hậu sản, tăng sức đề kháng, hệ miễn dịch, đồng thời giảm mờ thâm nám làn da,
@@ -192,7 +192,7 @@
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 31rem">
                     <h4 class="card-title green-text">NHÀ MÁY RIÊNG TIÊU CHUẦN QUỐC TẾ GMP</h4>
-                    <p class="card-text" style="height: 31rem">GMP - Good manufacturing practice là một hệ thống để đảm bảo rằng các sản phẩm
+                    <p class="card-text text-justify" style="height: 31rem">GMP - Good manufacturing practice là một hệ thống để đảm bảo rằng các sản phẩm
                         được sản xuất liên tục và kiểm soát theo tiêu chuẩn chất lượng. GMP bao gồm tất cả các khía cạnh
                         của sản xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược, bao bì, nguồn nước…),
                         cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh cá nhân của nhân viên.</p>
@@ -203,7 +203,7 @@
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 31rem">
                     <h4 class="card-title green-text">VÙNG NGUYÊN LIỆU 100% TỰ NHIÊN, UY TÍN</h4>
-                    <p class="card-text">Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng của sản phẩm.
+                    <p class="card-text text-justify">Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng của sản phẩm.
                         ối với Min Min Care, nguyên liệu hoàn toàn 100% tự nhiên được tuyển chọn từ nguồn uy tín
                         lâu năm có chứng nhận cả trong nước lẫn ngoài nước. Ngoài các loại đậu, hạt cao cấp,
                         sản phẩm còn bổ sung các loại bột hoa quả như: chuối, thanh long, đu đủ. Đồng thời bổ sung
@@ -215,7 +215,7 @@
                 <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
                 <div class="card-body" style="height: 31rem">
                     <h4 class="card-title green-text">CHỨNG NHẬN CHẤT LƯỢNG TIÊU CHUẨN QUỐC TẾ</h4>
-                    <p class="card-text" style="height: 31rem" >Min Min Care đạt được các chứng nhận bao gồm quản lý an toàn thực phẩm FDA Mỹ -
+                    <p class="card-text text-justify" style="height: 31rem" >Min Min Care đạt được các chứng nhận bao gồm quản lý an toàn thực phẩm FDA Mỹ -
                         đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn hệ thống
                         quản lý chất lượng ISO quốc tế..</p>
                 </div>

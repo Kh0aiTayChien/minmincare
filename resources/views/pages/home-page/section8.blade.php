@@ -209,6 +209,9 @@
     .green-text {
         color: #59843d;
     }
+    .shadow-effect {
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+    }
 
     .col {
         overflow: hidden;
