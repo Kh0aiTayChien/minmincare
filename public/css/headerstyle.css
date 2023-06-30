@@ -157,6 +157,7 @@ ul.iconmb {
         font-size: 25px;
         font-family: Mitr-SemiBold, sans-serif;
         margin-right: 8%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     }
     .textlinktop {
         margin-top: 25%
@@ -165,9 +166,9 @@ ul.iconmb {
         position: absolute;
         background: none;
         border: none;
-        transform: translateX(500%) translateY(15%);
+        transform: translateX(720%) translateY(25%);
     }
     .btn-close-img {
-        width: 12vw;
+        width: 8vw;
     }
 }
