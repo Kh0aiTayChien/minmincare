@@ -301,6 +301,7 @@
     </div>
     <nav>
         <ul class="hide iconmb">
+            <button class="close-btn"><img src="{{asset('images/header/close-btn.png')}}" class="btn-close-img"></button>
             <li class="contact linetop">
                 <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink textlinktop">GIỚI
                         THIỆU</p></a>
@@ -349,12 +350,17 @@
     });
     $(document).ready(function () {
         const menu = $('.menu');
+        const close = $('.close-btn')
         const hiddenList = $('.hide');
         const navLinks = $('nav ul li a');
         const navMenu = $('nav ul');
 
         // Thêm trình nghe sự kiện click cho menu element
         menu.on('click', function () {
+            // Toggle class "hide" trên phần tử ul
+            hiddenList.toggleClass('hide');
+        });
+        close.on('click', function () {
             // Toggle class "hide" trên phần tử ul
             hiddenList.toggleClass('hide');
         });
