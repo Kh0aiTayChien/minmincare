@@ -1,166 +1,175 @@
-<div class="section-8 row">
+{{--<div class="section-8 row">--}}
 
-    <div class="col-6 offset-6 row ">
-        <div class="" style="margin-top: 20%">
-            <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid">
-        </div>
-        <div class="col-2"></div>
-        <div class="col-6">
-            <div class="card rounded-custom shadow-effect article-show card-1" style="width:100%; height: 75%;">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành
-                        riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card rounded-custom shadow-test article-show d-none" style="width:100%; height: 75%;">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành
-                        riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card rounded-custom shadow-effect article-show d-none" style="width:100%; height: 75%;">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành
-                        riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center mt-5">
-                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-3 d-flex justify-content-center ">
-                <span class="circle-sec-8 me-1 circle-sec-8-1" id="1"></span>
-                <span class="circle-sec-8 me-1 bg-white" id="2"></span>
-                <span class="circle-sec-8 me-1 bg-white" id="3"></span>
-            </div>
-            <div class="mt-3 d-flex justify-content-center ">
-                <div class="d-flex align-content-center justify-content-center">
-                    <a href="#" class="shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM
-                        THÊM</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 position-relative">
-            <div class="position-absolute sec-8-next shadow-effect" style="">
-                <img src="{{asset('images/arrow-r.png')}}" alt="Arrow" class="arrow-img ">
-            </div>
-            <div class="card rounded-custom shadow-effect article-next card-next-1"
-                 style="width:160%; height: 75% ;opacity: 0.5">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                </div>
-            </div>
-            <div class="card rounded-custom shadow-effect article-next d-none"
-                 style="width:160%; height: 75% ;opacity: 0.5">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                </div>
-            </div>
-            <div class="card rounded-custom shadow-effect article-next d-none"
-                 style="width:160%; height: 75% ;opacity: 0.5">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>
-                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="col-6 offset-6 row ">--}}
+{{--        <div class="" style="margin-top: 20%">--}}
+{{--            <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid">--}}
+{{--        </div>--}}
+{{--        <div class="col-2"></div>--}}
+{{--        <div class="col-6">--}}
+{{--            <div class="card rounded-custom shadow-effect article-show card-1" style="width:100%; height: 75%;">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành--}}
+{{--                        riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-test article-show d-none" style="width:100%; height: 75%;">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành--}}
+{{--                        riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-effect article-show d-none" style="width:100%; height: 75%;">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành--}}
+{{--                        riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="mt-3 d-flex justify-content-center ">--}}
+{{--                <span class="circle-sec-8 me-1 circle-sec-8-1" id="1"></span>--}}
+{{--                <span class="circle-sec-8 me-1 bg-white" id="2"></span>--}}
+{{--                <span class="circle-sec-8 me-1 bg-white" id="3"></span>--}}
+{{--            </div>--}}
+{{--            <div class="mt-3 d-flex justify-content-center ">--}}
+{{--                <div class="d-flex align-content-center justify-content-center">--}}
+{{--                    <a href="#" class="shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM--}}
+{{--                        THÊM</a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="col-4 position-relative">--}}
+{{--            <div class="position-absolute sec-8-next shadow-effect" style="">--}}
+{{--                <img src="{{asset('images/arrow-r.png')}}" alt="Arrow" class="arrow-img ">--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-effect article-next card-next-1"--}}
+{{--                 style="width:160%; height: 75% ;opacity: 0.5">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-effect article-next d-none"--}}
+{{--                 style="width:160%; height: 75% ;opacity: 0.5">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-effect article-next d-none"--}}
+{{--                 style="width:160%; height: 75% ;opacity: 0.5">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Min Min Care ứng dụng tech đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
+{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test shadow-test">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-</div>
-<div class="section-8-mobile position-relative mt-3">
-    <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid" style="width: 70%">
-    </div>
-    <div class="row" style="">
-        <div class="col"></div>
-        <div class="col mt-4 mb-4">
-        </div>
-    </div>
+{{--</div>--}}
+{{--<div class="section-8-mobile position-relative mt-3">--}}
+{{--    <div class="d-flex align-content-center justify-content-center">--}}
+{{--        <img src="{{asset('images/sec8/healthy.png')}}" alt="" class="img-fluid" style="width: 70%">--}}
+{{--    </div>--}}
+{{--    <div class="row" style="">--}}
+{{--        <div class="col"></div>--}}
+{{--        <div class="col mt-4 mb-4">--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-    <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow-8" aria-label="Previous">
-            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
-        </button>
-        <button class="custom-next-arrow-8" aria-label="Next">
-            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
-        </button>
+{{--    <div class="slick-carousel position-relative">--}}
+{{--        <button class="custom-prev-arrow-8" aria-label="Previous">--}}
+{{--            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>--}}
+{{--        </button>--}}
+{{--        <button class="custom-next-arrow-8" aria-label="Next">--}}
+{{--            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>--}}
+{{--        </button>--}}
 
-        <div class="carousel-sec-8">
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card rounded-custom shadow-effect"
-                 style="width:100%; height: 70% ">
-                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>
-                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng
-                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>
-                    <div class="d-flex align-content-center justify-content-center">
-                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--        <div class="carousel-sec-8">--}}
+{{--            <div class="card rounded-custom shadow-effect"--}}
+{{--                 style="width:100%; height: 70% ">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center">--}}
+{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card rounded-custom shadow-effect"--}}
+{{--                 style="width:100%; height: 70% ">--}}
+{{--                <img class="card-img-top" src="{{asset('images/sec8/mom-kiss-son.png')}}" alt="Card image">--}}
+{{--                <div class="card-body">--}}
+{{--                    <h4 class="card-title">Mi Min Care ứng dụng công nghệ đột phá Nano Curcurmin</h4>--}}
+{{--                    <p class="card-text">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
+{{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
+{{--                    <div class="d-flex align-content-center justify-content-center">--}}
+{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-        <div class="d-flex align-content-center justify-content-center position-absolute w-100" style="margin-top: 150%">
-            <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium ">XEM
-                THÊM</a>
-        </div>
+{{--        <div class="d-flex align-content-center justify-content-center position-absolute w-100" style="margin-top: 150%">--}}
+{{--            <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium ">XEM--}}
+{{--                THÊM</a>--}}
+{{--        </div>--}}
 
 
-    <script>
-        $(document).ready(function () {
-            $('.carousel-sec-8').slick({
-                infinite: true,
-                speed: 900,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                prevArrow: $('.custom-prev-arrow-8'),
-                nextArrow: $('.custom-next-arrow-8'),
-            });
-        });
-    </script>
-</div>
+{{--    <script>--}}
+{{--        $(document).ready(function () {--}}
+{{--            $('.carousel-sec-8').slick({--}}
+{{--                infinite: true,--}}
+{{--                speed: 900,--}}
+{{--                slidesToShow: 1,--}}
+{{--                slidesToScroll: 1,--}}
+{{--                dots: true,--}}
+{{--                prevArrow: $('.custom-prev-arrow-8'),--}}
+{{--                nextArrow: $('.custom-next-arrow-8'),--}}
+{{--            });--}}
+{{--        });--}}
+{{--    </script>--}}
+{{--</div>--}}
 <style>
 
     .section-8 {
         background: url({{asset('images/sec8/mon-with-son.png')}}) no-repeat center center;
         background-size: cover;
-        height: 150vh;
+        /*height: 150vh;*/
     }
     .sec-8-next{
         padding-top: 90%;

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="622.391" height="183.021" viewBox="0 0 622.391 183.021">
+    <style>
+        @font-face {
+        font-family: 'Mitr-SemiBold';
+        src: url("/Fonts/Mitr-SemiBold.ttf");
+        }
+        @font-face {
+        font-family: 'Mitr-Regular';
+        src: url("/Fonts/Mitr-Regular.ttf");
+        }
+    </style>
+    <g id="Group_890" data-name="Group 890" transform="translate(-1011.124 -113.72)">
+        <text id="Chuyên_mục" data-name="Chuyên mục" transform="translate(1184.124 180.72)" fill="#f79420"
+              font-size="57.877" font-family="Mitr-Regular, Mitr">
+            <tspan x="-172.82" y="0">Chuyên mục</tspan>
+        </text>
+        <text id="KIẾN_THỨC" data-name="KIẾN THỨC" transform="translate(1431.515 265.741)" fill="#59843d" font-size="74"
+              font-family="Mitr-SemiBold, Mitr" font-weight="600">
+            <tspan x="-201.391" y="0">KIẾN THỨC</tspan>
+        </text>
+    </g>
+</svg>

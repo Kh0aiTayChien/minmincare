@@ -1,11 +1,11 @@
 <div class="sec2-TT">
     <div class="row-test mb-4">
-        <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT">
+        <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test">
             <img src="{{asset('images/kien-thuc/sec2/Asset 6.png')}}" class="col-12"></a>
-        <a href="{{asset('kien-thuc/me-sau-sinh')}}" class="col-xxl-4 col-sm-4 col-9 menuKT"><img
+        <a href="{{asset('kien-thuc/me-sau-sinh')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 3.png')}}" class="col-12"></a>
-        <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-9 menuKT"><img
-                src="{{asset('images/kien-thuc/sec2/Asset 5.png')}}" class="col-12"></a>
+        <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
+                src="{{asset('images/kien-thuc/sec2/dinh-duong.png')}}" class="col-12"></a>
     </div>
     @foreach($articles as $article)
         <div class="card mb-4 mt-4 border-0 ">
