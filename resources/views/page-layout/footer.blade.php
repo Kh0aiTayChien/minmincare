@@ -9,7 +9,7 @@
                     <!-- Grid column -->
                     <div class="col-md-3 contentLeftfooter">
                         <img src="{{asset('images/footer/Group 930.png')}}" class="logofooter"><br>
-                        <a href="tel:0362149839" class="linkphone">
+                        <a href="tel:0989985091" class="linkphone">
                             <img src="{{asset('images/footer/Group 3886.png')}}" class="phoneicon">
                         </a><br>
                         <a href="#" class="linkemail">
@@ -77,7 +77,7 @@
     <img src="{{asset('images/footer/Group 4239.png')}}" class="linefootermb" id="Informationmb">
     <img src="{{asset('images/footer/Group 930.png')}}" class="logofootermb">
     <div class="linkcontactmb">
-        <a href="#" class="linkphonemb"><img src="{{asset('images/footer/Group 5083.png')}}" class="phonelogomb"></a>
+        <a href="tel:0989985091" class="linkphonemb"><img src="{{asset('images/footer/Group 5083.png')}}" class="phonelogomb"></a>
         <a href="#" class="linkmailmb"><img src="{{asset('images/footer/Group 5084.png')}}" class="maillogomb"></a>
     </div>
     <a href="#" class="linkaddressmb"><img src="{{asset('images/footer/Group 5082.png')}}" class="addresslogomb"></a>
