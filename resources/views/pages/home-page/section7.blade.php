@@ -12,12 +12,12 @@
         </button>
 
         <div class="carousel-sec-7">
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/cmt.svg')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/sec7/cmt.png')}}" class="img-fluid"></div>
         </div>
     </div>
 </div>

@@ -53,6 +53,9 @@
         .custom-padding{
             padding: 2rem 2rem 2rem 2rem;
         }
+        .custom-mt {
+            padding-top: 4rem !important;
+        }
     }
     .custom-mt {
         padding-top: 8rem;
