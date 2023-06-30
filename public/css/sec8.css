@@ -24,7 +24,6 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-        padding-bottom: 4%;
     }
     .headersec8mb {
         margin-top: 3%;
@@ -34,8 +33,7 @@
         padding-top: 3%;
     }
     .bannersec8mb {
-        /*margin-left: 15%;*/
-        width: 140%;
+        width: 100vw;
     }
 }
 /*.contentsec8 {*/

@@ -31,7 +31,7 @@
 </span><br><br><span>Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu hướng tới việc giúp mẹ bầu và mẹ sau sinh làm tròn thiên chức thiêng liêng.</span>
     </p>
     <a href="#">
-        <svg class="button1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg class="button1 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="282.96" height="90.24"
              viewBox="0 0 282.96 90.24">
             <g id="Group_874" data-name="Group 874" transform="translate(-543.24 -3028.957)">

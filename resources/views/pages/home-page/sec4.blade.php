@@ -6,7 +6,7 @@
                 class="contentsec4">Cung cấp đầy đủ dưỡng chất cần thiết cho mẹ bầu và thai nhi như axit folic, chất xơ, vitamin D, sắt, canxi, omega-3, chất chống oxy hóa. Sản phẩm được dựa trên công thức CO-NUMAX đột phá được nghiên cứu độc quyền nhằm giúp tối đa hóa nhu cầu dinh dưỡng toàn diện dành riêng cho mẹ bầu.</span>
         </p>
         <a href="#">
-            <svg class="button2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <svg class="button2 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                  width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
                 <g id="Group_881" data-name="Group 881" transform="translate(-1005 -3794.557)">
                     <g id="Group_880" data-name="Group 880">
@@ -40,7 +40,7 @@
 </span><br><br><span class="contentsec4 textRight">Tăng cường khả năng sản xuất lượng sữa tự nhiên cho mẹ chỉ sau 1 tuần sử dụng. Ngoài bổ sung dinh dưỡng, khoáng chất, vitamin mà còn giúp mẹ sau sinh hồi phục sức khỏe, tăng sức đề kháng, hệ miễn dịch, ngăn ngừa lão hóa, nhanh lành vết thương nhờ vào việc ứng dụng công nghệ Nano Curcumin vào sản phẩm.</span>
         </p><br>
         <a href="#">
-            <svg class="button3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283.2" height="90.24"
+            <svg class="button3 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283.2" height="90.24"
                  viewBox="0 0 283.2 90.24">
                 <g id="Group_888" data-name="Group 888" transform="translate(-637.8 -4269.517)">
                     <g id="Group_887" data-name="Group 887">
