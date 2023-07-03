@@ -22,15 +22,11 @@
     </div>
     <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
-            </div>
-            <div class="carousel-item">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
-            </div>
-            <div class="carousel-item">
-                <img src="{{asset('images/sec1/mom-son.jpg')}}" class="img-slide " alt="img-slide">
-            </div>
+            @foreach($images as $key => $image)
+                <div class="carousel-item {{$key == 0 ? 'active' : ''}}">
+                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide">
+                </div>
+            @endforeach
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">

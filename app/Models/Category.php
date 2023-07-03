@@ -13,4 +13,8 @@ class Category extends Model
     {
         return $this->hasMany(Article::class)->onDelete('casade');
     }
+    public function images()
+    {
+        return $this->hasMany(Image::class)->onDelete('casade');
+    }
 }
