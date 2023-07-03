@@ -162,7 +162,7 @@
         </button>
 
         <div class="carousel-sec-5">
-            <div class=" shadow-effect"
+            <div class="sec5-content"
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
@@ -173,7 +173,7 @@
                         tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
                 </div>
             </div>
-            <div class=" shadow-effect"
+            <div class="sec5-content"
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
@@ -186,7 +186,7 @@
                         ngăn ngừa lão hóa, kháng viêm và hỗ trợ giảm đau.</p>
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+            <div class="sec5-content"
                  style="width:100%;">
                 <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
@@ -198,7 +198,7 @@
                         cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh cá nhân của nhân viên.</p>
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+            <div class="sec5-content"
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
@@ -211,7 +211,7 @@
                         thêm đường isomalt có vị ngọt nhẹ, vẫn sử dụng được cho người ăn kiêng hoặc bị tiểu đường.</p>
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+        <div class="sec5-content"
                  style="width:100%;">
                 <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">

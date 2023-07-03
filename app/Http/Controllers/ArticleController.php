@@ -34,7 +34,7 @@ class ArticleController extends Controller
 
     public function create()
     {
-        $categories = Category::all();
+        $categories = Category::where('type', 1)->get();
         return view('admin/article/create', ['categories' => $categories]);
     }
 
@@ -42,6 +42,7 @@ class ArticleController extends Controller
     {
         $validatedData = $request->validate([
             'title' => 'required|string|unique:articles,title',
+            'category' => 'required',
             'slug' => 'required|string',
             'content' => 'required',
         ], [
@@ -49,7 +50,7 @@ class ArticleController extends Controller
             'title.required' => 'Không được để trống'
         ]);
         $article = new Article();
-        $article->category_id = $request->input('category');
+        $article->category_id = $validatedData['category'];
         $article->title = $validatedData['title'];
         $article->slug = $validatedData['slug'];
         $article->content = $validatedData['content'];
@@ -62,9 +63,9 @@ class ArticleController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $imageName = time() . '.' . $image->getClientOriginalExtension();
-            $image->move(public_path('upload/images'), $imageName); // Lưu ảnh vào thư mục trên server
-            $article->image = '/upload/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
+            $imageName = $image->getClientOriginalName();
+            $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
+            $article->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
         $article->save();
         $conditionView = 'index';
@@ -79,7 +80,7 @@ class ArticleController extends Controller
     public function edit($id)
     {
         $article = Article::findOrFail($id);
-        $categories = Category::all();
+        $categories = Category::where('type',1)->get();
         return view('admin/article/edit', ['article' => $article, 'categories' => $categories]);
     }
 
@@ -87,6 +88,7 @@ class ArticleController extends Controller
     {
         $validatedData = $request->validate([
             'title' => 'required|string|',
+            'category' => 'required',
             'slug' => 'required|string',
             'content' => 'required',
         ], [
@@ -94,7 +96,7 @@ class ArticleController extends Controller
             'title.required' => 'Không được để trống'
         ]);
         $article = Article::findOrFail($id);
-        $article->category_id = $request->input('category');
+        $article->category_id = $validatedData['category'];
         $article->title = $validatedData['title'];
         $article->slug = $validatedData['slug'];
         $article->content = $validatedData['content'];
@@ -107,7 +109,7 @@ class ArticleController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $imageName = $image->getClientOriginalName();
             $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
             $article->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
