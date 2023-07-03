@@ -36,10 +36,10 @@
         <label for="address"></label>
         <input class="svg-input" placeholder="Địa chỉ" type="text" id="address" name="address" required>
 
-        <input class="submitbutton" type="image" src="{{asset('images/sec10/Group 3886.png')}}" alt="Submit">
+        <input class="submitbutton button-shake" type="image" src="{{asset('images/sec10/Group 3886.png')}}" alt="Submit">
     </form>
     <button class="dailybutton">
-        <img src="{{asset('images/sec10/Group 3887.png')}}" class="button4">
+        <img src="{{asset('images/sec10/Group 3887.png')}}" class="button4 button-shake">
     </button>
     <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL">
     <object data="{{asset('images/dai-ly/sec2/Group 3173.svg')}}" class="headerbannersec2-DL"></object>
