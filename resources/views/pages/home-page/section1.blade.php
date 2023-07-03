@@ -3,7 +3,7 @@
 
         <div class="position-relative d-flex flex-column-reverse">
             <div class="arrow-down position-absolute">
-                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="">
+                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
             </div>
             <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
@@ -62,11 +62,11 @@
         margin-bottom: 5px;
         scale: 70%;
         cursor: pointer;
-        transition: transform 0.5s ease;
+        /*transition: transform 0.5s ease;*/
     }
-    .arrow-down:hover {
-        transform: translate(0%, -70%);
-    }
+    /*.arrow-down:hover {*/
+    /*    transform: translate(0%, -70%);*/
+    /*}*/
     .img-slide {
         object-fit: cover;
         width: 100%;
