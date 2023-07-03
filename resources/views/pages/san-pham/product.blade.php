@@ -21,7 +21,7 @@
                         <p class="card-text text-center mitr-small">Xem chi tiết</p>
                         <div class="d-flex justify-content-center align-content-center">
                             <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
-                                border-white text-white border-2 green-bg mitr-small buy-button"
+                                border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                     data-id="{{$product->id}}">
                                 THÊM VÀO GIỎ HÀNG
                             </button>
