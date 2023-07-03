@@ -96,6 +96,7 @@
     .mitr-small {
         font-family: Mitr-Medium, Mitr, sans-serif;
         font-size: small;
+        letter-spacing: 1.5px; /* Điều chỉnh giá trị này để thay đổi khoảng cách */
     }
 
     .mitr-medium {
