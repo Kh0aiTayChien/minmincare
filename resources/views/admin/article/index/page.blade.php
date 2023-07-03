@@ -21,11 +21,11 @@
         @foreach ($articles as $article)
             <tr class="article-row" data-id="{{ $article->id }}">
                 <td class="col-lg-1">{{ $article->title }}</td>
-                <td class="col-lg-1">{{ $article->category->title }}</td>
+                <td class="col-lg-1">{{ $article->Category->title }}</td>
                 <td class="col-lg-1">{{ $article->slug }}</td>
                 <td class="col-lg-1"><img src="{{ asset($article->image) }}" alt="ảnh đại diện" style="height: 3rem">
                 </td>
-                <td class="col-lg-2">{{ Str::limit(strip_tags($article->content), 100) }}</td>
+                <td class="col-lg-2">{{ Str::limit(strip_tags($article->content), 40) }}</td>
                 @if($conditionView === 'index')
 {{--                    @if($article->status == 1)--}}
 {{--                        <td class="col-lg-1"><input type="input" value="{{ $article->order_number }}"--}}

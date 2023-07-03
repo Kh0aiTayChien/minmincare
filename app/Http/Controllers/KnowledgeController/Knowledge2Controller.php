@@ -14,8 +14,9 @@ class Knowledge2Controller extends Controller
     public function index(Request $request)
     {
         $categorySlug = 'kien-thuc-me-sau-sinh';
-        $knowledges = Article::whereHas('category', function ($query) use ($categorySlug) {
-            $query->where('slug', $categorySlug);
+        $knowledges = Article::where('status',1)
+            ->whereHas('category', function ($query) use ($categorySlug) {
+                $query->where('slug', $categorySlug);
         })->paginate(3);
 
         $sessionCookie = config('session.cookie');

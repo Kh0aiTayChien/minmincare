@@ -44,6 +44,7 @@ Route::middleware('throttle:10,60')->group(function (Router $router) {
 });
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::resource('images', 'ImageController');
     Route::resource('products', 'ProductController');
     Route::resource('articles', 'ArticleController')->except(['index']);
     Route::get('index/{conditionView}', [ArticleController::class, 'index'])->name('articles.index');

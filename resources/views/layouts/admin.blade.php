@@ -88,6 +88,10 @@
                 ['name' => 'Sản phẩm mới', 'route' => route('products.create')],
                 ['name' => 'Danh sách sản phẩm', 'route' => route('products.index')],
             ];
+             $images = [
+                ['name' => 'Ảnh mới', 'route' => route('images.create')],
+                ['name' => 'Danh sách ảnh', 'route' => route('images.index')],
+            ];
 
             $categories = [
                 ['name' => 'Bài viết mới', 'route' => 'articles.create'],
@@ -154,6 +158,24 @@
                         <li class="nav-item {{ Nav::isRoute($product['route']) }}">
                             <a class="nav-link" href="{{ $product['route'] }}">
                                 <span>{{ __($product['name']) }}</span>
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"
+               aria-controls="images">
+                <i class="fas fa-newspaper"></i>
+                <span>Ảnh</span>
+            </a>
+            <div class="collapse" id="images">
+                <ul class="nav flex-column">
+                    @foreach ($images as $image)
+                        <li class="nav-item {{ Nav::isRoute($image['route']) }}">
+                            <a class="nav-link" href="{{ $image['route'] }}">
+                                <span>{{ __($image['name']) }}</span>
                             </a>
                         </li>
                     @endforeach
@@ -462,7 +484,8 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Alejandro RH {{ now()->year }}</span>
+                    <span>Copyright &copy; LIME COMPANY {{ now()->year }}--</span>
+                    <span>--Made by LeMinhChien</span>
                 </div>
             </div>
         </footer>

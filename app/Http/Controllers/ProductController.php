@@ -48,9 +48,9 @@ class ProductController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $imageName = time() . '.' . $image->getClientOriginalExtension();
-            $image->move(public_path('upload/images'), $imageName); // Lưu ảnh vào thư mục trên server
-            $product->image = '/upload/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
+            $imageName = $image->getClientOriginalName();
+            $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
+            $product->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
         $product->save();
         return redirect()->route('products.index')->with('success', 'Tạo sản phẩm thành công!');
@@ -84,9 +84,9 @@ class ProductController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $imageName = time() . '.' . $image->getClientOriginalExtension();
-            $image->move(public_path('upload/images'), $imageName); // Lưu ảnh vào thư mục trên server
-            $product->image = '/upload/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
+            $imageName = $image->getClientOriginalName();
+            $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
+            $product->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
         $product->save();
         return redirect()->route('products.index')->with('success', 'Cập nhật sản phẩm thành công!');
