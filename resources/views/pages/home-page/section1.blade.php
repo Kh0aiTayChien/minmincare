@@ -1,10 +1,9 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
-    <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse"
-         style="z-index: 200; padding-top: 30%">
+    <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse" style="z-index: 200; padding-top: 30%">
 
         <div class="position-relative d-flex flex-column-reverse">
             <div class="arrow-down position-absolute">
-                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="">
+                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
             </div>
             <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
@@ -42,33 +41,28 @@
     </div>
 </div>
 <style>
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+    .btn-primary:hover,.btn-primary:focus,.btn-primary:active,
     .btn-primary:active:focus:not(:disabled):not(.disabled),
-    .btn:focus, .btn:active, .btn:hover {
-        box-shadow: none !important;
+    .btn:focus, .btn:active, .btn:hover{
+        box-shadow: none!important;
         outline: 0;
     }
-
-    .btn-curve {
+    .btn-curve{
         width: 100%;
     }
-
-    .btn-curve-mobile {
+    .btn-curve-mobile{
         display: none;
     }
-
-    .arrow-down {
+    .arrow-down{
         margin-left: 49%;
         margin-bottom: 5px;
         scale: 70%;
         cursor: pointer;
-        transition: transform 0.5s ease;
+        /*transition: transform 0.5s ease;*/
     }
-
-    .arrow-down:hover {
-        transform: translate(0%, -70%);
-    }
-
+    /*.arrow-down:hover {*/
+    /*    transform: translate(0%, -70%);*/
+    /*}*/
     .img-slide {
         object-fit: cover;
         width: 100%;
@@ -115,30 +109,25 @@
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
     }
-
     @media only screen and (max-width: 1200px) {
-        .arrow-down {
+        .arrow-down{
             margin-left: 48%;
             margin-bottom: 3px;
             scale: 50%;
         }
     }
-
     @media only screen and (max-width: 800px) {
         .call-out-button {
             display: none !important;
         }
-
-        .btn-curve {
+        .btn-curve{
             display: none;
         }
-
-        .btn-curve-mobile {
+        .btn-curve-mobile{
             display: block;
             width: 100vw;
         }
-
-        .arrow-down {
+        .arrow-down{
             margin-left: 45%;
             margin-bottom: 2px;
             scale: 50%;
