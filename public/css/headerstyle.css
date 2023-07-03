@@ -166,7 +166,8 @@ ul.iconmb {
         position: absolute;
         background: none;
         border: none;
-        transform: translateX(720%) translateY(25%);
+        margin-left: 77%;
+        margin-top: 5%;
     }
     .btn-close-img {
         width: 8vw;
