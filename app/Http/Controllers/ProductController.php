@@ -16,10 +16,10 @@ class ProductController extends Controller
 
         $query = Product::query();
 
-        if ($searchType == 'title') {
-            $query->where('title', 'like', '%' . $keyword . '%');
-        } elseif ($searchType == 'content') {
-            $query->where('content', 'like', '%' . $keyword . '%');
+        if ($searchType == 'name') {
+            $query->where('name', 'like', '%' . $keyword . '%');
+        } elseif ($searchType == 'price') {
+            $query->where('price', 'like', '%' . $keyword . '%');
         }
         $products = $query->paginate($paginate);
         return view('admin/product/index',

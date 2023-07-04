@@ -16,10 +16,12 @@ class ImageController extends Controller
 
         $query = Image::query();
 
-        if ($searchType == 'title') {
-            $query->where('title', 'like', '%' . $keyword . '%');
-        } elseif ($searchType == 'content') {
-            $query->where('content', 'like', '%' . $keyword . '%');
+        if ($searchType == 'name') {
+            $query->where('name', 'like', '%' . $keyword . '%');
+        } elseif ($searchType == 'category') {
+            $query->whereHas('category', function ($query) use ($keyword) {
+                $query->where('title', 'like', '%' . $keyword . '%');
+            });
         }
         $images = $query->paginate($paginate);
         return view('admin/image/index',
