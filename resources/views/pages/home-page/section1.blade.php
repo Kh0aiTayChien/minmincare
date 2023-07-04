@@ -2,20 +2,20 @@
     <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse" style="z-index: 200; padding-top: 30%">
 
         <div class="position-relative d-flex flex-column-reverse">
-            <div class="arrow-down position-absolute">
+            <a href="#sec2" class="arrow-down position-absolute">
                 <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
-            </div>
+            </a>
             <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
         </div>
 
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium">
-                ĐĂNG KÍ ĐẠI LÝ
+                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect">
+                <div class="px-4">ĐĂNG KÍ ĐẠI LÝ </div>
             </button>
-            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium">
-                MUA SẢN PHẨM
+            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect">
+                <div class="px-4">MUA SẢN PHẨM </div>
             </button>
         </div>
 

@@ -1,4 +1,4 @@
-<div class="sec2pc">
+<div class="sec2pc" id="sec2">
     {{--    <img src="{{asset('images/Rectangle 107.png')}}" class="bannersec2">--}}
     <object data="{{asset('images/sec2/Group 928.svg')}}" class="headersec2"></object>
 {{--    <p class="contentsec2line1">Công thức CO-NUMAX đột phá được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu từ--}}
