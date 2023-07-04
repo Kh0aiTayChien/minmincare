@@ -18,7 +18,7 @@
                 <td class="col-lg-1">{{ $product->name }}</td>
                 <td class="col-lg-1"><img src="{{ asset($product->image) }}" alt="ảnh đại diện" style="height: 3rem">
                 </td>
-                <td class="col-lg-2">{{ Str::limit(strip_tags($product->description), 100) }}</td>
+                <td class="col-lg-2">{{ Str::limit(strip_tags($product->description), 45) }}</td>
                 <td class="col-lg-1">{{ $product->price }}</td>
                 <td class="col-lg-1">{{ $product->created_at }}</td>
                 <td class="col-lg-1">{{ $product->updated_at }}</td>
