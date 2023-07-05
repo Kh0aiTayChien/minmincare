@@ -21,9 +21,22 @@
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
     <style>
         .bg-gradient-green {
-            background-color: #59843d;
-            background-image: linear-gradient(180deg,#59843d 10%,white 100%);
-            background-size: cover;
+            background: linear-gradient(-30deg, lightseagreen, #59843d, lightblue, lightgreen);
+            background-size: 400% 400%;
+            animation: gradient 6s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
     </style>
 </head>
