@@ -38,8 +38,8 @@
                     <div class="col-md-2">
                         <div class="input-group">
                             <select class="form-select form-control" id="search_type" name="search_type">
-                                <option value="name" {{ $searchType === 'name' ? 'selected' : '' }}>Tìm kiếm theo chủ đề</option>
-                                <option value="category_id" {{ $searchType === 'category_id' ? 'selected' : '' }}>Tìm kiếm theo tên</option>
+                                <option value="name" {{ $searchType === 'name' ? 'selected' : '' }}>Tìm kiếm theo tên</option>
+                                <option value="category" {{ $searchType === 'category' ? 'selected' : '' }}>Tìm kiếm theo chuyên mục</option>
                             </select>
                         </div>
                     </div>

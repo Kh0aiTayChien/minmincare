@@ -61,11 +61,11 @@
     <ul class="navbar-nav bg-gradient-green sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('homepage.index')}}">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+
             </div>
-            <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+            <div class="sidebar-brand-text mx-3">Min Min Care <sup><i class="fas fa-laugh-wink"></i></sup></div>
         </a>
 
         <!-- Divider -->
@@ -75,7 +75,7 @@
         <li class="nav-item {{ Nav::isRoute('home') }}">
             <a class="nav-link" href="{{ route('home') }}">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>{{ __('Dashboard') }}</span></a>
+                <span>{{ __('Trang Tổng Quan') }}</span></a>
         </li>
 
         @php
@@ -111,24 +111,6 @@
         @endphp
 
         <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#categories" role="button" aria-expanded="false"
-               aria-controls="articles">
-                <i class="fas fa-book"></i>
-                <span> Chủ đề </span>
-            </a>
-            {{--            <div class="collapse" id="categories">--}}
-            {{--                <ul class="nav flex-column">--}}
-            {{--                    @foreach ($categories as $category)--}}
-            {{--                        <li class="nav-item {{ Nav::isRoute($category['route']) }}">--}}
-            {{--                            <a class="nav-link" href="{{ route($category['route']) }}">--}}
-            {{--                                <span>{{ __($category['name']) }}</span>--}}
-            {{--                            </a>--}}
-            {{--                        </li>--}}
-            {{--                    @endforeach--}}
-            {{--                </ul>--}}
-            {{--            </div>--}}
-        </li>
-        <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#articles" role="button" aria-expanded="false"
                aria-controls="articles">
                 <i class="fas fa-newspaper"></i>
@@ -149,7 +131,7 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
                aria-controls="products">
-                <i class="fas fa-newspaper"></i>
+                <i class="fa fa-shopping-bag"></i>
                 <span>Sản phẩm</span>
             </a>
             <div class="collapse" id="products">
@@ -167,7 +149,7 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"
                aria-controls="images">
-                <i class="fas fa-newspaper"></i>
+                <i class="fa fa-image"></i>
                 <span>Ảnh</span>
             </a>
             <div class="collapse" id="images">
@@ -185,8 +167,8 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#libraries" role="button" aria-expanded="false"
                aria-controls="articles">
-                <i class="fas fa-tasks"></i>
-                <span> Thư viện </span>
+                <i class="fa fa-folder"></i>
+                <span> Quản lý file </span>
             </a>
             <div class="collapse" id="libraries">
                 <ul class="nav flex-column">
