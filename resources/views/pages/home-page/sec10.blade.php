@@ -78,9 +78,6 @@
 
             <input class="submitbutton-mb" type="image" src="{{asset('images/sec10/Group 1332.png')}}" alt="Submit">
         </form>
-        {{--       <button class="customer-button-mb">--}}
-        {{--           <img src="{{asset('images/sec10/Group 5083.png')}}" class="button5mb">--}}
-        {{--       </button>--}}
     </div>
     <button class="daily-button-mb">
         <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
