@@ -22,6 +22,25 @@
     margin-left: 1%;
     padding: 10px;
     margin-top: ;
+    /*opacity: 0;*/
+}
+
+.svg-input-test-none {
+    height: 40.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*margin-right: 0.5%;*/
+    margin-left: 1%;
+    padding: 10px;
+    margin-top: ;
+    opacity: 0;
+}
+
+.form-daily {
+    margin-top: -7%;
 }
 
 .dailybutton-test {
@@ -106,6 +125,20 @@
     border: 2.5px white solid;
     font-family: Mitr-Medium, sans-serif;
     color: white;
+    letter-spacing: 2px;
+}
+
+.submitbutton-test-daily {
+    width: 18.5vw;
+    margin-top: 5%;
+    height: 40.891px;
+    border-radius: 27.445px;
+    background-color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-left: 1%;
+    border: 2.5px #59843d solid;
+    font-family: Mitr-Medium, sans-serif;
+    color: #59843d;
     letter-spacing: 2px;
 }
 

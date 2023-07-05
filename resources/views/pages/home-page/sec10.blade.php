@@ -1,11 +1,22 @@
 <div class="sec10pc mt-5">
-    <div class="daily-test">
-        <button class="dailybutton-test  button-shake">
-            <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>
-        </button>
         <form class="daily-test1 col-9">
-
             <div class="col-12">
+                <label class="name" for="fullname"></label>
+                <input class="svg-input-test-none col-3"
+                       required disabled>
+
+                <label for="phone"></label>
+                <input class="svg-input-test-none col-3"
+                       required disabled>
+
+                <label for="address"></label>
+                <input class="svg-input-test-none col-3"
+                       required disabled>
+                <button class="submitbutton-test-daily button-shake" type="submit">
+                    <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>
+                </button>
+            </div>
+            <div class="col-12 form-daily">
                 <label class="name" for="fullname"></label>
                 <input class="svg-input-test col-3" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
                        required>
