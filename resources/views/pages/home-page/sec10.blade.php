@@ -1,4 +1,5 @@
 <div class="sec10pc mt-5">
+    <div>
         <form class="daily-test1 col-9">
             <div class="col-12">
                 <label class="name" for="fullname"></label>
