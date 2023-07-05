@@ -17,7 +17,8 @@
     width: 100%;
     height: 100%;
     background-image: url("/images/header/Asset 1.png");
-    background-size: 102vw auto;
+    /*background-size: 102vw auto;*/
+    background-size: 102% 100%;
     background-position: center top -15px;
     background-repeat: no-repeat;
     opacity: 1;
@@ -84,6 +85,64 @@ ul.iconmb {
     height: 100vh;
     z-index: 999;
     margin-top: -11%;
+}
+
+.menuleft {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.menuleft li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.logominmin a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-test {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 55%;
+    margin-top: 5px;
+}
+
+
+
+.menuright {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.menuright li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .headerpc .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/images/header/Asset 1.png");
+        background-size: 140% 140%;
+        background-position: center top -15px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        z-index: -1;
+    }
 }
 
 @media screen and (max-width: 768px) {

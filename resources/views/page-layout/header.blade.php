@@ -1,27 +1,54 @@
 <div class="headerpc fixed-top" id="myHeader">
     <div class="background-image"></div>
-    <div class="inline-container justify-content-center align-items-center">
-        <ul class="inline-list-left">
-            <li>
+    {{--    <div class="inline-container justify-content-center align-items-center">--}}
+    {{--        <ul class="inline-list-left">--}}
+    {{--            <li>--}}
+    {{--                <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>--}}
+    {{--            </li>--}}
+    {{--            <li class="list-product position-relative">--}}
+    {{--                <a href="{{asset('san-pham')}}"><p>SẢN PHẨM</p></a>--}}
+    {{--            </li>--}}
+    {{--            <li>--}}
+    {{--                <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>--}}
+    {{--            </li>--}}
+    {{--        </ul>--}}
+    {{--        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo"></a>--}}
+    {{--        <ul class="inline-list-right">--}}
+    {{--            <li>--}}
+    {{--                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>--}}
+    {{--            </li>--}}
+    {{--            <li>--}}
+    {{--                <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>--}}
+    {{--            </li>--}}
+    {{--            <li>--}}
+    {{--                <a href="#Information"><p>LIÊN HỆ</p></a>--}}
+    {{--            </li>--}}
+    {{--        </ul>--}}
+    {{--    </div>--}}
+    <div class="col-xxl-12 col-md-12 row-test">
+        <ul class="col-xxl-3 col-md-4 menuleft">
+            <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>
             </li>
-            <li class="list-product position-relative">
+            <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('san-pham')}}"><p>SẢN PHẨM</p></a>
             </li>
-            <li>
+            <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
             </li>
         </ul>
-        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo"></a>
-        <ul class="inline-list-right">
-            <li>
-                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>
-            </li>
-            <li>
+        <div class="col-xxl-3 col-md-4 logominmin">
+            <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
+        </div>
+        <ul class="col-xxl-3 col-md-4 menuright">
+            <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>
             </li>
-            <li>
-                <a href="#Information"><p>LIÊN HỆ</p></a>
+            <li class="col-xxl-4 col-md-4">
+                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>
+            </li>
+            <li class="col-xxl-4 col-md-4">
+                <a href="{{asset('lien-he')}}"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -57,6 +84,7 @@
             margin-left: 75vw;
             z-index: 1000;
         }
+
         .right-action {
             margin-right: 10% !important;
             margin-top: 70vh;
@@ -64,6 +92,7 @@
             scale: 70%;
             height: 15px;
         }
+
         .overlay {
             height: 100vh;
             width: 100vw;
@@ -207,7 +236,7 @@
 
     .cart {
         cursor: pointer;
-        transform: translate( 11px, 0);
+        transform: translate(11px, 0);
     }
 
     .cart-circle {
@@ -301,22 +330,28 @@
     </div>
     <nav>
         <ul class="hide iconmb">
-            <button class="close-btn"><img src="{{asset('images/header/close-btn.png')}}" class="btn-close-img"></button>
+            <button class="close-btn"><img src="{{asset('images/header/close-btn.png')}}" class="btn-close-img">
+            </button>
             <li class="contact linetop">
-                <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink textlinktop">GIỚI
+                <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
+                        class="textlink textlinktop">GIỚI
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('san-pham')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN PHẨM</p></a>
+                <a href="{{asset('san-pham')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN
+                        PHẨM</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI LÝ</p></a>
+                <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI
+                        LÝ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('kien-thuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN THỨC</p></a>
+                <a href="{{asset('kien-thuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN
+                        THỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('tin-tuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN
+                        TỨC</p></a>
             </li>
             <li class="contact linemenu">
                 <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
@@ -543,7 +578,7 @@
                 }
             });
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
             let popup = $("#popup");
             popup.draggable();
         });
