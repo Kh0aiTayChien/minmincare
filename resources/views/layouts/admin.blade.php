@@ -47,10 +47,24 @@
     <script src="{{asset('/packages/barryvdh/elfinder/js/elfinder.full.js')}}"></script>
     <style>
         .bg-gradient-green {
-            background-color: #59843d;
-            background-image: linear-gradient(180deg,#59843d 10%,darkgreen 100%);
-            background-size: cover;
+            background: linear-gradient(-45deg, #59843d, #59843d, darkcyan, darkgreen);
+            background-size: 300% 300%;
+            animation: gradient 6s ease infinite;
+            height: 100vh;
         }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
     </style>
 </head>
 <body id="page-top">
