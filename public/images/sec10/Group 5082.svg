@@ -1,17 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1090.404" height="356.617" viewBox="0 0 1090.404 356.617">
-  <defs>
-    <filter id="Rectangle_126" x="0" y="0" width="1090.404" height="356.617" filterUnits="userSpaceOnUse">
-      <feOffset dx="5" dy="5" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feFlood flood-opacity="0.349"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Group_5082" data-name="Group 5082" transform="translate(-59.798 -3149.83)">
-    <g transform="matrix(1, 0, 0, 1, 59.8, 3149.83)" filter="url(#Rectangle_126)">
-      <rect id="Rectangle_126-2" data-name="Rectangle 126" width="1075.404" height="341.617" rx="30" transform="translate(2.5 2.5)" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1090.404" height="356.617"
+     viewBox="0 0 1090.404 356.617">
+    <defs>
+        <filter id="Rectangle_126" x="0" y="0" width="1090.404" height="356.617" filterUnits="userSpaceOnUse">
+            <feOffset dx="5" dy="5" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="2.5" result="blur"/>
+            <feFlood flood-opacity="0.349"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_5082" data-name="Group 5082" transform="translate(-59.798 -3149.83)">
+        <g transform="matrix(1, 0, 0, 1, 59.8, 3149.83)" filter="url(#Rectangle_126)">
+            <rect id="Rectangle_126-2" data-name="Rectangle 126" width="1075.404" height="341.617" rx="30"
+                  transform="translate(2.5 2.5)" fill="#fff"/>
+        </g>
+        <text id="Trở_thành_đại_lý_MIN_MIN_CARE" data-name="Trở thành đại lý MIN MIN CARE"
+              transform="translate(140.259 3225.871)" fill="#f79420" font-size="44" font-family="Mitr-Regular, Mitr">
+            <tspan x="0" y="0">Trở thành đại lý</tspan>
+            <tspan y="0" fill="#f79421" font-size="40.309" font-family="Mulish-ExtraBold, Mulish" font-weight="800"
+                   letter-spacing="0.1em"></tspan>
+            <tspan y="0" fill="#59843d" font-size="64.844" font-family="Mitr-SemiBold, Mitr" font-weight="600">MIN MIN
+                CARE
+            </tspan>
+        </text>
     </g>
-    <text id="Trở_thành_đại_lý_MIN_MIN_CARE" data-name="Trở thành đại lý MIN MIN CARE" transform="translate(140.259 3225.871)" fill="#f79420" font-size="44" font-family="Mitr-Regular, Mitr"><tspan x="0" y="0">Trở thành đại lý</tspan><tspan y="0" fill="#f79421" font-size="40.309" font-family="Mulish-ExtraBold, Mulish" font-weight="800" letter-spacing="0.1em"> </tspan><tspan y="0" fill="#59843d" font-size="64.844" font-family="Mitr-SemiBold, Mitr" font-weight="600">MIN MIN CARE</tspan></text>
-  </g>
 </svg>

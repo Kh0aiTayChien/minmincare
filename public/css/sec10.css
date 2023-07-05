@@ -3,6 +3,71 @@
     background-size: cover;
 }
 
+.daily-test1 {
+    background-image: url("/images/sec10/dai-ly.png");
+    /*background-color: yellow;*/
+    margin-left: 17%;
+    padding-bottom: 3%;
+    background-size: 100% 100% ;
+}
+
+.svg-input-test {
+    height: 40.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*margin-right: 0.5%;*/
+    margin-left: 1%;
+    padding: 10px;
+    margin-top: ;
+    /*opacity: 0;*/
+}
+
+.svg-input-test-none {
+    height: 40.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*margin-right: 0.5%;*/
+    margin-left: 1%;
+    padding: 10px;
+    margin-top: ;
+    opacity: 0;
+}
+
+.form-daily {
+    margin-top: -7%;
+}
+
+.dailybutton-test {
+    position: absolute;
+    border-radius: 27.445px;
+    background-color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    border: 2.5px #59843d solid;
+    font-family: Mitr-Medium, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 70%;
+    width: 18.5vw;
+    height: 40.891px;
+    margin-top: 3%;
+}
+
+.button4-test {
+    width: 18.5vw;
+    height: 35.891px;
+    text-decoration: none;
+    color: #59843d;
+}
+
+.button4-test:hover {
+    color: #59843d;
+}
+
 .headersec10 {
     margin-top: -1%;
     margin-left: 15%;
@@ -49,10 +114,32 @@
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
-.submitbutton {
+.submitbutton-test {
     width: 18.5vw;
-    /*height: 50.891px;*/
-    position: absolute;
+    margin-top: 10%;
+    height: 40.891px;
+    border-radius: 27.445px;
+    background-color: #59843d;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-left: 1%;
+    border: 2.5px white solid;
+    font-family: Mitr-Medium, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.submitbutton-test-daily {
+    width: 18.5vw;
+    margin-top: 5%;
+    height: 40.891px;
+    border-radius: 27.445px;
+    background-color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-left: 1%;
+    border: 2.5px #59843d solid;
+    font-family: Mitr-Medium, sans-serif;
+    color: #59843d;
+    letter-spacing: 2px;
 }
 
 .dailybutton {
