@@ -1,0 +1,24 @@
+.header1sec3-NM {
+    text-align: right;
+    font-family: Mitr-Regular, sans-serif;
+    color: #F79420;
+    font-size: 50px;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.header2sec3-NM {
+    text-align: right;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843D;
+    font-size: 65px;
+    margin-top: -5%;
+}
+
+.header3sec3-NM {
+    text-align: right;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843D;
+    font-size: 28px;
+    margin-top: -5%;
+}

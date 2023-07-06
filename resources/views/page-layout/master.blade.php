@@ -53,9 +53,14 @@
     <link href="{{asset('/css/sec1-TT.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec2-TT.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec2-KT.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec1-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec3-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec4-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec5-NM.css')}}" rel="stylesheet">
 </head>
 <body>
-@include('page-layout/header')
+{{--@include('page-layout/header')--}}
 @yield('section')
 @include('page-layout/footer')
 </body>
