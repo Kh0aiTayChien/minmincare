@@ -10,6 +10,7 @@ use App\Http\Controllers\KnowledgeController\Knowledge3Controller;
 use App\Http\Controllers\KnowledgeController\KnowledgeController;
 use App\Http\Controllers\MediaController;
 use App\Http\Controllers\News\NewsController;
+use App\Http\Controllers\NgaMin\NgaMinController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SalesAgent\SalesAgentController;
 use Illuminate\Routing\Router;
@@ -31,7 +32,7 @@ Route::get('/kien-thuc', [KnowledgeController::class, 'index'])->name('kien-thuc
 Route::get('/kien-thuc/me-sau-sinh', [Knowledge2Controller::class, 'index'])->name('kien-thuc.me-sau-sinh.index');
 Route::get('/kien-thuc/dinh-duong-cho-con', [Knowledge3Controller::class, 'index'])->name('kien-thuc.dinh-duong-cho-con.index');
 Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
-
+Route::get('/Nga-minmin', [NgaMinController::class, 'index'])->name('Nga-min.index');
 Route::get('/dai-ly', [SalesAgentController::class,'index'])->name('dai-ly.index');
 Route::get('/tin-tuc', [NewsController::class, 'index'])->name('tin-tuc.index');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
