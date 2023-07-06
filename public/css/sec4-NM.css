@@ -1,0 +1,48 @@
+.sec4-NM {
+    display: block;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.header1sec4-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 60px;
+    color: #59843D;
+}
+
+.header2sec4-NM {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 50px;
+    color: #F79420;
+    margin-top: -2%;
+}
+
+.containersec4-NM {
+    display: flex;
+    flex-wrap: wrap;
+    /*text-align: center;*/
+    justify-content: center;
+}
+
+.textsec4-NM {
+    font-family: Mulish-SemiBold, sans-serif;
+    font-size: 18px;
+
+}
+
+.slide1-NM {
+    padding-right: 2%;
+}
+
+.slide2-NM {
+    padding-right: 2%;
+}
+
+.slide3-NM {
+    padding-right: 2%;
+}
+
+.slide4-NM {
+    padding-right: 2%;
+}
+
