@@ -5,47 +5,74 @@
         <p class="textsec4-NM col-8">Nga và Min Min Care luôn mong muốn mang đến những điều tốt nhất không chỉ cho khách hàng mà cả những người
             đang và sẽ trở thành những đối tác, đại lý của Min Min Care. Bạn sẽ thấy chính sách đại lý Min Min Care đặc
             biệt bởi:</p>
-        <div class="col-12 row-test slidesec4-NM">
+        <div class="col-9 row-test slidesec4-NM">
             <div class="col-2 slide1-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 3.png')}}" class="img1sec4-NM">
-                <p>Dành cho người muốn kiếm thêm thu nhập, muốn làm tại nhà - Đặc biệt phù hợp với mẹ bỉm sữa</p>
+                <p class="textslidesec4-NM">Dành cho người muốn kiếm thêm thu nhập, muốn làm tại nhà - Đặc biệt phù hợp với mẹ bỉm sữa</p>
             </div>
             <div class="col-2 slide2-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 4.png')}}" class="img2sec4-NM">
-                <p>Số vốn ban đầu thấp chỉ từ 1 đến 5 triệu để nhập sản phẩm. Không phát sinh bất kỳ chi phí nào khác</p>
+                <p class="textslidesec4-NM">Số vốn ban đầu thấp chỉ từ 1 đến 5 triệu để nhập sản phẩm. Không phát sinh bất kỳ chi phí nào khác</p>
             </div>
             <div class="col-2 slide3-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 5.png')}}" class="img3sec4-NM">
-                <p>Chính sách chiết khấu/ quyền lợi cực kỳ hấp dẫn</p>
+                <p class="textslidesec4-NM">Chính sách chiết khấu/ quyền lợi cực kỳ hấp dẫn</p>
             </div>
             <div class="col-2 slide4-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 6.png')}}" class="img4sec4-NM">
-                <p>Không lo ôm hàng vì sản phẩm đã được cộng đồng các mẹ tin dùng</p>
+                <p class="textslidesec4-NM">Không lo ôm hàng vì sản phẩm đã được cộng đồng các mẹ tin dùng</p>
             </div>
             <div class="col-2 slide1-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 3.png')}}" class="img1sec4-NM">
-                <p>Được đào tạo kiến thức từ A-Z kể cả nếu bạn lần đầu tiên làm đại lý</p>
+                <p class="textslidesec4-NM">Được đào tạo kiến thức từ A-Z kể cả nếu bạn lần đầu tiên làm đại lý</p>
             </div>
             <div class="col-2 slide2-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 4.png')}}" class="img2sec4-NM">
-                <p>Được hỗ trợ truyền thông/ quảng cáo sản phẩm từ Min Min Care</p>
+                <p class="textslidesec4-NM">Được hỗ trợ truyền thông/ quảng cáo sản phẩm từ Min Min Care</p>
             </div>
             <div class="col-2 slide3-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 5.png')}}" class="img3sec4-NM">
-                <p>Được đảm bảo uy tín bởi chính Nga Min Min - sáng lập thương hiệu Min Min Care</p>
+                <p class="textslidesec4-NM">Được đảm bảo uy tín bởi chính Nga Min Min - sáng lập thương hiệu Min Min Care</p>
             </div>
             <div class="col-2 slide4-NM">
                 <img src="{{asset('images/nga-min/sec4/Asset 6.png')}}" class="img4sec4-NM">
-                <p>Được tham gia các chương trình/ hoạt động ý nghĩa do Min Min Care tổ chức</p>
+                <p class="textslidesec4-NM">Được tham gia các chương trình/ hoạt động ý nghĩa do Min Min Care tổ chức</p>
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    $('.slidesec4-NM').slick({
-        // infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4
+    $(document).ready(function sec4NM() {
+        $('.slidesec4-NM').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow: '<button type="button" class="pre-arrow-NM"><img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/></button>',
+            nextArrow: '<button type="button" class="next-arrow-NM"><img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/></button>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        })
     });
 </script>

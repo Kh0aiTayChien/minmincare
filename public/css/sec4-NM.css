@@ -20,29 +20,91 @@
 .containersec4-NM {
     display: flex;
     flex-wrap: wrap;
-    /*text-align: center;*/
+    text-align: center;
     justify-content: center;
+    background-image: url("/images/nga-min/sec4/Asset 7.png");
+    padding-bottom: 3%;
 }
 
 .textsec4-NM {
     font-family: Mulish-SemiBold, sans-serif;
     font-size: 18px;
-
+    padding-top: 2%;
+    color: white;
 }
 
 .slide1-NM {
-    padding-right: 2%;
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 0.5%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
 }
 
 .slide2-NM {
-    padding-right: 2%;
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 0.5%;
+    height: 300px;
 }
 
 .slide3-NM {
-    padding-right: 2%;
+    padding: 0.5%;
+    margin-right: 0.5%;
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
 }
 
 .slide4-NM {
-    padding-right: 2%;
+    padding: 0.5%;
+    margin-right: 0.5%;
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
 }
 
+.img1sec4-NM {
+    /*margin-left: 25%;*/
+    margin: auto;
+    margin-bottom: 8%;
+
+}
+
+.img2sec4-NM {
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.img3sec4-NM {
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.img4sec4-NM {
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.pre-arrow-NM {
+    position: absolute;
+    margin-right: 112%;
+    background: none;
+    border: none;
+}
+
+.next-arrow-NM {
+    position: absolute;
+    margin-left: 107%;
+    background: none;
+    border: none;
+}
+
+.textslidesec4-NM {
+    text-align: justify;
+    font-size: 15px;
+    font-family: Mulish-SemiBold, sans-serif;
+}

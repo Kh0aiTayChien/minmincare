@@ -58,6 +58,7 @@
     <link href="{{asset('/css/sec3-NM.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec4-NM.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec5-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec6-NM.css')}}" rel="stylesheet">
 </head>
 <body>
 {{--@include('page-layout/header')--}}
