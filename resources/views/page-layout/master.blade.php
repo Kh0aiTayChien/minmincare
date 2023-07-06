@@ -60,7 +60,7 @@
     <link href="{{asset('/css/sec5-NM.css')}}" rel="stylesheet">
 </head>
 <body>
-{{--@include('page-layout/header')--}}
+@include('page-layout/header')
 @yield('section')
 @include('page-layout/footer')
 </body>
