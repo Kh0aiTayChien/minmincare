@@ -1,5 +1,5 @@
 <div class="footerpc">
-    <img src="{{asset('images/footer/Group 3841.png')}}" class="linefooter" id="Information">
+    <img src="{{asset('images/footer/Group 3841.png')}}" class="linefooter">
     <!-- Footer -->
     <footer class="text-center text-lg-start text-muted">
         <section class="">

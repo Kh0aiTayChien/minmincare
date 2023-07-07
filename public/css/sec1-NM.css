@@ -8,17 +8,48 @@
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843D;
     font-size: 55px;
-    margin-top: -5%;
+    margin-top: -3%;
 }
 
 .header3sec1-NM {
     font-family: Mitr-Regular, sans-serif;
     color: #F79420;
     font-size: 40px;
-    margin-top: -8%;
+    margin-top: -5%;
 }
 
 .imgbtn-NM {
     border: none;
     background: none;
+}
+
+.sec1mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec1-NM {
+        display: none;
+    }
+    .sec1mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .header1sec1-NM {
+        font-size: 25px;
+    }
+
+    .header2sec1-NM {
+        font-size: 45px;
+        margin-top: -5%;
+    }
+
+    .header3sec1-NM {
+        font-size: 30px;
+        margin-top: -7%;
+    }
+    .utubesec1mb-NM {
+        margin-left: 7%;
+    }
 }

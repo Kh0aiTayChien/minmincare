@@ -38,6 +38,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 </div>
+
+<div class="sec3mb-NM">
+    <p class="header1sec3-NM">Nhưng</p>
+    <p class="header2sec3-NM">ÁNH SÁNG ĐÓ</p>
+    <p class="header3sec3-NM">KHÔNG TẠO BỞI MỘT NGƯỜI</p>
+    <p class="contentsec2mb-GT">Để có được ngày hôm nay thì Nga có sự ủng hộ và hỗ trợ rất nhiều từ người thân trong gia
+        đình, bạn bè, nhân công sản xuất, cho đến những đại lý nhà phân phối.</p>
+    <p class="contentsec2mb-GT">Mọi người đã giúp đưa sản phẩm tới gần hơn với người tiêu dùng và cũng đồng hành trong
+        hành trình suốt 6 năm với Min Min Care.</p>
+    <p class="contentsec2mb-GT">Vì vậy Nga muốn gửi lời cảm ơn chân thành tới tất cả mọi người.</p>
+    <div class="utubesec2mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
+        <iframe class="utub" id="youtube-iframe-sec3-NM" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+                allowfullscreen></iframe>
+    </div>
+</div>
+
+<script>
+    function setIframeWidthsec3NM() {
+        var screenWidth = $(window).width();
+        var iframe = $('#youtube-iframe-sec3-NM');
+        var aspectRatio = 16 / 9; // Tỷ lệ màn hình mong muốn (16:9)
+        var targetWidth = Math.floor(screenWidth * 0.9); // Giả sử sử dụng 80% chiều rộng của màn hình
+
+        // Tính toán chiều cao dựa trên tỷ lệ màn hình
+        var targetHeight = Math.floor(targetWidth / aspectRatio);
+
+        // Đặt chiều rộng và chiều cao mới cho iframe
+        iframe.css({
+            width: targetWidth + 'px',
+            height: targetHeight + 'px'
+        });
+    }
+
+    // Gọi hàm setIframeWidth khi trang web được tải và khi thay đổi kích thước màn hình
+    $(window).on('load resize', setIframeWidthsec3NM);
+</script>

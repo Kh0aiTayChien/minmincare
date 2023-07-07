@@ -15,6 +15,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SalesAgent\SalesAgentController;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
+Route::get('/lien-he', [ContactController::class, 'index'])->name('lien-he.index');
 Route::get('/kien-thuc', [KnowledgeController::class, 'index'])->name('kien-thuc.index');
 Route::get('/kien-thuc/me-sau-sinh', [Knowledge2Controller::class, 'index'])->name('kien-thuc.me-sau-sinh.index');
 Route::get('/kien-thuc/dinh-duong-cho-con', [Knowledge3Controller::class, 'index'])->name('kien-thuc.dinh-duong-cho-con.index');

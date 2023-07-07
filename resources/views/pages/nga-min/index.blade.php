@@ -3,6 +3,8 @@
     @include('pages.nga-min.sec1')
     @include('pages.nga-min.sec2')
     @include('pages.nga-min.sec3')
-    @include('pages.nga-min.chien.sec7n')
-    @include('pages.nga-min.chien.sec8n')
+    @include('pages.nga-min.sec4-vinh')
+    @include('pages.nga-min.sec5-vinh')
+    @include('pages.nga-min.sec6')
+    @include('pages.nga-min.sec9')
 @stop

@@ -1,0 +1,61 @@
+.sec5-NM {
+    display: block;
+    text-align: center;
+}
+
+.text1sec5-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 60px;
+    color: #59843D;
+    margin-top: 3%;
+}
+
+.text2sec5-NM {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 50px;
+    color: #F79420;
+    margin-top: -2%;
+}
+
+.text3sec5-NM {
+    width: 70%;
+    font-size: 15px;
+    font-family: Mulish-SemiBold, sans-serif;
+    text-align: justify;
+    margin: auto;
+}
+
+.text4sec5-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    width: 70%;
+    margin: auto;
+    font-size: 23px;
+    margin-bottom: 3%;
+    color: #59843D;;
+}
+
+@media screen and (max-width: 768px) {
+    .sec5-NM {
+        margin-top: 5%;
+    }
+    .text1sec5-NM {
+        font-size: 40px;
+    }
+    .text2sec5-NM {
+        font-size: 30px;
+        margin-top: -5%;
+    }
+    .text3sec5-NM {
+        width: 90vw;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    .text4sec5-NM {
+        width: 90%;
+        margin: auto;
+        /*font-size: 18px;*/
+        margin-bottom: 3%;
+        margin-top: -8%;
+        text-align: justify;
+    }
+}
