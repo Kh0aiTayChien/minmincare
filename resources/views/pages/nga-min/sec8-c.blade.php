@@ -1,6 +1,6 @@
 <div class="section-8">
     <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
-        <img src="{{asset('images/nga-min/sec5/chiasegiatri.png')}}" alt="" style="" class="img-fluid">
+        <img src="{{asset('images/nga-min/sec8/chiasegiatri.png')}}" alt="" style="" class="img-fluid">
     </div>
 
     <div class="slick-carousel position-relative">
