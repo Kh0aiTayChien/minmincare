@@ -1,30 +1,5 @@
 <div class="headerpc fixed-top" id="myHeader">
     <div class="background-image"></div>
-    {{--    <div class="inline-container justify-content-center align-items-center">--}}
-    {{--        <ul class="inline-list-left">--}}
-    {{--            <li>--}}
-    {{--                <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>--}}
-    {{--            </li>--}}
-    {{--            <li class="list-product position-relative">--}}
-    {{--                <a href="{{asset('san-pham')}}"><p>SẢN PHẨM</p></a>--}}
-    {{--            </li>--}}
-    {{--            <li>--}}
-    {{--                <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>--}}
-    {{--            </li>--}}
-    {{--        </ul>--}}
-    {{--        <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo"></a>--}}
-    {{--        <ul class="inline-list-right">--}}
-    {{--            <li>--}}
-    {{--                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>--}}
-    {{--            </li>--}}
-    {{--            <li>--}}
-    {{--                <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>--}}
-    {{--            </li>--}}
-    {{--            <li>--}}
-    {{--                <a href="#Information"><p>LIÊN HỆ</p></a>--}}
-    {{--            </li>--}}
-    {{--        </ul>--}}
-    {{--    </div>--}}
     <div class="col-xxl-12 col-md-12 row-test">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
@@ -54,43 +29,68 @@
     </div>
 </div>
 
-<div class="Clogo ">
-    <div class="right-action ">
-        <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"></div>
-        <br>
-        <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="scale: 90%"></div>
-    </div>
-    <div class="overlay d-none">
-        @include('page-layout.cart')
-    </div>
+<div class="right-action">
+
+    <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"  style="width: 70%"></div>
+    <br>
+    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="width: 70%"></div>
+</div>
+<div class="overlay d-none">
+    @include('page-layout.cart')
+</div>
+<div id="scrollUp" style="display: block;">
+    <i class="fa fa-angle-up"></i>
 </div>
 
+
 <style>
-    .Clogo {
-        margin-left: 90vw;
+
+    #scrollUp {
+        text-align: center;
+        bottom: 30px;
+        cursor: pointer;
+        display: none;
         position: fixed;
-        z-index: 9999;
-        height: 40px;
+        right: 10px;
+        z-index: 1200;
+    }
+    #scrollUp i {
+        background-color: #59843d;
+        height: 36px;
+        font-size: 22px;
+        width: 36px;
+        color: #fff;
+        line-height: 32px;
+        transition: all .3s ease 0s;
+        margin-left: 2px;
+        border-radius: 4px;
+        border: 2px solid white;
+        filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
-    @media only screen and (max-width: 1200px) {
-        .Clogo {
-            margin-left: 85vw;
-        }
+    .right-action {
+        text-align: center;
+        bottom: 30px;
+        cursor: pointer;
+        position: fixed;
+        right: 20px;
+        z-index: 1000;
     }
+
 
     @media only screen and (max-width: 800px) {
-        .Clogo {
-            margin-left: 75vw;
-            z-index: 1000;
+        #scrollUp{
+            display: none !important;
         }
 
         .right-action {
-            margin-right: 10% !important;
-            margin-top: 70vh;
-            float: right;
-            scale: 70%;
-            height: 15px;
+            text-align: center;
+            bottom: 10px;
+            cursor: pointer;
+            position: fixed;
+            right: 1px;
+            z-index: 999;
+            width: 20%;
         }
 
         .overlay {
@@ -100,6 +100,7 @@
             top: 0;
             left: 0;
             background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000 !important;
         }
 
         #popup {
@@ -129,13 +130,6 @@
         filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
-    .right-action {
-        margin-right: 2%;
-        margin-top: 70vh;
-        float: right;
-        scale: 70%;
-        height: 15px;
-    }
 
     .list-product .list-product-button {
         width: 300%;
@@ -236,7 +230,7 @@
 
     .cart {
         cursor: pointer;
-        transform: translate(11px, 0);
+        transform: translate(2px, 0);
     }
 
     .cart-circle {
@@ -354,7 +348,7 @@
                         TỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('lien-he')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
                 </a>
             </li>
         </ul>
@@ -363,6 +357,30 @@
 
 
 <script>
+    $(document).ready(function() {
+        // Ẩn nút "Scroll Up" ban đầu
+        $('#scrollUp').hide();
+
+        // Kiểm tra sự kiện cuộn trang
+        $(window).scroll(function() {
+            // Kiểm tra vị trí cuộn của trang
+            if ($(this).scrollTop() > 0) {
+                // Nếu không ở đầu trang, hiển thị nút "Scroll Up"
+                $('#scrollUp').fadeIn();
+            } else {
+                // Nếu ở đầu trang, ẩn nút "Scroll Up"
+                $('#scrollUp').fadeOut();
+            }
+        });
+
+        // Sự kiện khi nhấp vào nút "Scroll Up"
+        $('#scrollUp').click(function() {
+            // Di chuyển lên đầu trang
+            $('html, body').animate({ scrollTop: 0 }, 369);
+            return false;
+        });
+    });
+
     $(document).ready(function () {
         $('.list-product').hover(
             function () {

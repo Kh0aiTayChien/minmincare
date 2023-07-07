@@ -6,5 +6,7 @@
     @include('pages.nga-min.sec4-vinh')
     @include('pages.nga-min.sec5-vinh')
     @include('pages.nga-min.sec6')
+    @include('pages.nga-min.sec7-c')
+    @include('pages.nga-min.sec8-c')
     @include('pages.nga-min.sec9')
 @stop
