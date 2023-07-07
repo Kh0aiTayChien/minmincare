@@ -1,17 +1,17 @@
-<div class="section-5">
+<div class="section-8">
     <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
         <img src="{{asset('images/nga-min/sec5/chiasegiatri.png')}}" alt="" style="" class="img-fluid">
     </div>
 
     <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow-5" aria-label="Previous">
+        <button class="custom-prev-arrow-8" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
         </button>
-        <button class="custom-next-arrow-5" aria-label="Next">
+        <button class="custom-next-arrow-8" aria-label="Next">
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
         </button>
 
-        <div class="carousel-sec-5">
+        <div class="carousel-sec-8">
             @foreach($news as $article)
                 <div class="d-flex justify-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
@@ -40,7 +40,7 @@
     </div>
 </div>
 <style>
-    .section-5 {
+    .section-8 {
         /*height: 100vh;*/
     }
     .green-text {
@@ -76,16 +76,16 @@
     .height-text-card{
         height: 5rem;
     }
-    .carousel-sec-5 {
+    .carousel-sec-8 {
         width: 70%;
         margin: 0px auto;
     }
 
-    .section-5.slick-slide {
+    .section-8.slick-slide {
         margin: 10px;
     }
 
-    .section-5.slick-slide img {
+    .section-8.slick-slide img {
         width: 90%;
     }
 
@@ -106,8 +106,8 @@
 
     }
 
-    .custom-prev-arrow-5,
-    .custom-next-arrow-5 {
+    .custom-prev-arrow-8,
+    .custom-next-arrow-8 {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -118,11 +118,11 @@
         z-index: 2;
     }
 
-    .custom-prev-arrow-5 {
+    .custom-prev-arrow-8 {
         left: 100px;
     }
 
-    .custom-next-arrow-5 {
+    .custom-next-arrow-8 {
         right: 100px;
     }
 
@@ -134,11 +134,11 @@
         margin-top: 1rem;
     }
 
-    .section-5.slick-dots li {
+    .section-8.slick-dots li {
         margin: 0 5px;
     }
 
-    .section-5.slick-dots button {
+    .section-8.slick-dots button {
         background-color: #fff; /* Màu nền trắng cho dot không active */
         border: 2px solid #59843d; /* Viền xanh cho dot không active */
         color: transparent; /* Màu chữ xanh cho dot không active */
@@ -149,7 +149,7 @@
         cursor: pointer;
     }
 
-    .section-5.slick-dots .slick-active button {
+    .section-8.slick-dots .slick-active button {
         background-color: #59843d; /* Màu nền xanh cho dot active */
         border-color: #59843d; /* Viền xanh cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
@@ -167,7 +167,7 @@
             scale: 70%;
         }
 
-        .custom-prev-arrow-5 {
+        .custom-prev-arrow-8 {
             left: -17px;
             position: absolute;
             top: 40%;
@@ -175,7 +175,7 @@
             opacity: 50%;
         }
 
-        .custom-next-arrow-5 {
+        .custom-next-arrow-8 {
             right: -17px;
             position: absolute;
             top: 40%;
@@ -191,15 +191,15 @@
 </style>
 <script>
     $(document).ready(function () {
-        $('.carousel-sec-5').slick({
+        $('.carousel-sec-8').slick({
             infinite: true,
             // variableWidth: true,
             speed: 900,
             slidesToShow: 3,
             slidesToScroll: 3,
             dots: true,
-            prevArrow: $('.custom-prev-arrow-5'),
-            nextArrow: $('.custom-next-arrow-5'),
+            prevArrow: $('.custom-prev-arrow-8'),
+            nextArrow: $('.custom-next-arrow-8'),
             responsive: [
                 {
                     breakpoint: 1024,
