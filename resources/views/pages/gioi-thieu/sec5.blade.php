@@ -15,7 +15,7 @@
             <p class="textsec5-GT">Min Min Care không chỉ là một thương hiệu với sản phẩm ngũ cốc dinh dưỡng đơn thuần, mà còn là
                 niềm hy vọng, niềm tin vào sự phát triển và tiến bộ. Bởi chính trải nghiệm và mong muốn của Ms Nga, sản
                 phẩm luôn luôn được nâng cao nhằm mang đến bữa ăn dinh dưỡng toàn diện cho cả mẹ bầu và mẹ sau sinh.</p>
-            <a href="#"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-start-test button-shake"></a>
+            <a href="{{asset('nga-minmin')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-start-test button-shake"></a>
         </div>
         <img src="{{asset('images/gioi-thieu/sec5/Group 1340.png')}}" class="bannersec5-GT-test col-md-5 col-xxl-3">
     </div>
@@ -37,5 +37,5 @@
     <p class="textsec5mb-GT">Min Min Care không chỉ là một thương hiệu với sản phẩm ngũ cốc dinh dưỡng đơn thuần, mà còn
         là niềm hy vọng, niềm tin vào sự phát triển và tiến bộ. Bởi chính trải nghiệm và mong muốn của Ms Nga, sản phẩm
         luôn luôn được nâng cao nhằm mang đến bữa ăn dinh dưỡng toàn diện cho cả mẹ bầu và mẹ sau sinh.</p>
-    <a href="#"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-startmb-GT"></a>
+    <a href="{{asset('nga-minmin')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-startmb-GT"></a>
 </div>
