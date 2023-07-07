@@ -22,3 +22,32 @@
     border: none;
     background: none;
 }
+
+.sec1mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec1-NM {
+        display: none;
+    }
+    .sec1mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .header1sec1-NM {
+        font-size: 25px;
+    }
+
+    .header2sec1-NM {
+        font-size: 45px;
+    }
+
+    .header3sec1-NM {
+        font-size: 30px;
+    }
+    .utubesec1mb-NM {
+        margin-left: 7%;
+    }
+}

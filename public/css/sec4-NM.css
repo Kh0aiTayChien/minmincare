@@ -108,3 +108,36 @@
     font-size: 15px;
     font-family: Mulish-SemiBold, sans-serif;
 }
+
+.sec4mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec4-NM {
+        display: none;
+    }
+    .sec4mb-NM {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .header1sec4-NM {
+        font-size: 30px;
+    }
+
+    .header2sec4-NM {
+        font-size: 30px;
+        margin-top: -5%;
+    }
+    .textsec4-NM {
+        text-align: justify;
+        font-family: Mulish-SemiBold, sans-serif;
+        font-size: 18px;
+        color: white;
+        width: 90%;
+    }
+
+
+}

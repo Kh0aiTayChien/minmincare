@@ -26,3 +26,36 @@
     font-size: 28px;
     margin-top: -5%;
 }
+
+.sec3mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec3-NM {
+        display: none;
+    }
+    .sec3mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .header1sec3-NM {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+
+    .header2sec3-NM {
+        text-align: center;
+        font-size: 45px;
+        margin-top: -5%;
+    }
+
+    .header3sec3-NM {
+        text-align: center;
+        font-size: 20px;
+        margin-top: -5%;
+    }
+}

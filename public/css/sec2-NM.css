@@ -42,3 +42,43 @@
 .text-NM {
     margin-top: 90%;
 }
+
+.sec2mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec2-NM {
+        display: none;
+    }
+    .sec2mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-color: #F1F1F2;
+        padding-top: 4%;
+        margin-top: -1%;
+        padding-bottom: 4%;
+    }
+    .headersec2-NM {
+        margin-top: 5%;
+    }
+    .header1sec2-NM {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .header2sec2-NM {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .header3sec2-NM {
+        text-align: center;
+        font-size: 25px;
+        margin-top: -5%;
+    }
+    .utubesec2mb-NM {
+        margin-left: 7%;
+    }
+}
