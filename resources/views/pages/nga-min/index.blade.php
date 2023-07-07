@@ -6,6 +6,5 @@
     @include('pages.nga-min.sec4')
     @include('pages.nga-min.sec5')
     @include('pages.nga-min.sec6')
-{{--    @include('pages.dai-ly.sec7')--}}
-{{--    @include('pages.dai-ly.sec8')--}}
+    @include('pages.nga-min.sec9')
 @stop

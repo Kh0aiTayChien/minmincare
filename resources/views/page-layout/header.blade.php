@@ -354,7 +354,7 @@
                         TỨC</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Informationmb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                <a href="{{asset('lien-he')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
                 </a>
             </li>
         </ul>

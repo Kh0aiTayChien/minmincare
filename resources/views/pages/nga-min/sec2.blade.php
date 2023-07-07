@@ -17,18 +17,18 @@
                 bỏ. Nhưng Nga vẫn giữ vững niềm tin bước tiếp, dần dần từng bước một để đi qua khó khăn bằng những kinh
                 nghiệm đã tích lũy ngày trước.</p>
             <button type="button" class="imgbtn-NM" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalsec2-NM">
+                    data-bs-target="#exampleModal-NM">
                 <img src="/images/nga-min/sec1/Asset 1.png" class="buttonvideo-NM col-xxl-12 col-md-12">
             </button>
             <div class="modal fade" id="exampleModalsec2-NM" tabindex="-1" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-fullscreen">
                     <div class="modal-content d-flex flex-row-reverse" style="background-color: rgba(0, 0, 0, 0.5);">
-                        <button id="btn-close-sec2-NM" type="button" class="btn-close" data-bs-dismiss="modal"
+                        <button id="btn-close-NM" type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         <div class="modal-body d-flex justify-content-center align-items-center">
                             <div>
-                                <iframe id="video-iframe-sec2-NM" width="1100" height="600"
+                                <iframe id="video-iframe-NM" width="1100" height="600"
                                         class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/rExo9QFiew4"
                                         title="YouTube video player" frameborder="0"
@@ -81,21 +81,6 @@
 </div>
 
 <script>
-    var modal = document.getElementById('exampleModalsec2-NM');
-    var iframe = document.getElementById('video-iframe-sec2-NM');
-    var btnClose = document.getElementById('btn-close-sec2-NM');
-
-    // Bắt sự kiện click chuột với capturing
-    window.addEventListener('click', function NMsec2(event) {
-        // Kiểm tra nếu người dùng đã nhấp chuột bên ngoài iframe
-        if (!iframe.contains(event.target) && !btnClose.contains(event.target)) {
-            // Chuyển hướng sự kiện click chuột đến nút đóng modal
-            btnClose.click();
-
-            // Dừng video khi modal đóng
-            iframe.src = iframe.src;
-        }
-    }, true);
 
     // Hàm tính toán và đặt chiều rộng theo tỷ lệ màn hình điện thoại
     function setIframeWidthsec2NM() {

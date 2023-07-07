@@ -3,6 +3,10 @@
     background-size: 100% 100%;
 }
 
+.sec1-LH {
+    margin-top: 10%;
+}
+
 .daily-test1 {
     background-image: url("/images/sec10/dai-ly.png");
     /*background-color: yellow;*/
@@ -40,7 +44,7 @@
 }
 
 .form-daily {
-    margin-top: -7%;
+    margin-top: -8%;
 }
 
 .dailybutton-test {
@@ -228,6 +232,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .sec1-LH {
+        margin-top: 22%;
+    }
     .sec10pc {
         display: none;
     }

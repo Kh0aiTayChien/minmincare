@@ -37,7 +37,8 @@
     padding: 0.5%;
     background-color: white;
     border-radius: 20px;
-    margin-right: 0.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
     height: 300px;
     text-align: center;
     justify-content: center;
@@ -47,13 +48,15 @@
     padding: 0.5%;
     background-color: white;
     border-radius: 20px;
-    margin-right: 0.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
     height: 300px;
 }
 
 .slide3-NM {
     padding: 0.5%;
-    margin-right: 0.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
     background-color: white;
     border-radius: 20px;
     height: 300px;
@@ -61,7 +64,8 @@
 
 .slide4-NM {
     padding: 0.5%;
-    margin-right: 0.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
     background-color: white;
     border-radius: 20px;
     height: 300px;
@@ -71,7 +75,6 @@
     /*margin-left: 25%;*/
     margin: auto;
     margin-bottom: 8%;
-
 }
 
 .img2sec4-NM {
@@ -123,6 +126,9 @@
         text-align: center;
         margin-top: 8%;
     }
+    .containersec4-NM {
+        padding-bottom: 5%;
+    }
     .header1sec4-NM {
         font-size: 30px;
     }
@@ -138,6 +144,38 @@
         color: white;
         width: 90%;
     }
+    .slide1-NM {
+        height: 280px;
 
-
+    }
+    .slide2-NM {
+        height: 280px;
+    }
+    .slide3-NM {
+        height: 280px;
+    }
+    .slide4-NM {
+        height: 280px;
+    }
+    .img1sec4-NM {
+        width: 40%;
+    }
+    .img2sec4-NM {
+        width: 50%;
+    }
+    .img3sec4-NM {
+        width: 40%;
+    }
+    .img4sec4-NM {
+        width: 50%;
+    }
+    .pre-arrow-NM {
+        scale: 60%;
+        margin-right: 115%;
+        /*z-index: 10;*/
+    }
+    .next-arrow-NM {
+        scale: 60%;
+        margin-left: 115%;
+    }
 }
