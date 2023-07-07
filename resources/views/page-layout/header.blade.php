@@ -29,17 +29,15 @@
     </div>
 </div>
 
-<div class="Clogo ">
-    <div class="right-action ">
-        <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"></div>
-        <br>
-        <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="scale: 90%"></div>
-    </div>
-    <div class="overlay d-none">
-        @include('page-layout.cart')
-    </div>
-</div>
+<div class="right-action">
 
+    <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"  style="width: 70%"></div>
+    <br>
+    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="width: 70%"></div>
+</div>
+<div class="overlay d-none">
+    @include('page-layout.cart')
+</div>
 <div id="scrollUp" style="display: block;">
     <i class="fa fa-angle-up"></i>
 </div>
@@ -53,8 +51,8 @@
         cursor: pointer;
         display: none;
         position: fixed;
-        right: 20px;
-        z-index: 999;
+        right: 10px;
+        z-index: 1200;
     }
     #scrollUp i {
         background-color: #59843d;
@@ -70,35 +68,29 @@
         filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
-
-    .Clogo {
-        margin-left: 90vw;
+    .right-action {
+        text-align: center;
+        bottom: 30px;
+        cursor: pointer;
         position: fixed;
-        z-index: 9999;
-        height: 40px;
+        right: 20px;
+        z-index: 1000;
     }
 
-    @media only screen and (max-width: 1200px) {
-        .Clogo {
-            margin-left: 85vw;
-        }
-    }
 
     @media only screen and (max-width: 800px) {
         #scrollUp{
             display: none !important;
         }
-        .Clogo {
-            margin-left: 75vw;
-            z-index: 1000;
-        }
 
         .right-action {
-            margin-right: 10% !important;
-            margin-top: 70vh;
-            float: right;
-            scale: 70%;
-            height: 15px;
+            text-align: center;
+            bottom: 10px;
+            cursor: pointer;
+            position: fixed;
+            right: 1px;
+            z-index: 999;
+            width: 20%;
         }
 
         .overlay {
@@ -108,6 +100,7 @@
             top: 0;
             left: 0;
             background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000 !important;
         }
 
         #popup {
@@ -137,13 +130,6 @@
         filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
-    .right-action {
-        margin-right: 2%;
-        margin-top: 70vh;
-        float: right;
-        scale: 70%;
-        height: 15px;
-    }
 
     .list-product .list-product-button {
         width: 300%;
@@ -244,7 +230,7 @@
 
     .cart {
         cursor: pointer;
-        transform: translate(11px, 0);
+        transform: translate(2px, 0);
     }
 
     .cart-circle {
@@ -390,7 +376,7 @@
         // Sự kiện khi nhấp vào nút "Scroll Up"
         $('#scrollUp').click(function() {
             // Di chuyển lên đầu trang
-            $('html, body').animate({ scrollTop: 0 }, 686);
+            $('html, body').animate({ scrollTop: 0 }, 369);
             return false;
         });
     });
