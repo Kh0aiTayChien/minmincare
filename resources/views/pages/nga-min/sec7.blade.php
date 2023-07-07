@@ -1,4 +1,4 @@
-<div class="section-4">
+<div class="section-7">
     <div class=" d-flex align-content-center justify-content-center pt-4" style="">
         <img src="{{asset('images/nga-min/sec4/thacmac.png')}}" alt="" class="share-joy" style="">
     </div>
@@ -11,7 +11,7 @@
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect">
         </button>
 
-        <div class="carousel-sec-4">
+        <div class="carousel-sec-7">
             <div><img src="{{asset('images/nga-min/sec4/mes1.png')}}" class="img-fluid"></div>
             <div><img src="{{asset('images/nga-min/sec4/mes2.png')}}" class="img-fluid"></div>
             <div><img src="{{asset('images/nga-min/sec4/mes3.png')}}" class="img-fluid"></div>
@@ -22,7 +22,7 @@
     </div>
 </div>
 <style>
-    .section-4 {
+    .section-7 {
         background-color: #F1F1F2;
     }
 
@@ -32,7 +32,7 @@
         text-align: center;
     }
 
-    .carousel-sec-4 {
+    .carousel-sec-7 {
         width: 70%;
         margin: 0px auto;
     }
@@ -125,7 +125,7 @@
             scale: 50%;
             opacity: 50%;
         }
-        .section-4 {
+        .section-7 {
             height: 65%;
         }
         .share-joy{
@@ -136,7 +136,7 @@
 </style>
 <script>
     $(document).ready(function () {
-        $('.carousel-sec-4').slick({
+        $('.carousel-sec-7').slick({
             infinite: true,
             speed: 900,
             slidesToShow: 3,
