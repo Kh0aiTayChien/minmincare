@@ -2,7 +2,7 @@
     <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%">
 </div>
 
-<div class=" container-fluid custom-padding">
+<div class=" container-fluid custom-padding ">
     <div class="row gx-5 gy-4 pos-center">
         @foreach($products as $product)
             <div class=" col-lg-3 col-sm-4 col-xs-12 custom-ms shadow-effect">
@@ -42,8 +42,14 @@
         margin-left: 3rem;
     }
     .custom-padding{
-        padding: 0 8rem 8rem 8rem;
+        padding:  8rem 8rem 8rem;
     }
+    @media screen and (min-width: 1800px) {
+        .custom-padding {
+            padding: 8rem 25rem;
+        }
+    }
+
     @media screen and (max-width: 767px) {
         .pos-center {
             display: flex;
