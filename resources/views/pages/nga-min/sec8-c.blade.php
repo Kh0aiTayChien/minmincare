@@ -19,9 +19,8 @@
                         <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"
                              alt="Card image">
                         <div class="card-body">
-                            <h4 class="card-title height-text-card green-text mitr-medium text-center">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4>
-                            <p class="card-text height-text-card mitr-small">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}
-                            </p>
+                            <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
+                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
                                     CHI TIẾT</a>
@@ -43,6 +42,13 @@
     .section-8 {
         /*height: 100vh;*/
     }
+    .font-size-custom{
+        font-size: 1rem;
+    }
+
+    .height-text-card{
+        height: 2rem;
+    }
     .green-text {
         color: #59843d;
     }
@@ -60,7 +66,7 @@
         width: 200px; /* Điều chỉnh chiều dài của nút */
     }
     .green-border {
-        border: 3px solid #59843d;
+        border: 2px solid #59843d;
     }
     .shadow-effect {
         filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
@@ -70,11 +76,8 @@
     }
 
     .height-img-card {
-        height: 240px;
+        height: 200px;
         width: 404px;
-    }
-    .height-text-card{
-        height: 5rem;
     }
     .carousel-sec-8 {
         width: 70%;
@@ -185,6 +188,14 @@
 
         .space_sec5 {
             display: none;
+        }
+        .height-text-card{
+            height: 3.5rem;
+        }
+        .height-img-card {
+            height: 160px;
+            width: 404px;
+            text-align: center;
         }
     }
 
