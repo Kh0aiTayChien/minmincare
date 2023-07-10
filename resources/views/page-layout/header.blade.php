@@ -4,16 +4,16 @@
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
-                    <p id="gioi-thieu-text">GIỚI THIỆU</p>
+                    <p>GIỚI THIỆU</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('san-pham')}}" id="san-pham-link">
-                    <p id="san-pham-text">SẢN PHẨM</p>
+                    <p>SẢN PHẨM</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
+                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-4 logominmin">
@@ -21,13 +21,13 @@
         </div>
         <ul class="col-xxl-3 col-md-4 menuright">
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('tin-tuc')}}"><p>TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}" id="tin-tuc-link"><p>TIN TỨC</p></a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('kien-thuc')}}"><p>KIẾN THỨC</p></a>
+                <a href="{{asset('kien-thuc')}}" id="kien-thuc-link"><p>KIẾN THỨC</p></a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('lien-he')}}"><p>LIÊN HỆ</p></a>
+                <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -450,24 +450,29 @@
         var currentUrl = window.location.href;
 
         // Lấy các thẻ <p> và các liên kết tương ứng
-        var gioiThieuText = document.getElementById('gioi-thieu-text');
-        var sanPhamText = document.getElementById('san-pham-text');
         var gioiThieuLink = document.getElementById('gioi-thieu-link');
         var sanPhamLink = document.getElementById('san-pham-link');
+        var daiLyLink = document.getElementById('dai-ly-link');
+        var tinTucLink = document.getElementById('tin-tuc-link');
+        var kienThucLink = document.getElementById('kien-thuc-link');
+        var lienHeLink = document.getElementById('lien-he-link');
 
         // Kiểm tra nếu đang ở link 'gioi-thieu'
         if (currentUrl.indexOf("gioi-thieu") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
-            gioiThieuText.style.color = "green";
-            sanPhamText.style.color = "black";
+            gioiThieuLink.style.color = "green";
         }
 
         // Kiểm tra nếu đang ở link 'san-pham'
         if (currentUrl.indexOf("san-pham") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
-            gioiThieuText.style.color = "black";
-            sanPhamText.style.color = "green";
+            sanPhamLink.style.color = "green";
         }
+        if (currentUrl.indexOf("dai-ly") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            daiLyLink.style.color = "green";
+        }
+
 
         // Xử lý sự kiện khi nhấp vào liên kết 'gioi-thieu'
         gioiThieuLink.addEventListener('click', function(event) {
