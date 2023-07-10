@@ -203,7 +203,7 @@
     }
 
     .green-border {
-        border: 3px solid #59843d;
+        border: 2px solid #59843d;
     }
 
     .green-text {
@@ -221,7 +221,7 @@
         cursor: pointer;
     }
     .card-title{
-        font-family: "Mulish Black", sans-serif;
+        font-family: "Mulish SemiBold", sans-serif;
     }
     .card-text{
         font-family: "Mulish SemiBold", sans-serif;

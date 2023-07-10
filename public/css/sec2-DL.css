@@ -1,7 +1,7 @@
 .sec2-DL {
     background-image: url("/images/dai-ly/sec2/Group 3173.png");
     background-repeat: no-repeat;
-    background-size: 100% 60%;
+    background-size: 100% 65%;
     background-position: center top 280px;
 }
 
@@ -28,7 +28,6 @@
     position: absolute;
     width: 12vw;
     text-align: justify;
-    font-size: 15px;
     margin-top: -9%;
 }
 
@@ -56,6 +55,10 @@
 
 .dailymb2-DL {
     display: none;
+}
+
+.conditionsec2-DL-test {
+    margin-top: -8%;
 }
 
 @media screen and (max-width: 768px) {
