@@ -37,6 +37,7 @@ Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thi
 Route::get('/nga-minmin', [NgaMinController::class, 'index'])->name('Nga-min.index');
 Route::get('/dai-ly', [SalesAgentController::class,'index'])->name('dai-ly.index');
 Route::get('/tin-tuc', [NewsController::class, 'index'])->name('tin-tuc.index');
+Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('tin-tuc.show');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');
