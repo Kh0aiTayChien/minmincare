@@ -9,10 +9,10 @@
     </div>
 
     <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow-9" aria-label="Previous">
+        <button class="custom-prev-arrow-9 button-shake" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
         </button>
-        <button class="custom-next-arrow-9" aria-label="Next">
+        <button class="custom-next-arrow-9 button-shake" aria-label="Next">
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
         </button>
 
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <a href="#"
+        <a href="{{route('tin-tuc.index')}}"
            class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">XEM
             THÊM</a>
     </div>
