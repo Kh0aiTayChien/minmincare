@@ -8,7 +8,7 @@
 }
 
 .linefooter {
-    width: 104%;
+    width: 105vw;
     margin-top: -2%;
     margin-left: -2%;
 }
@@ -112,7 +112,7 @@
     }
     .linefootermb {
         margin-top: -5.5%;
-        width: 110vw;
+        width: 107vw;
         margin-left: -5%;
     }
 }

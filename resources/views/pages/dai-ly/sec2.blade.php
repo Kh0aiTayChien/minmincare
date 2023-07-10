@@ -38,14 +38,20 @@
     </div>
     <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL">
     <object data="{{asset('images/dai-ly/sec2/Group 3173.svg')}}" class="headerbannersec2-DL"></object>
-    <img src="{{asset('images/dai-ly/sec2/Group 3175.png')}}" class="conditionsec2-DL">
-    <p class="left1 absolute">Bạn có niềm tin rằng làm hài lòng khách hàng là giá trị cốt lõi quan trọng nhất</p>
-    <p class="left2 absolute">Bạn luôn hướng tới tiêu chuẩn cao hơn vì sản phẩm Min Min Care hướng tới điều đó
-    </p>
-    <p class="left3 absolute">Bạn đang mong muốn kinh doanh không chỉ tập trung vào lợi nhuận mà còn sức khỏe của khách
-        hàng. Đặc biệt là mẹ bầu và mẹ sau sinh
-    </p>
-    <p class="left4 absolute">Bạn sẵn sàng thay đổi để hướng tới một cuộc sống tốt hơn</p>
+{{--    <img src="{{asset('images/dai-ly/sec2/Group 3175.png')}}" class="conditionsec2-DL">--}}
+{{--    <p class="left1 absolute">Bạn có niềm tin rằng làm hài lòng khách hàng là giá trị cốt lõi quan trọng nhất</p>--}}
+{{--    <p class="left2 absolute">Bạn luôn hướng tới tiêu chuẩn cao hơn vì sản phẩm Min Min Care hướng tới điều đó--}}
+{{--    </p>--}}
+{{--    <p class="left3 absolute">Bạn đang mong muốn kinh doanh không chỉ tập trung vào lợi nhuận mà còn sức khỏe của khách--}}
+{{--        hàng. Đặc biệt là mẹ bầu và mẹ sau sinh--}}
+{{--    </p>--}}
+{{--    <p class="left4 absolute">Bạn sẵn sàng thay đổi để hướng tới một cuộc sống tốt hơn</p>--}}
+    <div class="row-test conditionsec2-DL-test">
+        <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="col-2 button-shake">
+        <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="col-2 button-shake">
+        <img src="{{asset('images/dai-ly/sec2/Asset 4.png')}}" class="col-2 button-shake">
+        <img src="{{asset('images/dai-ly/sec2/Asset 5.png')}}" class="col-2 button-shake">
+    </div>
 </div>
 <div class="dailymb2-DL">
     <div class="dailymb">
@@ -73,8 +79,8 @@
 <div class="sec2mb-DL">
     <object data="{{asset('images/dai-ly/sec2/Asset 1.png')}}" class="headerbannersec2mb-DL"></object>
     <img src="{{asset('images/dai-ly/sec2/Asset 6.png')}}" class="contentsec2mb-DL col-11">
-    <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="condition1sec2mb-DL col-5">
-    <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="condition1sec2mb-DL col-5">
-    <img src="{{asset('images/dai-ly/sec2/Asset 4.png')}}" class="conditionsec2mb-DL col-5">
-    <img src="{{asset('images/dai-ly/sec2/Asset 5.png')}}" class="conditionsec2mb-DL col-5">
+    <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="condition1sec2mb-DL col-5 button-shake">
+    <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="condition1sec2mb-DL col-5 button-shake">
+    <img src="{{asset('images/dai-ly/sec2/Asset 4.png')}}" class="conditionsec2mb-DL col-5 button-shake">
+    <img src="{{asset('images/dai-ly/sec2/Asset 5.png')}}" class="conditionsec2mb-DL col-5 button-shake">
 </div>

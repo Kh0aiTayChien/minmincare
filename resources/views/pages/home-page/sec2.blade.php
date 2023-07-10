@@ -15,10 +15,10 @@
 {{--    <br>--}}
 {{--    <object data="{{asset('images/sec2/Group 957.svg')}}" class="contentsec2"></object>--}}
 {{--    <p class="contentsec2linebot">Chứng nhận bởi Viện nghiên cứu hợp tác khoa học kỹ thuật châu Á - Thái Bình Dương</p>--}}
-<img src="{{asset('images/sec2/111.png')}}" class="contentsec2img">
+<img src="{{asset('images/sec2/111.png')}}" class="contentsec2img button-shake">
 </div>
 
 <div class="sec2mb">
     <object data="{{asset('images/sec2/Group 928.svg')}}" class="headersec2mb"></object>
-    <img src="{{asset('images/sec2/1111.png')}}" class="contentsec2imgmb">
+    <img src="{{asset('images/sec2/1111.png')}}" class="contentsec2imgmb button-shake">
 </div>
