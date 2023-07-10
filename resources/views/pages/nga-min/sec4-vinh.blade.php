@@ -94,8 +94,8 @@
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 4,
-            prevArrow: '<button type="button" class="pre-arrow-NM"><img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="imgarrow shadow-effect"/></button>',
-            nextArrow: '<button type="button" class="next-arrow-NM"><img src="{{asset('images/arrow-r.png')}}" alt="Next" class="imgarrow shadow-effect"/></button>',
+            prevArrow: '<button type="button" class="pre-arrow-NM button-shake"><img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="imgarrow shadow-effect"/></button>',
+            nextArrow: '<button type="button" class="next-arrow-NM button-shake"><img src="{{asset('images/arrow-r.png')}}" alt="Next" class="imgarrow shadow-effect"/></button>',
             responsive: [
                 {
                     breakpoint: 1024,
