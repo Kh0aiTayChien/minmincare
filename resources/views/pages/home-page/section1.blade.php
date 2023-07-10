@@ -11,10 +11,10 @@
 
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect">
+                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
                 <div class="px-4">ĐĂNG KÍ ĐẠI LÝ </div>
             </button>
-            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect">
+            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
                 <div class="px-4">MUA SẢN PHẨM </div>
             </button>
         </div>
@@ -28,12 +28,12 @@
                 </div>
             @endforeach
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-prev button-shake" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
             <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-next button-shake" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
             <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>
