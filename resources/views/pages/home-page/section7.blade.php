@@ -4,11 +4,11 @@
     </div>
 
     <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow button-shake" aria-label="Previous">
-            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect">
+        <button class="custom-prev-arrow" aria-label="Previous">
+            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake">
         </button>
-        <button class="custom-next-arrow button-shake" aria-label="Next">
-            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect">
+        <button class="custom-next-arrow " aria-label="Next">
+            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect button-shake">
         </button>
 
         <div class="carousel-sec-7">

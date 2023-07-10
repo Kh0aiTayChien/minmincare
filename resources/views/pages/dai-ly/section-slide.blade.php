@@ -1,11 +1,11 @@
 <div class="section-slide position-relative mt-4 mb-5">
     <div class="position-absolute start-50 top-50 section-slide-dot" style="">
             <span class="btn ">
-                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
+                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow button-shake"
                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     </span>
         <span class="btn ">
-                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
+                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow button-shake"
                      data-bs-target="#carouselExampleFade" data-bs-slide="next">
                     </span>
         <div class="mt-4 ms-5">
