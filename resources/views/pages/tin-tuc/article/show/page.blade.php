@@ -1,7 +1,10 @@
 <div class=" content-article ">
     <h2 align="center" class="tilte-text">{{$article->title}}</h2>
+    <div class="d-flex justify-content-center align-content-center">
+        <p class="datetime p-2 text-center"> Ngày đăng: {{$article->created_at}} </p>
+    </div>
+
     <div class="content p-3">
-        <p class="textdatetime p-2"> Ngày đăng: {{$article->created_at}} | Ngày cập nhật: {{$article->updated_at}} </p>
         {!! $article->content!!}
     </div>
 
@@ -10,6 +13,10 @@
     body{
         background-color: #EBF4F0 ;
     }
+    .datetime{
+        font-family: Mulish-SemiBold, sans-serif;
+        color: #F79421;
+    }
     .content-article {
       margin: 12rem 20rem 5rem 20rem;
         background-color: white;
@@ -17,7 +24,6 @@
     .tilte-text {
         color: #59843d;
         font-family: "Mulish Black", sans-serif;
-        margin-bottom: 3rem;
     }
     .figure-image {
         display: flex;

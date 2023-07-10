@@ -9,10 +9,8 @@
                     </a>
                 </div>
                 <div class="card-body col-lg-8 col-xs-12">
-                    <p class="textdatetime p-2">
-
-                        <img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}"
-                             class="imgdatetime"> {{$article->created_at}}</p>
+                    <p class="textdatetime p-2"><img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}" class="imgdatetime">
+                        {{$article->created_at}}</p>
 
                     <div class="green-text"><h4
                             class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,77)}}</h4>

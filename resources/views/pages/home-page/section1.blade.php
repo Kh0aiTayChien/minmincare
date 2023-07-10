@@ -1,11 +1,11 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
-    <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse" style="z-index: 200; padding-top: 30%">
+    <div class=" d-flex  align-items-center  position-absolute row flex-column-reverse" style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)">
 
         <div class="position-relative d-flex flex-column-reverse">
             <a href="#sec2" class="arrow-down position-absolute">
                 <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
             </a>
-            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
+            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve" >
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
         </div>
 
