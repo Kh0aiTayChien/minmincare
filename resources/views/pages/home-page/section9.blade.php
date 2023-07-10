@@ -9,10 +9,10 @@
     </div>
 
     <div class="slick-carousel position-relative">
-        <button class="custom-prev-arrow-9 button-shake" aria-label="Previous">
+        <button class="custom-prev-arrow-9 " aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
-        <button class="custom-next-arrow-9 button-shake" aria-label="Next">
+        <button class="custom-next-arrow-9 " aria-label="Next">
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
@@ -27,7 +27,7 @@
                             <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
                             <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                                <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
+                                <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM
                                     CHI TIẾT</a>
                             </div>
                         </div>
