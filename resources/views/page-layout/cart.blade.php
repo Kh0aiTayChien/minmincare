@@ -9,7 +9,7 @@
         <img src="{{ asset('images/header/sent.png') }}" alt="" >
     </div>
 
-    <div class="cart-product-list p-2 mb-5 shadow-effect " style="background-color: #ddd; height: 25rem">
+    <div class="cart-product-list p-2 mb-5" style="background-color: #ddd; height: 25rem">
         @if(isset($carts) && count($carts) > 0)
             @foreach($carts as $cart)
                 @include('page-layout.item')

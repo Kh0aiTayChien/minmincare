@@ -33,10 +33,6 @@
 
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center">
-        <a href="#" class="button-shake shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn"><div class="px-4">XEM
-                THÊM</div></a>
-    </div>
 </div>
 <style>
     .section-7{
