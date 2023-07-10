@@ -3,10 +3,14 @@
     <div class="col-xxl-12 col-md-12 row-test">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('gioi-thieu')}}"><p>GIỚI THIỆU</p></a>
+                <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
+                    <p id="gioi-thieu-text">GIỚI THIỆU</p>
+                </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('san-pham')}}"><p>SẢN PHẨM</p></a>
+                <a href="{{asset('san-pham')}}" id="san-pham-link">
+                    <p id="san-pham-text">SẢN PHẨM</p>
+                </a>
             </li>
             <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('dai-ly')}}"><p>ĐẠI LÝ</p></a>
@@ -438,6 +442,48 @@
         var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
 
         background.css('opacity', Math.max(opacity, 0.5)); // Giới hạn opacity tối thiểu là 0.7
+    });
+    var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Lấy URL hiện tại
+        var currentUrl = window.location.href;
+
+        // Lấy các thẻ <p> và các liên kết tương ứng
+        var gioiThieuText = document.getElementById('gioi-thieu-text');
+        var sanPhamText = document.getElementById('san-pham-text');
+        var gioiThieuLink = document.getElementById('gioi-thieu-link');
+        var sanPhamLink = document.getElementById('san-pham-link');
+
+        // Kiểm tra nếu đang ở link 'gioi-thieu'
+        if (currentUrl.indexOf("gioi-thieu") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            gioiThieuText.style.color = "green";
+            sanPhamText.style.color = "black";
+        }
+
+        // Kiểm tra nếu đang ở link 'san-pham'
+        if (currentUrl.indexOf("san-pham") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            gioiThieuText.style.color = "black";
+            sanPhamText.style.color = "green";
+        }
+
+        // Xử lý sự kiện khi nhấp vào liên kết 'gioi-thieu'
+        gioiThieuLink.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Thực hiện chuyển hướng đến link 'gioi-thieu'
+            window.location.href = "{{ asset('gioi-thieu') }}";
+        });
+
+        // Xử lý sự kiện khi nhấp vào liên kết 'san-pham'
+        sanPhamLink.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Thực hiện chuyển hướng đến link 'san-pham'
+            window.location.href = "{{ asset('san-pham') }}";
+        });
     });
 </script>
 <script>
