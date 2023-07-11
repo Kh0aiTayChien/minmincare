@@ -4,7 +4,7 @@
         <p class="datetime p-2 text-center pb-3"> Ngày đăng: {{$article->created_at}} </p>
     </div>
 
-    <div class="content p-3">
+    <div class="content p-3 pb-5">
         {!! $article->content!!}
     </div>
 
