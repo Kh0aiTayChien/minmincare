@@ -65,6 +65,16 @@ ul li a:hover {
     color: #59843D;
 }
 
+/*!* Màu sắc khi đang ở link 'gioi-thieu' *!*/
+/*#gioi-thieu-link #gioi-thieu-text {*/
+/*    color: green;*/
+/*}*/
+
+/*!* Màu sắc khi đang ở link 'san-pham' *!*/
+/*#san-pham-link #san-pham-text {*/
+/*    color: green;*/
+/*}*/
+
 .headermb {
     display: none;
 }
