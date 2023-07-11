@@ -320,6 +320,7 @@
             }
             .section-slide-mobile .slick-dots {
                 margin-top: -20px !important;
+                transform: translateY(14px);
             }
             .section-slide-mobile .card-text{
                 margin-bottom: 5px;
