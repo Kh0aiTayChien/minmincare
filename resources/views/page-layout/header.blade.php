@@ -460,35 +460,30 @@
         // Kiểm tra nếu đang ở link 'gioi-thieu'
         if (currentUrl.indexOf("gioi-thieu") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
-            gioiThieuLink.style.color = "green";
+            gioiThieuLink.style.color = "#59843D";
         }
 
         // Kiểm tra nếu đang ở link 'san-pham'
         if (currentUrl.indexOf("san-pham") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
-            sanPhamLink.style.color = "green";
+            sanPhamLink.style.color = "#59843D";
         }
         if (currentUrl.indexOf("dai-ly") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
-            daiLyLink.style.color = "green";
+            daiLyLink.style.color = "#59843D";
         }
-
-
-        // Xử lý sự kiện khi nhấp vào liên kết 'gioi-thieu'
-        gioiThieuLink.addEventListener('click', function(event) {
-            event.preventDefault();
-
-            // Thực hiện chuyển hướng đến link 'gioi-thieu'
-            window.location.href = "{{ asset('gioi-thieu') }}";
-        });
-
-        // Xử lý sự kiện khi nhấp vào liên kết 'san-pham'
-        sanPhamLink.addEventListener('click', function(event) {
-            event.preventDefault();
-
-            // Thực hiện chuyển hướng đến link 'san-pham'
-            window.location.href = "{{ asset('san-pham') }}";
-        });
+        if (currentUrl.indexOf("tin-tuc") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            tinTucLink.style.color = "#59843D";
+        }
+        if (currentUrl.indexOf("kien-thuc") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            kienThucLink.style.color = "#59843D";
+        }
+        if (currentUrl.indexOf("lien-he") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            lienHeLink.style.color = "#59843D";
+        }
     });
 </script>
 <script>
