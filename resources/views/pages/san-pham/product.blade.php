@@ -39,14 +39,14 @@
     .pos-center{
     }
     .custom-ms{
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
     .custom-padding{
-        padding:  8rem 8rem 8rem;
+        padding:  2rem 8rem 0 8rem;
     }
     @media screen and (min-width: 1800px) {
         .custom-padding {
-            padding: 8rem 25rem;
+            padding: 1rem 25rem !important;
         }
     }
 
