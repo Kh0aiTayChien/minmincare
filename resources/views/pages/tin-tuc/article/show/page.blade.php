@@ -1,10 +1,10 @@
 <div class=" content-article ">
-    <h2 align="center" class="tilte-text">{{$article->title}}</h2>
+    <h2 align="center" class="tilte-text pt-5">{{$article->title}}</h2>
     <div class="d-flex justify-content-center align-content-center">
-        <p class="datetime p-2 text-center"> Ngày đăng: {{$article->created_at}} </p>
+        <p class="datetime_text p-2 text-center pb-3"> Ngày đăng: {{$article->created_at}} </p>
     </div>
 
-    <div class="content p-3">
+    <div class="content p-3 pb-5">
         {!! $article->content!!}
     </div>
 
@@ -13,7 +13,7 @@
     body{
         background-color: #EBF4F0 ;
     }
-    .datetime{
+    .datetime_text{
         font-family: Mulish-SemiBold, sans-serif;
         color: #F79421;
     }
