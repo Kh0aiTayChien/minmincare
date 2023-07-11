@@ -102,7 +102,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot-mb"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Car..."
+                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
                       id="address" name="address" required></textarea>
             <br>
 
