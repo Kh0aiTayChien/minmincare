@@ -18,14 +18,13 @@
 .datetime {
     display: flex;
 }
-
 .imgdatetime {
     width: 1.5%;
     transform: translateY(-2px);
 }
 
 .textdatetime {
-    font-family: Mulish-Black, sans-serif;
+    font-family: Mulish-SemiBold, sans-serif;
     color: #F79421;
 }
 
