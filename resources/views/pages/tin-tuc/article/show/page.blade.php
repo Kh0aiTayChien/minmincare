@@ -1,7 +1,7 @@
 <div class=" content-article ">
     <h2 align="center" class="tilte-text pt-5">{{$article->title}}</h2>
     <div class="d-flex justify-content-center align-content-center">
-        <p class="datetime p-2 text-center pb-5"> Ngày đăng: {{$article->created_at}} </p>
+        <p class="datetime p-2 text-center pb-3"> Ngày đăng: {{$article->created_at}} </p>
     </div>
 
     <div class="content p-3">
