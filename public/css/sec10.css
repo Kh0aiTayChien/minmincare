@@ -1,6 +1,7 @@
 .sec10pc {
     background-image: url("/images/sec10/Rectangle 4.png");
     background-size: 100% 100%;
+    /*background-position: center top -50px;*/
 }
 
 .sec1-LH {
@@ -11,12 +12,13 @@
     background-image: url("/images/sec10/dai-ly.png");
     /*background-color: yellow;*/
     margin-left: 17%;
-    padding-bottom: 3%;
-    background-size: 100% 100% ;
+    padding-bottom: 4%;
+    background-size: 100% 100%;
+    margin-bottom: 1%;
 }
 
 .svg-input-test {
-    height: 40.891px;
+    height: 45.891px;
     width: 16vw;
     border-radius: 27.445px;
     border: none;
@@ -25,12 +27,11 @@
     /*margin-right: 0.5%;*/
     margin-left: 1%;
     padding: 10px;
-    margin-top: ;
     /*opacity: 0;*/
 }
 
 .svg-input-test-none {
-    height: 40.891px;
+    height: 45.891px;
     width: 16vw;
     border-radius: 27.445px;
     border: none;
@@ -44,7 +45,7 @@
 }
 
 .form-daily {
-    margin-top: -8%;
+    margin-top: -7%;
 }
 
 .dailybutton-test {
@@ -63,7 +64,7 @@
 
 .button4-test {
     width: 18.5vw;
-    height: 35.891px;
+    height: 45.891px;
     text-decoration: none;
     color: #59843d;
 }
@@ -121,7 +122,7 @@
 .submitbutton-test {
     width: 18.5vw;
     margin-top: 10%;
-    height: 40.891px;
+    height: 45.891px;
     border-radius: 27.445px;
     background-color: #59843d;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
@@ -135,12 +136,12 @@
 .submitbutton-test-daily {
     width: 18.5vw;
     margin-top: 5%;
-    height: 40.891px;
+    height: 45.891px;
     border-radius: 27.445px;
     background-color: white;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     margin-left: 1%;
-    border: 2.5px #59843d solid;
+    border: 3px #59843d solid;
     font-family: Mitr-Medium, sans-serif;
     color: #59843d;
     letter-spacing: 2px;
