@@ -10,6 +10,9 @@
     .sec2-TT{
         margin: 0 1rem 0 1rem;
     }
+    .imgdatetime{
+        width: 8% !important;
+    }
 }
 
 .datetime {
@@ -17,7 +20,8 @@
 }
 
 .imgdatetime {
-    width: 3.5%;
+    width: 1.5%;
+    transform: translateY(-2px);
 }
 
 .textdatetime {

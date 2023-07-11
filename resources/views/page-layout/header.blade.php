@@ -35,15 +35,15 @@
 
 <div class="right-action">
 
-    <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart"  style="width: 70%"></div>
+    <div><img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake"  style="width: 70%"></div>
     <br>
-    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="" style="width: 70%"></div>
+    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>
 </div>
 <div class="overlay d-none">
     @include('page-layout.cart')
 </div>
 <div id="scrollUp" style="display: block;">
-    <i class="fa fa-angle-up"></i>
+    <i class="fa fa-angle-up button-shake"></i>
 </div>
 
 

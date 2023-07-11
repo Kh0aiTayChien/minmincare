@@ -5,10 +5,10 @@
 
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-7" aria-label="Previous">
-            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
+            <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
         <button class="custom-next-arrow-7" aria-label="Next">
-            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect"/>
+            <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
         <div class="carousel-sec-7">
@@ -32,10 +32,6 @@
             </div>
 
         </div>
-    </div>
-    <div class="d-flex align-content-center justify-content-center">
-        <a href="#" class="button-shake shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn"><div class="px-4">XEM
-                THÊM</div></a>
     </div>
 </div>
 <style>

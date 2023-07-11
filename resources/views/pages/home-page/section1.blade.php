@@ -1,20 +1,20 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
-    <div class=" d-flex  align-items-center  position-absolute h-100 row flex-column-reverse" style="z-index: 200; padding-top: 30%">
+    <div class=" d-flex  align-items-center  position-absolute row flex-column-reverse" style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)">
 
         <div class="position-relative d-flex flex-column-reverse">
             <a href="#sec2" class="arrow-down position-absolute">
                 <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
             </a>
-            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
+            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve" >
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
         </div>
 
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect">
+                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
                 <div class="px-4">ĐĂNG KÍ ĐẠI LÝ </div>
             </button>
-            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect">
+            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
                 <div class="px-4">MUA SẢN PHẨM </div>
             </button>
         </div>
@@ -28,12 +28,12 @@
                 </div>
             @endforeach
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-prev button-shake" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
             <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-next button-shake" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
             <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>

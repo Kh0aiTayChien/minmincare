@@ -1,11 +1,11 @@
 <div class="section-slide position-relative mt-4 mb-5">
     <div class="position-absolute start-50 top-50 section-slide-dot" style="">
             <span class="btn ">
-                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow"
+                <img src="{{asset('images/arrow-l.png')}}" class="d-block shadow-effect sm-arrow button-shake"
                      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     </span>
         <span class="btn ">
-                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow"
+                <img src="{{asset('images/arrow-r.png')}}" class="d-block shadow-effect sm-arrow button-shake"
                      data-bs-target="#carouselExampleFade" data-bs-slide="next">
                     </span>
         <div class="mt-4 ms-5">
@@ -143,7 +143,7 @@
         </button>
 
         <div class="carousel-section-slide mt-2">
-            <div class="shadow-effect"
+            <div class=""
                  style="width:100%;">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="">
@@ -152,18 +152,15 @@
                         Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</p>
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+            <div class=" "
                  style="width:100%; ">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" alt="Card image">
                 <div class="card-body" >
                     <p class="card-text text-justify "> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
                         Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</p>
-{{--                    <div class="d-flex align-content-center justify-content-center">--}}
-{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill ">XEM CHI TIẾT</a>--}}
-{{--                    </div>--}}
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+            <div class=""
                  style="width:100%;  ">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" alt="Card image">
                 <div class="card-body" >
@@ -171,7 +168,7 @@
                         Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</p>
                 </div>
             </div>
-            <div class=" rounded-custom shadow-effect"
+            <div class=""
                  style="width:100%; ">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" alt="Card image">
                 <div class="card-body" style="height: 28rem">

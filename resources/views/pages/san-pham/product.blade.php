@@ -23,7 +23,7 @@
                             <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                     data-id="{{$product->id}}">
-                                THÊM VÀO GIỎ HÀNG
+                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>
                             </button>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
 
     .mitr-small {
         font-family: Mitr-Medium, Mitr, sans-serif;
-        font-size: small;
+        font-size: x-small;
         letter-spacing: 1.5px; /* Điều chỉnh giá trị này để thay đổi khoảng cách */
     }
 
