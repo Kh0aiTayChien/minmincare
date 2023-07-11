@@ -39,7 +39,7 @@
     <img src="{{asset('images/dai-ly/sec8/Group 3173.svg')}}" class="contentsec8-DL">
 </div>
 
-<div class="dailymb2-DL">
+<div class="dailymb2-DL sec8mb-DL-test">
     <div class="dailymb">
         <img src="{{asset('images/sec10/dailymb.png')}}" class="bannerdaily">
         <form class="formdailymb">
