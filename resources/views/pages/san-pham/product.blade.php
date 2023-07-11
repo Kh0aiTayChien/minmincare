@@ -23,7 +23,7 @@
                             <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                     data-id="{{$product->id}}">
-                                <div class="mx-1">THÊM VÀO SẢN PHẨM</div>
+                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>
                             </button>
                         </div>
                     </div>
