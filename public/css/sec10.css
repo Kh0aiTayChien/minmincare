@@ -260,10 +260,12 @@
         /*height: 18vh;*/
         border-radius: 10px;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+        text-align: center;
+        justify-content: center;
     }
     .bannerdaily {
         width: 70vw;
-        margin-left: 2%;
+        /*margin-left: 2%;*/
     }
     .formdailymb {
         display: inline;
@@ -274,7 +276,7 @@
         border-radius: 20px;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
         padding-left: 10px;
-        margin-left: 1%;
+        /*margin-left: 1%;*/
         margin-top: 3%;
     }
     .svg-input-mb:focus {
@@ -303,12 +305,14 @@
         border: none;
         background: none;
         /*margin-top: -50%;*/
+
     }
     .button4mb {
         position: absolute;
         width: 45vw;
         margin-top: -15.5%;
         margin-left: 5%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
     .bannercustomermb {
         width: 50vw;
@@ -333,6 +337,9 @@
     .svg-input-customer-mb::placeholder {
         font-size: 12px;
         color: #A6A8AB;
+    }
+    input::placeholder {
+        font-family: Mulish-SemiBold, sans-serif;
     }
     .svg-input-customer-mb:focus {
         outline: none;

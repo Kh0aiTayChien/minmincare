@@ -82,7 +82,7 @@
         </form>
     </div>
     <button class="daily-button-mb">
-        <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
+        <img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb">
     </button>
     <div class="customer-mb">
         <p class="text1customersec10mb">Nhận tư vấn từ</p>
@@ -103,7 +103,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot-mb"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Car..."
+                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
                       id="address" name="address" required></textarea>
             <br>
 

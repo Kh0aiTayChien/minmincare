@@ -1,5 +1,5 @@
 <div class="sec8">
-    <object data="{{asset('images/sec8/Group 890.svg')}}" class="headersec8 col-sm-4 col-xxl-4 col-7"></object>
+    <object data="{{asset('images/sec8/Asset 1.png')}}" class="headersec8 col-sm-4 col-xxl-4 col-7"></object>
     <div class="contentsec8">
         <a href="{{asset('kien-thuc')}}">
             <img src="{{asset('images/kien-thuc/sec2/me-bau.png')}}" class="col-8 col-sm-4 col-xxl-3 imgsec8 shadow-test button-shake"></a><br>
@@ -11,7 +11,7 @@
 </div>
 
 <div class="sec8mb">
-    <object data="{{asset('images/sec8/Group 890.svg')}}" class="headersec8mb col-sm-4 col-xxl-4 col-7"></object>
+    <object data="{{asset('images/sec8/Asset 1.png')}}" class="headersec8mb col-sm-4 col-xxl-4 col-7"></object>
     <div class="contentsec8mb">
         <a href="{{asset('kien-thuc')}}">
             <img src="{{asset('images/kien-thuc/sec2/me-bau.png')}}" class="col-8 col-sm-4 col-xxl-3 imgsec8mb shadow-test"></a><br>

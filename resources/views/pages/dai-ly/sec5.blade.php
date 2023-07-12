@@ -1,5 +1,5 @@
 <div class="sec5-DL">
-    <object data="{{asset('images/dai-ly/sec5/Group 3179.svg')}}" class="headersec5-DL"></object>
+    <object data="{{asset('images/dai-ly/sec5/Group 3171.png')}}" class="headersec5-DL"></object>
     <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL">
         <img src="/images/dai-ly/sec5/Asset 3.png" class="buttonvideo-DL">
     </button>
@@ -23,7 +23,7 @@
 </div>
 
 <div class="sec5mb-DL">
-    <object data="{{asset('images/dai-ly/sec5/Group 3179.svg')}}" class="headersec5mb-DL"></object>
+    <object data="{{asset('images/dai-ly/sec5/Group 3171.png')}}" class="headersec5mb-DL"></object>
     <div class="utubesec5-DL" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
         <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
                 allowfullscreen></iframe>

@@ -1,7 +1,7 @@
 .sec2-DL {
     background-image: url("/images/dai-ly/sec2/Group 3173.png");
     background-repeat: no-repeat;
-    background-size: 100% 65%;
+    background-size: 110% 65%;
     background-position: center top 280px;
 }
 
@@ -82,7 +82,7 @@
         /*background-repeat: no-repeat;*/
     }
     .headerbannersec2mb-DL {
-        width: 50vw;
+        width: 60vw;
         margin-top: 20%;
     }
     .contentsec2mb-DL {
