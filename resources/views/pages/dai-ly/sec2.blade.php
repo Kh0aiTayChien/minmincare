@@ -73,7 +73,7 @@
         {{--       </button>--}}
     </div>
     <button class="daily-button-mb">
-        <img src="{{asset('images/sec10/Group 5083.png')}}" class="button4mb">
+        <img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb">
     </button>
 </div>
 <div class="sec2mb-DL">
