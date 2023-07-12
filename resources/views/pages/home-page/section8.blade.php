@@ -220,12 +220,6 @@
     .arrow-img {
         cursor: pointer;
     }
-    .card-title{
-        font-family: "Mulish SemiBold", sans-serif;
-    }
-    .card-text{
-        font-family: "Mulish SemiBold", sans-serif;
-    }
 
     @media only screen and (max-width: 800px) {
 

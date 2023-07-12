@@ -180,16 +180,21 @@
         </div>
     </div>
     <style>
+        @font-face {
+            font-family: 'Mulish-SemiBold';
+            src: url("/Fonts/Mulish-SemiBold.ttf");
+        }
+
         .rounded-custom {
             border-radius: 23px
         }
 
         .card-text {
-            font-family: "Mulish SemiBold", sans-serif;
+            font-family: 'Mulish-SemiBold', sans-serif;
         }
 
         .card-title {
-            font-family: "Mulish Black", sans-serif;
+            font-family: 'Mulish SemiBold', sans-serif;
         }
 
         .green-border {
