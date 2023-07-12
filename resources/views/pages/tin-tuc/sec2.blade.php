@@ -60,6 +60,7 @@
         display: inline-block;
         padding: 8px 12px;
         color: #59833D;
+        font-family: Mitr-Medium, sans-serif;
         background-color: #ffffff;
         border: 1px solid #59833D;
     }

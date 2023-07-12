@@ -49,6 +49,7 @@
     }
     .font-size-custom{
         font-size: 1rem;
+        font-family: Mitr-Medium, sans-serif;
     }
 
     .height-img-card {
