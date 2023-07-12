@@ -19,6 +19,6 @@
 </div>
 
 <div class="sec2mb">
-    <object data="{{asset('images/sec2/Group 928.png')}}" class="headersec2mb"></object>
+    <object data="{{asset('images/sec2/Asset 1.png')}}" class="headersec2mb"></object>
     <img src="{{asset('images/sec2/1111.png')}}" class="contentsec2imgmb">
 </div>
