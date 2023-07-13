@@ -18,6 +18,9 @@
 
                     <div class="green-text"><h4 class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,45)}}</h4></div>
                     <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+                    <a href="{{route('kien-thuc.show',['slug' => $article->slug])}}"
+                       class=" green-text titletext mb-3 btn-long mt-2">
+                        Xem Thêm...</a>
                 </div>
             </div>
         </div>
