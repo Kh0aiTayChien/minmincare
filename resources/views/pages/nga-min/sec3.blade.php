@@ -6,11 +6,12 @@
             <p class="header3sec3-NM">KHÔNG TẠO BỞI MỘT NGƯỜI</p>
             <p class="text2sec2-GT-test">
                 Để có được ngày hôm nay thì Nga có sự ủng hộ và hỗ trợ rất nhiều từ người thân trong gia đình, bạn bè,
-                nhân công sản xuất, cho đến những đại lý nhà phân phối.
+                nhân công sản xuất. <span class="bold-text">Và đặc biệt không thể không nhắc đến sự đồng hành của những nhà đại lý nhà phân
+                phối.</span>
             </p>
             <p class="text2sec2-GT-test">
-                Mọi người đã giúp đưa sản phẩm tới gần hơn với người tiêu dùng và cũng đồng hành trong hành trình suốt 6
-                năm với Min Min Care.
+                Mọi người đã giúp đưa sản phẩm tới gần hơn với người tiêu dùng và cũng đồng hành trong hành trình suốt
+                <span class="bold-text">7 năm với Min Min Care.</span>
             </p>
             <p class="text2sec2-GT-test">
                 Vì vậy Nga muốn gửi lời cảm ơn chân thành tới tất cả mọi người.
@@ -48,9 +49,11 @@
     <p class="header2sec3-NM">ÁNH SÁNG ĐÓ</p>
     <p class="header3sec3-NM">KHÔNG TẠO BỞI MỘT NGƯỜI</p>
     <p class="contentsec2mb-GT">Để có được ngày hôm nay thì Nga có sự ủng hộ và hỗ trợ rất nhiều từ người thân trong gia
-        đình, bạn bè, nhân công sản xuất, cho đến những đại lý nhà phân phối.</p>
+        đình, bạn bè,
+        nhân công sản xuất. <span class="bold-text">Và đặc biệt không thể không nhắc đến sự đồng hành của những nhà đại lý nhà phân
+                phối.</span></p>
     <p class="contentsec2mb-GT">Mọi người đã giúp đưa sản phẩm tới gần hơn với người tiêu dùng và cũng đồng hành trong
-        hành trình suốt 6 năm với Min Min Care.</p>
+        hành trình suốt <span class="bold-text">7 năm với Min Min Care.</span></p>
     <p class="contentsec2mb-GT">Vì vậy Nga muốn gửi lời cảm ơn chân thành tới tất cả mọi người.</p>
     <div class="utubesec2mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
         <iframe class="utub" id="youtube-iframe-sec3-NM" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
