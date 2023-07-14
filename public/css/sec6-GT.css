@@ -37,6 +37,11 @@
     font-family: Mulish-SemiBold, sans-serif;
 }
 
+.bold-text {
+    font-family: Mulish-Medium, sans-serif;
+    font-weight: bolder;
+}
+
 .contentsec6-GT-test {
     margin-left: 3%;
 }

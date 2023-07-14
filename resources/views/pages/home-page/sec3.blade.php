@@ -30,7 +30,7 @@
     <p class="contentsec3"><span>Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia viện dinh dưỡng quốc gia và sản xuất từ nguồn nguyên liệu 100% tự nhiên với công thức đột phá, độc quyền sở hữu.
 </span><br><br><span>Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu hướng tới việc giúp mẹ bầu và mẹ sau sinh làm tròn thiên chức thiêng liêng.</span>
     </p>
-    <a href="{{asset('nga-minmin')}}">
+    <a href="{{asset('nga-minmin')}}" id="nga-min-link">
         <svg class="button1 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="282.96" height="90.24"
              viewBox="0 0 282.96 90.24">

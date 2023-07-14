@@ -3,30 +3,33 @@
     <div class="col-xxl-12 col-md-12 row-test">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
+                <a href="{{asset('/')}}" id="trang-chu-link">
+                    <p>TRANG CHỦ</p>
+                </a>
+            </li>
+            <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('san-pham')}}" id="san-pham-link">
-                    <p>SẢN PHẨM</p>
-                </a>
-            </li>
-            <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>
+                <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-4 logominmin">
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-xxl-3 col-md-4 menuright">
-            <li class="col-xxl-4 col-md-4">
+        <ul class="col-xxl-4 col-md-4 menuright">
+            <li class="col-xxl-3 col-md-3">
+                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>
+            </li>
+            <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('tin-tuc')}}" id="tin-tuc-link"><p>TIN TỨC</p></a>
             </li>
-            <li class="col-xxl-4 col-md-4">
+            <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('kien-thuc')}}" id="kien-thuc-link"><p>KIẾN THỨC</p></a>
             </li>
-            <li class="col-xxl-4 col-md-4">
+            <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
@@ -331,8 +334,12 @@
             <button class="close-btn"><img src="{{asset('images/header/close-btn.png')}}" class="btn-close-img">
             </button>
             <li class="contact linetop">
+                <a href="{{asset('/')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
+                        class="textlink textlinktop">TRANG CHỦ</p></a>
+            </li>
+            <li class="contact linemenu">
                 <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
-                        class="textlink textlinktop">GIỚI
+                        class="textlink">GIỚI
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
@@ -456,33 +463,49 @@
         var tinTucLink = document.getElementById('tin-tuc-link');
         var kienThucLink = document.getElementById('kien-thuc-link');
         var lienHeLink = document.getElementById('lien-he-link');
+        var trangChuLink = document.getElementById('trang-chu-link');
+        var routeName = "{{ asset('/') }}";
 
+        if (currentUrl.indexOf(routeName) !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            trangChuLink.style.color = "#59843D";
+        }
+        if (currentUrl.indexOf("nga-minmin") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            trangChuLink.style.color = "#404041";
+        }
         // Kiểm tra nếu đang ở link 'gioi-thieu'
         if (currentUrl.indexOf("gioi-thieu") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             gioiThieuLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
 
         // Kiểm tra nếu đang ở link 'san-pham'
         if (currentUrl.indexOf("san-pham") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             sanPhamLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
         if (currentUrl.indexOf("dai-ly") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             daiLyLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
         if (currentUrl.indexOf("tin-tuc") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             tinTucLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
         if (currentUrl.indexOf("kien-thuc") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             kienThucLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
         if (currentUrl.indexOf("lien-he") !== -1) {
             // Đặt màu sắc cho các thẻ tương ứng
             lienHeLink.style.color = "#59843D";
+            trangChuLink.style.color = "#404041";
         }
     });
 </script>
