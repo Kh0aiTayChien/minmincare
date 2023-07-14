@@ -19,7 +19,7 @@
         <div class="col-xxl-3 col-md-4 logominmin">
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-xxl-4 col-md-4 menuright">
+        <ul class="col-xxl-3 col-md-4 menuright">
             <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>
             </li>
