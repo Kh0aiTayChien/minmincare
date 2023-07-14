@@ -166,9 +166,8 @@
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-                    <p class="card-text text-justify " style="">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu
-                        tại viện dinh dưỡng
-                        quốc gia và các chuyên gia uy tín, giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
+                    <p class="card-text text-justify " style="">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh dưỡng
+                        hàng đầu giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
                         dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục năng lượng,
                         tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
                 </div>
