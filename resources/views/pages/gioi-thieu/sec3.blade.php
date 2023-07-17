@@ -16,8 +16,8 @@
     <p class="contentsec2mb-GT">Những giá trị cốt lõi này là lời cam kết của Min Min Care đối với khách hàng, đối tác,
         các nhà đầu tư, với xã hội và với chính bản thân chúng tôi. Những giá trị này là kim chỉ nam cho mọi hoạt động
         của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng</p>
-    <img src="{{asset('images/gioi-thieu/sec3/Group 1343.svg')}}" class="arrangesec3mb-GT">
-    <img src="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT">
+    <object data="{{asset('images/gioi-thieu/sec3/Group 1343.svg')}}" class="arrangesec3mb-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT"></object>
     <img src="{{asset('images/gioi-thieu/sec3/Group 1306.png')}}" class="imgsec3mb-GT">
 </div>
 
