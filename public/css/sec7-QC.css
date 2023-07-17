@@ -1,0 +1,31 @@
+.sec7-QC {
+    padding: 3% 0;
+}
+
+.text1sec7-QC {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 60px;
+    color: #F79420;
+}
+
+.text2sec7-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 40px;
+    color: #59843D;
+    margin-top: -3%;
+}
+
+.text3sec7-QC {
+    font-family: Mulish-Black, sans-serif;
+    font-size: 23px;
+    color: #59843D;
+}
+
+.text4sec7-QC {
+    font-family: Mulish-SemiBold, sans-serif;
+    font-size: 16px;
+}
+
+.rowsec7 {
+    margin-left: -5%;
+}
