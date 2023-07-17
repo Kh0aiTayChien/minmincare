@@ -1,7 +1,7 @@
 <div class="sec10pc mt-5">
     <div>
         <form class="daily-test1 col-9">
-            <div class="col-12">
+            <div class="col-12 form-daily-fake">
                 <label class="name" for="fullname"></label>
                 <input class="svg-input-test-none col-3"
                        required disabled>

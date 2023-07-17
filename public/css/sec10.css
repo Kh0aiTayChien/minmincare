@@ -46,6 +46,11 @@
 
 .form-daily {
     margin-top: -7%;
+    margin-left: 1.5%;
+}
+
+.form-daily-fake {
+    margin-left: 1.5%;
 }
 
 .dailybutton-test {
