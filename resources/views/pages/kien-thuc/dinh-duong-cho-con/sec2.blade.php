@@ -67,4 +67,8 @@
     .green-text {
         color: #59843d;
     }
+    .green-text:hover {
+        color: #F79421;
+    }
+
 </style>

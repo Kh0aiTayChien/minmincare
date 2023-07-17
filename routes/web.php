@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\advertise\advertise;
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HomePage\CartController;
 use App\Http\Controllers\HomePage\IndexController;
@@ -15,7 +17,6 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SalesAgent\SalesAgentController;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,7 @@ Route::get('/kien-thuc/{slug}', [App\Http\Controllers\KnowledgeController\Knowle
 Route::get('/kien-thuc/me-sau-sinh/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge2Controller::class, 'show'])->name('kien-thuc.me-sau-sinh.show');
 Route::get('/kien-thuc/dinh-duong-cho-con/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge3Controller::class, 'show'])->name('kien-thuc.dinh-duong-cho-con.show');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
+Route::get('/advertise', [advertise::class, 'index'])->name('advertise.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');
 Route::post('/subtraction', [CartController::class, 'subtraction'])->name('homepage.cart.subtraction');

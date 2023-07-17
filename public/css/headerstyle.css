@@ -103,6 +103,7 @@ ul.iconmb {
     text-align: center;
     justify-content: center;
     margin-top: 23px;
+    /*transform: translateX(20%);*/
 }
 
 .menuleft li {
@@ -122,6 +123,7 @@ ul.iconmb {
     justify-content: center;
     width: 55%;
     margin-top: 5px;
+    /*transform: translateX(30%);*/
 }
 
 
@@ -132,6 +134,7 @@ ul.iconmb {
     text-align: center;
     justify-content: center;
     margin-top: 23px;
+    transform: translateX(-10%);
 }
 
 .menuright li {
@@ -152,6 +155,12 @@ ul.iconmb {
         opacity: 1;
         transition: opacity 0.5s ease;
         z-index: -1;
+    }
+    .logo-test {
+        transform: none;
+    }
+    .menuleft {
+        transform: none;
     }
 }
 
