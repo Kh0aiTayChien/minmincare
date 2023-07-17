@@ -41,7 +41,7 @@
                         <div class="content-sec-5 active ms-5">
                             <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                     Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu tại viện dinh dưỡng quốc
                                     gia
                                     và các chuyên gia uy tín, giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
@@ -63,7 +63,7 @@
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
                             <div class=" mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                     Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin
                                     chiết xuất từ nghệ tươi. Dưới dạng hạt nano tinh khiết có kích thước siêu nhỏ 20 nm
                                     có khả năng thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi phục sức khỏe,
@@ -85,7 +85,7 @@
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                     GMP - Good manufacturing practice là một hệ thống để đảm bảo rằng các sản phẩm
                                     được sản xuất liên tục và kiểm soát theo tiêu chuẩn chất lượng. GMP bao gồm tất cả
                                     các khía cạnh của sản xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược,
@@ -107,7 +107,7 @@
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                     Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng của sản phẩm.
                                     Đối với Min Min Care, nguyên liệu hoàn toàn 100% tự nhiên được tuyển chọn từ nguồn
                                     uy tín lâu năm có chứng nhận cả trong nước lẫn ngoài nước. Ngoài các loại đậu,
@@ -131,7 +131,7 @@
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                     Min Min Care đạt được các chứng nhận bao gồm quản lý an toàn thực phẩm FDA Mỹ -
                                     đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn
                                     hệ thống quản lý chất lượng ISO quốc tế..</p>
