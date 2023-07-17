@@ -41,7 +41,7 @@
                         <div class="content-section-slide active ms-5">
                             <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
                                     <li class="text-justify"><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
@@ -64,7 +64,7 @@
                         <div class="content-section-slide ms-5">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.</li>
                                     <li class="text-justify"><span class="dot"></span> Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</li>
@@ -86,7 +86,7 @@
                         <div class="content-section-slide ms-5">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất</li>
                                     <li class="text-justify"><span class="dot"></span> Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</li>
@@ -108,7 +108,7 @@
                         <div class="content-section-slide ms-5">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
-                                <p class="text-justify">
+                                <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Hệ thống cấp độ đại lý rõ ràng có mức quyền lợi khác nhau </li>
                                     <li class="text-justify"><span class="dot"></span> Được tham gia các chương trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức </li>
