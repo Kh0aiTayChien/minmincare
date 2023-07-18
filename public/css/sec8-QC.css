@@ -44,3 +44,20 @@
 .rowsec8 {
     margin-left: -8%;
 }
+
+.sec8mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec8-QC {
+        display: none;
+    }
+    .sec8mb-QC {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-image: url("/images/advertise/sec2/Asset 1.png");
+        padding: 5% 0;
+    }
+}

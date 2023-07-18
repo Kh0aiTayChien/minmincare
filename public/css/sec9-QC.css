@@ -22,3 +22,22 @@
     color: #59843D;
     margin-top: -5%;
 }
+
+.sec9mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec9-QC {
+        display: none;
+    }
+    .sec9mb-QC {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 5% 0;
+    }
+
+}
+
+

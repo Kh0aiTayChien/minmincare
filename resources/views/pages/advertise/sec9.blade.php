@@ -37,31 +37,21 @@
     </div>
 </div>
 
-{{--<div class="sec1mb-NM">--}}
-{{--    <p class="header1sec1-NM">NƠI NHỮNG</p>--}}
-{{--    <p class="header2sec1-NM">ƯỚC MUỐN</p>--}}
-{{--    <p class="header3sec1-NM">Bị chôn vùi</p>--}}
-{{--    <p class="contentsec2mb-GT">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường làm đại lý hoặc tự kinh doanh.--}}
-{{--        Đôi khi bắt đầu bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều có một khoảng khắc bạn nhận--}}
-{{--        ra rằng con đường này không phải lúc nào cũng dễ dàng.--}}
-{{--    </p>--}}
-{{--    <p class="contentsec2mb-GT">Cách đây khoảng 10 năm mình kết hôn. Đây là thời điểm mà gia đình chồng mình gặp biến cố--}}
-{{--        lớn.</p>--}}
-{{--    <p class="contentsec2mb-GT">Thời gian đó bữa sáng mình chỉ dám ăn 3 nghìn tiền xôi, hiếm lắm mới có bữa 12 nghìn--}}
-{{--        tiền bún chả, còn bữa tối hai vợ chồng chỉ có 20 nghìn tiền ăn mỗi hôm.</p>--}}
-{{--    <p class="contentsec2mb-GT">Từ khi bắt đầu tới thời điểm đó thì Nga đã kinh doanh tổng cộng 7 sản phẩm nhưng chưa có--}}
-{{--        lần nào đạt mức mong muốn. Nhưng điều quan trọng là Nga không bỏ cuộc.</p>--}}
-{{--    <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">--}}
-{{--        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"--}}
-{{--                allowfullscreen></iframe>--}}
-{{--        <br>--}}
-{{--    </div>--}}
-{{--    <div class="headersec2-NM">--}}
-{{--        <p class="header1sec2-NM">ÁNH SÁNG</p>--}}
-{{--        <p class="header2sec2-NM">THƯỜNG ĐẾN VÀO</p>--}}
-{{--        <p class="header3sec2-NM">Những lúc tối tăm nhất</p>--}}
-{{--    </div>--}}
-{{--</div>--}}
+<div class="sec9mb-QC">
+    <img src="{{asset('images/advertise/sec9/Asset 13.png')}}" class="col-9">
+    <p class="contentsec2mb-GT">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng cho
+        mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia viện dinh dưỡng quốc gia và sản xuất từ nguồn
+        nguyên liệu 100% tự nhiên với công thức đột phá, độc quyền sở hữu.
+    </p>
+    <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+                allowfullscreen></iframe>
+    </div><br>
+    <p class="contentsec2mb-GT"> Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga.
+        Không chỉ thể hiện tình
+        yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu hướng tới
+        việc giúp mẹ bầu và mẹ sau sinh làm tròn thiên chức thiêng liêng.</p>
+</div>
 
 <script>
     var modal = document.getElementById('exampleModal-NM');
