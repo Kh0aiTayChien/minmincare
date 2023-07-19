@@ -147,7 +147,7 @@
 
 </div>
 
-<div class="section-5-mobile mt-1 mb-5">
+<div class="section-5-mobile mt-1">
     <div class="d-flex align-content-center justify-content-center mb-3">
         <img src="{{asset('images/advertise-c/section5/undung-mobile.png')}}" alt="" style="width: 70vw"
              class="img-fluid">
