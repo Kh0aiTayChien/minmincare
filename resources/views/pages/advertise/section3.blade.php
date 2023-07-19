@@ -1,6 +1,6 @@
-<div class="sec3pc">
+<div class="sec3pc mt-5">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec6/chuyen-gia-mobile.png')}}" alt="" style="width: 45vw" class="img-fluid">
+        <img src="{{asset('images/sec6/chuyen-gia-mobile.png')}}" alt="" style="width: 40vw" class="img-fluid">
     </div>
     <img src="{{asset('images/sec6/anh chuyen gia.jpg')}}" class="proImg pro1">
     <img src="{{asset('images/sec6/anh chuyen gia.jpg')}}" class="proImg">

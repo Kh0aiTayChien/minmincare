@@ -47,6 +47,18 @@
     .section-9 {
         /*height: 100vh;*/
     }
+    .longer-btn {
+        width: 200px;
+    }
+    .green-bg {
+        background-color: #59843d;
+    }
+    .green-border {
+        border: 2px solid #59843d;
+    }
+    .green-text {
+        color: #59843d;
+    }
     .font-size-custom{
         font-size: 1rem;
         font-family: Mitr-Medium, sans-serif;
