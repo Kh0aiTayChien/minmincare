@@ -3,6 +3,11 @@
     padding-bottom: 3%;
 }
 
+.sec6-QC {
+    text-align: center;
+    padding-top: 3%;
+}
+
 .header1sec9-QC {
     font-family: Mitr-Regular, sans-serif;
     font-size: 60px;
@@ -27,6 +32,10 @@
     display: none;
 }
 
+.sec6mb-QC {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .sec9-QC {
         display: none;
@@ -35,9 +44,17 @@
         display: block;
         text-align: center;
         justify-content: center;
+        padding: 4% 0;
+    }
+    .sec6mb-QC {
+        display: block;
+        justify-content: center;
+        text-align: center;
         padding: 5% 0;
     }
-
+    .sec6-QC {
+        display: none;
+    }
 }
 
 

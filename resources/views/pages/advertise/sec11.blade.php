@@ -7,3 +7,12 @@
         <img src="{{asset('images/advertise/sec11/Asset 14.png')}}" class="col-xxl-3">
     </div>
 </div>
+
+<div class="sec11mb-QC">
+    <div>
+    <img src="{{asset('images/advertise/sec11/Asset 1.png')}}" class="headermbsec11 col-9">
+    </div><br>
+    <img src="{{asset('images/advertise/sec11/Asset 6.png')}}" class="col-11 imgsec11mb imgtop">
+    <img src="{{asset('images/advertise/sec11/Asset 4.png')}}" class="col-11 imgsec11mb">
+    <img src="{{asset('images/advertise/sec11/Asset 5.png')}}" class="col-11 imgsec11mb">
+</div>

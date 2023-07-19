@@ -1,7 +1,7 @@
 <div class="row-test sec9-QC">
     <button type="button" class="imgbtn-NM col-xxl-4 col-md-5" data-bs-toggle="modal"
             data-bs-target="#exampleModal-NM">
-        <img src="/images/advertise/sec9/Asset 11.png" class="buttonvideo-NM col-xxl-12 col-md-12">
+        <img src="/images/advertise/sec9/Asset 7.png" class="buttonvideo-NM col-xxl-12 col-md-12">
     </button>
     <div class="modal fade" id="exampleModal-NM" tabindex="-1" aria-labelledby="exampleModalLabel"
          aria-hidden="true">

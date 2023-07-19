@@ -1,9 +1,10 @@
 @extends('page-layout.master')
 @section('section')
     @include('pages.advertise.sec2')
+    @include('pages.advertise.sec6')
     @include('pages.advertise.sec7')
     @include('pages.advertise.sec8')
     @include('pages.advertise.sec9')
-{{--    @include('pages.advertise.sec11')--}}
+    @include('pages.advertise.sec11')
     @include('pages.nga-min.sec9')
 @stop

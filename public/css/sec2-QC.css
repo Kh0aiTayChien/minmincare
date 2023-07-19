@@ -32,9 +32,11 @@
 @media screen and (max-width: 768px) {
     .text1sec2-QC {
         font-size: 25px;
+        word-spacing: unset;
     }
     .text2sec2-QC {
         font-size: 18px;
+        margin-top: -5%;
     }
     .text3sec2-QC {
         font-size: 15px;
@@ -43,4 +45,5 @@
         margin-left: 10%;
         margin-top: -5%;
     }
+
 }
