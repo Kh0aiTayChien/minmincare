@@ -230,7 +230,7 @@
     }
 
     .sec-5-dot {
-        transform: translate(15vw, 150px);
+        transform: translate(15vw, 180px);
         z-index: 999
     }
 
