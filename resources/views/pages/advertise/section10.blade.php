@@ -1,4 +1,4 @@
-<div class="section-10">
+<div class="section-10 pb-4 pt-3">
     <div class=" pt-3 pb-3 d-flex align-content-center justify-content-center" style="">
             <img src="{{asset('images/advertise-c/section-10/donghanh.png')}}" alt="" class="share-joy" style="">
     </div>
@@ -24,7 +24,6 @@
 <style>
     .section-10 {
         background-color: #F1F1F2;
-        height: 70vh;
     }
 
     .wrapper {
