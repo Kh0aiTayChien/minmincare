@@ -1,0 +1,60 @@
+
+.sec9-QC {
+    padding-bottom: 3%;
+}
+
+.sec6-QC {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.header1sec9-QC {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 60px;
+    color: #F79420;
+}
+
+.header2sec9-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 35px;
+    color: #59843D;
+    margin-top: -3%;
+}
+
+.header3sec9-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 65px;
+    color: #59843D;
+    margin-top: -5%;
+}
+
+.sec9mb-QC {
+    display: none;
+}
+
+.sec6mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec9-QC {
+        display: none;
+    }
+    .sec9mb-QC {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 4% 0;
+    }
+    .sec6mb-QC {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding: 5% 0;
+    }
+    .sec6-QC {
+        display: none;
+    }
+}
+
+

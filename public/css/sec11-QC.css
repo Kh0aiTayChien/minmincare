@@ -1,0 +1,45 @@
+.sec11-QC {
+    display: block;
+    text-align: center;
+    padding: 3% 0;
+    background-image: url("/images/advertise/sec2/Asset 1.png");
+    background-repeat: no-repeat;
+}
+
+.header1sec11-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 65px;
+    color: white;
+}
+
+.header2sec11-QC {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 45px;
+    margin-top: -1.5%;
+    color: white;
+}
+
+.diamondsec11 {
+    margin-top: 1%;
+}
+
+.sec11mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec11-QC {
+        display: none;
+    }
+    .sec11mb-QC {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-image: url("/images/advertise/sec2/Asset 1.png");
+        padding: 5% 0;
+    }
+    .imgtop {
+        margin-top: -2%;
+    }
+}
+

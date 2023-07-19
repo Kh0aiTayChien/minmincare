@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Mitr-Bold';
+    src: url("/Fonts/Mitr-Bold.ttf");
+}
+
+.sec8-QC {
+    background-image: url("/images/advertise/sec2/Asset 1.png");
+    padding-bottom: 3%;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    background-position: center top 50px;
+}
+
+.headersec8-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.text1sec8-QC {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 35px;
+    margin-top: -3%;
+    color: white;
+}
+
+.text2sec8-QC {
+    font-family: Mitr-Bold, sans-serif;
+    font-size: 30px;
+    margin-left: 3%;
+    color: white;
+}
+
+.text3sec8-QC {
+    font-family: Mitr-Bold, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.imgsec8-QC {
+    width: 12%;
+}
+
+.rowsec8 {
+    margin-left: -8%;
+}
+
+.sec8mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec8-QC {
+        display: none;
+    }
+    .sec8mb-QC {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-image: url("/images/advertise/sec2/Asset 1.png");
+        padding: 5% 0;
+    }
+}

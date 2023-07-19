@@ -1,0 +1,62 @@
+.sec7-QC {
+    padding: 3% 0;
+}
+
+.text1sec7-QC {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 60px;
+    color: #F79420;
+}
+
+.text2sec7-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 40px;
+    color: #59843D;
+    margin-top: -3%;
+}
+
+.text3sec7-QC {
+    font-family: Mulish-Black, sans-serif;
+    font-size: 23px;
+    color: #59843D;
+}
+
+.text4sec7-QC {
+    font-family: Mulish-SemiBold, sans-serif;
+    font-size: 16px;
+}
+
+.rowsec7 {
+    margin-left: -5%;
+}
+
+.sec7mb-QC {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec7-QC {
+        display: none;
+    }
+    .sec7mb-QC {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 5% 0;
+    }
+    .text4sec7-QC {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .row1sec7mb {
+        transform: translateY(-15%);
+    }
+    .row3sec7mb {
+        transform: translateY(-50%);
+    }
+    .text3sec7-QC {
+        font-size: 18px;
+        margin-left: -15%;
+        margin-top: 3%;
+    }
+}
