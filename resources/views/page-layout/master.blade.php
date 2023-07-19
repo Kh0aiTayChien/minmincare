@@ -60,6 +60,11 @@
     <link href="{{asset('/css/sec5-NM.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec6-NM.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec9-NM.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec2-QC.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec7-QC.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec8-QC.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec9-QC.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/sec11-QC.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')

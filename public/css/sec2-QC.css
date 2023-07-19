@@ -1,0 +1,49 @@
+.sec2-QC {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-image: url("/images/advertise/sec2/Asset 1.png");
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.text1sec2-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 65px;
+    word-spacing: 0.5rem;
+    color: white;
+}
+
+.text2sec2-QC {
+    font-family: Mitr-Medium, sans-serif;
+    font-size: 37px;
+    margin-top: -1.5%;
+    color: white;
+}
+
+.text3sec2-QC {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 25px;
+    width: 64%;
+    margin-left: 18%;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .text1sec2-QC {
+        font-size: 25px;
+        word-spacing: unset;
+    }
+    .text2sec2-QC {
+        font-size: 18px;
+        margin-top: -5%;
+    }
+    .text3sec2-QC {
+        font-size: 15px;
+        text-align: justify;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+
+}
