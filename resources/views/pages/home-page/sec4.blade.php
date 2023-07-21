@@ -74,7 +74,7 @@
         nhằm
         giúp tối đa hóa nhu cầu dinh dưỡng toàn diện dành riêng cho mẹ bầu.</p>
     <img src="{{asset('images/sec4/Group 1343.png')}}" class="bannersec4mb">
-    <a href="{{asset('san-pham')}}">
+    <a href="{{asset('san-pham')}}" class="decoration">
         <svg class="button2mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
             <g id="Group_881" data-name="Group 881" transform="translate(-1005 -3794.557)">
@@ -106,7 +106,7 @@
         sung dinh dưỡng, khoáng chất, vitamin mà còn giúp mẹ sau sinh hồi phục sức khỏe, tăng sức đề kháng, hệ miễn
         dịch, ngăn ngừa lão hóa, nhanh lành vết thương nhờ vào việc ứng dụng công nghệ Nano Curcumin vào sản phẩm.</p>
     <img src="{{asset('images/sec4/Group 1343.png')}}" class="bannersec4mb">
-    <a href="{{asset('san-pham')}}">
+    <a href="{{asset('san-pham')}}" class="decoration">
         <svg class="button2mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
             <g id="Group_881" data-name="Group 881" transform="translate(-1005 -3794.557)">

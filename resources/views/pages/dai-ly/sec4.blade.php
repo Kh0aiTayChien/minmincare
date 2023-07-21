@@ -7,14 +7,14 @@
     <img src="{{asset('images/dai-ly/sec4/Group 8.png')}}" class="headersec4mb-DL"><br>
     <div class="row-test">
         <div class="col-2">
-            <img src="{{asset('images/dai-ly/sec4/buoc1.png')}}" class="step1 col-12">
-            <img src="{{asset('images/dai-ly/sec4/buoc2.png')}}" class="step1 col-12">
-            <img src="{{asset('images/dai-ly/sec4/buoc3.png')}}" class="step1 col-12">
+            <img src="{{asset('images/dai-ly/sec4/buoc1.png')}}" class="step1 col-9">
+            <img src="{{asset('images/dai-ly/sec4/buoc2.png')}}" class="step2 col-9">
+            <img src="{{asset('images/dai-ly/sec4/buoc3.png')}}" class="step3 col-9">
         </div>
         <div class="col-2">
             <img src="{{asset('images/dai-ly/sec4/Group 4.png')}}" class="col-12 linemb">
         </div>
-        <div class="col-6">
+        <div class="col-7">
             <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
             <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
             <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
