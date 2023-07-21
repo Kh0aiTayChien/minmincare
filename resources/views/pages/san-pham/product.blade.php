@@ -102,7 +102,8 @@
     .mitr-small {
         font-family: Mitr-Medium, Mitr, sans-serif;
         font-size: x-small;
-        letter-spacing: 1.5px; /* Điều chỉnh giá trị này để thay đổi khoảng cách */
+        letter-spacing: 1px;
+        color: gray;
     }
 
     .mitr-medium {
