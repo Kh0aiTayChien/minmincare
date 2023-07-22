@@ -86,14 +86,16 @@
         margin-top: 20%;
     }
     .contentsec2mb-DL {
-        /*width: 90vw;*/
-        margin-left: 10%;
+        width: 115%;
+        margin-left: 15%;
     }
     .condition1sec2mb-DL {
         margin-top: -12%;
+        transform: translateX(2%);
     }
     .conditionsec2mb-DL {
         padding-bottom: 5%;
+        transform: translateX(2%);
     }
     .dailymb2-DL {
         margin-top: -20%;

@@ -30,10 +30,7 @@
         display: block;
         justify-content: center;
         text-align: center;
-        /*background-image: url("/images/dai-ly/sec4/Rectangle 1.png");*/
-        /*background-image: url("/images/dai-ly/sec2/background.png");*/
         background-image: url("/images/dai-ly/sec2/Group 3173.png");
-        /*background-image: url("/images/sec10/Group 5082.png");*/
         background-size: cover;
     }
     .headersec4mb-DL {
@@ -42,7 +39,7 @@
         margin-bottom: 3%;
     }
     .linemb {
-        width: 11%;
+        width: 14%;
     }
     .quytrinh {
         margin-top: 2%;
@@ -50,5 +47,14 @@
     .bannersec3mb-DL {
         width: 85vw;
         border-radius: 15px;
+    }
+    .step1 {
+        transform: translateY(-80%);
+    }
+    .step2 {
+        transform: translateY(-10%);
+    }
+    .step3 {
+        transform: translateY(70%);
     }
 }
