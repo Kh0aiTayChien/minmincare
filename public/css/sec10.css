@@ -316,7 +316,7 @@
         position: absolute;
         width: 45vw;
         margin-top: -15.5%;
-        margin-left: 5%;
+        margin-left: 4%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
     .bannercustomermb {
@@ -328,6 +328,7 @@
         margin-left: 5%;
         background-image: url("/images/sec10/Group 5082.png");
         background-size: 100% 100%;
+        padding-bottom: 5%;
     }
     .svg-input-customer-mb {
         border-radius: 5px;
@@ -367,19 +368,27 @@
         color: #A6A8AB;
     }
     .customer-button-mb {
-        border: none;
-        background: none;
+        border-radius: 5px;
+        background-color: #59843d;
+        border: 2px white solid;
+        font-family: Mitr-Regular, sans-serif;
+        color: white;
+        font-size: 12px;
+        width: 42vw;
+        height: 30px;
+        margin-left: 7%;
+        margin-top: 1%;
     }
     .button5mb {
         width: 45vw;
-        margin-left: 3%;
+        /*margin-left: 3%;*/
         padding-bottom: 5%;
     }
     .spacesec10mb {
         height: 15px;
     }
     .text1customersec10mb {
-        font-family: 'Mitr-Regular', Mitr;
+        font-family: Mitr-Regular, sans-serif;
         /*font-weight: bold;*/
         color: white;
         padding-top: 5%;

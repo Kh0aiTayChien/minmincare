@@ -104,11 +104,12 @@
             <textarea class="svg-input-bot-mb"
                       placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
                       id="address" name="address" required></textarea>
-            <br>
 
             <button class="customer-button-mb">
-                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5mb">
+{{--                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5mb">--}}
+                NHẬN TƯ VẤN NGAY
             </button>
+
         </form>
     </div>
     <div class="spacesec10mb"></div>
