@@ -81,7 +81,7 @@
         </form>
     </div>
     <button class="daily-button-mb">
-        <img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb">
+        <a href="{{asset('dai-ly')}}"><img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb"></a>
     </button>
     <div class="customer-mb">
         <p class="text1customersec10mb">Nhận tư vấn từ</p>
