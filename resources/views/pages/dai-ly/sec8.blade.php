@@ -64,5 +64,5 @@
 </div>
 
 <div class="sec8mb-DL">
-    <img src="{{asset('images/dai-ly/sec8/Asset 6.png')}}" class="contentsec8mb-DL">
+    <img src="{{asset('images/dai-ly/sec8/Asset 2.png')}}" class="contentsec8mb-DL">
 </div>
