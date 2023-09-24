@@ -3,7 +3,7 @@
             <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" class="share-joy" style="">
     </div>
 
-    <div class="slick-carousel position-relative">
+    <div class="slick-carousel position-relative mt-4 col-12">
         <button class="custom-prev-arrow" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake">
         </button>
@@ -11,20 +11,22 @@
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect button-shake">
         </button>
 
-        <div class="carousel-sec-7">
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/sec7/chia-se.png')}}" class="img-fluid"></div>
+        <div class="carousel-sec-7 col-9">
+            <div><img src="{{asset('images/sec7/thước đo PC-02.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/thước đo PC-03.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/thước đo PC-04.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/thước đo PC-05.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/thước đo PC-06.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/thước đo PC-07.png')}}" class="img-fluid-test shadow-test"></div>
         </div>
     </div>
 </div>
 <style>
     .section-7 {
         background-color: #F1F1F2;
-        height: 70vh;
+        /*height: 70vh;*/
+        padding-bottom: 3%;
+        padding-top: 1%;
     }
 
     .wrapper {
@@ -34,10 +36,13 @@
     }
 
     .carousel-sec-7 {
-        width: 70%;
         margin: 0px auto;
     }
-
+    .img-fluid-test {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 5%;
+    }
     .slick-slide {
         margin: 5px;
     }

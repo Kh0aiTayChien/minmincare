@@ -17,7 +17,7 @@
         các nhà đầu tư, với xã hội và với chính bản thân chúng tôi. Những giá trị này là kim chỉ nam cho mọi hoạt động
         của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng</p>
     <object data="{{asset('images/gioi-thieu/sec3/Group 1343.svg')}}" class="arrangesec3mb-GT"></object>
-    <object data="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT1"></object>
     <img src="{{asset('images/gioi-thieu/sec3/Group 1306.png')}}" class="imgsec3mb-GT">
 </div>
 

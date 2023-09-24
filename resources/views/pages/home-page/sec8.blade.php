@@ -19,7 +19,7 @@
             <img src="{{asset('images/kien-thuc/sec2/sau-sinh.png')}}" class="imgsec8mb col-sm-4 col-8 col-xxl-3 shadow-test"></a><br>
         <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}">
             <img src="{{asset('images/kien-thuc/sec2/dinh-duong.png')}}" class="col-8 col-sm-4 col-xxl-3 imgsec8mb shadow-test"></a>
-        <img src="{{asset('images/sec8/momsonmb.png')}}" class="bannersec8mb">
+{{--        <img src="{{asset('images/sec8/momsonmb.png')}}" class="bannersec8mb">--}}
     </div>
 </div>
 

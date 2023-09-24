@@ -3,7 +3,7 @@
         <img src="{{asset('images/gioi-thieu/sec7/thuonghieuxungtam.png')}}" alt="" style="" class="img-fluid">
     </div>
 
-    <div class="slick-carousel position-relative">
+    <div class="slick-carousel position-relative col-12">
         <button class="custom-prev-arrow-7" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
@@ -11,25 +11,34 @@
             <img src="{{asset('images/arrow-r.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
-        <div class="carousel-sec-7">
+        <div class="carousel-sec-7 col-9">
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-02.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-03.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-04.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-02.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-03.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/chungchi.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-04.png')}}" alt="" class="img-fluid shadow-test">
             </div>
+{{--            <div class="d-flex justify-content-center">--}}
+{{--                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhận-02.png')}}" alt="" class="img-fluid">--}}
+{{--            </div>--}}
+{{--            <div class="d-flex justify-content-center">--}}
+{{--                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhận-03.png')}}" alt="" class="img-fluid">--}}
+{{--            </div>--}}
+{{--            <div class="d-flex justify-content-center">--}}
+{{--                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhận-04.png')}}" alt="" class="img-fluid">--}}
+{{--            </div>--}}
 
         </div>
     </div>
@@ -47,10 +56,14 @@
     }
 
     .carousel-sec-7 {
-        width: 70%;
+        /*width: 70%;*/
         margin: 0px auto;
     }
-
+    .img-fluid-test1 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 5%;
+    }
     .section-7.slick-slide {
         margin: 10px;
     }

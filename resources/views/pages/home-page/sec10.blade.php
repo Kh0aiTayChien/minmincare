@@ -37,7 +37,7 @@
         </form>
     </div>
     <div class="">
-        <img src="{{asset('images/sec10/Group 3888.png')}}" class="formOutline">
+        <img src="{{asset('images/sec10/Group 2896.png')}}" class="formOutline">
         <form class="form-customer">
             <label class="name" for="fullname"></label>
             <input class="svg-input-customer" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
@@ -48,17 +48,13 @@
                    required><br><br>
 
             <label for="address"></label>
-            <input class="svg-input-customer" placeholder="Địa chỉ" type="text" id="address" name="address"
-                   required><br><br>
-
-            <label for="address"></label>
             <textarea class="svg-input-bot"
                       placeholder="Bạn quan tâm sản phẩm nào của Min Min Care, bạn cần tư vấn về sản phẩm..."
                       id="address" name="address" required></textarea>
             <br>
 
             <button class="customer-button">
-                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5 button-shake">
+                <img src="{{asset('images/sec10/Group 2897.png')}}" class="button5 button-shake">
             </button>
         </form>
     </div>
@@ -81,7 +77,7 @@
         </form>
     </div>
     <button class="daily-button-mb">
-        <img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb">
+        <a href="{{asset('dai-ly')}}"><img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb"></a>
     </button>
     <div class="customer-mb">
         <p class="text1customersec10mb">Nhận tư vấn từ</p>
@@ -97,17 +93,12 @@
                    required><br>
 
             <label for="address"></label>
-            <input class="svg-input-customer-mb" placeholder="Địa chỉ" type="text" id="address" name="address"
-                   required><br>
-
-            <label for="address"></label>
             <textarea class="svg-input-bot-mb"
                       placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
                       id="address" name="address" required></textarea>
 
             <button class="customer-button-mb">
-{{--                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5mb">--}}
-                NHẬN TƯ VẤN NGAY
+                GỬI THÔNG TIN NGAY!
             </button>
 
         </form>

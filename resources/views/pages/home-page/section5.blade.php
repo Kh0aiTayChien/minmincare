@@ -42,11 +42,9 @@
                             <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Được nghiên cứu độc quyền bởi đội ngũ chuyên gia hàng đầu tại viện dinh dưỡng quốc
-                                    gia
-                                    và các chuyên gia uy tín, giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
-                                    dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục
-                                    năng lượng, tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
+                                    Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và
+                                    quốc tế. Với mục đích không chỉ tối đa hóa giải pháp dinh dưỡng toàn diện cho từng
+                                    đối tượng, mà còn đem đến trải nghiệm vượt trội cho khách hàng.</p>
                             </div>
                         </div>
                     </div>
@@ -64,11 +62,12 @@
                             <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
                             <div class=" mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin
-                                    chiết xuất từ nghệ tươi. Dưới dạng hạt nano tinh khiết có kích thước siêu nhỏ 20 nm
-                                    có khả năng thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi phục sức khỏe,
-                                    nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn dịch, đồng thời
-                                    giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ giảm đau.</p>
+                                    Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin Gold
+                                    vào sản phẩm ngũ cốc lợi sữa cho mẹ sau sinh. Dưới dạng hạt nano tinh khiết có kích
+                                    thước siêu nhỏ 20 nm có khả năng thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi
+                                    phục sức khỏe, nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn
+                                    dịch, đồng thời giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ
+                                    giảm đau.</p>
                             </div>
                         </div>
                     </div>
@@ -86,11 +85,11 @@
                             <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    GMP - Good manufacturing practice là một hệ thống để đảm bảo rằng các sản phẩm
-                                    được sản xuất liên tục và kiểm soát theo tiêu chuẩn chất lượng. GMP bao gồm tất cả
-                                    các khía cạnh của sản xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược,
-                                    bao bì, nguồn nước…), cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh
-                                    cá nhân của nhân viên.</p>
+                                    Các sản phẩm của Minmin Care được sản xuất trong quy trình khép kín tại nhà máy
+                                    riêng đạt tiêu chuẩn quốc tế GMP, ISO. GMP bao gồm tất cả các khía cạnh của sản
+                                    xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược, bao bì, nguồn nước…),
+                                    cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh cá nhân của nhân
+                                    viên.</p>
                             </div>
                         </div>
                     </div>
@@ -108,13 +107,11 @@
                             <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng của sản phẩm.
-                                    Đối với Min Min Care, nguyên liệu hoàn toàn 100% tự nhiên được tuyển chọn từ nguồn
-                                    uy tín lâu năm có chứng nhận cả trong nước lẫn ngoài nước. Ngoài các loại đậu,
-                                    hạt cao cấp, sản phẩm còn bổ sung các loại bột hoa quả như: chuối, thanh long, đu
-                                    đủ.
-                                    Đồng thời bổ sung thêm đường isomalt có vị ngọt nhẹ, vẫn sử dụng được cho người
-                                    ăn kiêng hoặc bị tiểu đường.</p>
+                                    Yêu tố vùng nguyên liệu quyết định rất lớn tới giá trị chất lượng của sản phẩm. Đối
+                                    với Min Min Care, sử dụng nguồn nguyên liệu hoàn toàn tự nhiên được tuyển chọn kỹ
+                                    lưỡng có chứng nhận cả trong nước lẫn ngoài nước. Đặc biệt, sử dụng các loại hạt
+                                    thuần chủng không biến đổi gen, được chọn trồng ở những nơi có thổ nhưỡng tốt nhất
+                                    trong nước và thế giới.</p>
                             </div>
                         </div>
                     </div>
@@ -132,9 +129,9 @@
                             <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Min Min Care đạt được các chứng nhận bao gồm quản lý an toàn thực phẩm FDA Mỹ -
-                                    đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn
-                                    hệ thống quản lý chất lượng ISO quốc tế..</p>
+                                    Minmin Care tự hào có đội ngũ sản xuất với bề dày kinh nghiệm gần 10 năm chuyên sâu
+                                    trong lĩnh vực sản xuất ngũ cốc và liên tục được đào tạo bài bản nâng cấp kỹ thuật
+                                    sản xuất giúp chất lượng sản phẩm đồng nhất và ổn định.</p>
                             </div>
                         </div>
                     </div>
@@ -166,7 +163,8 @@
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-                    <p class="card-text text-justify " style="">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh dưỡng
+                    <p class="card-text text-justify " style="">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh
+                        dưỡng
                         hàng đầu giàu kinh nghiệm từ nước ngoài. Với mục đích tối đa hóa
                         dinh dưỡng toàn diện cho mẹ bầu và mẹ sau sinh, đồng thời giúp cơ thể hồi phục năng lượng,
                         tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, giúp giảm cân..</p>
@@ -176,7 +174,7 @@
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-{{--                    <h4 class="card-title green-text">CÔNG NGHỆ NANO CURCUMIN CAO CẤP</h4>--}}
+                    {{--                    <h4 class="card-title green-text">CÔNG NGHỆ NANO CURCUMIN CAO CẤP</h4>--}}
                     <p class="card-text text-justify " style="height: 31rem">Min Min Care là thương hiệu đầu tiên ứng
                         dụng công nghệ sinh học Nano Curcumin
                         chiết xuất từ nghệ tươi. Dưới dạng hạt nano tinh khiết có kích thước siêu nhỏ 20 nm có khả năng
@@ -189,7 +187,7 @@
                  style="width:100%;">
                 <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-{{--                    <h4 class="card-title green-text">NHÀ MÁY RIÊNG TIÊU CHUẦN QUỐC TẾ GMP</h4>--}}
+                    {{--                    <h4 class="card-title green-text">NHÀ MÁY RIÊNG TIÊU CHUẦN QUỐC TẾ GMP</h4>--}}
                     <p class="card-text text-justify " style="height: 31rem">GMP - Good manufacturing practice là một hệ
                         thống để đảm bảo rằng các sản phẩm
                         được sản xuất liên tục và kiểm soát theo tiêu chuẩn chất lượng. GMP bao gồm tất cả các khía cạnh
@@ -201,7 +199,7 @@
                  style="width:100%; ">
                 <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-{{--                    <h4 class="card-title green-text">VÙNG NGUYÊN LIỆU 100% TỰ NHIÊN, UY TÍN</h4>--}}
+                    {{--                    <h4 class="card-title green-text">VÙNG NGUYÊN LIỆU 100% TỰ NHIÊN, UY TÍN</h4>--}}
                     <p class="card-text text-justify ">Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng
                         của sản phẩm.
                         ối với Min Min Care, nguyên liệu hoàn toàn 100% tự nhiên được tuyển chọn từ nguồn uy tín
@@ -210,12 +208,13 @@
                         thêm đường isomalt có vị ngọt nhẹ, vẫn sử dụng được cho người ăn kiêng hoặc bị tiểu đường.</p>
                 </div>
             </div>
-        <div class="sec5-content"
+            <div class="sec5-content"
                  style="width:100%;">
                 <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
-{{--                    <h4 class="card-title green-text">CHỨNG NHẬN CHẤT LƯỢNG TIÊU CHUẨN QUỐC TẾ</h4>--}}
-                    <p class="card-text text-justify " style="height: 31rem">Min Min Care đạt được các chứng nhận bao gồm
+                    {{--                    <h4 class="card-title green-text">CHỨNG NHẬN CHẤT LƯỢNG TIÊU CHUẨN QUỐC TẾ</h4>--}}
+                    <p class="card-text text-justify " style="height: 31rem">Min Min Care đạt được các chứng nhận bao
+                        gồm
                         quản lý an toàn thực phẩm FDA Mỹ -
                         đây là cơ quan liên bang trong Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ và tiêu chuẩn hệ thống
                         quản lý chất lượng ISO quốc tế..</p>
@@ -232,6 +231,7 @@
         .card-text {
             font-family: 'Mulish-SemiBold', sans-serif;
         }
+
         .sec-5-dot {
             transform: translate(75px, 200px);
             z-index: 999
@@ -344,7 +344,8 @@
             .slick-slide {
                 margin: 0 10px 5px 10px !important;
             }
-            .section-5-mobile  .slick-slide {
+
+            .section-5-mobile .slick-slide {
                 overflow: auto;
             }
 

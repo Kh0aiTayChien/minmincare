@@ -7,6 +7,6 @@
     @include('pages.dai-ly.sec4')
     @include('pages.dai-ly.sec5')
     @include('pages.dai-ly.sec6')
-    @include('pages.dai-ly.sec7')
+    @include('pages.gioi-thieu.sec7')
     @include('pages.dai-ly.sec8')
 @stop
