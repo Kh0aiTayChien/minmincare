@@ -63,6 +63,8 @@
     margin-left: 3%;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .sec3-GT {
         display: none;
@@ -80,9 +82,14 @@
         margin-top: 5%;
     }
     .arrangesec3mb-GT {
+        width: 85vw;
+        margin-right: 5%;
+        /*margin-top: -1.5%;*/
+    }
+    .arrangesec3mb-GT1 {
         width: 70vw;
         margin-right: 20%;
-        margin-top: -1.5%;
+        margin-top: -7%;
     }
     .imgsec3mb-GT {
         width: 90vw;

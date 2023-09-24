@@ -1,7 +1,7 @@
 <div class="sec8-DL">
     <div class="headersec8-DL">
         <form class="daily-test1 col-9">
-            <div class="col-12">
+            <div class="col-12 form-daily-fake">
                 <label class="name" for="fullname"></label>
                 <input class="svg-input-test-none col-3"
                        required disabled>
@@ -36,7 +36,7 @@
             </div>
         </form>
     </div>
-    <img src="{{asset('images/dai-ly/sec8/Group 3173.svg')}}" class="contentsec8-DL">
+    <img src="{{asset('images/dai-ly/sec8/Asset 2.png')}}" class="contentsec8-DL">
 </div>
 
 <div class="dailymb2-DL sec8mb-DL-test">

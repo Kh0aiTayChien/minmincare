@@ -118,9 +118,11 @@
 
 .formOutline {
     width: 30vw;
+    /*height: 60vh;*/
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 3%;
+    padding-bottom: 3%;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
@@ -173,7 +175,7 @@
 
 .svg-input-customer {
     /*width: 271.266px;*/
-    height: 40.891px;
+    height: 65.891px;
     width: 25vw;
     border-radius: 10px;
     border: none;

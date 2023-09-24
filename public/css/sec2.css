@@ -44,7 +44,7 @@
 .sec2mb {
     display: none;
     background-image: url("/images/sec2/Group 1266.png");
-    background-size: cover;
+    background-size: 100% 95%;
 }
 
 @media screen and (max-width: 768px) {
