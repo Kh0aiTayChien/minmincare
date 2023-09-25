@@ -20,7 +20,7 @@
                              alt="Card image">
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center"><strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center"><strong>{{ number_format($product->price, 0, ',', '.') }} vnd</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center"><strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake" data-id="{{$product->id}}">
@@ -61,7 +61,7 @@
         font-family: Mitr-Medium, sans-serif;
     }
     .font-size-custom-big{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: Mitr-Medium, sans-serif;
     }
     .orange-text {
@@ -73,7 +73,7 @@
         width: 404px;
     }
     .height-text-card{
-        height: 2rem;
+        height: 3.5rem;
     }
     .carousel-sec-4 {
         width: 70%;
