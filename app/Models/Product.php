@@ -10,10 +10,10 @@ class Product extends Model
 
     public function carts()
     {
-        return $this->hasMany(Cart::class)->onDelete('casade');
+        return $this->hasMany(Cart::class)->onDelete('cascade');
     }
     public function mediaproducts()
     {
-        return $this->hasMany(MediaProduct::class)->onDelete('casade');
+        return $this->hasMany(MediaProduct::class)->onDelete('cascade');
     }
 }
