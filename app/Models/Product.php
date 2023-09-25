@@ -12,4 +12,8 @@ class Product extends Model
     {
         return $this->hasMany(Cart::class);
     }
+    public function mediaproducts()
+    {
+        return $this->hasMany(MediaProduct::class)->onDelete('casade');;
+    }
 }

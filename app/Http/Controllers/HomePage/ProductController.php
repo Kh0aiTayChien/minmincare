@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\HomePage;
 
+use App\Models\MediaProduct;
 use App\Models\Cart;
 use App\Models\Product;
 use App\Http\Controllers\Controller;
@@ -30,6 +31,29 @@ class ProductController extends Controller
             })->get();
 
             return view('pages/san-pham/index', ['products' => $products, 'carts' => $carts]);
+        }
+    }
+
+    public function show($id, Request $request)
+    {
+        $product = Product::findOrFail($id);
+
+        $mediaProducts = MediaProduct::where('product_id', $product->id)->get();
+        $sessionCookie = config('session.cookie');
+        if ($request->Cookie($sessionCookie) == null) {
+            $sessionId = Str::uuid()->toString();
+            $cookie = Cookie::make($sessionCookie, $sessionId, 1440);
+            return response()
+                ->view('pages/chi-tiet-san-pham/index', ['product' => $product, 'mediaProducts' => $mediaProducts])
+                ->withCookie($cookie);
+        } else {
+            $sessionId = $request->Cookie($sessionCookie);
+            $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
+                $query->where('session_code', $sessionId);
+            })->get();
+
+            return view('pages/chi-tiet-san-pham/index',
+                ['product' => $product, 'mediaProducts' => $mediaProducts, 'carts' => $carts]);
         }
     }
 }

@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
+use App\Models\MediaProduct;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
@@ -10,6 +11,7 @@ class ProductController extends Controller
 {
     public function index(Request $request)
     {
+        MediaProduct::whereNull('product_id')->delete();
         $searchType = $request->input('search_type');
         $keyword = $request->input('search');
         $paginate = $request->input('paginate');
@@ -52,8 +54,9 @@ class ProductController extends Controller
             $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
             $product->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
+        $product->video_url = $request->input('video_url');
         $product->save();
-        return redirect()->route('products.index')->with('success', 'Tạo sản phẩm thành công!');
+        return redirect()->route('admin.mediaProduct.fix');
     }
 
     public function show($id)
@@ -64,8 +67,21 @@ class ProductController extends Controller
     public function edit($id)
     {
         $product = Product::findOrFail($id);
-        return view('admin/product/edit', ['product' => $product] );
+        $base64Images = [];
+
+        $mediaProducts = MediaProduct::where('product_id', $product->id)->get();
+
+        foreach ($mediaProducts as $mediaProduct) {
+            $imagePath = public_path($mediaProduct->url);
+
+            if (file_exists($imagePath)) {
+                $imageData = base64_encode(file_get_contents($imagePath));
+                $base64Images[] = 'data:image/png;base64,' . $imageData;
+            }
+        }
+        return view('admin/product/edit', ['product' => $product, 'mediaProducts' => $base64Images] );
     }
+
     public function update(Request $request, $id)
     {
         $validatedData = $request->validate([
@@ -88,6 +104,7 @@ class ProductController extends Controller
             $image->move(public_path('uploads/images'), $imageName); // Lưu ảnh vào thư mục trên server
             $product->image = '/uploads/images/' . $imageName; // Lưu đường dẫn của ảnh vào cột image trong bảng Product
         }
+        $product->video_url = $request->input('video_url');
         $product->save();
         return redirect()->route('products.index')->with('success', 'Cập nhật sản phẩm thành công!');
     }

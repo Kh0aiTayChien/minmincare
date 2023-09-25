@@ -5,29 +5,31 @@
 <div class=" container-fluid custom-padding ">
     <div class="row gx-5 gy-4 pos-center">
         @foreach($products as $product)
-            <div class=" col-lg-3 col-sm-4 col-xs-12 custom-ms shadow-effect">
-                <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">
-                            <p class="text-center mitr-medium
+            <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
+                <a href="{{route('homepage.product.show',['product' => $product->id])}}">
+                    <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center">
+                                <p class="text-center mitr-medium
                             green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
-                        </p>
-                        <p class="card-text text-center mitr-big orange-text
+                            </p>
+                            <p class="card-text text-center mitr-big orange-text
                         ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
 
-                        <p class="card-text text-center mitr-small">Xem chi tiết</p>
-                        <div class="d-flex justify-content-center align-content-center">
-                            <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                            <p class="card-text text-center mitr-small">Xem chi tiết</p>
+                            <div class="d-flex justify-content-center align-content-center">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake"
-                                    data-id="{{$product->id}}">
-                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>
-                            </button>
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         @endforeach
     </div>
@@ -35,15 +37,20 @@
 
 
 <style>
-
-    .pos-center{
+    a{
+        text-decoration: unset;
     }
-    .custom-ms{
+    .pos-center {
+    }
+
+    .custom-ms {
         margin-left: 4rem;
     }
-    .custom-padding{
-        padding:  2rem 8rem 0 8rem;
+
+    .custom-padding {
+        padding: 2rem 8rem 0 8rem;
     }
+
     @media screen and (min-width: 1800px) {
         .custom-padding {
             padding: 1rem 25rem !important;
@@ -56,18 +63,22 @@
             justify-content: center;
             align-items: center;
         }
-        .custom-padding{
+
+        .custom-padding {
             padding: 2rem 2rem 2rem 2rem;
         }
+
         .custom-mt {
             padding-top: 4rem !important;
         }
     }
+
     .custom-mt {
         padding-top: 6%;
         transform: translate(1%, 0);
     }
-    .custom-ms{
+
+    .custom-ms {
         margin-left: 0
     }
 
@@ -76,11 +87,9 @@
     }
 
     .height-img-card {
-        height: 225px;
-        width: 150px;
-        object-fit: contain;
+        object-fit: cover;
         max-width: 100%;
-        max-height: 100%;
+        height: 200px;
     }
 
     .card {
