@@ -78,6 +78,173 @@
 
                 </div>
             </div>
+            <div class="card shadow mb-4">
+                <script>
+                    function previewImage(event) {
+                        var reader = new FileReader();
+                        reader.onload = function () {
+                            var preview = document.getElementById('image-review');
+                            preview.src = reader.result;
+                        }
+                        reader.readAsDataURL(event.target.files[0]);
+                    }
+                </script>
+                <div class="card-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h5 class="font-weight-bold">Ảnh và video minh họa</h5>
+                            </div>
+                            <div class="media-product " data-id="{{$product->id}}">
+                                <span class="item d-flex justify-content-center align-content-center me-2">
+                                    <div class="plus-item">+</div>
+                                    <input type="file" accept="image/*" style="display:none;">
+                                </span>
+                                @foreach( $mediaProducts as $media)
+                                    <div class="item">
+                                        <div class="delete-button">x</div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="{{$media}}"></div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+{{--                                            <button id="uploadButton">Upload Images</button>--}}
+                    <style>
+                        .media-product .item {
+                            flex: 0 0 auto; /* Không cho phép các phần tử co lại */
+                            margin-right: 10px;
+                            height: 5rem;
+                            width: 5rem;
+                            border: 1px solid lime;
+                            font-size: 3rem;
+                            cursor: pointer;
+                            position: relative;
+                        }
+
+                        .media-product .item img {
+                            max-width: 5rem;
+                            max-height: 5rem
+                        }
+
+                        .media-product {
+                            display: flex;
+                            overflow-x: scroll;
+                        }
+
+                        .delete-button {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            cursor: pointer;
+                            color: red;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            background: transparent;
+                            border: none;
+                            outline: none;
+                            padding: 0;
+                            margin: 0;
+                            z-index: 999; /* Đảm bảo nút xóa hiển thị trên cùng */
+                        }
+                    </style>
+                    <script type="text/javascript">
+                        $(document).ready(function (e) {
+                            $.ajaxSetup({
+                                headers: {
+                                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                }
+                            });
+
+                            $('#uploadButton').click(function (e) {
+
+                                let formData = new FormData();
+                                $('.media-product .item img').each(function (index) {
+                                    let imageData = $(this).attr('src');
+                                    let file = dataURLtoFile(imageData, 'image_' + index + '.png');
+                                    let idValue = $('.media-product').attr('data-id');
+                                    formData.append('files[]', file);
+                                    formData.append('id', idValue);
+                                });
+                                console.log(formData);
+                                $.ajax({
+                                    type: 'POST',
+                                    url: "{{ route('admin.mediaProduct.update') }}",
+                                    data: formData,
+                                    cache: false,
+                                    contentType: false,
+                                    processData: false,
+                                    dataType: 'json',
+                                    success: function (data) {
+                                        alert('Files have been uploaded using jQuery ajax');
+                                    },
+                                    error: function (data) {
+                                        alert(data.responseJSON.errors.files[0]);
+                                    }
+                                });
+                            });
+
+                            // Hàm chuyển base64 sang File object
+                            function dataURLtoFile(dataurl, filename) {
+                                var arr = dataurl.split(','),
+                                    mime = arr[0].match(/:(.*?);/)[1],
+                                    bstr = atob(arr[1]),
+                                    n = bstr.length,
+                                    u8arr = new Uint8Array(n);
+                                while (n--) {
+                                    u8arr[n] = bstr.charCodeAt(n);
+                                }
+                                return new File([u8arr], filename, {type: mime});
+                            }
+                        });
+                    </script>
+                    <script>
+                        $(document).ready(function () {
+                            $(document).on('click', '.plus-item', function () {
+                                $(this).siblings('input[type="file"]').click();
+                            });
+
+                            $(document).on('change', '.media-product input[type="file"]', function () {
+                                const file = this.files[0];
+                                const reader = new FileReader();
+                                const deleteButton = $('<div>').addClass('delete-button').text('x');
+
+                                reader.onload = function () {
+                                    const img = $('<img>').attr('src', reader.result);
+                                    const carouselItem = $('<div>').addClass('item');
+                                    const deleteButton = $('<div>').addClass('delete-button').text('x');
+                                    const row = $('<div>').addClass('row');
+                                    const col = $('<div>').addClass('col').append(img);
+                                    row.append(col);
+                                    carouselItem.append(deleteButton).append(row);
+
+                                    $('.media-product').append(carouselItem);
+
+                                    $('.media-product').animate({
+                                        scrollLeft: '-=200'
+                                    }, 500);
+
+                                }
+
+                                reader.readAsDataURL(file);
+                            });
+                        });
+                        $(document).on('click', '.delete-button', function () {
+                            $(this).parent('.item').remove();
+
+                            // Cuộn sang trái
+                            $('.media-product').animate({
+                                scrollLeft: '-=200'
+                            }, 500);
+                        });
+                    </script>
+                </div>
+
+            </div>
 
         </div>
 
@@ -101,7 +268,7 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Tên sản phẩm<span
                                                 class="small text-danger">*</span></label>
@@ -109,12 +276,19 @@
                                                placeholder="Tên sản phẩm" value="{{$product->name}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>
-                                        <input type="text" id="name" class="form-control" name="price"
+                                        <input type="text" id="price" class="form-control" name="price"
                                                placeholder="Giá sản phẩm" value="{{$product->price}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Linh video minh họa</label>
+                                        <input type="text" id="name" class="form-control" name="video_url"
+                                               placeholder="Link Video" value="{{$product->video_url}}">
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +300,7 @@
                                                 class="small text-danger">*</span><span
                                                 class="small text-danger">*</span></label>
                                         <textarea class="form-control" id="editor" name="description" rows="10"
-                                                 >{{$product->description}} </textarea>
+                                        >{{$product->description}} </textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
@@ -135,7 +309,7 @@
                                                 class="small text-danger">*</span></label>
                                         <input type="file" id="image" class="form-control" name="image"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)"
-                                               >
+                                        >
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +319,7 @@
                         <div class="pl-lg-4 mt-5">
                             <div class="row">
                                 <div class="col text-center">
-                                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                                    <button type="submit" class="btn btn-primary" id="uploadButton">Save Changes</button>
                                 </div>
                             </div>
                         </div>
