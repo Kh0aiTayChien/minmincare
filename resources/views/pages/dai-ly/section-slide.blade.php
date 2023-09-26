@@ -385,6 +385,7 @@
 <style>
     .text-justify {
         text-align: justify;
+        font-family: Mulish-SemiBold, sans-serif
     }
 
     .shadow-effect {
