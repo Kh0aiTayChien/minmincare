@@ -2,6 +2,8 @@
     background-image: url("/images/sec10/Rectangle 4.png");
     background-size: 100% 100%;
     /*background-position: center top -50px;*/
+    padding-bottom: 5%;
+    padding-top: 15%;
 }
 
 .sec1-LH {
@@ -167,10 +169,47 @@
     /*height: 40px;*/
 }
 
+.customer-pc {
+    width: 30vw;
+    background-image: url("/images/sec10/Group 5082.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 15%;
+    padding-bottom: 3%;
+}
+
+.text1customersec10 {
+    font-family: Mitr-SemiBold, sans-serif;
+    /*font-weight: bold;*/
+    color: white;
+    padding-top: 5%;
+    font-size: 30px;
+    text-align: center;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.text2customersec10 {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: -3%;
+    font-size: 35px;
+    text-align: center;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.svg-input-customer-test {
+    height: 65.891px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px;
+}
+
 .form-customer {
-    position: absolute;
-    margin-left: 17%;
-    margin-top: -30%;
+    margin-left: 6%;
 }
 
 .svg-input-customer {
@@ -185,7 +224,7 @@
     /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
 }
 
-.svg-input-customer:focus {
+.svg-input-customer-test:focus {
     outline: none;
 }
 
@@ -219,8 +258,8 @@
 
 .button5 {
     width: 26.5vw;
-    position: absolute;
-    margin-left: -2%;
+    /*position: absolute;*/
+    margin-left: -2.5%;
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1920px) {
@@ -229,10 +268,12 @@
         margin-top: -6%;
         margin-left: 18%;
     }
+
     .svg-input {
         width: 15.5vw;
         height: 45px;
     }
+
     .dailybutton {
         margin-left: 66.5%;
         margin-top: -6.5%;
@@ -243,9 +284,11 @@
     .sec1-LH {
         margin-top: 22%;
     }
+
     .sec10pc {
         display: none;
     }
+
     .sec10mb {
         display: block;
         /*text-align: center;*/
@@ -254,11 +297,13 @@
         background-size: cover;
         background-position: center top 25px;
     }
+
     .headersec10mb {
         width: 90vw;
         height: 40vh;
         margin-top: -15%;
     }
+
     .dailymb {
         margin-top: 5%;
         margin-left: 5%;
@@ -270,13 +315,16 @@
         text-align: center;
         justify-content: center;
     }
+
     .bannerdaily {
         width: 70vw;
         /*margin-left: 2%;*/
     }
+
     .formdailymb {
         display: inline;
     }
+
     .svg-input-mb {
         width: 27vw;
         border: none;
@@ -286,9 +334,11 @@
         /*margin-left: 1%;*/
         margin-top: 3%;
     }
+
     .svg-input-mb:focus {
         outline: none;
     }
+
     /*.svg-input-mb {*/
     /*    height: 25px;*/
     /*    width: 25vw;*/
@@ -302,18 +352,21 @@
     .svg-input-mb::placeholder {
         font-size: 12px;
     }
-    .submitbutton-mb{
+
+    .submitbutton-mb {
         /*position: absolute;*/
         width: 40vw;
         margin-top: 5%;
         margin-left: 55%;
     }
+
     .daily-button-mb {
         border: none;
         background: none;
         /*margin-top: -50%;*/
 
     }
+
     .button4mb {
         position: absolute;
         width: 45vw;
@@ -321,10 +374,12 @@
         margin-left: 4%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     .bannercustomermb {
         width: 50vw;
         margin-left: 5%;
     }
+
     .customer-mb {
         width: 50vw;
         margin-left: 5%;
@@ -332,6 +387,7 @@
         background-size: 100% 100%;
         padding-bottom: 5%;
     }
+
     .svg-input-customer-mb {
         border-radius: 5px;
         border: none;
@@ -342,19 +398,24 @@
         margin-left: 5%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     .svg-input-customer-mb::placeholder {
         font-size: 12px;
         color: #A6A8AB;
     }
+
     input::placeholder {
         font-family: Mulish-SemiBold, sans-serif;
     }
+
     .svg-input-customer-mb:focus {
         outline: none;
     }
+
     .svg-input-bot-mb:focus {
         outline: none;
     }
+
     .svg-input-bot-mb {
         border-radius: 5px;
         border: none;
@@ -365,10 +426,12 @@
         margin-left: 5%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     .svg-input-bot-mb::placeholder {
         font-size: 12px;
         color: #A6A8AB;
     }
+
     .customer-button-mb {
         border-radius: 5px;
         background-color: #59843d;
@@ -382,14 +445,17 @@
         margin-top: 1%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     .button5mb {
         width: 45vw;
         /*margin-left: 3%;*/
         padding-bottom: 5%;
     }
+
     .spacesec10mb {
         height: 15px;
     }
+
     .text1customersec10mb {
         font-family: Mitr-Regular, sans-serif;
         /*font-weight: bold;*/
@@ -399,9 +465,11 @@
         text-align: center;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     .customer-top {
         margin-top: -10% !important;
     }
+
     .text2customersec10mb {
         font-family: Mitr-SemiBold, sans-serif;
         font-weight: bold;

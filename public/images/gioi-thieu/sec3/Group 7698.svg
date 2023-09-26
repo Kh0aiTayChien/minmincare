@@ -11,6 +11,9 @@
         }
     </style>
     <g id="Group_7698" data-name="Group 7698" transform="translate(-304.514 -2257.958)">
+        <filter id="my-drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="4" dy="3" stdDeviation="3" flood-opacity="0.2" />
+        </filter>
         <text id="Vì_sức_khỏe_mẹ_bé" data-name="Vì sức khỏe mẹ &amp; bé" transform="translate(369.926 2271.062)"
               fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1" font-size="18"
               font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
@@ -37,7 +40,7 @@
               font-size="18" font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="18">Hoàn toàn từ tự nhiên</tspan>
         </text>
-        <g id="Group_7693" data-name="Group 7693">
+        <g id="Group_7693" data-name="Group 7693" class="circle-test" filter="url(#my-drop-shadow)">
             <g transform="matrix(1, 0, 0, 1, 304.51, 2257.96)" filter="url(#Rectangle_157)">
                 <g id="Rectangle_157-2" data-name="Rectangle 157" transform="translate(0 1.31)" fill="#59843d"
                    stroke="#fff" stroke-miterlimit="10" stroke-width="2">
@@ -50,7 +53,7 @@
                 <tspan x="16.832" y="36">1</tspan>
             </text>
         </g>
-        <g id="Group_7696" data-name="Group 7696">
+        <g id="Group_7696" data-name="Group 7696" filter="url(#my-drop-shadow)">
             <g transform="matrix(1, 0, 0, 1, 304.51, 2257.96)" filter="url(#Rectangle_159)">
                 <g id="Rectangle_159-2" data-name="Rectangle 159" transform="translate(310.96 1.31)" fill="#59843d"
                    stroke="#fff" stroke-miterlimit="10" stroke-width="2">
@@ -63,7 +66,7 @@
                 <tspan x="15.561" y="36">4</tspan>
             </text>
         </g>
-        <g id="Group_7694" data-name="Group 7694">
+        <g id="Group_7694" data-name="Group 7694" filter="url(#my-drop-shadow)">
             <g transform="matrix(1, 0, 0, 1, 304.51, 2257.96)" filter="url(#Rectangle_158)">
                 <g id="Rectangle_158-2" data-name="Rectangle 158" transform="translate(0 77.6)" fill="#59843d"
                    stroke="#fff" stroke-miterlimit="10" stroke-width="2">
@@ -76,7 +79,7 @@
                 <tspan x="15.871" y="36">2</tspan>
             </text>
         </g>
-        <g id="Group_7697" data-name="Group 7697">
+        <g id="Group_7697" data-name="Group 7697" filter="url(#my-drop-shadow)">
             <g transform="matrix(1, 0, 0, 1, 304.51, 2257.96)" filter="url(#Rectangle_160)">
                 <g id="Rectangle_160-2" data-name="Rectangle 160" transform="translate(310.96 77.6)" fill="#59843d"
                    stroke="#fff" stroke-miterlimit="10" stroke-width="2">
@@ -89,7 +92,7 @@
                 <tspan x="14.863" y="36">5</tspan>
             </text>
         </g>
-        <g id="Group_7695" data-name="Group 7695">
+        <g id="Group_7695" data-name="Group 7695" filter="url(#my-drop-shadow)">
             <g transform="matrix(1, 0, 0, 1, 304.51, 2257.96)" filter="url(#Rectangle_161)">
                 <g id="Rectangle_161-2" data-name="Rectangle 161" transform="translate(0 153.9)" fill="#59843d"
                    stroke="#fff" stroke-miterlimit="10" stroke-width="2">

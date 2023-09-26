@@ -1,41 +1,41 @@
 <div class="sec2-DL">
-    <div class="headersec2-DL">
-        <form class="daily-test1 col-9">
-            <div class="col-12 form-daily-fake">
-                <label class="name" for="fullname"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
+{{--    <div class="headersec2-DL">--}}
+{{--        <form class="daily-test1 col-9">--}}
+{{--            <div class="col-12 form-daily-fake">--}}
+{{--                <label class="name" for="fullname"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
 
-                <label for="phone"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
+{{--                <label for="phone"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
 
-                <label for="address"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
-                <button class="submitbutton-test-daily button-shake" type="submit">
-                    <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>
-                </button>
-            </div>
-            <div class="col-12 form-daily">
-                <label class="name" for="fullname"></label>
-                <input class="svg-input-test col-3" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
-                       required>
+{{--                <label for="address"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
+{{--                <button class="submitbutton-test-daily button-shake" type="submit">--}}
+{{--                    <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--            <div class="col-12 form-daily">--}}
+{{--                <label class="name" for="fullname"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Họ và tên" type="text" id="fullname" name="fullname"--}}
+{{--                       required>--}}
 
-                <label for="phone"></label>
-                <input class="svg-input-test col-3" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
-                       required>
+{{--                <label for="phone"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Số điện thoại" type="tel" id="phone" name="phone"--}}
+{{--                       required>--}}
 
-                <label for="address"></label>
-                <input class="svg-input-test col-3" placeholder="Địa chỉ" type="text" id="address" name="address"
-                       required>
+{{--                <label for="address"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Địa chỉ" type="text" id="address" name="address"--}}
+{{--                       required>--}}
 
-                <button class="submitbutton-test button-shake" type="submit">
-                    GỬI THÔNG TIN
-                </button>
-            </div>
-        </form>
-    </div>
+{{--                <button class="submitbutton-test button-shake" type="submit">--}}
+{{--                    GỬI THÔNG TIN--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--        </form>--}}
+{{--    </div>--}}
     <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL">
     <object data="{{asset('images/dai-ly/sec2/Group 3173.svg')}}" class="headerbannersec2-DL"></object>
     <div class="row-test conditionsec2-DL-test">
