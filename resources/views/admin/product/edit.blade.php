@@ -96,7 +96,7 @@
                             <div class="text-center">
                                 <h5 class="font-weight-bold">Ảnh và video minh họa</h5>
                             </div>
-                            <div class="media-product " data-id="{{$product->id}}">
+                            <div class="media-product" data-id="{{$product->id}}">
                                 <span class="item d-flex justify-content-center align-content-center me-2">
                                     <div class="plus-item">+</div>
                                     <input type="file" accept="image/*" style="display:none;">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-{{--                                            <button id="uploadButton">Upload Images</button>--}}
+                                            <button id="uploadButton">Upload Images</button>
                     <style>
                         .media-product .item {
                             flex: 0 0 auto; /* Không cho phép các phần tử co lại */
@@ -161,16 +161,16 @@
                             });
 
                             $('#uploadButton').click(function (e) {
-
+                                var idValue = $('.media-product').attr('data-id');
                                 let formData = new FormData();
                                 $('.media-product .item img').each(function (index) {
                                     let imageData = $(this).attr('src');
                                     let file = dataURLtoFile(imageData, 'image_' + index + '.png');
-                                    let idValue = $('.media-product').attr('data-id');
+
                                     formData.append('files[]', file);
                                     formData.append('id', idValue);
                                 });
-                                console.log(formData);
+                                console.log(idValue);
                                 $.ajax({
                                     type: 'POST',
                                     url: "{{ route('admin.mediaProduct.update') }}",
