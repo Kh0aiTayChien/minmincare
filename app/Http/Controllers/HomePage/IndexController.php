@@ -17,6 +17,7 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
+        $products = Product::all();
         $categoryImgSlug = "anh-slide-pc-01";
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);
@@ -34,14 +35,14 @@ class IndexController extends Controller
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages/home-page/index', ['news' => $news, 'images' => $images])
+                ->view('pages/home-page/index', ['news' => $news, 'images' => $images, 'products' => $products])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
             })->get();
-            return view('pages/home-page/index', ['news' => $news, 'carts' => $carts, 'images' => $images]);
+            return view('pages/home-page/index', ['news' => $news, 'carts' => $carts, 'images' => $images, 'products' => $products]);
         }
     }
 }

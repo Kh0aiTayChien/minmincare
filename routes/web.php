@@ -11,6 +11,7 @@ use App\Http\Controllers\KnowledgeController\Knowledge2Controller;
 use App\Http\Controllers\KnowledgeController\Knowledge3Controller;
 use App\Http\Controllers\KnowledgeController\KnowledgeController;
 use App\Http\Controllers\MediaController;
+use App\Http\Controllers\MediaProductController;
 use App\Http\Controllers\News\NewsController;
 use App\Http\Controllers\NgaMin\NgaMinController;
 use App\Http\Controllers\ProfileController;
@@ -43,6 +44,7 @@ Route::get('/kien-thuc/{slug}', [App\Http\Controllers\KnowledgeController\Knowle
 Route::get('/kien-thuc/me-sau-sinh/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge2Controller::class, 'show'])->name('kien-thuc.me-sau-sinh.show');
 Route::get('/kien-thuc/dinh-duong-cho-con/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge3Controller::class, 'show'])->name('kien-thuc.dinh-duong-cho-con.show');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
+Route::get('/san-pham/{product}', [\App\Http\Controllers\HomePage\ProductController::class, 'show'])->name('homepage.product.show');
 Route::get('/advertise', [advertise::class, 'index'])->name('advertise.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');
@@ -62,6 +64,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::post('/order-number', [ArticleController::class, 'OrderNumber'])->name('admin.updateOrderNumber');
     Route::get('/media', [MediaController::class, 'index'])->name('admin.media.index');
     Route::post('/upload', [MediaController::class, 'upload'])->name('admin.media.upload');
+    Route::post('/uploadMediaProduct', [MediaProductController::class, 'store'])->name('admin.mediaProduct.upload');
+    Route::get('/fixMediaProduct', [MediaProductController::class, 'fix'])->name('admin.mediaProduct.fix');
+    Route::post('/updateMediaProduct', [MediaProductController::class, 'update'])->name('admin.mediaProduct.update');
     Route::get('/home', [HomeController::class, 'index'])->name('home');
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
     Route::put('/profile', [ProfileController::class, 'update'])->name('profile.update');
