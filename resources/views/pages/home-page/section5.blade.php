@@ -39,7 +39,7 @@
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 active ms-5">
-                            <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
+                            <img src="{{asset('images/sec5/12345-04.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
                                     Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và
@@ -59,7 +59,7 @@
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
-                            <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
+                            <img src="{{asset('images/sec5/12345-05.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class=" mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
                                     Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin Gold
@@ -82,7 +82,7 @@
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
-                            <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
+                            <img src="{{asset('images/sec5/12345-06.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
                                     Các sản phẩm của Minmin Care được sản xuất trong quy trình khép kín tại nhà máy
@@ -104,7 +104,7 @@
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
-                            <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
+                            <img src="{{asset('images/sec5/12345-07.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
                                     Yêu tố vùng nguyên liệu quyết định rất lớn tới giá trị chất lượng của sản phẩm. Đối
@@ -126,7 +126,7 @@
                         <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
-                            <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
+                            <img src="{{asset('images/sec5/12345-08.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
                                     Minmin Care tự hào có đội ngũ sản xuất với bề dày kinh nghiệm gần 10 năm chuyên sâu
@@ -161,7 +161,7 @@
         <div class="carousel-sec-5">
             <div class="sec5-content"
                  style="width:100%; ">
-                <img src="{{asset('images/sec5/pic1.png')}}" class="mt-4" alt="">
+                <img src="{{asset('images/sec5/12345-04.png')}}" class="mt-4 headersec5mb-HP" alt="">
                 <div class="card-body" style="height: 31rem">
                     <p class="card-text text-justify " style="">Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh
                         dưỡng
@@ -172,7 +172,7 @@
             </div>
             <div class="sec5-content"
                  style="width:100%; ">
-                <img src="{{asset('images/sec5/pic2.png')}}" class="mt-4" alt="">
+                <img src="{{asset('images/sec5/12345-05.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
                     {{--                    <h4 class="card-title green-text">CÔNG NGHỆ NANO CURCUMIN CAO CẤP</h4>--}}
                     <p class="card-text text-justify " style="height: 31rem">Min Min Care là thương hiệu đầu tiên ứng
@@ -185,7 +185,7 @@
             </div>
             <div class="sec5-content"
                  style="width:100%;">
-                <img src="{{asset('images/sec5/pic3.png')}}" class="mt-4" alt="">
+                <img src="{{asset('images/sec5/12345-06.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
                     {{--                    <h4 class="card-title green-text">NHÀ MÁY RIÊNG TIÊU CHUẦN QUỐC TẾ GMP</h4>--}}
                     <p class="card-text text-justify " style="height: 31rem">GMP - Good manufacturing practice là một hệ
@@ -197,7 +197,7 @@
             </div>
             <div class="sec5-content"
                  style="width:100%; ">
-                <img src="{{asset('images/sec5/pic4.png')}}" class="mt-4" alt="">
+                <img src="{{asset('images/sec5/12345-07.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
                     {{--                    <h4 class="card-title green-text">VÙNG NGUYÊN LIỆU 100% TỰ NHIÊN, UY TÍN</h4>--}}
                     <p class="card-text text-justify ">Chất lượng nguyên liệu quyết định rất lớn tới giá trị dinh dưỡng
@@ -210,7 +210,7 @@
             </div>
             <div class="sec5-content"
                  style="width:100%;">
-                <img src="{{asset('images/sec5/pic5.png')}}" class="mt-4" alt="">
+                <img src="{{asset('images/sec5/12345-08.png')}}" class="mt-4" alt="">
                 <div class="card-body" style="height: 31rem">
                     {{--                    <h4 class="card-title green-text">CHỨNG NHẬN CHẤT LƯỢNG TIÊU CHUẨN QUỐC TẾ</h4>--}}
                     <p class="card-text text-justify " style="height: 31rem">Min Min Care đạt được các chứng nhận bao
@@ -243,7 +243,10 @@
                 top: 80%;
             }
         }
-
+        .headersec5-HP {
+            width: 53%;
+            transform: translateX(-3%);
+        }
         .carousel-sec-5 {
             width: 70%;
             margin: 0px auto;
@@ -328,7 +331,9 @@
                 z-index: 2;
                 opacity: 50%;
             }
-
+            .headersec5mb-HP {
+                width:
+            }
             .custom-next-arrow-5 {
                 right: -17px;
                 scale: 50%;
