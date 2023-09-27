@@ -1,0 +1,85 @@
+.section1-NM {
+    background-image: url("/images/nga-min/section1/Asset 3.png");
+    background-size: cover;
+    margin-bottom: 11%;
+}
+
+.introduce-NM {
+    z-index: 1;
+}
+
+.containersection1-NM {
+    transform: translateX(10%);
+}
+
+.imgsection1-NM {
+    transform: translateX(17%);
+    width: 50%;
+}
+
+.header1section1-NM {
+    font-family: Mitr-Regular, sans-serif;
+    font-size: 50px;
+    text-align: right;
+    transform: translateY(-100%) translateX(8%);
+    color: white;
+}
+
+.header2section1-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-size: 80px;
+    text-align: right;
+    transform: translateY(-80%) translateX(8%);
+    color: white;
+}
+
+.threediamond {
+    margin-top: -20%;
+    z-index: 999;
+    position: absolute;
+    padding-left: 15%;
+}
+
+.section1mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .section1-NM {
+        display: none;
+    }
+    .section1mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .containersection1mb-NM {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-image: url("/images/nga-min/section1/Asset 2.png");
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .contentsection1mb-NM {
+        text-align: center;
+        justify-content: center;
+        padding-left: 15%;
+        margin-top: 2%;
+    }
+    .header1section1mb-NM {
+        margin-top: -10%;
+        font-size: 25px;
+        font-family: Mitr-Regular, sans-serif;
+        color: white;
+    }
+    .header2section1mb-NM {
+        font-size: 35px;
+        font-family: Mitr-SemiBold, sans-serif;
+        color: white;
+        margin-top: -5%;
+    }
+    .contentsection1mb2-NM {
+        margin-left: 5%;
+    }
+}

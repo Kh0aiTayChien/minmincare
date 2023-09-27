@@ -11,10 +11,10 @@
             <img src="{{asset('images/nga-min/sec4/Asset 2.png')}}" class="img1sec4-NM">
             <img src="{{asset('images/nga-min/sec4/Asset 8.png')}}" class="img1sec4-NM">
             <img src="{{asset('images/nga-min/sec4/Asset 9.png')}}" class="img1sec4-NM">
-            <img src="{{asset('images/nga-min/sec4/Asset 1.png')}}" class="img1sec4-NM">
-            <img src="{{asset('images/nga-min/sec4/Asset 2.png')}}" class="img1sec4-NM">
-            <img src="{{asset('images/nga-min/sec4/Asset 8.png')}}" class="img1sec4-NM">
-            <img src="{{asset('images/nga-min/sec4/Asset 9.png')}}" class="img1sec4-NM">
+            <img src="{{asset('images/nga-min/sec4/Asset 10.png')}}" class="img1sec4-NM">
+            <img src="{{asset('images/nga-min/sec4/Asset 11.png')}}" class="img1sec4-NM">
+            <img src="{{asset('images/nga-min/sec4/Asset 12.png')}}" class="img1sec4-NM">
+            <img src="{{asset('images/nga-min/sec4/Asset 13.png')}}" class="img1sec4-NM">
         </div>
     </div>
 </div>
