@@ -131,12 +131,12 @@
                     <div class="mx-5">THÊM VÀO GIỎ HÀNG</div>
                 </button>
             </div>
-            <div class="mb-3">
-                <button class="btn btn-outline-white btn-lg btn-block rounded-pill shadow-effect w-100
-                                border-white text-white border-2 green-bg mitr-medium buy-button button-shake" >
-                    <div class="mx-5">MUA NGAY</div>
-                </button>
-            </div>
+{{--            <div class="mb-3">--}}
+{{--                <button class="btn btn-outline-white btn-lg btn-block rounded-pill shadow-effect w-100--}}
+{{--                                border-white text-white border-2 green-bg mitr-medium buy-button button-shake" >--}}
+{{--                    <div class="mx-5">MUA NGAY</div>--}}
+{{--                </button>--}}
+{{--            </div>--}}
             <div class="card">
                 <div class="card-body">
                     <div class="main-info h2 text-center mitr-big green-text">
