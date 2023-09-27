@@ -9,4 +9,5 @@
     @include('pages.dai-ly.sec6')
     @include('pages.gioi-thieu.sec7')
     @include('pages.dai-ly.sec8')
+    @include('pages.navigation-sec.navigation-sec')
 @stop

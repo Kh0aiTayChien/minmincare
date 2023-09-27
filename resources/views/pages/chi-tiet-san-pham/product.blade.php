@@ -125,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class=" mb-3 mt-3">
-                <button class="btn btn-outline-white btn-lg btn-block rounded-pill shadow-effect w-100
+            <div class="mb-3 mt-3 d-flex justify-content-center align-content-center">
+                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect w-50
                                 border-white text-white border-2 green-bg mitr-medium buy-button button-shake" data-id="{{$product->id}}">
                     <div class="mx-5">THÊM VÀO GIỎ HÀNG</div>
                 </button>

@@ -11,4 +11,5 @@
     @include('pages.home-page.sec8')
     @include('pages.home-page.section9')
     @include('pages.home-page.sec10')
+    @include('pages.navigation-sec.navigation-sec')
 @stop
