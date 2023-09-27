@@ -65,6 +65,7 @@
     <link href="{{asset('/css/sec8-QC.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec9-QC.css')}}" rel="stylesheet">
     <link href="{{asset('/css/sec11-QC.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/section1-NM.css')}}" rel="stylesheet">
 </head>
 <body>
 @include('page-layout/header')
