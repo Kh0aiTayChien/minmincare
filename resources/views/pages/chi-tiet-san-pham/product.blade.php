@@ -1,7 +1,7 @@
 <div class=" container-fluid custom-padding custom-margin ">
     <div class="row">
         <div class="media-product col-3 offset-2 ">
-            <div class="card p-2 sticky-top" style="height: 50%">
+            <div class="card p-2 sticky-top" style="height: 50vh">
                 <div class="display-media card-img-top d-flex align-content-center justify-content-center">
                     <img class="card-img-top img-fluid" src="{{$product->image}}" alt="">
                 </div>
