@@ -268,7 +268,7 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Tên sản phẩm<span
                                                 class="small text-danger">*</span></label>
@@ -276,7 +276,7 @@
                                                placeholder="Tên sản phẩm" value="{{$product->name}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>
@@ -284,7 +284,15 @@
                                                placeholder="Giá sản phẩm" value="{{$product->price}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Slug<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="slug" class="form-control" name="slug"
+                                               placeholder="Link không dấu" value="{{$product->slug}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Linh video minh họa</label>
                                         <input type="text" id="name" class="form-control" name="video_url"

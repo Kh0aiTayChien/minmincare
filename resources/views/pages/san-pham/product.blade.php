@@ -6,7 +6,7 @@
     <div class="row gx-5 gy-4 pos-center">
         @foreach($products as $product)
             <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
-                <a href="{{route('homepage.product.show',['product' => $product->id])}}">
+                <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
                     <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
                         <div class="d-flex justify-content-center align-items-center">
                             <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
@@ -20,6 +20,7 @@
                         ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
 
                             <p class="card-text text-center mitr-small">Xem chi tiết</p>
+                </a>
                             <div class="d-flex justify-content-center align-content-center">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake"
@@ -29,7 +30,6 @@
                             </div>
                         </div>
                     </div>
-                </a>
             </div>
         @endforeach
     </div>
