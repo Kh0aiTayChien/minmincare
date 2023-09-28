@@ -39,14 +39,18 @@ class ProductController extends Controller
             'name' => 'required|string|unique:products,name',
             'price' => 'required|numeric',
             'description' => 'required',
+            'slug' => 'required|unique:products,slug',
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
-            'name.required' => 'Không được để trống'
+            'name.required' => 'Không được để trống',
+            'slug.unique' => 'Link đã tồn tại',
+            'slug.required' => 'Không được để trống'
         ]);
         $product = new Product();
         $product->name = $validatedData['name'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
+        $product->slug = $validatedData['slug'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -88,15 +92,18 @@ class ProductController extends Controller
             'name' => 'required|string|',
             'price' => 'required|numeric',
             'description' => 'required',
+            'slug' => 'required'
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'price.required' => 'Không được để trống',
-            'description.required' => 'Không được để trống'
+            'description.required' => 'Không được để trống',
+            'slug.required' => 'Không được để trống'
         ]);
         $product = Product::findOrFail($id);
         $product->name = $validatedData['name'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
+        $product->slug = $validatedData['slug'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
