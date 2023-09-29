@@ -407,7 +407,8 @@
     }
 
     .image-rule {
-        scale: 80%;
+        scale: 60%;
+        transform: translateX(-15%) translateY(20%);
     }
 
     .carousel-fade .carousel-item {
