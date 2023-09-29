@@ -3,14 +3,14 @@
     src: url("/Fonts/Mulish-SemiBold.ttf");
 }
 
-/*.sec3pc {*/
-/*    height: 90vh;*/
-/*}*/
+.sec3pc {
+    margin-bottom: 9%;
+}
 
 .headersec3 {
-    margin-left: 13%;
+    margin-left: 23%;
     margin-top: 5%;
-    width: 28vw;
+    width: 18vw;
 }
 
 .contentsec3 {
@@ -18,7 +18,7 @@
     width: 28vw;
     margin-left: 15%;
     font-size: 15px;
-    margin-top: 3%;
+    margin-top: 1%;
     text-align: justify;
 }
 

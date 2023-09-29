@@ -13,8 +13,6 @@
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
             <object data="{{asset('images/gioi-thieu/sec2/Group 7691.svg')}}" class="headersec2-GT-test"></object>
             <br><br>
-            {{--            <p class="text1sec2-GT-test col-xxl-11 col-md-11">GIẢI PHÁP DINH DƯỠNG CAO CẤP VÀ TOÀN DIỆN SỐ 1 DÀNH RIÊNG CHO MẸ BẦU VÀ MẸ SAU--}}
-            {{--                SINH ĐẾN TỪ CHUYÊN GIA HÀNG ĐẦU</p>--}}
             <p class="text2sec2-GT-test">TẦM NHÌN : Minmin Care trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm ngũ
                 cốc dinh dưỡng và sức khỏe cho gia đình Việt.</p>
             <p class="text2sec2-GT-test">SỨ MỆNH : Minmin Care mang đến giải pháp dinh dưỡng tự nhiên, cao cấp, toàn diện, chuyên

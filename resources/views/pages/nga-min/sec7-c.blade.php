@@ -104,7 +104,7 @@
         color: transparent; /* Màu chữ trắng cho dot active */
     }
     .share-joy{
-
+        scale: 65%;
     }
     @media only screen and (max-width: 800px) {
         .custom-prev-arrow,

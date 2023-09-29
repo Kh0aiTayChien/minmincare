@@ -1,54 +1,51 @@
 <div class="sec9-NM">
-    <div>
-        <form class="daily-test1 col-9">
-            <div class="col-12">
-                <label class="name" for="fullname"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
+{{--    <div>--}}
+{{--        <form class="daily-test1 col-9">--}}
+{{--            <div class="col-12">--}}
+{{--                <label class="name" for="fullname"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
 
-                <label for="phone"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
+{{--                <label for="phone"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
 
-                <label for="address"></label>
-                <input class="svg-input-test-none col-3"
-                       required disabled>
-                <button class="submitbutton-test-daily button-shake" type="submit">
-                    <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>
-                </button>
-            </div>
-            <div class="col-12 form-daily">
-                <label class="name" for="fullname"></label>
-                <input class="svg-input-test col-3" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
-                       required>
+{{--                <label for="address"></label>--}}
+{{--                <input class="svg-input-test-none col-3"--}}
+{{--                       required disabled>--}}
+{{--                <button class="submitbutton-test-daily button-shake" type="submit">--}}
+{{--                    <a href="{{asset('dai-ly')}}" class="link-daily button4-test">ĐẾN TRANG ĐẠI LÝ</a>--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--            <div class="col-12 form-daily">--}}
+{{--                <label class="name" for="fullname"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Họ và tên" type="text" id="fullname" name="fullname"--}}
+{{--                       required>--}}
 
-                <label for="phone"></label>
-                <input class="svg-input-test col-3" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
-                       required>
+{{--                <label for="phone"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Số điện thoại" type="tel" id="phone" name="phone"--}}
+{{--                       required>--}}
 
-                <label for="address"></label>
-                <input class="svg-input-test col-3" placeholder="Địa chỉ" type="text" id="address" name="address"
-                       required>
+{{--                <label for="address"></label>--}}
+{{--                <input class="svg-input-test col-3" placeholder="Địa chỉ" type="text" id="address" name="address"--}}
+{{--                       required>--}}
 
-                <button class="submitbutton-test button-shake" type="submit">
-                    GỬI THÔNG TIN
-                </button>
-            </div>
-        </form>
-    </div>
-    <div class="form-customer-sec9-NM">
-        <img src="{{asset('images/sec10/Group 3888.png')}}" class="formOutline">
-        <form class="form-customer-NM">
+{{--                <button class="submitbutton-test button-shake" type="submit">--}}
+{{--                    GỬI THÔNG TIN--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--        </form>--}}
+{{--    </div>--}}
+    <div class="customer-pc customer-pc-NM ">
+        <p class="text1customersec10">Đăng ký đại lý</p>
+        <p class="text2customersec10">MIN MIN CARE</p>
+        <form class="form-customer">
             <label class="name" for="fullname"></label>
-            <input class="svg-input-customer" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
+            <input class="svg-input-customer-test" placeholder="Họ và tên" type="text" id="fullname" name="fullname"
                    required><br><br>
 
             <label for="phone"></label>
-            <input class="svg-input-customer" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
-                   required><br><br>
-
-            <label for="address"></label>
-            <input class="svg-input-customer" placeholder="Địa chỉ" type="text" id="address" name="address"
+            <input class="svg-input-customer-test" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
                    required><br><br>
 
             <label for="address"></label>
@@ -58,7 +55,7 @@
             <br>
 
             <button class="customer-button">
-                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5 button-shake">
+                <img src="{{asset('images/sec10/Group 2897.png')}}" class="button5 button-shake">
             </button>
         </form>
     </div>

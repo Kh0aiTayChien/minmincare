@@ -1,8 +1,11 @@
 <div class="section-4 pt-3 mt-2">
-    <div class="d-flex align-content-center justify-content-center img-sec4">
-        <img src="{{asset('images/sec4/sanpham.png')}}" alt="" style="" class="img-fluid">
+{{--    <div class="d-flex align-content-center justify-content-center img-sec4">--}}
+{{--        <img src="{{asset('images/sec4/sanpham.png')}}" alt="" style="" class="img-fluid ">--}}
+{{--    </div>--}}
+    <div class="headersec4-product">
+        <p class="header-test-1">Sản phẩm</p>
+        <p class="header-test-2">MIN MIN CARE</p>
     </div>
-
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-4 " aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake"/>
@@ -46,6 +49,23 @@
     }
     .longer-btn {
         width: 200px;
+    }
+    .headersec4-product {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-test-1 {
+        font-size: 40px;
+        font-family: Mitr-Regular, sans-serif;
+        color: white;
+        line-height: 5px;
+        padding-top: 20px;
+    }
+    .header-test-2 {
+        font-size: 50px;
+        font-family: Mitr-SemiBold, sans-serif;
+        color: white;
     }
     .green-bg {
         background-color: #59843d;

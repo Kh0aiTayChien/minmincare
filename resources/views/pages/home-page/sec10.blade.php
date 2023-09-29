@@ -1,6 +1,6 @@
 <div class="sec10pc mt-5">
     <div class="customer-pc">
-        <p class="text1customersec10">ĐĂNG KÝ ĐẠI LÝ</p>
+        <p class="text1customersec10">Đăng ký đại lý</p>
         <p class="text2customersec10">MIN MIN CARE</p>
         <form class="form-customer">
             <label class="name" for="fullname"></label>

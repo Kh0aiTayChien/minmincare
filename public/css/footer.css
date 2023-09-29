@@ -17,23 +17,35 @@
     display: inline;
 }
 
+.logofooter {
+    scale: 80%;
+    transform: translateX(-20%);
+}
+
+
 .phoneicon {
     width: 15vw;
+    scale: 75%;
+    transform: translateX(-28%) translateY(-55%);
 }
 
 .emailicon {
     width: 20vw;
+    scale: 78%;
+    transform: translateX(-23%) translateY(-80%);
 }
 
 .adressicon {
     width: 20vw;
+    scale: 78%;
+    transform: translateX(-23%) translateY(-100%);
 }
 
 .intro {
     font-family: 'Mitr-Medium', sans-serif;
     /*font-weight: bold;*/
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
@@ -42,7 +54,7 @@
     list-style-type: none;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
@@ -53,10 +65,16 @@
 .contentLeftfooter {
     margin-left: 10%!important;
     margin-top: -3%!important;
+    transform: translateX(-20%);
 }
 
 .contentMidfooter {
-    margin-left: 12%!important;
+    margin-left: 8%!important;
+
+}
+
+.contentRightFooter {
+    transform: translateX(15%);
 }
 
 .footermb {

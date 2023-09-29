@@ -49,7 +49,9 @@
 
 
 .headersec2-GT-test {
-    width: 70%;
+    /*width: 70%;*/
+    scale: 65%;
+    transform: translateX(-30%);
 }
 .text1sec2-GT-test {
     text-align: justify;
