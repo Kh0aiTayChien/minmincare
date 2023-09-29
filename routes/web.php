@@ -44,7 +44,7 @@ Route::get('/kien-thuc/{slug}', [App\Http\Controllers\KnowledgeController\Knowle
 Route::get('/kien-thuc/me-sau-sinh/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge2Controller::class, 'show'])->name('kien-thuc.me-sau-sinh.show');
 Route::get('/kien-thuc/dinh-duong-cho-con/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge3Controller::class, 'show'])->name('kien-thuc.dinh-duong-cho-con.show');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
-Route::get('/san-pham/{product}', [\App\Http\Controllers\HomePage\ProductController::class, 'show'])->name('homepage.product.show');
+Route::get('/san-pham/{slug}', [\App\Http\Controllers\HomePage\ProductController::class, 'show'])->name('homepage.product.show');
 Route::get('/advertise', [advertise::class, 'index'])->name('advertise.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');

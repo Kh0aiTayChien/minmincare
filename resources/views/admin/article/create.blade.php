@@ -133,14 +133,14 @@
                                         <textarea class="form-control" id="editor" name="content" rows="10"> </textarea>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="order_number">Số thự tự<span
-                                                class="small text-danger">*</span></label>
-                                        <input type="number" id="order_number" class="form-control" name="order_number"
-                                               placeholder="Số thự tự - mặc định là 1">
-                                    </div>
-                                </div>
+{{--                                <div class="col-lg-4">--}}
+{{--                                    <div class="form-group focused">--}}
+{{--                                        <label class="form-control-label" for="order_number">Số thự tự<span--}}
+{{--                                                class="small text-danger">*</span></label>--}}
+{{--                                        <input type="number" id="order_number" class="form-control" name="order_number"--}}
+{{--                                               placeholder="Số thự tự - mặc định là 1">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="status">Trạng thái<span

@@ -1,6 +1,6 @@
 @extends('page-layout.master')
 @section('section')
-    @include('pages.dai-ly.sec1')
+    @include('pages.home-page.section1')
     @include('pages.dai-ly.sec2')
     @include('pages.dai-ly.sec3')
     @include('pages.dai-ly.section-slide')
@@ -9,4 +9,5 @@
     @include('pages.dai-ly.sec6')
     @include('pages.gioi-thieu.sec7')
     @include('pages.dai-ly.sec8')
+    @include('pages.navigation-sec.navigation-sec')
 @stop

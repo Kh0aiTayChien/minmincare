@@ -34,10 +34,9 @@ class ProductController extends Controller
         }
     }
 
-    public function show($id, Request $request)
+    public function show($slug, Request $request)
     {
-        $product = Product::findOrFail($id);
-
+        $product = Product::where('slug', $slug)->firstOrFail();
         $mediaProducts = MediaProduct::where('product_id', $product->id)->get();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {

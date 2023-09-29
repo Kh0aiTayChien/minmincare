@@ -12,4 +12,5 @@
     @include('pages.nga-min.sec7-c')
     @include('pages.nga-min.sec8-c')
     @include('pages.nga-min.sec9')
+    @include('pages.navigation-sec.navigation-sec')
 @stop

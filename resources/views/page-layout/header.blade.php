@@ -231,8 +231,8 @@
     }
 
     .cart-img {
-        height: 6rem;
-        width: auto;
+        object-fit: cover;
+        height: 5rem;
     }
 
     .cart {

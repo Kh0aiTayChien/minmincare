@@ -1,12 +1,14 @@
 <div class="card card-cart shadow-effect mb-3" style="height: 7rem" id="{{$cart->id}}">
             <div class="row no-gutters p-1">
                 <div class="col-3" style="overflow: hidden">
-                    <img src="{{$cart->Product->image}} " class="card-img cart-img" alt="Ảnh">
+                    <img src="{{$cart->Product->image}} " class="card-img cart-img img-fluid" alt="Ảnh">
                 </div>
                 <div class="col-7">
                     <div class="card-body" style="padding: 0 0 0 0">
-                        <h5 class="card-title" style="margin-bottom: 1px">{{\Illuminate\Support\Str::limit($cart->Product->name,24)}}</h5>
-                        <p class="card-text">{{preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($cart->Product->description),30))}}</p>
+                        <h5 class="card-title mitr-medium green-text text-center mt-3" style="margin-bottom: 1px">{{\Illuminate\Support\Str::limit($cart->Product->name,24)}}</h5>
+                         <p class="card-text text-center mitr-medium orange-text mt-3">
+                             <span class="text-black-50">Giá:</span>
+                             {{ number_format($cart->Product->price, 0, ',', '.') }} vnđ</p>
                     </div>
                 </div>
                 <div class="col-2">

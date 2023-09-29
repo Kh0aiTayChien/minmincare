@@ -250,15 +250,15 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Tên sản phẩm<span
                                                 class="small text-danger">*</span></label>
-                                        <input type="text" id="name" class="form-control" name="name"
+                                        <input type="text" id="title" class="form-control" name="name"
                                                placeholder="Tên sản phẩm">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>
@@ -266,9 +266,17 @@
                                                placeholder="Giá sản phẩm">
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="title">Linh video minh họa</label>
+                                        <label class="form-control-label" for="title">Slug<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="slug" class="form-control" name="slug"
+                                               placeholder="Link không dấu">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Link video minh họa</label>
                                         <input type="text" id="video_url" class="form-control" name="video_url"
                                                placeholder="Link Video">
                                     </div>
