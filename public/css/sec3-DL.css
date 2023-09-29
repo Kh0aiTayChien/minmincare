@@ -1,8 +1,10 @@
 .headersec3-DL {
-    width: 30vw;
-    margin-bottom: 3%;
+    /*width: 30vw;*/
+    scale: 65%;
+    /*margin-bottom: 3%;*/
     margin-top: 5%;
     margin-left: 15%;
+    transform: translateX(38%);
 }
 
 .contentsec3-DL {

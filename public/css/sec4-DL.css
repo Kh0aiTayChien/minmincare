@@ -5,8 +5,9 @@
 }
 
 .headersec4-DL {
-    width: 30vw;
-    margin-top: 2%;
+    /*width: 30vw;*/
+    scale: 65%;
+    /*margin-top: 1%;*/
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
 }
 

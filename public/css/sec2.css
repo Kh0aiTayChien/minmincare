@@ -13,6 +13,19 @@
     width: 25vw;
 }
 
+.header-test-green {
+    font-size: 50px;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843d;
+}
+
+.header-test-orange {
+    font-size: 40px;
+    font-family: Mitr-Regular, sans-serif;
+    color: #F79420;
+    line-height: 5px;
+}
+
 .contentsec2img {
     width: 40vw;
     margin-left: 47%;

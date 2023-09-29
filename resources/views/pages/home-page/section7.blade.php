@@ -111,7 +111,8 @@
     }
     .share-joy{
         width: 35%;
-        margin-left: 50%
+        margin-left: 58%;
+        scale: 70%;
     }
     @media only screen and (max-width: 800px) {
         .custom-prev-arrow,

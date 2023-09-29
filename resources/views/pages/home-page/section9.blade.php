@@ -1,6 +1,6 @@
 <div class="section-9">
     <div class="d-flex align-content-center justify-content-center img-sec9">
-        <img src="{{asset('images/sec9/tintuc.png')}}" alt="" style="" class="img-fluid">
+        <img src="{{asset('images/sec9/tintuc.png')}}" alt="" style="" class="img-fluid img-sec9-test">
     </div>
     <div class="row" style="">
         <div class="col"></div>
@@ -79,7 +79,9 @@
     .section-9.slick-slide {
         margin: 10px;
     }
-
+    .img-sec9-test {
+        scale: 70%;
+    }
     .section-9.slick-slide img {
         width: 90%;
     }

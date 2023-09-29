@@ -1,6 +1,6 @@
 <div class="section-7">
     <div class="d-flex align-content-center justify-content-center img-sec7">
-        <img src="{{asset('images/gioi-thieu/sec7/thuonghieuxungtam.png')}}" alt="" style="" class="img-fluid">
+        <img src="{{asset('images/gioi-thieu/sec7/thuonghieuxungtam.png')}}" alt="" style="" class="img-fluid imgbrand">
     </div>
 
     <div class="slick-carousel position-relative col-12">
@@ -67,7 +67,9 @@
     .section-7.slick-slide {
         margin: 10px;
     }
-
+    .imgbrand {
+        scale: 88%;
+    }
     .section-7.slick-slide img {
         width: 90%;
     }

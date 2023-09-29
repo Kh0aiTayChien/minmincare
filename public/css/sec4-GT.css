@@ -56,7 +56,9 @@
 }
 
 .headersec4-GT-test {
-    width: 70%;
+    scale: 60%;
+    /*width: 70%;*/
+    transform: translateX(-33%);
 }
 
 .textsec4-GT-test {
