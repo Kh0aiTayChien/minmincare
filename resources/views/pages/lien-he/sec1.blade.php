@@ -1,10 +1,14 @@
-<div class="sec1-LH">
-    <h1>Địa chỉ</h1>
+<div class="">
+    <h1></h1>
     <!-- Đoạn mã nhúng Google Maps -->
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5040096213083!2d105.8261099895254!3d21.01251008833494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab87101698e5%3A0x193784bcd78595fe!2zUXXDoW4gxINuIHbhurd0IEPDtCBEdW5n!5e0!3m2!1svi!2s!4v1695970596305!5m2!1svi!2s"
+    <iframe class="col-md-9 d-none d-md-block sec1-LH"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d862.2220785961474!2d105.64008978033246!3d20.992420848063652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313450e2b2cbbc73%3A0x341982468836fb7f!2zQ8OUTkcgVFkgVE5ISCBUTSAmIERWIERJTkggRMav4bugTkcgTUlOTUlOIFZJ4buGVCBOQU0u!5e0!3m2!1svi!2s!4v1695993540351!5m2!1svi!2s"
         width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="col-9 col-xl-9 d-block d-md-none sec1-LH"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d862.2220785961474!2d105.64008978033246!3d20.992420848063652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313450e2b2cbbc73%3A0x341982468836fb7f!2zQ8OUTkcgVFkgVE5ISCBUTSAmIERWIERJTkggRMav4bugTkcgTUlOTUlOIFZJ4buGVCBOQU0u!5e0!3m2!1svi!2s!4v1695993540351!5m2!1svi!2s"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <div class="sec10pc">
