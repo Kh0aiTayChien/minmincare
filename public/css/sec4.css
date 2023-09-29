@@ -43,7 +43,9 @@
     float: right;
     margin-top: 5%;
     margin-right: 17.5%;
-    width: 30vw;
+    /*width: 30vw;*/
+    scale: 70%;
+    transform: translateX(-40%);
 }
 
 .clear {
