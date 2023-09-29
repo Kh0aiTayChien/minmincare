@@ -1,26 +1,44 @@
 <div class="section1 position-relative d-flex justify-content-center align-items-center">
-    <div class=" d-flex  align-items-center  position-absolute row flex-column-reverse" style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)">
+    <div class=" d-flex  align-items-center  position-absolute row flex-column-reverse"
+         style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)">
 
         <div class="position-relative d-flex flex-column-reverse">
             <a href="#sec2" class="arrow-down position-absolute">
                 <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
             </a>
-            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve" >
+            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
         </div>
 
         <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
             <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
-                <div class="px-4">ĐĂNG KÍ ĐẠI LÝ </div>
+                class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
+                <div class="px-4">ĐĂNG KÍ ĐẠI LÝ</div>
             </button>
-            <button class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
-                <div class="px-4">MUA SẢN PHẨM </div>
+            <script>
+                $(document).ready(function () {
+                    $('.register').click(function () {
+                        if (window.location.pathname.includes("/dai-ly") || window.location.pathname.includes("/gioi-thieu")) {
+                            window.location.href = '/';
+                            return false;
+                        }
+                        $('html, body').animate({
+                            scrollTop: $('.sec10pc').offset().top
+                        }, 'medium');
+                    });
+                });
+
+            </script>
+            <button
+                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
+                <a href="{{route('homepage.product.index')}}" style="text-decoration: unset; color: unset">
+                    <div class="px-4">MUA SẢN PHẨM</div>
+                </a>
             </button>
         </div>
 
     </div>
-    <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel" data-interval="5000">
         <div class="carousel-inner">
             @foreach($images as $key => $image)
                 <div class="carousel-item {{$key == 0 ? 'active' : ''}}">
@@ -41,25 +59,29 @@
     </div>
 </div>
 <style>
-    .btn-primary:hover,.btn-primary:focus,.btn-primary:active,
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
     .btn-primary:active:focus:not(:disabled):not(.disabled),
-    .btn:focus, .btn:active, .btn:hover{
-        box-shadow: none!important;
+    .btn:focus, .btn:active, .btn:hover {
+        box-shadow: none !important;
         outline: 0;
     }
-    .btn-curve{
+
+    .btn-curve {
         width: 100%;
     }
-    .btn-curve-mobile{
+
+    .btn-curve-mobile {
         display: none;
     }
-    .arrow-down{
+
+    .arrow-down {
         margin-left: 49%;
         margin-bottom: 5px;
         scale: 70%;
         cursor: pointer;
         /*transition: transform 0.5s ease;*/
     }
+
     /*.arrow-down:hover {*/
     /*    transform: translate(0%, -70%);*/
     /*}*/
@@ -109,25 +131,30 @@
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
     }
+
     @media only screen and (max-width: 1200px) {
-        .arrow-down{
+        .arrow-down {
             margin-left: 48%;
             margin-bottom: 3px;
             scale: 50%;
         }
     }
+
     @media only screen and (max-width: 800px) {
         .call-out-button {
             display: none !important;
         }
-        .btn-curve{
+
+        .btn-curve {
             display: none;
         }
-        .btn-curve-mobile{
+
+        .btn-curve-mobile {
             display: block;
             width: 100vw;
         }
-        .arrow-down{
+
+        .arrow-down {
             margin-left: 45%;
             margin-bottom: 2px;
             scale: 50%;

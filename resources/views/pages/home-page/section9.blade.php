@@ -19,6 +19,7 @@
         <div class="carousel-sec-9">
             @foreach($news as $article)
                 <div class="d-flex justify-content-center">
+                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
                     <div class="card rounded-custom shadow-effect me-1"
                          style="width:20rem; height: 70% ">
                         <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"
@@ -32,6 +33,7 @@
                             </div>
                         </div>
                     </div>
+                    </a>
                 </div>
             @endforeach
 

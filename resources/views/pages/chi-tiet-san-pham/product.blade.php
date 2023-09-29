@@ -1,7 +1,7 @@
 <div class=" container-fluid custom-padding custom-margin ">
     <div class="row">
-        <div class="media-product col-3 offset-2 ">
-            <div class="card p-2 sticky-top" style="height: 50vh">
+        <div class="media-product col-lg-3 col-md-12 col-xs-12 ">
+            <div class="card media-card p-2 sticky-top" style="height: 50vh">
                 <div class="display-media card-img-top d-flex align-content-center justify-content-center">
                     <img class="card-img-top img-fluid" src="{{$product->image}}" alt="">
                 </div>
@@ -129,8 +129,8 @@
                 </div>
             </div>
         </div>
-        <div class="description-product col-3  mt-2">
-            <div class="card mb-3">
+        <div class="description-product col-xl-6 col-lg-5 col-md-12 col-xs-12  mt-2">
+            <div class="card mb-3 card-des">
                 <div class="card-body">
                     <div class="main-info h2 mitr-big green-text">
                         {{$product->name}}
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <div class="description-product col-3  mt-2">
+        <div class="description-product col-xl-3 col-lg-4 col-md-12 col-xs-12 mt-2">
             <div class="card mb-3 sticky-top">
                 <div class="card-body">
                     <div class="main-info h2 mitr-big green-text">
@@ -193,11 +193,34 @@
     </div>
 </div>
 <style>
+
     .card{
         width: 100%;
     }
     .custom-padding {
         padding: 2rem 8rem 2rem 8rem;
+    }
+    @media (max-width: 1200px) {
+        .media-card{
+            height: 60vh !important;
+        }
+    }
+    @media (max-width: 800px) {
+        .custom-padding {
+            padding: 2rem;
+        }
+        .media-card{
+            height: 70vh !important;
+        }
+        .card{
+            z-index: unset;
+        }
+        .custom-margin {
+            margin-top: 2rem !important;
+        }
+        .card-des{
+            display: none;
+        }
     }
 
     .custom-margin {
