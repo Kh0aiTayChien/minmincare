@@ -89,8 +89,7 @@
     }
 
     .height-img-card {
-        height: 200px;
-        width: 404px;
+        object-fit: cover;
     }
     .height-text-card{
         height: 3.5rem;

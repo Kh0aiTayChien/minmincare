@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                                            <button id="uploadButton">Upload Images</button>
+{{--                                            <button id="uploadButton">Upload Images</button>--}}
                     <style>
                         .media-product .item {
                             flex: 0 0 auto; /* Không cho phép các phần tử co lại */
