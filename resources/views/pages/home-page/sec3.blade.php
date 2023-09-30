@@ -27,14 +27,10 @@
         </div>
     </div>
     <object data="{{asset('images/sec3/Group 858.svg')}}" class="headersec3"></object>
-{{--    <div class="headersec3">--}}
-{{--        <p class="header-test-orange headersec3-1">Khởi nguồn</p>--}}
-{{--        <p class="header-test-green headersec3-2">MIN MIN CARE</p>--}}
-{{--    </div>--}}
     <p class="contentsec3"><span>Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp chuyên biệt dành riêng cho từng đối tượng. Được nghiên cứu bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và quốc tế, sản xuất từ nguồn nguyên liệu tự nhiên với công thức đột phá, độc quyền sở hữu.
 </span><br><br><span>Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu mang đến giải pháp dinh dưỡng, sức khỏe toàn diện cho mẹ, bé và cả gia đình Việt.</span>
     </p>
-    <a href="{{asset('nga-minmin')}}" id="nga-min-link">
+    <a href="{{asset('nga-minmin')}}" id="nga-min-link" class="nga-min-link">
         <svg class="button1 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="282.96" height="90.24"
              viewBox="0 0 282.96 90.24">
@@ -77,7 +73,7 @@
     <p class="contentsec3mb">Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không
         chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương
         hiệu hướng tới việc giúp mẹ bầu và mẹ sau sinh làm tròn thiên chức thiêng liêng.</p>
-    <a href="{{asset('nga-minmin')}}">
+    <a href="{{asset('nga-minmin')}}" class="nga-min-link">
         <svg class="button1mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="282.96" height="90.24"
              viewBox="0 0 282.96 90.24">
@@ -108,7 +104,7 @@
             </g>
         </svg>
     </a><br>
-    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>
+{{--    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>--}}
 </div>
 <style>
     .btn-close{

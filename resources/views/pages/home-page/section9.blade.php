@@ -1,6 +1,10 @@
 <div class="section-9">
-    <div class="d-flex align-content-center justify-content-center img-sec9">
+    <div class="d-md-flex d-none align-content-center justify-content-center img-sec9 ">
         <img src="{{asset('images/sec9/tintuc.png')}}" alt="" style="" class="img-fluid img-sec9-test">
+    </div>
+    <div class="headersec4-product d-block d-md-none">
+        <p class="header-sec9-mb-1">Tin tức</p>
+        <p class="header-sec9-mb-2">MIN MIN CARE</p>
     </div>
     <div class="row" style="">
         <div class="col"></div>
@@ -157,7 +161,18 @@
     .btn-long {
         width: 150px;
     }
-
+    .header-sec9-mb-1 {
+        font-size: 22px;
+        font-family: Mitr-Regular, sans-serif;
+        color: #F79420;
+        line-height: 0px;
+        padding-top: 30px;
+    }
+    .header-sec9-mb-2 {
+        font-size: 27px;
+        font-family: Mitr-SemiBold, sans-serif;
+        color: #59843d;
+    }
     @media only screen and (max-width: 800px) {
         .img-sec9 {
             scale: 70%;

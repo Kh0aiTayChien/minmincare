@@ -56,33 +56,33 @@
     {{--    <button class="daily-button-mb">--}}
     {{--        <img src="{{asset('images/sec10/Asset 1.png')}}" class="button4mb">--}}
     {{--    </button>--}}
-    <div class="customer-mb">
-        <p class="text1customersec10mb">Nhận tư vấn từ</p>
-        <p class="text2customersec10mb">MIN MIN CARE</p>
-        <form class="form-customer-mb">
-            <label class="name" for="fullname"></label>
-            <input class="svg-input-customer-mb  customer-top" placeholder="Họ và tên" type="text" id="fullname"
-                   name="fullname"
-                   required><br>
+    <div class="sec10mb">
+        <div class="customer-mb">
+            <p class="text1customersec10mb">ĐĂNG KÝ ĐẠI LÝ</p>
+            <p class="text2customersec10mb">MIN MIN CARE</p>
+            <form class="form-customer-mb">
+                <label class="name" for="fullname"></label>
+                <input class="svg-input-customer-mb  customer-top" placeholder="Họ và tên" type="text" id="fullname"
+                       name="fullname"
+                       required><br>
 
-            <label for="phone"></label>
-            <input class="svg-input-customer-mb" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
-                   required><br>
+                <label for="phone"></label>
+                <input class="svg-input-customer-mb" placeholder="Số điện thoại" type="tel" id="phone" name="phone"
+                       required><br>
 
-            <label for="address"></label>
-            <input class="svg-input-customer-mb" placeholder="Địa chỉ" type="text" id="address" name="address"
-                   required><br>
+                <label for="address"></label>
+                <textarea class="svg-input-bot-mb"
+                          placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
+                          id="address" name="address" required></textarea>
 
-            <label for="address"></label>
-            <textarea class="svg-input-bot-mb"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
-                      id="address" name="address" required></textarea>
-            <br>
+                <button class="customer-button-mb">
+                    GỬI THÔNG TIN NGAY!
+                </button>
 
-            <button class="customer-button-mb">
-                <img src="{{asset('images/sec10/Group 3889.png')}}" class="button5mb">
-            </button>
-        </form>
+            </form>
+        </div>
+        <div class="spacesec10mb"></div>
     </div>
+
     <div class="spacesec10mb"></div>
 </div>

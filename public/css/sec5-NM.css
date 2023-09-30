@@ -39,11 +39,11 @@
         margin-top: 5%;
     }
     .text1sec5-NM {
-        font-size: 40px;
+        font-size: 30px;
     }
     .text2sec5-NM {
-        font-size: 30px;
-        margin-top: -5%;
+        font-size: 22px;
+        margin-top: -6%;
     }
     .text3sec5-NM {
         width: 90vw;
@@ -51,6 +51,7 @@
         font-size: 14px;
     }
     .text4sec5-NM {
+        font-size: 16px;
         width: 90%;
         margin: auto;
         /*font-size: 18px;*/

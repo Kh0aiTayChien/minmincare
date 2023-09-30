@@ -66,7 +66,7 @@
         width: 200px; /* Điều chỉnh chiều dài của nút */
     }
     .imgsec8-NM {
-        scale: 68%;
+        scale: 72%;
     }
     .green-border {
         border: 2px solid #59843d;

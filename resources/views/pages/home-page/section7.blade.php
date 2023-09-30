@@ -1,8 +1,14 @@
 <div class="section-7">
-    <div class=" pt-3 pb-3 me-5" style="">
+    <div class="pt-3 pb-3 me-5 d-none d-md-block" style="">
             <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" class="share-joy" style="">
     </div>
-
+    <div class="headersec4-product d-block d-md-none">
+        <p class="header-sec9-mb-1">Nơi chia sẻ</p>
+        <p class="header-sec9-mb-2">NIỀM VUI</p>
+    </div>
+{{--    <div class="headersec4-product d-block d-md-none ">--}}
+{{--        <p><span class="header-sec9-mb-1">Nơi chia sẻ  </span> <span class="header-sec9-mb-2"> NIỀM VUI</span> </p>--}}
+{{--    </div>--}}
     <div class="slick-carousel position-relative mt-4 col-12">
         <button class="custom-prev-arrow" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect button-shake">
