@@ -9,8 +9,8 @@
     </div>
     @foreach($articles as $article)
         <div class="card mb-4 mt-4 border-0 ">
-            <div class="row">
-                <a href="{{route('kien-thuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
+            <a href="{{route('kien-thuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
+                <div class="row">
                     <div class="col-lg-4 col-xs-12">
                         <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
                     </div>
@@ -23,8 +23,8 @@
                         </div>
                         <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
         <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews mt-4 mb-4">
     @endforeach
