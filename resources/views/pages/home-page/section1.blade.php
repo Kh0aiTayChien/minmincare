@@ -64,16 +64,16 @@
     <div id="carousel_mobile" class="carousel slide w-100 d-md-none" data-bs-ride="carousel" data-interval="5000">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('images/sec1/mobile/Mobile 01.png')}}" class="img-slide" alt="img-slide">
+                <img src="{{asset('images/sec1/mobile/Mobile01.png')}}" class="img-slide" alt="img-slide">
             </div>
             <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile 02.png')}}" class="img-slide" alt="img-slide">
+                <img src="{{asset('images/sec1/mobile/Mobile02.png')}}" class="img-slide" alt="img-slide">
             </div>
             <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile 03.png')}}" class="img-slide" alt="img-slide">
+                <img src="{{asset('images/sec1/mobile/Mobile03.png')}}" class="img-slide" alt="img-slide">
             </div>
             <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile 04.png')}}" class="img-slide" alt="img-slide">
+                <img src="{{asset('images/sec1/mobile/Mobile04.png')}}" class="img-slide" alt="img-slide">
             </div>
         </div>
         <button class="carousel-control-prev button-shake" type="button" data-bs-target="#carousel_mobile"
