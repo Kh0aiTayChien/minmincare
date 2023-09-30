@@ -144,7 +144,7 @@
 
 <div class="section-5-mobile mt-3 mb-3">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec5/rule-mobile.png')}}" alt="" style="width: 80vw" class="img-fluid">
+        <img src="{{asset('images/sec5/rule-mobile.png')}}" alt="" style="width: 70vw" class="img-fluid">
     </div>
     <div class="d-flex align-content-center justify-content-center">
         <img class="card-img-top px-5" src="{{asset('images/sec5/pregenant-mobile.png')}}" alt="Card image">
