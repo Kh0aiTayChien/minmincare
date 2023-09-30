@@ -17,14 +17,21 @@
         display: none;
     }
     .sec8mb {
-        background-image: url("/images/sec8/Chuyên mục sức khỏe - mobile.png");
-        background-size: cover;
-        background-position: center;
-        /*!*background-color: #F1F1F2;*!*/
+        /*background-image: url("/images/sec8/Chuyên mục sức khỏe - mobile.png");*/
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*background-color: #F1F1F2;*/
         display: flex;
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .contentsec8mb {
+        background-image: url("/images/sec8/Chuyên mục sức khỏe - mobile.png");
+        background-size: cover;
+        background-position: center top -70px;
         padding-top: 5%;
         padding-bottom: 8%;
     }
