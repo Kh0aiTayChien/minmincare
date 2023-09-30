@@ -4,21 +4,21 @@
         <div class="card mb-4 mt-4 border-0 ">
             <div class="row">
                 <div class="col-lg-4 col-xs-12">
-                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}">
+                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
                         <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
                     </a>
                 </div>
                 <div class="card-body col-lg-8 col-xs-12">
-                    <p class="textdatetime p-2"><img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}" class="imgdatetime">
-                        {{$article->created_at}}</p>
+                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
+                        <p class="textdatetime p-2"><img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}"
+                                                         class="imgdatetime">
+                            {{$article->created_at}}</p>
 
-                    <div class="green-text"><h4
-                            class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,77)}}</h4>
-                    </div>
-                    <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
-                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}"
-                       class=" green-text titletext mb-3 btn-long mt-2">
-                        Xem Thêm...</a>
+                        <div class="green-text"><h4
+                                class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,77)}}</h4>
+                        </div>
+                        <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -34,12 +34,15 @@
     .green-border {
         border: 2px solid #59843d;
     }
+
     .btn-long {
         width: 200px;
     }
-    .btn-long:hover{
+
+    .btn-long:hover {
         color: #F79421;
     }
+
     .height-img-card {
         height: 240px;
         width: 404px;
