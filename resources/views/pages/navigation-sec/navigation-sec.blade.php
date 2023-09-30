@@ -6,12 +6,12 @@
         </div>
     </div>
 </div>
-<div class="navigation-mobile-sec d-block d-lg-none">
-    <div class="">
-        <div class="d-flex align-content-center justify-content-center">
-            <img src="{{asset('images/navigation/gioi-thieu.png')}}" alt="" class="mx-auto img-fluid" style="scale: 50%">
+<div class="navigation-mobile-sec d-block d-lg-none align-items-center justify-content-center">
+    <div class="pt-2">
+        <div class="headersec4-product d-block d-md-none">
+            <p class="header-test-1-mb">Giới thiệu về</p>
+            <p class="header-test-2-mb">MIN MIN CARE</p>
         </div>
-
         <div class="d-flex align-content-center justify-content-center">
             <a href="{{route('gioi-thieu.index')}}" class="btn green-bg btn-block mb-5 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">TÌM HIỂU THÊM</a>
         </div>
@@ -34,5 +34,22 @@
     }
     .longer-btn {
         width: 200px; /* Điều chỉnh chiều dài của nút */
+    }
+    .headersec4-product {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-test-1-mb {
+        font-size: 22px;
+        font-family: Mitr-Regular, sans-serif;
+        color: white;
+        line-height: 5px;
+        padding-top: 20px;
+    }
+    .header-test-2-mb {
+        font-size: 27px;
+        font-family: Mitr-SemiBold, sans-serif;
+        color: white;
     }
 </style>

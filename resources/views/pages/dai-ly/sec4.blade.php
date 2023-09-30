@@ -16,7 +16,7 @@
         </div>
         <div class="col-7">
             <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
-            <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
+            <img src="{{asset('images/dai-ly/sec4/Group 2.png')}}" class="col-12 quytrinh">
             <img src="{{asset('images/dai-ly/sec4/Group 1.png')}}" class="col-12 quytrinh">
         </div>
 

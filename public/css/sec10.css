@@ -295,11 +295,10 @@
 
     .sec10mb {
         display: block;
-        /*text-align: center;*/
-        /*justify-content: center;*/
         background-image: url("/images/sec10/Group 1270.png");
         background-size: cover;
-        background-position: center top 25px;
+        background-position: center top -100px;
+        padding-top: 1%;
     }
 
     .headersec10mb {
@@ -440,7 +439,7 @@
         border-radius: 5px;
         background-color: #59843d;
         border: 2px white solid;
-        font-family: Mitr-Regular, sans-serif;
+        font-family: Mulish-ExtraBold, sans-serif;
         color: white;
         font-size: 12px;
         width: 42vw;
@@ -449,7 +448,9 @@
         margin-top: 1%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
-
+    /*.btn-form-customer {*/
+    /*    font-family: Mitr-Regular, sans-serif;*/
+    /*}*/
     .button5mb {
         width: 45vw;
         /*margin-left: 3%;*/

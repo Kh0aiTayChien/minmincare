@@ -10,8 +10,21 @@
 .headersec2 {
     margin-left: 52%;
     margin-top: 3%;
-    width: 25vw;
+    /*width: 25vw;*/
 }
+
+/*.header-test-1-mb {*/
+/*    font-size: 22px;*/
+/*    font-family: Mitr-Regular, sans-serif;*/
+/*    color: white;*/
+/*    line-height: 5px;*/
+/*    padding-top: 20px;*/
+/*}*/
+/*.header-test-2-mb {*/
+/*    font-size: 27px;*/
+/*    font-family: Mitr-SemiBold, sans-serif;*/
+/*    color: white;*/
+/*}*/
 
 .header-test-green {
     font-size: 50px;

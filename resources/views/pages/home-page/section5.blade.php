@@ -142,7 +142,7 @@
 
 </div>
 
-<div class="section-5-mobile mt-3 mb-5">
+<div class="section-5-mobile mt-3 mb-3">
     <div class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/sec5/rule-mobile.png')}}" alt="" style="width: 80vw" class="img-fluid">
     </div>
