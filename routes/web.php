@@ -43,7 +43,9 @@ Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('tin-tuc.sh
 Route::get('/kien-thuc/{slug}', [App\Http\Controllers\KnowledgeController\KnowledgeController::class, 'show'])->name('kien-thuc.show');
 Route::get('/kien-thuc/me-sau-sinh/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge2Controller::class, 'show'])->name('kien-thuc.me-sau-sinh.show');
 Route::get('/kien-thuc/dinh-duong-cho-con/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge3Controller::class, 'show'])->name('kien-thuc.dinh-duong-cho-con.show');
-Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index'])->name('homepage.product.index');
+Route::get('/san-pham-ngu-coc', [\App\Http\Controllers\HomePage\ProductController::class, 'index1'])->name('homepage.product.index');
+Route::get('/san-pham-sua-hat', [\App\Http\Controllers\HomePage\ProductController::class, 'index2'])->name('homepage.product.index2');
+Route::get('/san-pham-hat', [\App\Http\Controllers\HomePage\ProductController::class, 'index3'])->name('homepage.product.index3');
 Route::get('/san-pham/{slug}', [\App\Http\Controllers\HomePage\ProductController::class, 'show'])->name('homepage.product.show');
 Route::get('/advertise', [advertise::class, 'index'])->name('advertise.index');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
