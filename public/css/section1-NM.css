@@ -9,7 +9,7 @@
 }
 
 .containersection1-NM {
-    transform: translateX(10%);
+    transform: translateX(25%);
 }
 
 .imgsection1-NM {
@@ -19,7 +19,7 @@
 
 .header1section1-NM {
     font-family: Mitr-Regular, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: right;
     transform: translateY(-100%) translateX(8%);
     color: white;
@@ -27,9 +27,9 @@
 
 .header2section1-NM {
     font-family: Mitr-SemiBold, sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     text-align: right;
-    transform: translateY(-80%) translateX(8%);
+    transform: translateY(-100%) translateX(8%);
     color: white;
 }
 
@@ -37,7 +37,7 @@
     margin-top: -20%;
     z-index: 999;
     position: absolute;
-    padding-left: 15%;
+    /*padding-left: 15%;*/
 }
 
 .section1mb-NM {

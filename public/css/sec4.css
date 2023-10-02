@@ -23,9 +23,10 @@
 .sec4pc {
     background-image: url("/images/sec4/Group 825.png");
     background-repeat: no-repeat;
-    background-size: 100% 70%;
-    background-position: center top 220px;
+    background-size: 100% 80%;
+    background-position: center top 170px;
     /*background-color: aqua;*/
+    margin-top: 5%;
 }
 
 .container1sec4 {
@@ -53,10 +54,6 @@
 }
 
 .content1sec4 {
-    float: right;
-    width: 32vw;
-    margin-right: 15%;
-    margin-top: 2%;
     font-size: 15px;
     text-align: justify;
     color: white;
@@ -66,7 +63,7 @@
 .button2 {
     width: 13vw;
     margin-top: 2%;
-    margin-left: 5.5%;
+    /*margin-left: 5.5%;*/
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
@@ -78,14 +75,24 @@
     margin-left: 52.5%;
 }
 
+.container2sec4-HP {
+    text-align: right;
+    padding-right: 3%;
+}
+
 .content2sec4 {
-    position: absolute;
-    width: 32vw;
-    margin-left: 15%;
-    margin-top: -30%;
+    /*text-align: right;*/
     color: white;
     font-size: 15px;
     text-align: justify;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.content23sec4 {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    /*text-align: justify;*/
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
@@ -109,6 +116,18 @@
 
 }
 
+.container1sec4-HP {
+    padding-left: 3%;
+}
+
+.img1sec4-HP {
+    padding-right: 3%;
+}
+
+.img2sec4-HP {
+    padding-left: 3%;
+}
+
 .textRight {
     float: right;
 }
@@ -117,17 +136,17 @@
     display: none;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1920px) {
-    .sec4pc {
-        background-image: url("/images/sec4/Group 825.png");
-        background-repeat: no-repeat;
-        background-size: 100% 70%;
-        background-position: center top 270px;
-    }
-    .button3 {
-        margin-top: -20%;
-    }
-}
+/*@media screen and (min-width: 1600px) and (max-width: 1920px) {*/
+/*    .sec4pc {*/
+/*        background-image: url("/images/sec4/Group 825.png");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: 100% 70%;*/
+/*        background-position: center top 270px;*/
+/*    }*/
+/*    .button3 {*/
+/*        margin-top: -20%;*/
+/*    }*/
+/*}*/
 
 
 @media screen and (max-width: 768px) {

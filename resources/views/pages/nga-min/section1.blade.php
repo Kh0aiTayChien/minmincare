@@ -1,16 +1,16 @@
 <div class="section1-NM">
     <div class="row-test introduce-NM">
-        <div class="col-xxl-4 col-md-5">
-        <img src="{{asset('images/nga-min/section1/Asset 1.png')}}" class="containersection1-NM">
+        <div class="col-xxl-4 col-sm-5">
+            <img src="{{asset('images/nga-min/section1/Asset 1.png')}}" class="containersection1-NM col-xxl-12 col-sm-12">
             <p class="header1section1-NM">Đồng hành bởi</p>
             <p class="header2section1-NM">NGA MIN MIN</p>
         </div>
-        <img src="{{asset('images/nga-min/section1/Asset 4.png')}}" class="col-xxl-5 col-md-6 imgsection1-NM">
+        <img src="{{asset('images/nga-min/section1/Asset 4.png')}}" class="col-xxl-5 col-sm-6 imgsection1-NM">
     </div>
-    <div class="row-test threediamond">
-        <img src="{{asset('images/nga-min/section1/Asset 5.png')}}" class="">
-        <img src="{{asset('images/nga-min/section1/Asset 6.png')}}" class="">
-        <img src="{{asset('images/nga-min/section1/Asset 7.png')}}" class="">
+    <div class="row-test threediamond col-12">
+        <img src="{{asset('images/nga-min/section1/Asset 5.png')}}" class="col-3">
+        <img src="{{asset('images/nga-min/section1/Asset 6.png')}}" class="col-3">
+        <img src="{{asset('images/nga-min/section1/Asset 7.png')}}" class="col-3">
     </div>
 </div>
 

@@ -1,6 +1,14 @@
 <div class="sec2-DL">
-    <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL">
-    <object data="{{asset('images/dai-ly/sec2/Group 3173.svg')}}" class="headerbannersec2-DL"></object>
+    <div class="row-test">
+        <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL col-5">
+        <div class="col-5 quote-test">
+            <img src="{{asset('images/dai-ly/sec2/Asset 21.png')}}" class="quotesec2-DL col-11">
+{{--            <p class="headersec2-DL col-11">MIN MIN CARE</p>--}}
+{{--            <p class="headersec2-DL2 col-11">chỉ nhận hợp tác đại lý nếu</p>--}}
+            <img src="{{asset('images/dai-ly/sec2/Group 3173.svg')}}" class="headersec2-DL col-11">
+        </div>
+    </div>
+
     <div class="row-test conditionsec2-DL-test">
         <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="col-2 button-shake">
         <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="col-2 button-shake">

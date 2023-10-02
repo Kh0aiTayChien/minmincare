@@ -1,7 +1,11 @@
 <div class="sec3-DL">
-    <img src="{{asset('images/dai-ly/sec3/Group 3176.png')}}" class="headersec3-DL"><br>
-    <img src="{{asset('images/dai-ly/sec3/Group 3175.png')}}" class="contentsec3-DL button-shake">
-    <img src="{{asset('images/dai-ly/sec3/Group 3079.png')}}" class="bannersec3-DL">
+    <div class="row-test">
+        <div class="col-md-5">
+            <img src="{{asset('images/dai-ly/sec3/Group 3176.png')}}" class="headersec3-DL"><br>
+            <img src="{{asset('images/dai-ly/sec3/Group 3175.png')}}" class="contentsec3-DL button-shake">
+        </div>
+        <img src="{{asset('images/dai-ly/sec3/Group 3079.png')}}" class="bannersec3-DL col-md-6">
+    </div>
 </div>
 <div class="sec3mb-DL">
     <img src="{{asset('images/dai-ly/sec3/Asset 7.png')}}" class="headersec3mb-DL">
