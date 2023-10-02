@@ -127,6 +127,25 @@
         overflow: hidden;
     }
 
+    @media screen and (min-aspect-ratio: 0.8/1) and (max-aspect-ratio: 8/5) {
+        .carousel-control-prev {
+            float: left;
+            margin-left: -5%;
+            scale: 70%;
+            z-index: 999;
+            margin-top: 40% !important;
+            height: 70px; /* Đặt độ dài mới */
+        }
+
+        .carousel-control-next {
+            scale: 70%;
+            float: right;
+            margin-right: -5%;
+            margin-top: 40% !important;
+            height: 70px; /* Đặt độ dài mới */
+            z-index: 999;
+        }
+    }
     .carousel-control-prev {
         float: left;
         margin-left: -5%;
