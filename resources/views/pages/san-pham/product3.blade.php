@@ -1,5 +1,5 @@
 <div class=" d-flex justify-content-center align-items-center custom-mt">
-    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%">
+    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%" class="custom-top">
 </div>
 <div class="secp-TT mb-4" style="">
     <div class="row-test mb-4">
@@ -62,12 +62,21 @@
     }
 
     .custom-padding {
-        padding: 2rem 8rem 0 8rem;
+        padding: 1rem 8rem 0 8rem;
     }
 
-    @media screen and (min-width: 1800px) {
+    @media screen and (min-width: 1400px) {
         .custom-padding {
             padding: 1rem 25rem !important;
+        }
+        .custom-top {
+            margin-top: 3rem;
+        }
+    }
+
+    @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 8/5) {
+        .custom-top {
+            margin-top: 8rem !important;
         }
     }
 
