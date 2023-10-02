@@ -44,9 +44,8 @@ class ProductController extends Controller
 
     public function index2(Request $request)
     {
-        $category2 = Category::where('slug', 'sua-hat')->firstOrFail();
-        $nut_milks = $category2->products;
-
+        $category2 = Category::where('slug', 'sua-hat')->firstOrFail()->id;
+        $nut_milks = Product::where('category_id', $category2)->get();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
@@ -69,9 +68,8 @@ class ProductController extends Controller
 
     public function index3(Request $request)
     {
-        $category3 = Category::where('slug', 'hat')->firstOrFail();
-        $nuts = $category3->products;
-
+        $category3 = Category::where('slug', 'hat')->firstOrFail()->id;
+        $nuts = Product::where('category_id', $category3)->get();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();

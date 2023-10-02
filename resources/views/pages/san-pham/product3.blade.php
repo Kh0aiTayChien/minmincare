@@ -14,7 +14,7 @@
     </div>
 </div>
 <div class=" container-fluid custom-padding ">
-    <div class="row gx-5 gy-4 pos-center nuts product-item d-none" data-id="3">
+    <div class="row gx-5 gy-4 pos-center nuts product-item" data-id="3">
         @foreach($nuts as $product)
             <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
 
