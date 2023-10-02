@@ -17,4 +17,8 @@ class Category extends Model
     {
         return $this->hasMany(Image::class)->onDelete('casade');
     }
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
 }

@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
+                <a href="{{route('homepage.product.index')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-4 logominmin">
@@ -343,7 +343,7 @@
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('san-pham')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN
+                <a href="{{route('homepage.product.index')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN
                         PHẨM</p></a>
             </li>
             <li class="contact linemenu">
