@@ -1,25 +1,23 @@
-<div class=" d-flex justify-content-center align-items-center custom-mt ">
-    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%" class="custom-top">
+<div class=" d-flex justify-content-center align-items-center custom-mt">
+    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%">
 </div>
 <div class="secp-TT mb-4" style="">
     <div class="row-test mb-4">
+        <a href="{{route('homepage.product.index')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test" >
+            <img src="{{asset('images/san-pham/ngu-coc.png')}}" class="col-12 button-shake"></a>
 
-        <div href="" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test " data-id="1">
-            <img src="{{asset('images/san-pham/ngu-coc-xanh.png')}}" class="col-12 button-shake"></div>
-
-        <a href="{{route('homepage.product.index2')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"
-           data-id="2"><img
+        <a href="{{route('homepage.product.index2')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test" ><img
                 src="{{asset('images/san-pham/sua-hat.png')}}" class="col-12 button-shake"></a>
 
-        <a href="{{route('homepage.product.index3')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test " data-id="3"><img
-                src="{{asset('images/san-pham/hat.png')}}" class="col-12 button-shake"></a>
+        <div href="" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test " ><img
+                src="{{asset('images/san-pham/hat-xanh.png')}}" class="col-12 button-shake"></div>
     </div>
 </div>
-
 <div class=" container-fluid custom-padding ">
-    <div class="row gx-5 gy-4 pos-center cereals product-item" data-id="1">
-        @foreach($cereals as $product)
+    <div class="row gx-5 gy-4 pos-center nuts product-item d-none" data-id="3">
+        @foreach($nuts as $product)
             <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
+
                 <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
                     <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
                         <div class="d-flex justify-content-center align-items-center">
@@ -50,6 +48,7 @@
     </div>
 </div>
 
+
 <style>
     a {
         text-decoration: unset;
@@ -63,21 +62,12 @@
     }
 
     .custom-padding {
-        padding: 1rem 8rem 0 8rem;
+        padding: 2rem 8rem 0 8rem;
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1800px) {
         .custom-padding {
             padding: 1rem 25rem !important;
-        }
-        .custom-top {
-            margin-top: 3rem;
-        }
-    }
-
-    @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 8/5) {
-        .custom-top {
-            margin-top: 8rem !important;
         }
     }
 

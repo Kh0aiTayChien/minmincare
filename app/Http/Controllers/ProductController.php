@@ -30,7 +30,8 @@ class ProductController extends Controller
 
     public function create()
     {
-        return view('admin/product/create');
+        $categories = Category::where('type', 3)->get();
+        return view('admin/product/create', ['categories' => $categories]);
     }
 
     public function store(Request $request)
@@ -40,17 +41,20 @@ class ProductController extends Controller
             'price' => 'required|numeric',
             'description' => 'required',
             'slug' => 'required|unique:products,slug',
+            'category' => 'required',
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'name.required' => 'Không được để trống',
             'slug.unique' => 'Link đã tồn tại',
-            'slug.required' => 'Không được để trống'
+            'slug.required' => 'Không được để trống',
+            'category.required' => 'Không được để trống'
         ]);
         $product = new Product();
         $product->name = $validatedData['name'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
+        $product->category_id = $validatedData['category'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -70,6 +74,7 @@ class ProductController extends Controller
 
     public function edit($id)
     {
+        $categories = Category::where('type', 3)->get();
         $product = Product::findOrFail($id);
         $base64Images = [];
 
@@ -83,7 +88,7 @@ class ProductController extends Controller
                 $base64Images[] = 'data:image/png;base64,' . $imageData;
             }
         }
-        return view('admin/product/edit', ['product' => $product, 'mediaProducts' => $base64Images] );
+        return view('admin/product/edit', ['product' => $product, 'mediaProducts' => $base64Images, 'categories' => $categories] );
     }
 
     public function update(Request $request, $id)
@@ -92,18 +97,21 @@ class ProductController extends Controller
             'name' => 'required|string|',
             'price' => 'required|numeric',
             'description' => 'required',
-            'slug' => 'required'
+            'slug' => 'required',
+            'category' => 'required'
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'price.required' => 'Không được để trống',
             'description.required' => 'Không được để trống',
-            'slug.required' => 'Không được để trống'
+            'slug.required' => 'Không được để trống',
+            'category.required' => 'Không được để trống'
         ]);
         $product = Product::findOrFail($id);
         $product->name = $validatedData['name'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
+        $product->category_id = $validatedData['category'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');

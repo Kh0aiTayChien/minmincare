@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Models;
-
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
@@ -16,4 +15,10 @@ class Product extends Model
     {
         return $this->hasMany(MediaProduct::class)->onDelete('cascade');
     }
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
 }
