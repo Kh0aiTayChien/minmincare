@@ -122,10 +122,12 @@
 
 .img1sec4-HP {
     padding-right: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .img2sec4-HP {
     padding-left: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .textRight {

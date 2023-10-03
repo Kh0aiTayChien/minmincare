@@ -1,6 +1,6 @@
 <div class="headerpc fixed-top" id="myHeader">
     <div class="background-image"></div>
-    <div class="col-xxl-12 col-md-12 row-test">
+    <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
                 <a href="{{asset('/')}}" id="trang-chu-link">

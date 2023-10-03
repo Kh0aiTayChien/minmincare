@@ -46,7 +46,10 @@
 
 .headersec3-GT-test {
     /*width: 70%;*/
-    margin-left: 33%;
+    /*margin-left: 33%;*/
+    transform: translateX(28%);
+    text-align: right;
+    justify-content: right;
     scale: 65%;
 }
 

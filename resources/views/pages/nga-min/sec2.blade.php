@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
-            <img src="{{asset('images/nga-min/sec2/Asset 2.png')}}" class="col-xxl-4 col-md-5 imgsec2-NM">
+            <img src="{{asset('images/nga-min/sec2/Asset 2.png')}}" class="col-xxl-4 col-md-4 imgsec2-NM">
             <p class="text2sec2-GT-test text-NM">Sau đó Nga có cơ duyên hợp tác và được nghiên cứu độc quyền cùng với
                 <span
                     class="bold-text">đội ngũ chuyên gia dinh dưỡng hàng đầu giàu kinh nghiệm, uy tín từ nước ngoài</span>
