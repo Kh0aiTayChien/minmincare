@@ -149,15 +149,18 @@ ul.iconmb {
         width: 100%;
         height: 100%;
         background-image: url("/images/header/Asset 1.png");
-        background-size: 140% 140%;
+        background-size: 140% 110%;
         background-position: center top -15px;
         background-repeat: no-repeat;
         opacity: 1;
         transition: opacity 0.5s ease;
         z-index: -1;
     }
+    .headermenu {
+        transform: translateY(-5%);
+    }
     .logo-test {
-        transform: none;
+        transform: translateY(5%);
     }
     .menuleft {
         transform: none;

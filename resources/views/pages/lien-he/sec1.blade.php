@@ -2,13 +2,13 @@
     <h1 class="d-none d-md-block sec1-LH-test header-test-green-LH col-10">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH DƯỠNG MIN MIN VIỆT NAM
         </h1>
     <p class="header-test-orange-LH col-9 d-none d-md-block">Địa chỉ : Xóm 3 Thôn Cấn Hạ, Xã Hữu Cấn, Huyện Quốc Oai, Thành Phố Hà Nội</p>
-    <p class="header-test-orange-LH col-9 d-none d-md-block">SDT: 0989985091</p>
+    <p class="header-test-orange-LH col-9 d-none d-md-block">Số điện thoại: 0989985091</p>
     <u class="header-test-orange-LH inlinetext col-9 d-none d-md-block">Email: info@minmincare.vn</u>
 
     <h1 class="d-block d-md-none sec1-LH-test-mb header-test-green-LH-mb col-9">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH DƯỠNG MIN MIN VIỆT NAM
     </h1>
     <p class="header-test-orange-LH-mb col-9 d-block d-md-none">Địa chỉ : Xóm 3 Thôn Cấn Hạ, Xã Hữu Cấn, Huyện Quốc Oai, Thành Phố Hà Nội</p>
-    <p class="header-test-orange-LH-mb col-9 d-block d-md-none line-height-test">SDT: 0989985091</p>
+    <p class="header-test-orange-LH-mb col-9 d-block d-md-none line-height-test">Số điện thoại: 0989985091</p>
     <p class="header-test-orange-LH-mb col-9 d-block d-md-none line-height-test">Email: info@minmincare.vn</p>
 
     <!-- Đoạn mã nhúng Google Maps -->
