@@ -71,7 +71,7 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab2 px-5 mt-5 gx-0 ">
+    <div class="row tab tab2 px-5 mt-5 gy-4 gx-1 ">
         <div class="col-1"></div>
         @if(isset($cereals))
             @foreach( $cereals as $product)
@@ -100,7 +100,7 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab3 px-5 mt-5 gx-0 ">
+    <div class="row tab tab3 px-5 mt-5 gy-4 gx-1 ">
         <div class="col-1"></div>
         @if(isset($milk_pregnant))
             @foreach( $milk_pregnant as $product)
@@ -129,7 +129,7 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab4 px-5 mt-5 gx-0 ">
+    <div class="row tab tab4 px-5 mt-5 gy-4 gx-1 ">
         <div class="col-1"></div>
         @if(isset($nut_milks))
             @foreach( $nut_milks as $product)
@@ -158,7 +158,7 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab5 px-5 mt-5 gx-0 ">
+    <div class="row tab tab5 px-5 mt-5 gy-4 gx-1 ">
         <div class="col-1"></div>
         @if(isset($nuts))
             @foreach( $nuts as $product)
@@ -188,6 +188,33 @@
         @endif
     </div>
 </div>
+
+<style>
+    .tab-button.active {
+        background-color: #ccc;
+    }
+
+    .tabs .tab {
+        display: none;
+    }
+
+    .tabs .tab.active {
+        display: flex;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $('.tab-button').click(function () {
+            var target = $(this).data('target');
+
+            $('.tab-button').removeClass('active');
+            $(this).addClass('active');
+
+            $('.tab').removeClass('active');
+            $('.' + target).addClass('active');
+        });
+    });
+</script>
 
 <style>
     a {
