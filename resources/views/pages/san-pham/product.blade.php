@@ -27,14 +27,14 @@
                         </div>
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">
+                        <p class="card-title d-flex justify-content-center">
                             <p class="text-center mitr-medium
-                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
+                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</p>
                         </p>
-                        <p class="card-text text-center mitr-big orange-text
+                        <p class=" text-center mitr-big orange-text
                         ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
 
-                        <p class="card-text text-center mitr-small">Xem chi tiết</p>
+                        <p class="text-center mitr-small">Xem chi tiết</p>
 
                         <div class="d-flex justify-content-center align-content-center">
                             <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
@@ -59,22 +59,32 @@
     }
 
     .custom-ms {
-        margin-left: 4rem;
     }
 
     .custom-padding {
-        padding: 1rem 8rem 0 8rem;
+        /*padding: 1rem 8rem 0 8rem;*/
     }
 
     @media screen and (min-width: 1400px) {
         .custom-padding {
-            padding: 1rem 25rem !important;
+            width: 65%;
         }
         .custom-top {
             margin-top: 3rem;
         }
     }
 
+    @media screen and (min-width: 770px) and (max-width: 1399px) {
+        .custom-padding {
+            width: 100%;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .custom-ms {
+            /*padding-left: 5%;*/
+        }
+    }
     @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 8/5) {
         .custom-top {
             margin-top: 8rem !important;
@@ -121,7 +131,8 @@
     }
 
     .card-title {
-        height: 3rem;
+        /*height: 3rem;*/
+        line-height: 0.5rem;
     }
 
     .border-radius {
