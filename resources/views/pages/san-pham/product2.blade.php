@@ -7,10 +7,12 @@
             <img src="{{asset('images/san-pham/ngu-coc.png')}}" class="col-12 button-shake"></a>
 
 
-        <div href="" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test btn-active2 " data-id="2"><img src="{{asset('images/san-pham/sua-hat-xanh.png')}}" class="col-12 button-shake"></div>
+        <div href="" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test btn-active2 " data-id="2"><img
+                src="{{asset('images/san-pham/sua-hat-xanh.png')}}" class="col-12 button-shake"></div>
 
 
-        <a href="{{route('homepage.product.index3')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test btn-off3" data-id="3"><img src="{{asset('images/san-pham/hat.png')}}" class="col-12 button-shake"></a>
+        <a href="{{route('homepage.product.index3')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test btn-off3"
+           data-id="3"><img src="{{asset('images/san-pham/hat.png')}}" class="col-12 button-shake"></a>
 
     </div>
 </div>
@@ -19,7 +21,6 @@
     <div class="row gx-5 gy-4 pos-center nuts product-item" data-id="2">
         @foreach($nut_milks as $product)
             <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
-
                 <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
                     <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
                         <div class="d-flex justify-content-center align-items-center">
@@ -27,14 +28,14 @@
                         </div>
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">
+                        <p class="card-title d-flex justify-content-center">
                             <p class="text-center mitr-medium
-                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
+                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</p>
                         </p>
-                        <p class="card-text text-center mitr-big orange-text
+                        <p class="text-center mitr-big orange-text
                         ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
 
-                        <p class="card-text text-center mitr-small">Xem chi tiết</p>
+                        <p class="text-center mitr-small">Xem chi tiết</p>
 
                         <div class="d-flex justify-content-center align-content-center">
                             <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
@@ -59,17 +60,18 @@
     }
 
     .custom-ms {
-        margin-left: 4rem;
+        /*margin-left: 4rem;*/
     }
 
     .custom-padding {
-        padding: 1rem 8rem 0 8rem;
+        /*padding: 1rem 8rem 0 8rem;*/
     }
 
     @media screen and (min-width: 1400px) {
         .custom-padding {
-            padding: 1rem 25rem !important;
+            width: 65%;
         }
+
         .custom-top {
             margin-top: 3rem;
         }
@@ -78,6 +80,18 @@
     @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 8/5) {
         .custom-top {
             margin-top: 8rem !important;
+        }
+    }
+
+    @media screen and (min-width: 770px) and (max-width: 1399px) {
+        .custom-padding {
+            width: 100%;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .custom-ms {
+            /*padding-left: 5%;*/
         }
     }
 
@@ -121,7 +135,7 @@
     }
 
     .card-title {
-        height: 3rem;
+        line-height: 0.5rem;
     }
 
     .border-radius {

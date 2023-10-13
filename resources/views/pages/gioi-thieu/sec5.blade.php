@@ -1,7 +1,7 @@
 <div class="sec5-GT-test">
     {{--    <object data="{{asset('images/gioi-thieu/sec5/Group 7692.svg')}}" class="headersec5-GT-test"></object>--}}
     <div class="row-test">
-        <div class="block col-md-5 col-xxl-5">
+        <div class="block col-sm-7 col-xxl-6">
             <p class="textsec5-GT">Là một người mẹ, Nga nhận thức được rất rõ nỗi đau khi không đủ sữa cho con. Vì Nga
                 hiểu rằng sữa mẹ là nguồn dinh dưỡng rất quan trọng cho sức khỏe và sự phát triển của con. Đặc biệt khi
                 không đủ sữa cho con, con quấy, khiến mẹ mệt mỏi, suy nhược, giảm cân.</p>
@@ -18,7 +18,7 @@
             <a href="{{asset('nga-minmin')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}"
                                                    class="btn-start-test button-shake"></a>
         </div>
-        <img src="{{asset('images/gioi-thieu/sec5/Group 1340.png')}}" class="bannersec5-GT-test col-md-5 col-xxl-3">
+        <img src="{{asset('images/gioi-thieu/sec5/Group 1340.png')}}" class="bannersec5-GT-test col-sm-3 col-xxl-3">
     </div>
 </div>
 
