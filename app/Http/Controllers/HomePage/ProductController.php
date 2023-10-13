@@ -17,9 +17,18 @@ class ProductController extends Controller
 {
     public function index1(Request $request)
     {
+
         $products = Product::all();
-        $category1 = Category::where('slug', 'ngu-coc')->firstOrFail();
+        $category1 = Category::where('slug', 'ngu-coc-me-bau')->firstOrFail();
+        $category2 = Category::where('slug', 'ngu-coc-loi-sua')->firstOrFail()->id;
+        $category3 = Category::where('slug', 'sua-hat-dinh-duong')->firstOrFail()->id;
+        $category4 = Category::where('slug', 'hat-granola')->firstOrFail()->id;
+
         $cereals = $category1->products;
+        $milk_pregnant = Product::where('category_id', $category2)->get();
+        $nut_milks = Product::where('category_id', $category3)->get();
+        $nuts = Product::where('category_id', $category4)->get();
+
 
 
         $sessionCookie = config('session.cookie');
@@ -27,9 +36,10 @@ class ProductController extends Controller
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 1440);
             return response()
-                ->view('pages/san-pham/index',
+                ->view('pages.san-pham.index',
                     ['products' => $products, 'cereals' => $cereals,
-                         ])
+                        'milk_pregnant' => $milk_pregnant, '$nut_milks' => $nut_milks,
+                        '$nuts' => $nuts])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -37,8 +47,10 @@ class ProductController extends Controller
                 $query->where('session_code', $sessionId);
             })->get();
 
-            return view('pages/san-pham/index',
-                ['products' => $products, 'carts' => $carts, 'cereals' => $cereals]);
+            return view('pages.san-pham.index',
+                ['products' => $products, 'carts' => $carts, 'cereals' => $cereals,
+                    'milk_pregnant' => $milk_pregnant, '$nut_milks' => $nut_milks,
+                    '$nuts' => $nuts]);
         }
     }
 

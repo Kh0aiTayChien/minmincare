@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Bài viết mới') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Upload ảnh mới') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -54,7 +54,7 @@
                 <script>
                     function previewImage(event) {
                         var reader = new FileReader();
-                        reader.onload = function(){
+                        reader.onload = function () {
                             var preview = document.getElementById('image-review');
                             preview.src = reader.result;
 
@@ -90,31 +90,24 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{route('images.update',['image' => $image->id ])}}" autocomplete="off" enctype="multipart/form-data">
+                    <form method="POST" action="{{route('images.update',['image' => $image->id ])}}" autocomplete="off"
+                          enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <input type="hidden" name="_method" value="PATCH">
 
-                        <h6 class="heading-small text-muted mb-4">CẬP NHẬT ẢNH</h6>
-
+                        <h6 class="heading-small text-muted mb-4">CẬP NHẬT ẢNH </h6>
                         <div class="pl-lg-4">
                             <div class="row">
-{{--                                <div class="col-lg-6">--}}
-{{--                                    <div class="form-group focused">--}}
-{{--                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span--}}
-{{--                                                class="small text-danger">*</span></label>--}}
-{{--                                        <input type="text" id="name" class="form-control" name="name"--}}
-{{--                                               value="{{$image->name}}"--}}
-{{--                                               placeholder="tên ảnh">--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
                                 <div class="col-lg-12">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
+                                        <label class="form-control-label" for="category">Chủ đề<span
+                                                class="small text-danger">*</span></label>
                                         <select id="category" class="form-control" name="category">
                                             <option value="">-- Chọn chủ đề --</option>
                                             @foreach($categories as $category)
-                                                <option value="{{ $category->id }}" {{ $category->id == $image->category_id ? 'selected' : '' }}>{{ $category->title }}</option>
+                                                <option
+                                                    value="{{ $category->id }}" {{ $category->id == $image->category_id ? 'selected' : '' }}>{{ $category->title }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -122,13 +115,24 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="image"> Upload ảnh tại đây <span
-                                                class="small text-danger">*</span></label>
-                                        <input type="file" id="image" class="form-control" name="image"
+                                                class="small text-danger">kích cỡ khuyến nghị 1500x800, định dạng PNG, JPG</span>
+                                        </label>
+
+                                        <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
                                     </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group focused">
+                                    <label class="form-control-label" for="title">Link điều hướng ảnh<span
+                                            class="small text-danger">*</span></label>
+                                    <input type="text" id="url" class="form-control" name="url"
+                                           value="{{$image->url}}"
+                                           placeholder="Link điều hướng ảnh">
                                 </div>
                             </div>
                         </div>

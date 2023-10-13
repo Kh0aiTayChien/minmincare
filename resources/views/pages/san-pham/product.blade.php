@@ -1,54 +1,258 @@
 <div class=" d-flex justify-content-center align-items-center custom-mt ">
     <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%" class="custom-top">
 </div>
-<div class="secp-TT mb-4" style="">
-    <div class="row-test mb-4">
-
-        <div href="" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test " data-id="1">
-            <img src="{{asset('images/san-pham/ngu-coc-xanh.png')}}" class="col-12 button-shake"></div>
-
-        <a href="{{route('homepage.product.index2')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"
-           data-id="2"><img
-                src="{{asset('images/san-pham/sua-hat.png')}}" class="col-12 button-shake"></a>
-
-        <a href="{{route('homepage.product.index3')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test " data-id="3"><img
-                src="{{asset('images/san-pham/hat.png')}}" class="col-12 button-shake"></a>
+<div class=" mb-4" style="">
+    <div class="row px-5 mx-5 mb-5 gx-3 gy-2">
+        <div class="col-md-1 col-xs-0"></div>
+        <div class="col-md-2  d-flex justify-content-center align-content-center ">
+            <button class="tab-button btn btn-outline-white shadow-effect
+                                border-white text-white border-2 green-bg mitr-small button-shake active"
+                    data-target="tab1" style="width: 100%; border-radius: 10px">
+                <div class=" font-size-custom">TẤT CẢ SẢN PHẨM</div>
+            </button>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-content-center">
+            <button class="tab-button btn btn-outline-white btn-block  shadow-effect
+                                border-white text-white border-2 green-bg mitr-small button-shake"
+                    data-target="tab2" style="width: 100% ; border-radius: 10px">
+                <div class="  font-size-custom">NGŨ CỐC MẸ BẦU</div>
+            </button>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-content-center">
+            <button class="tab-button btn btn-outline-white btn-block  shadow-effect
+                                border-white text-white border-2 green-bg mitr-small button-shake"
+                    data-target="tab3" style="width: 100% ; border-radius: 10px">
+                <div class=" font-size-custom">SỮA HẠT LỢI SỮA</div>
+            </button>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-content-center">
+            <button class="tab-button btn btn-outline-white btn-block  shadow-effect
+                                border-white text-white border-2 green-bg mitr-small button-shake"
+                    data-target="tab4" style="width: 100% ; border-radius: 10px">
+                <div class=" font-size-custom">SỮA HẠT DINH DƯỠNG</div>
+            </button>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-content-center">
+            <button class="tab-button btn btn-outline-white btn-block  shadow-effect
+                                border-white text-white border-2 green-bg mitr-small button-shake"
+                    data-target="tab5" style="width: 100% ; border-radius: 10px">
+                <div class="font-size-custom">HẠT GRANOLA</div>
+            </button>
+        </div>
     </div>
 </div>
 
-<div class=" container-fluid custom-padding ">
-    <div class="row gx-5 gy-4 pos-center cereals product-item" data-id="1">
-        @foreach($cereals as $product)
-            <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">
-                <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">
-                    <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">
-                        </div>
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">
-                            <p class="text-center mitr-medium
-                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>
-                        </p>
-                        <p class="card-text text-center mitr-big orange-text
-                        ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>
-
-                        <p class="card-text text-center mitr-small">Xem chi tiết</p>
-
-                        <div class="d-flex justify-content-center align-content-center">
-                            <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
-                                border-white text-white border-2 green-bg mitr-small buy-button button-shake"
-                                    data-id="{{$product->id}}">
-                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>
-                            </button>
+<div class=" tabs">
+    <div class="row tab tab1 px-5 mt-5 gy-4 gx-1 active">
+        @if(isset($products))
+            @foreach( $products as $product)
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:18rem; ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        @endforeach
+            @endforeach
+        @endif
+    </div>
+    <div class="row tab tab2 px-5 mt-5 gx-0 ">
+        <div class="col-1"></div>
+        @if(isset($cereals))
+            @foreach( $cereals as $product)
+                <div class="col-3 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:18rem; ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+    <div class="row tab tab3 px-5 mt-5 gx-0 ">
+        <div class="col-1"></div>
+        @if(isset($milk_pregnant))
+            @foreach( $milk_pregnant as $product)
+                <div class="col-3 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:18rem; ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+    <div class="row tab tab4 px-5 mt-5 gx-0 ">
+        <div class="col-1"></div>
+        @if(isset($nut_milks))
+            @foreach( $nut_milks as $product)
+                <div class="col-3 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:18rem; ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+    <div class="row tab tab5 px-5 mt-5 gx-0 ">
+        <div class="col-1"></div>
+        @if(isset($nuts))
+            @foreach( $nuts as $product)
+                <div class="col-3 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:18rem; ">
+                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                             alt="Card image">
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
     </div>
 </div>
+
+</div>
+
+
+<div class=" container-fluid custom-padding ">
+    <div class="row gx-5 gy-4 pos-center cereals product-item" data-id="1">
+        {{--        @foreach($cereals as $product)--}}
+        {{--            <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">--}}
+        {{--                <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">--}}
+        {{--                    <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">--}}
+        {{--                        <div class="d-flex justify-content-center align-items-center">--}}
+        {{--                            <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">--}}
+        {{--                        </div>--}}
+        {{--                    </a>--}}
+        {{--                    <div class="card-body">--}}
+        {{--                        <h5 class="card-title d-flex justify-content-center">--}}
+        {{--                            <p class="text-center mitr-medium--}}
+        {{--                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>--}}
+        {{--                        </p>--}}
+        {{--                        <p class="card-text text-center mitr-big orange-text--}}
+        {{--                        ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>--}}
+
+        {{--                        <p class="card-text text-center mitr-small">Xem chi tiết</p>--}}
+
+        {{--                        <div class="d-flex justify-content-center align-content-center">--}}
+        {{--                            <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect--}}
+        {{--                                border-white text-white border-2 green-bg mitr-small buy-button button-shake"--}}
+        {{--                                    data-id="{{$product->id}}">--}}
+        {{--                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>--}}
+        {{--                            </button>--}}
+        {{--                        </div>--}}
+        {{--                    </div>--}}
+        {{--                </div>--}}
+        {{--            </div>--}}
+        {{--        @endforeach--}}
+    </div>
+</div>
+
+<style>
+    .tab-button.active {
+        background-color: #ccc;
+    }
+
+    .tabs .tab {
+        display: none;
+    }
+
+    .tabs .tab.active {
+        display: flex;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $('.tab-button').click(function () {
+            var target = $(this).data('target');
+
+            $('.tab-button').removeClass('active');
+            $(this).addClass('active');
+
+            $('.tab').removeClass('active');
+            $('.' + target).addClass('active');
+        });
+    });
+</script>
+
 
 <style>
     a {
@@ -70,6 +274,7 @@
         .custom-padding {
             padding: 1rem 25rem !important;
         }
+
         .custom-top {
             margin-top: 3rem;
         }

@@ -7,7 +7,7 @@
             <th class="col-lg-2">Miêu tả</th>
             <th class="col-lg-1">Giá</th>
             <th class="col-lg-1">Ngày tạo</th>
-            <th class="col-lg-1">Ngày cập nhật</th>
+            <th class="col-lg-1 text-center">Số thứ tự</th>
             <th class="col-lg-1"></th>
             <th class="col-lg-1"></th>
         </tr>
@@ -21,7 +21,7 @@
                 <td class="col-lg-2">{{ Str::limit(strip_tags($product->description), 45) }}</td>
                 <td class="col-lg-1">{{ $product->price }}</td>
                 <td class="col-lg-1">{{ $product->created_at }}</td>
-                <td class="col-lg-1">{{ $product->updated_at }}</td>
+                <td class="col-lg-1 text-center">{{ $product->order_number }}</td>
                 <td class="col-lg-1">
                     <a href="{{route('products.edit',[ $product->id ])}}" class="btn btn-warning">
                         Sửa

@@ -11,26 +11,33 @@ class CategorySeederProduct extends Seeder
     {
         $data = [
             [
-                'title' => 'NGŨ CỐC',
-                'slug' => 'ngu-coc',
+                'title' => 'NGŨ CỐC MẸ BẦU',
+                'slug' => 'ngu-coc-me-bau',
                 'created_at' => now(),
                 'updated_at' => now(),
                 'type'=> 3
             ],
             [
-                'title' => 'SỮA HẠT',
-                'slug' => 'sua-hat',
+                'title' => 'NGŨ CỐC LỢI SỮA',
+                'slug' => 'ngu-coc-loi-sua',
                 'created_at' => now(),
                 'updated_at' => now(),
                 'type'=> 3
             ],
             [
-                'title' => 'HẠT',
-                'slug' => 'hat',
+                'title' => 'SỮA HẠT DINH DƯỠNG',
+                'slug' => 'sua-hat-dinh-duong',
                 'created_at' => now(),
                 'updated_at' => now(),
                 'type'=> 3
             ],
+            [
+                'title' => 'HẠT GRANOLA',
+                'slug' => 'hat-granola',
+                'created_at' => now(),
+                'updated_at' => now(),
+                'type'=> 3
+            ]
         ];
 
         DB::table('categories')->insert($data);

@@ -277,7 +277,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Slug<span
                                                 class="small text-danger">*</span></label>
@@ -285,11 +285,27 @@
                                                placeholder="Link không dấu">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Link video minh họa</label>
                                         <input type="text" id="video_url" class="form-control" name="video_url"
                                                placeholder="Link Video">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Số thứ tự<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="order_number" class="form-control" name="order_number"
+                                               placeholder="Số thứ tự">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Dạng<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="product_type" class="form-control" name="product_type"
+                                               placeholder="Dạng">
                                     </div>
                                 </div>
                             </div>
