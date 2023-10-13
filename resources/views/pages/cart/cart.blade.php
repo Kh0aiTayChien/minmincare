@@ -301,7 +301,7 @@
             let phone = $('.phone').val()
             let address = $('.address').val()
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
-
+            alert('Bạn đã gửi thông tin thanh toán thành công')
             $.ajax({
                 url: '/send',
                 method: 'POST',
@@ -314,7 +314,7 @@
                     'X-CSRF-TOKEN': csrfToken
                 },
                 success: function (response) {
-                    alert('Bạn đã gửi thông tin thanh toán thành công')
+                    // alert('Bạn đã gửi thông tin thanh toán thành công')
                     // $('.card-cart').remove();
                     // $('.lds-dual-ring').removeClass('d-none');
                     // $('.empty-image').addClass('d-none');
