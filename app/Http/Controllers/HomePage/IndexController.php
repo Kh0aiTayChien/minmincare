@@ -17,7 +17,7 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
-        $products = Product::all();
+        $products = Product::orderBy('order_number', 'asc')->get();
         $categoryImgSlug = "anh-slide-pc-01";
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);
@@ -29,20 +29,34 @@ class IndexController extends Controller
             ->where('status', 1)
             ->take(6)
             ->get();
+        $category1NewSlug = 'kien-thuc-me-bau';
+        $category2NewSlug = 'kien-thuc-me-sau-sinh';
+        $category3NewSlug = 'kien-thuc-dinh-duong-cho-con';
+        $new1 = Article::whereHas('category', function ($query) use ($category1NewSlug) {
+            $query->where('slug', $category1NewSlug);
+        })->take(3)->get();
+        $new2 = Article::whereHas('category', function ($query) use ($category2NewSlug) {
+            $query->where('slug', $category2NewSlug);
+        })->take(3)->get();
+        $new3 = Article::whereHas('category', function ($query) use ($category3NewSlug) {
+            $query->where('slug', $category3NewSlug);
+        })->take(3)->get();
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages/home-page/index', ['news' => $news, 'images' => $images, 'products' => $products])
+                ->view('pages/home-page/index', ['news' => $news, 'images' => $images, 'products' => $products
+                ,'new1' => $new1, 'new2' => $new2, 'new3' => $new3])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
             })->get();
-            return view('pages/home-page/index', ['news' => $news, 'carts' => $carts, 'images' => $images, 'products' => $products]);
+            return view('pages/home-page/index', ['news' => $news, 'carts' => $carts, 'images' => $images,
+                'products' => $products,'new1' => $new1, 'new2' => $new2, 'new3' => $new3]);
         }
     }
 }

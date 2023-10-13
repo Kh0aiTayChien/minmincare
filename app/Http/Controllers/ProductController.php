@@ -41,12 +41,16 @@ class ProductController extends Controller
             'price' => 'required|numeric',
             'description' => 'required',
             'slug' => 'required|unique:products,slug',
+            'order_number' => '',
+            'product_type' => 'required',
             'category' => 'required',
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'name.required' => 'Không được để trống',
             'slug.unique' => 'Link đã tồn tại',
             'slug.required' => 'Không được để trống',
+            'order_number.unique' => 'Số thứ tự đã tồn tại',
+            'product_type.required' => 'Dạng sản phẩm không được để trống ',
             'category.required' => 'Không được để trống'
         ]);
         $product = new Product();
@@ -55,6 +59,8 @@ class ProductController extends Controller
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
         $product->category_id = $validatedData['category'];
+        $product->order_number = $validatedData['order_number'];
+        $product->product_type = $validatedData['product_type'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -98,12 +104,16 @@ class ProductController extends Controller
             'price' => 'required|numeric',
             'description' => 'required',
             'slug' => 'required',
-            'category' => 'required'
+            'category' => 'required',
+            'order_number' => '',
+            'product_type' => 'required',
+            'category.required' => 'Không được để trống'
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'price.required' => 'Không được để trống',
             'description.required' => 'Không được để trống',
             'slug.required' => 'Không được để trống',
+            'order_number.unique' => 'Số thứ tự đã tồn tại',
             'category.required' => 'Không được để trống'
         ]);
         $product = Product::findOrFail($id);
@@ -112,6 +122,8 @@ class ProductController extends Controller
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
         $product->category_id = $validatedData['category'];
+        $product->order_number = $validatedData['order_number'];
+        $product->product_type = $validatedData['product_type'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');

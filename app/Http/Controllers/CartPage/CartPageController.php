@@ -1,20 +1,66 @@
 <?php
 
-namespace App\Http\Controllers\HomePage;
+namespace App\Http\Controllers\CartPage;
 
 use App\Http\Controllers\Controller;
+use App\Mail\InfoUserMailable;
+use App\Models\Article;
 use App\Models\Cart;
+use App\Models\Image;
 use App\Models\Product;
 use App\Models\Session;
 use Illuminate\Http\Request;
-use Revolution\Google\Sheets\Facades\Sheets;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\InfoUserMailable;
-use Google\Service\Exception;
-use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
+use App\Models\Category;
+use Revolution\Google\Sheets\Facades\Sheets;
 
-class CartController extends Controller
+class CartPageController extends Controller
 {
+    public function index(Request $request)
+    {
+        $sessionCookie = config('session.cookie');
+        if ($request->Cookie($sessionCookie) == null) {
+            $sessionId = Str::uuid()->toString();
+            $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
+            return response()
+                ->view('pages/cart/index', [])
+                ->withCookie($cookie);
+        } else {
+            $sessionId = $request->Cookie($sessionCookie);
+            $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
+                $query->where('session_code', $sessionId);
+            })->get();
+            return view('pages/cart/index', ['carts' => $carts]);
+        }
+//        $cart = Cart::where('session_id', $session->id)
+//            ->where('product_id', $product->id)
+//            ->first();
+//        if ($cart === null) {
+//            $cart = new Cart();
+//            $cart->quantity = 1;
+//            $cart->session_id = $session->id;
+//            $cart->product_id = $product->id;
+//            $cart->save();
+//            return view('page-layout.item', ['cart' => $cart]);
+//        } else {
+//            $cart = Cart::where('session_id', $session->id)
+//                ->where('product_id', $product->id)
+//                ->first();
+//            $cart->increment('quantity');
+//            $cart->save();
+//            $viewData = [
+//                'status' => 'exist_cart',
+//                'quantity' => $cart->quantity,
+//                'cart' => $cart->id
+//            ];
+//            return response()->json($viewData);
+//        }
+//        return view('pages/san-pham/index',
+//            ['carts' => $carts]);
+    }
+
     public function buy_action(Request $request)
     {
         $sessionCookie = config('session.cookie');
@@ -31,19 +77,13 @@ class CartController extends Controller
         $cart = Cart::where('session_id', $session->id)
             ->where('product_id', $product->id)
             ->first();
-//        dd($cart);
         if ($cart === null) {
             $cart = new Cart();
             $cart->quantity = 1;
             $cart->session_id = $session->id;
             $cart->product_id = $product->id;
             $cart->save();
-            $viewData = [
-                'status' => 'no_cart',
-                'quantity' => $cart->quantity,
-                'cart' => $cart->id
-            ];
-            return response()->json($viewData);
+            return view('page-layout.item', ['cart' => $cart]);
         } else {
             $cart = Cart::where('session_id', $session->id)
                 ->where('product_id', $product->id)
@@ -69,14 +109,13 @@ class CartController extends Controller
         $cart = Cart::where('id', $cartID)
             ->where('session_id', $session->id)
             ->first();
-//        dd(cart);
+
         $cart->increment('quantity');
         $cart->save();
         $viewData = [
             'status' => 'ok',
             'quantity' => $cart->quantity,
-            'cart' => $cart->id,
-            'price' => $cart->Product->price
+            'cart' => $cart->id
         ];
         return response()->json($viewData);
     }
@@ -98,9 +137,7 @@ class CartController extends Controller
             $viewData = [
                 'status' => 'ok',
                 'quantity' => $cart->quantity,
-                'cart' => $cart->id,
-                'price' => $cart->Product->price
-
+                'cart' => $cart->id
             ];
             return response()->json($viewData);
         } else {

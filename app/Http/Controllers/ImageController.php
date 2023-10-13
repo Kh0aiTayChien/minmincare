@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Models\Image;
-use App\Helpers\InterventionImage;
+//use App\Helpers\InterventionImage;
 
 class ImageController extends Controller
 {
@@ -42,19 +42,28 @@ class ImageController extends Controller
         ]);
         $image = new Image();
 
-        if ($request->hasFile('image')) {
-            $uploadedImage = $request->file('image');
-            $imageName = $uploadedImage->getClientOriginalName();
+//        if ($request->hasFile('image')) {
+//            $uploadedImage = $request->file('image');
+//            $imageName = $uploadedImage->getClientOriginalName();
+//
+//            $old_image = InterventionImage::make($uploadedImage);
+//            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
+//            $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
+//            $quality = 100;
+//            $new_image->save(public_path('uploads/images/') . $imageName, $quality);
+//            $image->image_url = '/uploads/images/' .$imageName;
+//            $image->name = $imageName;
+//        }
+        if ($request->hasFile('image_url')) {
+            $imageFile = $request->file('image_url');
+            $imageName = $imageFile->getClientOriginalName();
+            $imageFile->move(public_path('uploads/images'), $imageName);
 
-            $old_image = InterventionImage::make($uploadedImage);
-            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
-            $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
-            $quality = 100;
-            $new_image->save(public_path('uploads/images/') . $imageName, $quality);
-            $image->image_url = '/uploads/images/' .$imageName;
-            $image->name = $imageName;
+            // Cập nhật đường dẫn trong model Image
+            $image->image_url = '/uploads/images/' . $imageName;
         }
         $image->category_id = $validatedData['category'];
+        $image->url = $request->url;
         $image->save();
 
         return redirect()->route('images.index')->with('success', 'Tạo ảnh mới thành công!');
@@ -76,26 +85,36 @@ class ImageController extends Controller
         ]);
 
         $image = Image::findOrFail($id);
-            $old_image_path = $image->image_url;
+//            $old_image_path = $image->image_url;
 
-        if ($request->hasFile('image')) {
-            $uploadedImage = $request->file('image');
-            $imageName = $uploadedImage->getClientOriginalName();
+//        if ($request->hasFile('image')) {
+//            $uploadedImage = $request->file('image');
+//            $imageName = $uploadedImage->getClientOriginalName();
+//
+//            $old_image = InterventionImage::make($uploadedImage);
+//            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
+//            $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
+//            $quality = 100;
+//            $new_image->save(public_path('uploads/images/') . $imageName, $quality);
+//            $image->image_url = '/uploads/images/' .$imageName;
+//            $image->name = $imageName;
+//        }
+        if ($request->hasFile('image_url')) {
+            $imageFile = $request->file('image_url');
+            $imageName = $imageFile->getClientOriginalName();
+            $imageFile->move(public_path('uploads/images'), $imageName);
 
-            $old_image = InterventionImage::make($uploadedImage);
-            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
-            $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
-            $quality = 100;
-            $new_image->save(public_path('uploads/images/') . $imageName, $quality);
-            $image->image_url = '/uploads/images/' .$imageName;
-            $image->name = $imageName;
+            // Cập nhật đường dẫn trong model Image
+            $image->image_url = '/uploads/images/' . $imageName;
         }
         $image->category_id = $validatedData['category'];
+        $image->url = $request->url;
+//        dd($image);
         $image->save();
 
-        if (file_exists(public_path($old_image_path ))) {
-            unlink(public_path($old_image_path));
-        }
+//        if (file_exists(public_path($old_image_path ))) {
+//            unlink(public_path($old_image_path));
+//        }
 
         return redirect()->route('images.index')->with('success', 'Cập nhật ảnh mới thành công!');
     }

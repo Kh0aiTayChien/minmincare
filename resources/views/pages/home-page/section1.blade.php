@@ -1,6 +1,6 @@
-<div class="section1 position-relative d-flex justify-content-center align-items-center">
-    <div class=" d-flex  align-items-center  position-absolute row flex-column-reverse"
-         style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)">
+<div class="section1 position-relative d-flex justify-content-center align-items-center" >
+    <div class=" d-flex align-items-center  position-absolute row flex-column-reverse dr-link "
+         style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)" data-url="{{$images[0]->url}}">
 
         <div class="position-relative d-flex flex-column-reverse">
             <a href="#sec2" class="arrow-down position-absolute d-none d-md-block">
@@ -13,7 +13,7 @@
             <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
         </div>
 
-        <div class="call-out-button d-flex justify-content-center align-items-center mb-5">
+        <div class="call-out-button d-flex justify-content-center align-items-center mb-5 d-none">
             <button
                 class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
                 <div class="px-4">ĐĂNG KÍ ĐẠI LÝ</div>
@@ -46,16 +46,28 @@
         <div class="carousel-inner">
             @foreach($images as $key => $image)
                 <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
-                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide">
+                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}" >
                 </div>
             @endforeach
+                <script>
+                    $(document).ready(function(){
+                        $('.dr-link').click(function(){
+                            console.log(1);
+                            let url = $(this).data('url');
+                            window.location.href = url;
+                        });
+                    });
+                    $('.arrow-down').click(function(event){
+                        event.stopPropagation(); // Ngăn chặn sự kiện click từ phát triển lên phần tử cha
+                    });
+                </script>
         </div>
-        <button class="carousel-control-prev button-shake" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-prev button-shake d-none" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
             <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next button-shake" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-next button-shake d-none" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
             <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>
@@ -125,6 +137,7 @@
     .section1 {
         height: 100vh;
         overflow: hidden;
+        cursor: pointer;
     }
 
     @media screen and (min-aspect-ratio: 0.8/1) and (max-aspect-ratio: 8/5) {

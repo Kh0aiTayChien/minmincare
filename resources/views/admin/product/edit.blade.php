@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Sản phẩm mới') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Sửa thông tin sản phẩm') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -278,6 +278,14 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Dạng<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="order_number" class="form-control" name="product_type"
+                                               placeholder="Dạng" value="{{$product->product_type}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>
                                         <input type="text" id="price" class="form-control" name="price"
@@ -295,7 +303,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Slug<span
                                                 class="small text-danger">*</span></label>
@@ -303,11 +311,19 @@
                                                placeholder="Link không dấu" value="{{$product->slug}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Linh video minh họa</label>
                                         <input type="text" id="name" class="form-control" name="video_url"
                                                placeholder="Link Video" value="{{$product->video_url}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Số thứ tự<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="order_number" class="form-control" name="order_number"
+                                               placeholder="Số thứ tự" value="{{$product->order_number}}">
                                     </div>
                                 </div>
                             </div>
