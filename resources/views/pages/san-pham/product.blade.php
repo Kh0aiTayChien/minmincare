@@ -189,71 +189,6 @@
     </div>
 </div>
 
-</div>
-
-
-<div class=" container-fluid custom-padding ">
-    <div class="row gx-5 gy-4 pos-center cereals product-item" data-id="1">
-        {{--        @foreach($cereals as $product)--}}
-        {{--            <div class=" col-lg-4 col-sm-4 col-xs-12 custom-ms shadow-effect">--}}
-        {{--                <div class="card border-radius mb-3" style="width: 100%; overflow: hidden">--}}
-        {{--                    <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">--}}
-        {{--                        <div class="d-flex justify-content-center align-items-center">--}}
-        {{--                            <img class="card-img-top height-img-card" src="{{$product->image}}" alt="Card image cap">--}}
-        {{--                        </div>--}}
-        {{--                    </a>--}}
-        {{--                    <div class="card-body">--}}
-        {{--                        <h5 class="card-title d-flex justify-content-center">--}}
-        {{--                            <p class="text-center mitr-medium--}}
-        {{--                            green-text">{{\Illuminate\Support\Str::limit($product->name,45)}}</h5>--}}
-        {{--                        </p>--}}
-        {{--                        <p class="card-text text-center mitr-big orange-text--}}
-        {{--                        ">{{ number_format($product->price, 0, ',', '.') }} vnđ</p>--}}
-
-        {{--                        <p class="card-text text-center mitr-small">Xem chi tiết</p>--}}
-
-        {{--                        <div class="d-flex justify-content-center align-content-center">--}}
-        {{--                            <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect--}}
-        {{--                                border-white text-white border-2 green-bg mitr-small buy-button button-shake"--}}
-        {{--                                    data-id="{{$product->id}}">--}}
-        {{--                                <div class="mx-1">THÊM VÀO GIỎ HÀNG</div>--}}
-        {{--                            </button>--}}
-        {{--                        </div>--}}
-        {{--                    </div>--}}
-        {{--                </div>--}}
-        {{--            </div>--}}
-        {{--        @endforeach--}}
-    </div>
-</div>
-
-<style>
-    .tab-button.active {
-        background-color: #ccc;
-    }
-
-    .tabs .tab {
-        display: none;
-    }
-
-    .tabs .tab.active {
-        display: flex;
-    }
-</style>
-<script>
-    $(document).ready(function () {
-        $('.tab-button').click(function () {
-            var target = $(this).data('target');
-
-            $('.tab-button').removeClass('active');
-            $(this).addClass('active');
-
-            $('.tab').removeClass('active');
-            $('.' + target).addClass('active');
-        });
-    });
-</script>
-
-
 <style>
     a {
         text-decoration: unset;
@@ -263,23 +198,32 @@
     }
 
     .custom-ms {
-        margin-left: 4rem;
     }
 
     .custom-padding {
-        padding: 1rem 8rem 0 8rem;
+        /*padding: 1rem 8rem 0 8rem;*/
     }
 
     @media screen and (min-width: 1400px) {
         .custom-padding {
-            padding: 1rem 25rem !important;
+            width: 65%;
         }
-
         .custom-top {
             margin-top: 3rem;
         }
     }
 
+    @media screen and (min-width: 770px) and (max-width: 1399px) {
+        .custom-padding {
+            width: 100%;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .custom-ms {
+            /*padding-left: 5%;*/
+        }
+    }
     @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 8/5) {
         .custom-top {
             margin-top: 8rem !important;
@@ -326,7 +270,8 @@
     }
 
     .card-title {
-        height: 3rem;
+        /*height: 3rem;*/
+        line-height: 0.5rem;
     }
 
     .border-radius {

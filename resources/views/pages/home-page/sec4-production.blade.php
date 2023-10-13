@@ -21,8 +21,7 @@
         <div class="carousel-sec-4">
             @foreach($products as $product)
                 <div class="d-flex justify-content-center">
-                    <div class="card rounded-custom shadow-effect me-1"
-                     style="width:18rem; height: 70% ">
+                    <div class="card rounded-custom shadow-effect me-1 col-11 col-sm-8 col-md-11">
                         <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
                              alt="Card image">
                         <div class="card-body">
@@ -106,13 +105,13 @@
     }
 
     .height-img-card {
-        object-fit: cover;
+        /*object-fit: cover;*/
     }
     .height-text-card{
         height: 3.5rem;
     }
     .carousel-sec-4 {
-        width: 70%;
+        width: 80%;
         margin: 0px auto;
     }
 
@@ -154,11 +153,11 @@
     }
 
     .custom-prev-arrow-4 {
-        left: 100px;
+        left: 20px;
     }
 
     .custom-next-arrow-4 {
-        right: 100px;
+        right: 20px;
     }
 
     .slick-dots {
@@ -241,21 +240,14 @@
             nextArrow: $('.custom-next-arrow-4'),
             responsive: [
                 {
-                    breakpoint: 1024,
+                    breakpoint: 1401,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToScroll: 1,
                     }
                 },
                 {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
