@@ -29,8 +29,6 @@ class ProductController extends Controller
         $nut_milks = Product::where('category_id', $category3)->get();
         $nuts = Product::where('category_id', $category4)->get();
 
-
-
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
@@ -38,8 +36,8 @@ class ProductController extends Controller
             return response()
                 ->view('pages.san-pham.index',
                     ['products' => $products, 'cereals' => $cereals,
-                        'milk_pregnant' => $milk_pregnant, '$nut_milks' => $nut_milks,
-                        '$nuts' => $nuts])
+                        'milk_pregnant' => $milk_pregnant, 'nut_milks' => $nut_milks,
+                        'nuts' => $nuts])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -49,8 +47,8 @@ class ProductController extends Controller
 
             return view('pages.san-pham.index',
                 ['products' => $products, 'carts' => $carts, 'cereals' => $cereals,
-                    'milk_pregnant' => $milk_pregnant, '$nut_milks' => $nut_milks,
-                    '$nuts' => $nuts]);
+                    'milk_pregnant' => $milk_pregnant, 'nut_milks' => $nut_milks,
+                    'nuts' => $nuts]);
         }
     }
 
