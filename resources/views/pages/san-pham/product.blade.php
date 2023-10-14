@@ -42,15 +42,17 @@
     </div>
 </div>
 
-<div class=" tabs">
-    <div class="row tab tab1 px-5 mt-5 gy-4 gx-1 active">
+<div class=" tabs mb-3 pb-3">
+    <div class="row tab tab1  mt-5 gy-4 gx-0 active" style="padding: 0 10%">
         @if(isset($products))
             @foreach( $products as $product)
                 <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
-                         style="width:18rem; ">
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
                         <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
                              alt="Card image">
+                        </a>
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
@@ -71,15 +73,16 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab2 px-5 mt-5 gy-4 gx-1 ">
-        <div class="col-1"></div>
+    <div class="row tab tab2  mt-5 gy-4 gx-0 " style="padding: 0 10%">
         @if(isset($cereals))
             @foreach( $cereals as $product)
-                <div class="col-3 d-flex justify-content-center align-content-center">
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
-                         style="width:18rem; ">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
-                             alt="Card image">
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
@@ -100,15 +103,16 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab3 px-5 mt-5 gy-4 gx-1 ">
-        <div class="col-1"></div>
+    <div class="row tab tab3  mt-5 gy-4 gx-0 " style="padding: 0 10%">
         @if(isset($milk_pregnant))
             @foreach( $milk_pregnant as $product)
-                <div class="col-3 d-flex justify-content-center align-content-center">
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
-                         style="width:18rem; ">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
-                             alt="Card image">
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
@@ -129,15 +133,16 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab4 px-5 mt-5 gy-4 gx-1 ">
-        <div class="col-1"></div>
+    <div class="row tab tab4  mt-5 gy-4 gx-0 " style="padding: 0 10%">
         @if(isset($nut_milks))
             @foreach( $nut_milks as $product)
-                <div class="col-3 d-flex justify-content-center align-content-center">
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
-                         style="width:18rem; ">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
-                             alt="Card image">
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
@@ -158,15 +163,16 @@
             @endforeach
         @endif
     </div>
-    <div class="row tab tab5 px-5 mt-5 gy-4 gx-1 ">
-        <div class="col-1"></div>
+    <div class="row tab tab5  mt-5 gy-4 gx-0 " style="padding: 0 10%">
         @if(isset($nuts))
             @foreach( $nuts as $product)
-                <div class="col-3 d-flex justify-content-center align-content-center">
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
-                         style="width:18rem; ">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
-                             alt="Card image">
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
