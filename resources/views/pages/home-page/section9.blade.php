@@ -1,10 +1,11 @@
 <div class="section-9">
     <div class="d-md-flex d-none align-content-center justify-content-center img-sec9 ">
-        <img src="{{asset('images/sec9/tintuc.png')}}" alt="" style="" class="img-fluid img-sec9-test">
+        <img src="{{asset('images/sec9/Group 11.png')}}" alt="" style="" class="img-fluid img-sec9-test">
     </div>
     <div class="headersec4-product d-block d-md-none">
-        <p class="header-sec9-mb-1">Tin tức</p>
-        <p class="header-sec9-mb-2">MIN MIN CARE</p>
+{{--        <p class="header-sec9-mb-1">Tin tức</p>--}}
+{{--        <p class="header-sec9-mb-2">MIN MIN CARE</p>--}}
+        <img src="{{asset('images/sec9/Group 11.png')}}" alt="" style="" class="img-fluid img-sec9-test-mb">
     </div>
     <div class="row" style="">
         <div class="col"></div>
@@ -86,7 +87,10 @@
         margin: 10px;
     }
     .img-sec9-test {
-        scale: 70%;
+        width: 30vw;
+    }
+    .img-sec9-test-mb {
+        width: 90vw;
     }
     .section-9.slick-slide img {
         width: 90%;
@@ -175,7 +179,7 @@
     }
     @media only screen and (max-width: 800px) {
         .img-sec9 {
-            scale: 70%;
+            /*scale: 70%;*/
         }
 
         .custom-prev-arrow-9 {

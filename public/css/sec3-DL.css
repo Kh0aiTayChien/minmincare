@@ -3,14 +3,17 @@
     margin-bottom: 3%;
 }
 
+.containersec3-DL {
+    text-align: right;
+    justify-content: right;
+}
+
 .headersec3-DL {
     scale: 65%;
-    float: right;
     transform: translateX(25%);
 }
 
 .contentsec3-DL {
-    float: right;
 }
 
 .bannersec3-DL {

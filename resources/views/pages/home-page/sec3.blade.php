@@ -60,7 +60,7 @@
 </div>
 
 <div class="sec3mb">
-    <img src="{{asset('images/sec3/Group 1339.png')}}" class="headersec3mb">
+    <img src="{{asset('images/sec3/Group 8.png')}}" class="headersec3mb">
     <p class="contentsec3mb">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng cho mẹ bầu
         và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia viện dinh dưỡng quốc gia và sản xuất từ nguồn nguyên liệu
         100% tự nhiên với công thức đột phá, độc quyền sở hữu.</p><br>
