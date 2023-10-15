@@ -62,12 +62,11 @@
                             <img src="{{asset('images/sec5/12345-05.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class=" mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin Gold
-                                    vào sản phẩm ngũ cốc lợi sữa cho mẹ sau sinh. Dưới dạng hạt nano tinh khiết có kích
-                                    thước siêu nhỏ 20 nm có khả năng thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi
-                                    phục sức khỏe, nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn
-                                    dịch, đồng thời giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ
-                                    giảm đau.</p>
+                                    Các sản phẩm của Minmin Care được sản xuất trong quy trình khép kín tại nhà máy
+                                    riêng đạt tiêu chuẩn quốc tế GMP, ISO. GMP bao gồm tất cả các khía cạnh của sản
+                                    xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược, bao bì, nguồn nước…),
+                                    cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh cá nhân của nhân
+                                    viên.</p>
                             </div>
                         </div>
                     </div>
@@ -85,11 +84,11 @@
                             <img src="{{asset('images/sec5/12345-06.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Các sản phẩm của Minmin Care được sản xuất trong quy trình khép kín tại nhà máy
-                                    riêng đạt tiêu chuẩn quốc tế GMP, ISO. GMP bao gồm tất cả các khía cạnh của sản
-                                    xuất, bao gồm từ các nguyên liệu đầu vào (dược liệu, tá dược, bao bì, nguồn nước…),
-                                    cơ sở sản xuất và trang thiết bị, việc đào tạo và vệ sinh cá nhân của nhân
-                                    viên.</p>
+                                    Yêu tố vùng nguyên liệu quyết định rất lớn tới giá trị chất lượng của sản phẩm. Đối
+                                    với Min Min Care, sử dụng nguồn nguyên liệu hoàn toàn tự nhiên được tuyển chọn kỹ
+                                    lưỡng có chứng nhận cả trong nước lẫn ngoài nước. Đặc biệt, sử dụng các loại hạt
+                                    thuần chủng không biến đổi gen, được chọn trồng ở những nơi có thổ nhưỡng tốt nhất
+                                    trong nước và thế giới.</p>
                             </div>
                         </div>
                     </div>
@@ -107,11 +106,12 @@
                             <img src="{{asset('images/sec5/12345-07.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
                                 <p class="text-justify card-text">
-                                    Yêu tố vùng nguyên liệu quyết định rất lớn tới giá trị chất lượng của sản phẩm. Đối
-                                    với Min Min Care, sử dụng nguồn nguyên liệu hoàn toàn tự nhiên được tuyển chọn kỹ
-                                    lưỡng có chứng nhận cả trong nước lẫn ngoài nước. Đặc biệt, sử dụng các loại hạt
-                                    thuần chủng không biến đổi gen, được chọn trồng ở những nơi có thổ nhưỡng tốt nhất
-                                    trong nước và thế giới.</p>
+                                    Min Min Care là thương hiệu đầu tiên ứng dụng công nghệ sinh học Nano Curcumin Gold
+                                    vào sản phẩm ngũ cốc lợi sữa cho mẹ sau sinh. Dưới dạng hạt nano tinh khiết có kích
+                                    thước siêu nhỏ 20 nm có khả năng thẩm thấu nhanh vào máu và các tế bào. Giúp mẹ hồi
+                                    phục sức khỏe, nhanh lành vết thương, chống hậu sản, tăng sức đề kháng, hệ miễn
+                                    dịch, đồng thời giảm mờ thâm nám làn da, ngăn ngừa lão hóa, kháng viêm và hỗ trợ
+                                    giảm đau.</p>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,8 @@
 
 <div class="section-5-mobile mt-3 mb-3">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw" class="img-fluid headersec5mb-HP-test">
+        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw"
+             class="img-fluid headersec5mb-HP-test">
     </div>
     <div class="d-flex align-content-center justify-content-center">
         <img class="card-img-top px-5" src="{{asset('images/sec5/pregenant-mobile.png')}}" alt="Card image">
@@ -243,10 +244,12 @@
                 top: 80%;
             }
         }
+
         .headersec5-HP {
             width: 53%;
             transform: translateX(-3%);
         }
+
         .carousel-sec-5 {
             width: 70%;
             margin: 0px auto;
@@ -331,15 +334,18 @@
                 z-index: 2;
                 opacity: 50%;
             }
+
             .headersec5mb-HP {
                 width:
             }
+
             .headersec5mb-HP-test {
                 width: 90vw;
                 margin-top: 2%;
                 margin-bottom: 6%;
                 scale: 132%;
             }
+
             .custom-next-arrow-5 {
                 right: -17px;
                 scale: 50%;
