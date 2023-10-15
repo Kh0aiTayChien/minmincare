@@ -1,15 +1,16 @@
 .sec10pc {
     background-image: url("/images/sec10/Rectangle 4.png");
-    background-size: 100% 100%;
-    /*background-position: center top -50px;*/
+    background-size: 100% 130%;
+    background-position: center top -200px;
     padding-bottom: 5%;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .sec1-LH {
-    margin-top: 5%;
+    margin-top: 13%;
     text-align: center;
     justify-content: center;
+    margin-bottom: 5%;
     /*margin-left: 15%;*/
 
 }
@@ -40,12 +41,17 @@
     color: #59843d;
 }
 
+.headersec1-LH {
+    width: 80%;
+    margin-bottom: 3%;
+}
+
 .header-test-orange-LH {
-    font-size: 30px;
+    font-size: 17px;
     font-family: Mitr-Regular, sans-serif;
-    color: #F79420;
+    /*color: #F79420;*/
     /*line-height: 5px;*/
-    text-align: center;
+    text-align: left;
     justify-content: center;
 }
 

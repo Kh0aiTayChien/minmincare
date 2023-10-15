@@ -1,73 +1,78 @@
-<div class="section1 position-relative d-flex justify-content-center align-items-center" >
-    <div class=" d-flex align-items-center  position-absolute row flex-column-reverse dr-link "
-         style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)" data-url="{{$images[0]->url}}">
+<div class="section1 position-relative d-flex justify-content-center align-items-center">
+    @if(isset($images[0]))
+        <div class=" d-flex align-items-center  position-absolute row flex-column-reverse dr-link "
+             style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)"
+             data-url="{{$images[0]->url}}">
 
-        <div class="position-relative d-flex flex-column-reverse">
-            <a href="#sec2" class="arrow-down position-absolute d-none d-md-block">
-                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
-            </a>
-            <a href="#sec2mb" class="arrow-down position-absolute d-md-none">
-                <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
-            </a>
-            <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
-            <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
-        </div>
-
-        <div class="call-out-button d-flex justify-content-center align-items-center mb-5 d-none">
-            <button
-                class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
-                <div class="px-4">ĐĂNG KÍ ĐẠI LÝ</div>
-            </button>
-            <script>
-                $(document).ready(function () {
-                    $('.register').click(function () {
-                        if (window.location.pathname.includes("/dai-ly") || window.location.pathname.includes("/gioi-thieu")) {
-                            window.location.href = '/';
-                            return false;
-                        }
-                        $('html, body').animate({
-                            scrollTop: $('.sec10pc').offset().top
-                        }, 'medium');
-                    });
-                });
-
-            </script>
-            <button
-                class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
-                <a href="{{route('homepage.product.index')}}" style="text-decoration: unset; color: unset">
-                    <div class="px-4">MUA SẢN PHẨM</div>
+            <div class="position-relative d-flex flex-column-reverse">
+                <a href="#sec2" class="arrow-down position-absolute d-none d-md-block">
+                    <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
                 </a>
-            </button>
+                <a href="#sec2mb" class="arrow-down position-absolute d-md-none">
+                    <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
+                </a>
+                <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
+                <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
+            </div>
+
+            <div class="call-out-button d-flex justify-content-center align-items-center mb-5 d-none">
+                <button
+                    class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
+                    <div class="px-4">ĐĂNG KÍ ĐẠI LÝ</div>
+                </button>
+                <script>
+                    $(document).ready(function () {
+                        $('.register').click(function () {
+                            if (window.location.pathname.includes("/dai-ly") || window.location.pathname.includes("/gioi-thieu")) {
+                                window.location.href = '/';
+                                return false;
+                            }
+                            $('html, body').animate({
+                                scrollTop: $('.sec10pc').offset().top
+                            }, 'medium');
+                        });
+                    });
+
+                </script>
+                <button
+                    class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
+                    <a href="{{route('homepage.product.index')}}" style="text-decoration: unset; color: unset">
+                        <div class="px-4">MUA SẢN PHẨM</div>
+                    </a>
+                </button>
+            </div>
         </div>
 
-    </div>
+    @endif
     <div id="carouselExampleControls" class="carousel slide w-100 d-none d-md-block" data-bs-ride="carousel"
          data-interval="5000">
         <div class="carousel-inner">
             @foreach($images as $key => $image)
                 <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
-                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}" >
+                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
                 </div>
             @endforeach
-                <script>
-                    $(document).ready(function(){
-                        $('.dr-link').click(function(){
-                            console.log(1);
-                            let url = $(this).data('url');
-                            window.location.href = url;
-                        });
+            <script>
+                $(document).ready(function () {
+                    $('.dr-link').click(function () {
+                        console.log(1);
+                        let url = $(this).data('url');
+                        window.location.href = url;
                     });
-                    $('.arrow-down').click(function(event){
-                        event.stopPropagation(); // Ngăn chặn sự kiện click từ phát triển lên phần tử cha
-                    });
-                </script>
+                });
+                $('.arrow-down').click(function (event) {
+                    event.stopPropagation(); // Ngăn chặn sự kiện click từ phát triển lên phần tử cha
+                });
+            </script>
         </div>
-        <button class="carousel-control-prev button-shake d-none" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-prev button-shake d-none" type="button"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
             <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next button-shake d-none" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-next button-shake d-none" type="button"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
             <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
             <span class="visually-hidden">Next</span>
@@ -159,6 +164,7 @@
             z-index: 999;
         }
     }
+
     .carousel-control-prev {
         float: left;
         margin-left: -5%;

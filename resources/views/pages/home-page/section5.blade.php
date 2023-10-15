@@ -36,7 +36,7 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 active ms-5">
                             <img src="{{asset('images/sec5/12345-04.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -56,7 +56,7 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-05.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -79,7 +79,7 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-06.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -101,7 +101,7 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-07.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -123,7 +123,7 @@
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/rule.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-08.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -144,7 +144,7 @@
 
 <div class="section-5-mobile mt-3 mb-3">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec5/rule-mobile.png')}}" alt="" style="width: 70vw" class="img-fluid">
+        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw" class="img-fluid headersec5mb-HP-test">
     </div>
     <div class="d-flex align-content-center justify-content-center">
         <img class="card-img-top px-5" src="{{asset('images/sec5/pregenant-mobile.png')}}" alt="Card image">
@@ -334,6 +334,12 @@
             .headersec5mb-HP {
                 width:
             }
+            .headersec5mb-HP-test {
+                width: 90vw;
+                margin-top: 2%;
+                margin-bottom: 6%;
+                scale: 132%;
+            }
             .custom-next-arrow-5 {
                 right: -17px;
                 scale: 50%;
@@ -413,8 +419,10 @@
     }
 
     .image-rule {
-        scale: 65%;
-        transform: translateX(-10%);
+        width: 30vw;
+        /*scale: 120%;*/
+        transform: translateX(8%);
+        padding-bottom: 2%;
     }
 
     .carousel-fade .carousel-item {

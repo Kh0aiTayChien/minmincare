@@ -1,5 +1,5 @@
 <div class="sec2mb-GT">
-    <object data="{{asset('images/gioi-thieu/sec2/Group 1337.png')}}" class="header1sec2mb-GT"></object>
+    <img src="{{asset('images/gioi-thieu/sec2/Group 14.png')}}" class="header1sec2mb-GT">
     <p class="contentsec2mb-GT">TẦM NHÌN : Minmin Care trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm ngũ
         cốc dinh dưỡng và sức khỏe cho gia đình Việt</p>
     <p class="contentsec2mb-GT">SỨ MỆNH : Minmin Care mang đến giải pháp dinh dưỡng tự nhiên, cao cấp, toàn diện, chuyên
@@ -11,7 +11,7 @@
     <div class="row-test">
         <img src="{{asset('images/gioi-thieu/sec2/Group 5135.png')}}" class="col-xxl-4 col-md-5 imgsec2-GT-test">
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
-            <object data="{{asset('images/gioi-thieu/sec2/Group 7691.svg')}}" class="headersec2-GT-test"></object>
+            <img src="{{asset('images/gioi-thieu/sec2/Group 13.png')}}" class="headersec2-GT-test">
             <br><br>
             <p class="text2sec2-GT-test">TẦM NHÌN : Minmin Care trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm ngũ
                 cốc dinh dưỡng và sức khỏe cho gia đình Việt.</p>

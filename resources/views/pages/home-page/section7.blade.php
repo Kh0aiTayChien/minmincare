@@ -3,8 +3,7 @@
             <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" class="share-joy" style="">
     </div>
     <div class="headersec4-product d-block d-md-none">
-        <p class="header-sec9-mb-1">Nơi chia sẻ</p>
-        <p class="header-sec9-mb-2">NIỀM VUI</p>
+        <img src="{{asset('images/sec6/Group 9.png')}}" alt="" class="share-joy-mb" style="">
     </div>
 {{--    <div class="headersec4-product d-block d-md-none ">--}}
 {{--        <p><span class="header-sec9-mb-1">Nơi chia sẻ  </span> <span class="header-sec9-mb-2"> NIỀM VUI</span> </p>--}}
@@ -118,14 +117,17 @@
     .share-joy{
         width: 35%;
         margin-left: 58%;
-        scale: 70%;
+        scale: 60%;
     }
     @media only screen and (max-width: 800px) {
         .custom-prev-arrow,
         .custom-next-arrow {
             top: 40%;
         }
-
+.share-joy-mb {
+    width: 90vw;
+    margin-top: 3%;
+}
         .custom-prev-arrow {
             left: -17px;
             z-index: 2;

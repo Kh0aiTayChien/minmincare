@@ -7,11 +7,15 @@
     src: url("/Fonts/Mitr-Regular.tttf");
 }
 
+.sec6-GT-test {
+    margin-bottom: 2%;
+}
+
 .headersec6-GT {
     transform: translateY(35%);
-    width: 55vw;
-    margin-left: 23%;
-    scale: 75%;
+    width: 35vw;
+    margin-left: 35%;
+    /*scale: 75%;*/
 }
 
 .imgsec6-GT {
@@ -48,12 +52,19 @@
 }
 
 .containersec6-GT-test {
-    margin-top: 3%;
+    margin-top: -2%;
     padding-bottom: 2%;
 }
 
 .imgsec6-GT-test {
     width: 43%;
+}
+
+@media screen and (max-width: 1200px) {
+    .headersec6-GT {
+        width: 40vw;
+        margin-left: 30%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -71,7 +82,11 @@
         margin-bottom: 3%;
     }
     .headersec6mb-GT {
-        width: 72vw;
+        width: 100vw;
         margin-top: 7%;
+        scale: 105%;
+    }
+    .contentsec6mb-GT {
+        margin-top: -22%;
     }
 }

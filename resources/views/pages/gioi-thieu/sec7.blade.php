@@ -1,6 +1,6 @@
 <div class="section-7">
     <div class="d-flex align-content-center justify-content-center img-sec7">
-        <img src="{{asset('images/gioi-thieu/sec7/thuonghieuxungtam.png')}}" alt="" style="" class="img-fluid imgbrand">
+        <img src="{{asset('images/gioi-thieu/sec7/Group 23.png')}}" alt="" style="" class="img-fluid imgbrand">
     </div>
 
     <div class="slick-carousel position-relative col-12">
@@ -49,7 +49,7 @@
     }
 
     .img-sec7{
-        scale: 70%;
+        /*scale: 70%;*/
     }
     .shadow-effect {
         filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
@@ -68,7 +68,8 @@
         margin: 10px;
     }
     .imgbrand {
-        scale: 88%;
+        /*scale: 88%;*/
+        width: 42vw;
     }
     .section-7.slick-slide img {
         width: 90%;
@@ -138,9 +139,15 @@
     .btn-long{
         width: 150px;
     }
+    @media only screen and (max-width: 1200px) {
+        .imgbrand {
+            width: 46vw;
+        }
+    }
     @media only screen and (max-width: 800px) {
         .img-sec7{
-            scale: 70%;
+            /*scale: 70%;*/
+            margin-top: 10%;
         }
         .custom-prev-arrow-7 {
             left: -17px;
@@ -158,6 +165,11 @@
         }
         .space_sec7{
             display: none;
+        }
+        .imgbrand {
+            width: 100vw;
+            scale: 125%;
+            transform: translateX(-5%);
         }
     }
 

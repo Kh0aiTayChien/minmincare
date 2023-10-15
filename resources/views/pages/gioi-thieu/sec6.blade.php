@@ -1,6 +1,6 @@
 <div class="sec6mb-GT">
-    <object data="{{asset('images/gioi-thieu/sec6/Group 1342.png')}}" class="headersec6mb-GT"></object>
-    <p class="contentsec2mb-GT">Thời gian đầu do chưa có vốn nên không dễ dàng để vận hành. Nhưng Nga vẫn giữ vững niềm
+    <object data="{{asset('images/gioi-thieu/sec6/Group 22.png')}}" class="headersec6mb-GT"></object>
+    <p class="contentsec2mb-GT contentsecmb-GT">Thời gian đầu do chưa có vốn nên không dễ dàng để vận hành. Nhưng Nga vẫn giữ vững niềm
         tin bước tiếp, dần dần từng bước để đi qua khó khăn bằng những kinh nghiệm đã tích lũy ngày trước.</p>
     <p class="contentsec2mb-GT">Để có được như ngày hôm nay thì Nga đã được ủng hộ và hỗ trợ rất nhiều từ chồng, người
         thân trong gia đình, bạn bè, nhân công sản xuất và những đại lý nhà phân phối. Mọi người đã giúp đưa sản phẩm
@@ -16,7 +16,7 @@
 </div>
 
 <div class="sec6-GT-test">
-    <object data="{{asset('images/gioi-thieu/sec6/Group 7694.svg')}}" class="headersec6-GT"></object>
+    <object data="{{asset('images/gioi-thieu/sec6/Group 22.png')}}" class="headersec6-GT"></object>
     <div class="row-test containersec6-GT-test">
         <img src="{{asset('images/gioi-thieu/sec6/Group 5126.png')}}" class="imgsec6-GT-test col-md-5 col-xxl-4">
         <div class="col-md-5 col-xxl-4 contentsec6-GT-test">
