@@ -8,7 +8,7 @@
 }
 
 .headersec3 {
-    margin-left: 26.7%;
+    margin-left: 27.5%;
     margin-top: 5%;
     width: 15%;
 }
@@ -123,6 +123,13 @@
 
     .buttonvideo {
         margin-top: -3%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .headersec3 {
+        width: 16%;
+        margin-left: 25.5%;
     }
 }
 

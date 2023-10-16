@@ -55,19 +55,28 @@
     background-size: 100% 95%;
 }
 
+@media screen and (max-width: 1200px) {
+    .headersec2-img  {
+        width: 68%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sec2pc {
         display: none;
     }
+
     .sec2mb {
         display: block;
         justify-content: center;
         text-align: center;
     }
+
     .headersec2mb {
         width: 90vw;
         margin-top: 5%;
     }
+
     .contentsec2imgmb {
         width: 100vw;
     }

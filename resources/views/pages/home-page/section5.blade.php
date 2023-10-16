@@ -430,6 +430,12 @@
         transform: translateX(8%);
         padding-bottom: 2%;
     }
+    @media screen and (max-width: 1200px) {
+        .image-rule {
+            width: 32vw;
+            transform: translateX(12%);
+        }
+    }
 
     .carousel-fade .carousel-item {
         transition: opacity 0.5s ease-in-out; /* Đặt thời gian chuyển đổi là 0.5 giây */

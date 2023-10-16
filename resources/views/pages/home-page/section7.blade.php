@@ -119,6 +119,11 @@
         margin-left: 58%;
         scale: 60%;
     }
+    @media only screen and (max-width: 1200px) {
+        .share-joy {
+            width: 40%;
+        }
+    }
     @media only screen and (max-width: 800px) {
         .custom-prev-arrow,
         .custom-next-arrow {

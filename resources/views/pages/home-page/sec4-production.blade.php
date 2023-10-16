@@ -199,6 +199,12 @@
         width: 150px;
     }
 
+    @media screen and (max-width: 1200px) {
+        .headersec4-product-img {
+            width: 33%;
+        }
+    }
+
     @media only screen and (max-width: 800px) {
         .img-sec4 {
             scale: 70%;

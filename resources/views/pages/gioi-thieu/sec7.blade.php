@@ -13,22 +13,22 @@
 
         <div class="carousel-sec-7 col-9">
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-02.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-02.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-03.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-03.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-04.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-04.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-02.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-02.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-03.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-03.png')}}" alt="" class="img-fluid shadow-test">
             </div>
             <div class="d-flex justify-content-center">
-                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhậnnhỏ-04.png')}}" alt="" class="img-fluid shadow-test">
+                <img src="{{asset('images/gioi-thieu/sec7/5. Ảnh chứng nhận-04.png')}}" alt="" class="img-fluid shadow-test">
             </div>
 {{--            <div class="d-flex justify-content-center">--}}
 {{--                <img src="{{asset('images/gioi-thieu/sec7/giấy chứng nhận-02.png')}}" alt="" class="img-fluid">--}}
@@ -141,7 +141,7 @@
     }
     @media only screen and (max-width: 1200px) {
         .imgbrand {
-            width: 46vw;
+            width: 50vw;
         }
     }
     @media only screen and (max-width: 800px) {

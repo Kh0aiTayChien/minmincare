@@ -14,6 +14,25 @@
     display: none;
 }
 
+.headersec8 {
+    text-align: center;
+    justify-content: center;
+    width: 30vw;
+    margin-bottom: 3%;
+    margin-top: -3%;
+}
+
+.imgsec8 {
+    margin-left: 50%;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+    .headersec8 {
+        width: 33vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sec8 {
         display: none;
@@ -54,15 +73,3 @@
     /*}*/
 }
 
-.headersec8 {
-    text-align: center;
-    justify-content: center;
-    width: 30vw;
-    margin-bottom: 3%;
-    margin-top: -3%;
-}
-
-.imgsec8 {
-    margin-left: 50%;
-    padding-top: 3%;
-}

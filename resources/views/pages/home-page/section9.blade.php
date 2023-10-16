@@ -177,6 +177,11 @@
         font-family: Mitr-SemiBold, sans-serif;
         color: #59843d;
     }
+    @media screen and (max-width: 1200px) {
+        .img-sec9-test {
+            width: 33vw;
+        }
+    }
     @media only screen and (max-width: 800px) {
         .img-sec9 {
             /*scale: 70%;*/

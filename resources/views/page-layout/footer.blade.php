@@ -43,6 +43,9 @@
                         <p class="intro2">
                             <a href="#!" class="intro1">Ngũ cốc cho mẹ sau sinh</a>
                         </p>
+                        <p class="intro2">
+                            <a href="#!" class="intro1">Sữa hạt dinh duỡng </a>
+                        </p>
                     </div>
                     <!-- Grid column -->
 
@@ -77,7 +80,8 @@
     <img src="{{asset('images/footer/Group 4239.png')}}" class="linefootermb" id="Informationmb">
     <img src="{{asset('images/footer/Group 930.png')}}" class="logofootermb">
     <div class="linkcontactmb">
-        <a href="tel:0989985091" class="linkphonemb"><img src="{{asset('images/footer/Group 5083.png')}}" class="phonelogomb"></a>
+        <a href="tel:0989985091" class="linkphonemb"><img src="{{asset('images/footer/Group 5083.png')}}"
+                                                          class="phonelogomb"></a>
         <a href="#" class="linkmailmb"><img src="{{asset('images/footer/Group 5084.png')}}" class="maillogomb"></a>
     </div>
     <a href="#" class="linkaddressmb"><img src="{{asset('images/footer/Group 5082.png')}}" class="addresslogomb"></a>
@@ -182,6 +186,7 @@
                     </g>
                 </g>
             </svg>
+            <p class="footermb-product">Sữa hạt dinh dưỡng</p>
         </div>
         <div class="rightfootermb">
             <svg class="footerright" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
