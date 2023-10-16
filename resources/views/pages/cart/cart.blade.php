@@ -12,81 +12,84 @@
                 </div>
 
                 <div class=" p-2 mb-5" style="background-color: #ddd;">
+                    <div class="table-responsive-lg">
+                        <table class="table ">
+                            <thead>
+                            <tr>
+                                <th scope="col" class="text-center">Hình ảnh</th>
+                                <th scope="col" class="text-center">Tên sản phẩm</th>
+                                <th scope="col" class="text-center">Đơn giá</th>
+                                <th scope="col" class="text-center">Số lượng</th>
+                                <th scope="col" class="text-center">Thành tiền</th>
+                                <th scope="col" class="text-center">Xóa</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @if(isset($carts) && count($carts) > 0)
+                                @foreach($carts as $cart)
+                                    <?php
+                                    // Lấy giá của sản phẩm và số lượng từ $cart
+                                    $price = $cart->Product->price;
+                                    $quantity = $cart->quantity;
 
-                            <table class="table  ">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="text-center">Hình ảnh</th>
-                                    <th scope="col" class="text-center">Tên sản phẩm</th>
-                                    <th scope="col" class="text-center">Đơn giá </th>
-                                    <th scope="col" class="text-center">Số lượng</th>
-                                    <th scope="col" class="text-center">Thành tiền</th>
-                                    <th scope="col" class="text-center">Xóa</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @if(isset($carts) && count($carts) > 0)
-                                    @foreach($carts as $cart)
-                                        <?php
-                                        // Lấy giá của sản phẩm và số lượng từ $cart
-                                        $price = $cart->Product->price;
-                                        $quantity = $cart->quantity;
-
-                                        // Tính tổng giá
-                                        $totalPrice = $price * $quantity;
-                                        ?>
-                                <tr class="cart" id="{{$cart->id}}">
-                                    <th scope="row" class="text-center">
-                                        <img src="{{$cart->Product->image}} " class=" cart-img img-fluid" style="; width: 108px; object-fit: cover"
-                                             alt="Ảnh">
-                                    </th>
-                                    <td>
-                                        <h5 class="card-title mitr-medium green-text text-center mt-3"
-                                            style="margin-bottom: 1px">{{\Illuminate\Support\Str::limit($cart->Product->name,24)}}</h5>
-                                    </td>
-                                    <td>
-                                        <p class="card-text text-center mitr-small orange-text mt-3">
-                                            {{ number_format($cart->Product->price, 0, ',', '.') }}</p>
-                                    </td>
-                                    <td class="d-flex align-content-center justify-content-center h-100">
-                                        <div class="mt-3 h-100  text-center mitr-small">
-                                            <div class="d-flex justify-content-center">
-                                                <div class=" plus d-flex align-content-center justify-content-center me-2"
-                                                    data-id="{{$cart->id}}">
-                                                    <div class="cart-circle plus" style="margin-top: 2px">
+                                    // Tính tổng giá
+                                    $totalPrice = $price * $quantity;
+                                    ?>
+                                    <tr class="cart" id="{{$cart->id}}">
+                                        <th scope="row" class="text-center">
+                                            <img src="{{$cart->Product->image}} " class=" cart-img img-fluid"
+                                                 style="; width: 108px; object-fit: cover"
+                                                 alt="Ảnh">
+                                        </th>
+                                        <td>
+                                            <h5 class="card-title mitr-medium green-text text-center mt-3"
+                                                style="margin-bottom: 1px">{{\Illuminate\Support\Str::limit($cart->Product->name,24)}}</h5>
+                                        </td>
+                                        <td>
+                                            <p class="card-text text-center mitr-small orange-text mt-3">
+                                                {{ number_format($cart->Product->price, 0, ',', '.') }}</p>
+                                        </td>
+                                        <td class="d-flex align-content-center justify-content-center h-100">
+                                            <div class="mt-3 h-100  text-center mitr-small">
+                                                <div class="d-flex justify-content-center">
+                                                    <div
+                                                        class=" plus d-flex align-content-center justify-content-center me-2"
+                                                        data-id="{{$cart->id}}">
+                                                        <div class="cart-circle plus" style="margin-top: 2px">
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div class=" quantity me-2"data-id="{{$cart->id}}">
-                                                    {{$cart->quantity}}
-                                                </div>
+                                                    <div class=" quantity me-2" data-id="{{$cart->id}}">
+                                                        {{$cart->quantity}}
+                                                    </div>
 
-                                                <div class=" subtraction d-flex align-content-center justify-content-center"
-                                                    data-id="{{$cart->id}}">
-                                                    <div class="cart-circle minus" style="margin-top: 2px">
+                                                    <div
+                                                        class=" subtraction d-flex align-content-center justify-content-center"
+                                                        data-id="{{$cart->id}}">
+                                                        <div class="cart-circle minus" style="margin-top: 2px">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <p class="card-text text-center mitr-small orange-text mt-3 price-item"
-                                           data-price="{{$cart->Product->price}}">
-                                            {{ number_format($totalPrice, 0, ',', '.') }}</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-center mt-3">
-                                            <i class="fas fa-times cancel-item" data-id="{{$cart->id}}"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                    @endforeach
-                                @else
+                                        </td>
+                                        <td>
+                                            <p class="card-text text-center mitr-small orange-text mt-3 price-item"
+                                               data-price="{{$cart->Product->price}}">
+                                                {{ number_format($totalPrice, 0, ',', '.') }}</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-center mt-3">
+                                                <i class="fas fa-times cancel-item" data-id="{{$cart->id}}"></i>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @else
 
-                                @endif
-                                </tbody>
-                            </table>
-
+                            @endif
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
             </div>
@@ -228,7 +231,7 @@
                         let cart = response.cart;
                         let price_item = response.price;
                         $("#" + cart).find(".quantity").text(quantity);
-                        $("#" + cart).find(".price-item").text((quantity*price_item).toLocaleString('vi-VN'));
+                        $("#" + cart).find(".price-item").text((quantity * price_item).toLocaleString('vi-VN'));
                     }
                 },
                 error: function (xhr, status, error) {
@@ -258,7 +261,7 @@
                         let cart = response.cart;
                         let price_item = response.price;
                         $("#" + cart).find(".quantity").text(quantity);
-                        $("#" + cart).find(".price-item").text((quantity*price_item).toLocaleString('vi-VN'));
+                        $("#" + cart).find(".price-item").text((quantity * price_item).toLocaleString('vi-VN'));
                     } else if (response.status === "delete") {
                         let cart = response.cart;
                         $("#" + cart).remove();
