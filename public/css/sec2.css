@@ -13,6 +13,11 @@
     /*width: 25vw;*/
 }
 
+.headersec2-img {
+    width: 61%;
+    transform: translateY(40%);
+}
+
 /*.header-test-1-mb {*/
 /*    font-size: 22px;*/
 /*    font-family: Mitr-Regular, sans-serif;*/
@@ -60,7 +65,7 @@
         text-align: center;
     }
     .headersec2mb {
-        width: 50vw;
+        width: 90vw;
         margin-top: 5%;
     }
     .contentsec2imgmb {

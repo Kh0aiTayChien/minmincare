@@ -37,20 +37,21 @@
 .sec3-GT {
     display: none;
 }
+
 .sec3-GT-test {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    text-align: right;
     margin-top: 5%;
 }
 
 .headersec3-GT-test {
-    /*width: 70%;*/
+    width: 83%;
     /*margin-left: 33%;*/
-    transform: translateX(28%);
+    /*transform: translateX(-8%);*/
     text-align: right;
     justify-content: right;
-    scale: 65%;
+    margin-bottom: 3%;
 }
 
 .textsec3-GT-test {
@@ -68,33 +69,38 @@
 }
 
 
-
 @media screen and (max-width: 768px) {
     .sec3-GT {
         display: none;
     }
+
     .sec3-GT-test {
         display: none;
     }
+
     .sec3mb-GT {
         display: block;
         justify-content: center;
         text-align: center;
     }
+
     .headersec3mb-GT {
-        width: 50vw;
+        width: 45vw;
         margin-top: 5%;
     }
+
     .arrangesec3mb-GT {
         width: 85vw;
         margin-right: 5%;
         /*margin-top: -1.5%;*/
     }
+
     .arrangesec3mb-GT1 {
         width: 70vw;
         margin-right: 20%;
         margin-top: -7%;
     }
+
     .imgsec3mb-GT {
         width: 90vw;
         margin-top: 2%;

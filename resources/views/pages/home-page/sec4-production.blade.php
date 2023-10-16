@@ -2,13 +2,13 @@
 {{--    <div class="d-flex align-content-center justify-content-center img-sec4">--}}
 {{--        <img src="{{asset('images/sec4/sanpham.png')}}" alt="" style="" class="img-fluid ">--}}
 {{--    </div>--}}
-    <div class="headersec4-product d-none d-md-block">
-        <p class="header-test-1">Sản phẩm</p>
-        <p class="header-test-2">MIN MIN CARE</p>
+    <div class="headersec4-product d-none d-sm-block">
+{{--        <p class="header-test-1">Niềm tự hào của</p>--}}
+{{--        <p class="header-test-2">MIN MIN CARE</p>--}}
+        <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-img">
     </div>
-    <div class="headersec4-product d-block d-md-none">
-        <p class="header-test-1-mb">Sản phẩm</p>
-        <p class="header-test-2-mb">MIN MIN CARE</p>
+    <div class="headersec4-product d-block d-sm-none">
+    <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-mb">
     </div>
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-4 " aria-label="Previous">
@@ -61,6 +61,9 @@
         justify-content: center;
         text-align: center;
     }
+    .headersec4-product-img {
+        width: 30%;
+    }
     .header-test-1 {
         font-size: 40px;
         font-family: Mitr-Regular, sans-serif;
@@ -73,17 +76,20 @@
         font-family: Mitr-SemiBold, sans-serif;
         color: white;
     }
-    .header-test-1-mb {
-        font-size: 22px;
+    .header-test-1-m {
+        font-size: 25px;
         font-family: Mitr-Regular, sans-serif;
         color: white;
         line-height: 5px;
         padding-top: 20px;
     }
-    .header-test-2-mb {
-        font-size: 27px;
+    .header-test-2-m {
+        font-size: 32px;
         font-family: Mitr-SemiBold, sans-serif;
         color: white;
+    }
+    .headersec4-product-mb {
+        width: 90vw;
     }
     .green-bg {
         background-color: #59843d;

@@ -41,8 +41,11 @@
         justify-content: center;
     }
     .headersec4mb-GT {
-        width: 70vw;
-        margin-top: 5%;
+        width: 100vw;
+        margin-top: 6%;
+    }
+    .contentsec4mb-GT {
+        margin-top: -10%;
     }
     .imgsec4mb-GT {
         width: 90vw;
@@ -56,9 +59,9 @@
 }
 
 .headersec4-GT-test {
-    scale: 60%;
-    /*width: 70%;*/
-    transform: translateX(-33%);
+    /*scale: 95%;*/
+    width: 100%;
+    transform: translateY(25%);
 }
 
 .textsec4-GT-test {

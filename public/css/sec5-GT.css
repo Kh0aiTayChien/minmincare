@@ -7,14 +7,14 @@
 }
 
 .headersec5-GT {
-    margin-right: 5%;
+    /*margin-left: 5%;*/
 }
 
 .headersec5-GT-test {
-    /*width: 80%;*/
-    margin-top: 5%;
-    scale: 68%;
-    transform: translateX(-7%);
+    width: 100%;
+    margin-top: 10%;
+    scale: 125%;
+    transform: translateX(-8%);
 }
 
 .bannersec5-GT-test {
@@ -77,8 +77,10 @@
     }
 
     .headersec5mb-GT {
-        width: 55vw;
+        width: 100vw;
+        scale: 125%;
         margin-top: 3%;
+        transform: translateX(-8%);
     }
 
     .textsec5mb-GT {

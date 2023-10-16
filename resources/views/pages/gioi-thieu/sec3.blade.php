@@ -25,7 +25,7 @@
 <div class="sec3-GT-test">
     <div class="row-test">
         <div class="col-xxl-4 col-md-5">
-            <object data="{{asset('images/gioi-thieu/sec3/Group 7692.svg')}}" class="headersec3-GT-test col-12"></object>
+            <img src="{{asset('images/gioi-thieu/sec3/Group 15.png')}}" class="headersec3-GT-test">
             <p class="textsec3-GT-test">Những giá trị cốt lõi này là lời cam kết của Min Min Care đối với khách hàng,
                 đối tác, các nhà đầu tư, với xã hội và với chính bản thân chúng tôi. Những giá trị này là kim chỉ nam
                 cho mọi hoạt động của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng:</p><br>
