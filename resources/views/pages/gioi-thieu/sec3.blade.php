@@ -31,6 +31,6 @@
                 cho mọi hoạt động của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng:</p><br>
             <object data="{{asset('images/gioi-thieu/sec3/Group 7698.svg')}}" class="arrangesec3-GT-test"></object>
         </div>
-        <img src="{{asset('images/gioi-thieu/sec3/2. Giá trị cốt lõi Min min.jpg')}}" class="col-xxl-4 col-md-5 imgsec3-GT-test">
+        <img src="{{asset('images/gioi-thieu/sec3/sửa ảnh 17.10-07.png')}}" class="col-xxl-4 col-md-5 imgsec3-GT-test">
     </div>
 </div>

@@ -29,22 +29,22 @@
                             GIỚI THIỆU
                         </h6>
                         <p>
-                            <a href="#" class="intro1">Về Min Min Care</a>
+                            <a href="{{asset('gioi-thieu')}}" class="intro1">Về Min Min Care</a>
                         </p>
                         <p class="intro2">
-                            <a href="#" class="intro1">Về ngũ cốc dinh dưỡng</a>
+                            <a href="{{asset('gioi-thieu')}}" class="intro1">Về ngũ cốc dinh dưỡng</a>
                         </p>
                         <h6 class="text-uppercase mb-4 intro">
                             SẢN PHẨM
                         </h6>
                         <p>
-                            <a href="#!" class="intro1">Ngũ cốc cho mẹ bầu</a>
+                            <a href="{{asset('san-pham')}}" class="intro1">Ngũ cốc cho mẹ bầu</a>
                         </p>
                         <p class="intro2">
-                            <a href="#!" class="intro1">Ngũ cốc cho mẹ sau sinh</a>
+                            <a href="{{asset('san-pham')}}" class="intro1">Ngũ cốc cho mẹ sau sinh</a>
                         </p>
                         <p class="intro2">
-                            <a href="#!" class="intro1">Sữa hạt dinh duỡng </a>
+                            <a href="{{asset('san-pham')}}" class="intro1">Sữa hạt dinh duỡng </a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -55,15 +55,15 @@
                         <!-- Links -->
                         <h6 class="text-uppercase mb-4 intro">KIẾN THỨC</h6>
                         <p>
-                            <a href="#" class="intro1">Chuyên mục sức khỏe</a>
+                            <a href="{{asset('kien-thuc')}}" class="intro1">Chuyên mục sức khỏe</a>
                         </p>
                         <h6 class="text-uppercase mb-4 intro">TIN TỨC</h6>
                         <p>
-                            <a href="#" class="intro1">Tin tức Min Min Care</a>
+                            <a href="{{asset('tin-tuc')}}" class="intro1">Tin tức Min Min Care</a>
                         </p>
                         <h6 class="text-uppercase mb-4 intro">LIÊN HỆ</h6>
                         <p>
-                            <a href="#" class="intro1">Đăng ký đại lý</a>
+                            <a href="{{asset('lien-he')}}" class="intro1">Đăng ký đại lý</a>
                         </p>
                     </div>
                     <!-- Grid column -->

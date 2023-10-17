@@ -294,7 +294,8 @@
     border: none;
     background-color: #fff;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
-    padding: 10px; /* Tùy chỉnh khoảng cách giữa chữ và viền của input */
+    padding-top: 20px;
+    padding-left: 10px; /* Tùy chỉnh khoảng cách giữa chữ và viền của input */
     box-sizing: border-box;
 }
 
@@ -343,6 +344,7 @@
     .sec1-LH {
         margin-top: 5%;
     }
+
     .sec10pc {
         display: none;
     }
@@ -477,6 +479,7 @@
         border-radius: 5px;
         border: none;
         padding-left: 10px;
+        padding-top: 5px;
         margin-top: 5%;
         /*margin-top: -10%!important;*/
         width: 42vw;
@@ -502,6 +505,7 @@
         margin-top: 1%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
+
     /*.btn-form-customer {*/
     /*    font-family: Mitr-Regular, sans-serif;*/
     /*}*/
