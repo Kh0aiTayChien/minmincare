@@ -2,7 +2,7 @@
 {{--    <div class="d-flex align-content-center justify-content-center img-sec4">--}}
 {{--        <img src="{{asset('images/sec4/sanpham.png')}}" alt="" style="" class="img-fluid ">--}}
 {{--    </div>--}}
-    <div class="headersec4-product d-none d-sm-block">
+    <div class="headersec4-product d-none d-sm-block mb-4">
 {{--        <p class="header-test-1">Niềm tự hào của</p>--}}
 {{--        <p class="header-test-2">MIN MIN CARE</p>--}}
         <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-img">
@@ -22,10 +22,12 @@
             @foreach($products as $product)
                 <div class="d-flex justify-content-center">
                     <div class="card rounded-custom shadow-effect me-1 col-11 col-sm-8 col-md-11">
-                        <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
-                             alt="Card image">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
                         <div class="card-body">
-                            <p class="height-text-card green-text font-size-custom-big text-center"><strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="green-text font-size-custom-big text-center" style="height: 3rem"><strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
                             <p class="height-text-card green-text text-center"><strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
                             <p class="height-text-card orange-text font-size-custom text-center"><strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
@@ -41,7 +43,7 @@
 
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center mt-4">
+    <div class="d-flex align-content-center justify-content-center mt-4 pb-5">
         <a href="{{route('homepage.product.index')}}"
            class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">XEM
             THÊM</a>

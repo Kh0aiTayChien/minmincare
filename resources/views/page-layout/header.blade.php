@@ -540,7 +540,7 @@
 <script>
     $(document).ready(function () {
         $('.buy-button').on('click', function () {
-            alert('Thêm vào giỏ hàng thanh công')
+            alert('THÊM VÀO GIỎ HÀNG THÀNH CÔNG')
             let productId = $(this).data('id');
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
             $.ajax({
