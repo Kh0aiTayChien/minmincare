@@ -4,20 +4,22 @@
 }
 
 .containersec3-DL {
+    margin-top: 5%;
     text-align: right;
     justify-content: right;
+    padding-right: 5%;
 }
 
 .headersec3-DL {
-    scale: 65%;
-    transform: translateX(25%);
+    width: 60%;
+    margin-bottom: 2%;
 }
 
 .contentsec3-DL {
 }
 
 .bannersec3-DL {
-    transform: translateX(8%);
+padding-right: 7%;
 }
 
 .sec3mb-DL {

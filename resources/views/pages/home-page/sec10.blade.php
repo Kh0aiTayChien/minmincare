@@ -13,7 +13,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care, bạn cần tư vấn về sản phẩm..."
+                      placeholder="Bạn có câu hỏi gì cho chúng tôi"
                       id="address" name="address" required></textarea>
             <br>
 
@@ -40,7 +40,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot-mb"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
+                      placeholder="Bạn có câu hỏi gì cho chúng tôi"
                       id="address" name="address" required></textarea>
 
             <button class="customer-button-mb">

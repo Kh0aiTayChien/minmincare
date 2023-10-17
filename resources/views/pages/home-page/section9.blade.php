@@ -179,7 +179,7 @@
     }
     @media screen and (max-width: 1200px) {
         .img-sec9-test {
-            width: 33vw;
+            width: 40vw;
         }
     }
     @media only screen and (max-width: 800px) {

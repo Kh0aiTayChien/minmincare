@@ -141,7 +141,7 @@
     }
     @media only screen and (max-width: 1200px) {
         .imgbrand {
-            width: 50vw;
+            width: 62vw;
         }
     }
     @media only screen and (max-width: 800px) {

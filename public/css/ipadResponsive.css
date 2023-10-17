@@ -2,6 +2,47 @@
     border-radius: 25px;
 }
 @media screen and (max-width: 1200px) {
+    .headersec2-img {
+        width: 85%;
+    }
+    .headersec3 {
+        width: 39%;
+        margin-left: 2.1%;
+    }
+    .headersec8 {
+        width: 40vw;
+    }
+    .headersec2-GT-test {
+        width: 100%;
+    }
+    .headersec3-GT-test {
+        width: 100%;
+    }
+    .headersec4-GT-test {
+        width: 95%;
+    }
+    .headersec5-GT-test {
+        width: 120%;
+    }
+    .contentsec5-GT {
+        padding-left: 5%;
+    }
+    .headersec2-DL {
+        width: 100%;
+    }
+    .headersec3-DL {
+        width: 72%;
+        margin-bottom: 2%;
+    }
+    .headersec4-DL {
+        width: 26vw;
+    }
+    .headersec5-DL {
+        width: 30vw;
+    }
+    .headersec6-DL {
+        width: 20vw;
+    }
     .logofooter {
         width: 120%;
     }

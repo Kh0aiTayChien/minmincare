@@ -52,15 +52,15 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 1399px) {
-    .sec5-GT-test {
-        background-image: url("/images/gioi-thieu/sec5/Group 1297.png");
-        background-repeat: no-repeat;
-        background-size: 100% 90%;
-        background-position: center;
-        /*margin-top: 0;*/
-        padding-top: 5%;
-        padding-bottom: 3%;
-    }
+    /*.sec5-GT-test {*/
+    /*    background-image: url("/images/gioi-thieu/sec5/Group 1297.png");*/
+    /*    background-repeat: no-repeat;*/
+    /*    background-size: 100% 90%;*/
+    /*    background-position: center;*/
+    /*    !*margin-top: 0;*!*/
+    /*    padding-top: 5%;*/
+    /*    padding-bottom: 3%;*/
+    /*}*/
 }
 
 @media screen and (max-width: 768px) {

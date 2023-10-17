@@ -432,7 +432,7 @@
     }
     @media screen and (max-width: 1200px) {
         .image-rule {
-            width: 32vw;
+            width: 39vw;
             transform: translateX(12%);
         }
     }

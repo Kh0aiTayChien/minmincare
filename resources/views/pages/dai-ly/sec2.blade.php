@@ -1,8 +1,7 @@
 <div class="sec2-DL">
     <div class="row-test">
-
         <div class="col-5 quote-test">
-            <img src="{{asset('images/dai-ly/sec2/Asset 21.png')}}" class="quotesec2-DL col-11">
+            <img src="{{asset('images/dai-ly/sec2/1, Tex Sec 1-02.png')}}" class="quotesec2-DL col-11">
         </div>
         <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL col-5">
     </div>

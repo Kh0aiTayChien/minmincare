@@ -59,9 +59,8 @@
 }
 
 .headersec4-GT-test {
-    /*scale: 95%;*/
-    width: 100%;
-    transform: translateY(25%);
+    width: 80%;
+    margin-bottom: 1%;
 }
 
 .textsec4-GT-test {

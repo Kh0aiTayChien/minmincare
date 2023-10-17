@@ -121,7 +121,8 @@
     }
     @media only screen and (max-width: 1200px) {
         .share-joy {
-            width: 40%;
+            width: 49%;
+            margin-left: 50%;
         }
     }
     @media only screen and (max-width: 800px) {

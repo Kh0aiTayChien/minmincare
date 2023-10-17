@@ -25,7 +25,7 @@
 <div class="sec4-GT-test row-test">
     <img src="{{asset('images/gioi-thieu/sec2/Group 1301.png')}}" class=" imgsec4-GT-test col-md-5 col-xxl-4">
     <div class="col-md-5 col-xxl-4 containersec4-GT-test">
-        <object data="{{asset('images/gioi-thieu/sec4/Group 17.png')}}" class="headersec4-GT-test"></object>
+        <object data="{{asset('images/gioi-thieu/sec4/Group 5 (1).png')}}" class="headersec4-GT-test"></object>
         <br>
         <p class="textsec4-GT-test">Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga.
             Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của

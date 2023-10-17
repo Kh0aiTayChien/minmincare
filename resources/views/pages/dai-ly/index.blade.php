@@ -10,4 +10,5 @@
     @include('pages.gioi-thieu.sec7')
     @include('pages.dai-ly.sec8')
     @include('pages.navigation-sec.navigation-sec')
+    @include('pages.home-page.sec10')
 @stop

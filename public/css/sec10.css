@@ -316,9 +316,9 @@
 }
 
 .button5 {
-    width: 26.5vw;
+    width: 26.65vw;
     /*position: absolute;*/
-    margin-left: -3.5%;
+    margin-left: -4%;
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1920px) {

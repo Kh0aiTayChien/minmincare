@@ -201,7 +201,7 @@
 
     @media screen and (max-width: 1200px) {
         .headersec4-product-img {
-            width: 33%;
+            width: 39%;
         }
     }
 
