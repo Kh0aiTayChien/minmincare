@@ -1,8 +1,8 @@
-<div class="section-4 pt-3 mt-2">
+<div class="section-4 pt-5 mb-5 mt-2">
 {{--    <div class="d-flex align-content-center justify-content-center img-sec4">--}}
 {{--        <img src="{{asset('images/sec4/sanpham.png')}}" alt="" style="" class="img-fluid ">--}}
 {{--    </div>--}}
-    <div class="headersec4-product d-none d-sm-block mb-4">
+    <div class="headersec4-product d-none d-sm-block mb-5">
 {{--        <p class="header-test-1">Niềm tự hào của</p>--}}
 {{--        <p class="header-test-2">MIN MIN CARE</p>--}}
         <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-img">
@@ -43,7 +43,7 @@
 
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center mt-4 pb-5">
+    <div class="d-flex align-content-center justify-content-center mt-5 pb-5">
         <a href="{{route('homepage.product.index')}}"
            class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">XEM
             THÊM</a>
