@@ -5,9 +5,11 @@
     @include('pages.dai-ly.sec3')
     @include('pages.dai-ly.section-slide')
     @include('pages.dai-ly.sec4')
+    @include('pages.home-page.sec4-production')
     @include('pages.dai-ly.sec5')
     @include('pages.dai-ly.sec6')
     @include('pages.gioi-thieu.sec7')
     @include('pages.dai-ly.sec8')
     @include('pages.navigation-sec.navigation-sec')
+    @include('pages.home-page.sec10')
 @stop

@@ -63,4 +63,9 @@
         font-family: Mitr-SemiBold, sans-serif;
         color: white;
     }
+    @media screen and (max-width: 1200px) {
+        .headernavigation {
+            width: 35vw;
+        }
+    }
 </style>
