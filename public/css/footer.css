@@ -58,6 +58,10 @@
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
+.intro1:hover {
+    color: #F79420;
+}
+
 .intro2 {
     width: 20vw;
 }
@@ -88,6 +92,7 @@
     .footermb {
         display: block;
         background-image: url("/images/footer/Group 1269.png");
+        padding-bottom: 2%;
     }
     .logofootermb {
         width: 45vw;
@@ -122,6 +127,13 @@
         /*position: absolute;*/
         /*margin-top: -40%;*/
         margin-left: 6%;
+    }
+    .footermb-product {
+        font-family: Mulish-Medium, sans-serif;
+        font-size: 13px;
+        color: white;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+        margin-left: 2%;
     }
     .rightfootermb {
         /*position: absolute;*/

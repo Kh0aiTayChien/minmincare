@@ -51,15 +51,17 @@
     }
 }
 
-@media screen and (min-width: 770px) and (max-width: 1399px) {
+@media screen and (min-width: 770px) and (max-width: 1049px) {
     .sec5-GT-test {
         background-image: url("/images/gioi-thieu/sec5/Group 1297.png");
         background-repeat: no-repeat;
-        background-size: 100% 90%;
+        background-size: 100% 87%;
         background-position: center;
-        /*margin-top: 0;*/
         padding-top: 5%;
         padding-bottom: 3%;
+    }
+    .contentsec5-GT {
+        padding: unset;
     }
 }
 

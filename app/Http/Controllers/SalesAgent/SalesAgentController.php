@@ -8,6 +8,7 @@ use App\Models\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
+use App\Models\Product;
 
 class SalesAgentController extends Controller
 {
@@ -22,16 +23,20 @@ class SalesAgentController extends Controller
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
+            $products = Product::all();
             return response()
                 ->view('pages.dai-ly.index', ['images' => $images])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
+            // Execute the query and get the results before passing them to the view
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
-            })->get();
+            })->get(); // Execute the query using get() to fetch the results
 
-            return view('pages.dai-ly.index', ['carts' => $carts,  'images' => $images]);
+            $products = Product::all();
+
+            return view('pages.dai-ly.index', ['carts' => $carts, 'products' => $products, 'images' => $images]);
         }
     }
 }

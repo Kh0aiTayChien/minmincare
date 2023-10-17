@@ -59,15 +59,18 @@
     .sec2pc {
         display: none;
     }
+
     .sec2mb {
         display: block;
         justify-content: center;
         text-align: center;
     }
+
     .headersec2mb {
         width: 90vw;
         margin-top: 5%;
     }
+
     .contentsec2imgmb {
         width: 100vw;
     }

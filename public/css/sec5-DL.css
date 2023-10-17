@@ -1,11 +1,13 @@
 .sec5-DL {
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .headersec5-DL {
-    /*width: 40vw;*/
+    width: 25vw;
     margin-top: 2%;
-    scale: 50%;
+    margin-bottom: 2%;
+    /*scale: 50%;*/
 }
 
 .imgbtn {
@@ -14,12 +16,28 @@
     outline: none;
     background: none;
     margin-bottom: 3%;
-    width: 70vw;
+    /*width: 70vw;*/
+}
+
+.buttonvideo-DL-left {
+    padding-left: 5%;
+    padding-right: 2.5%;
+}
+
+.buttonvideo-DL-mid {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+.buttonvideo-DL-right {
+    padding-left: 2.5%;
+    padding-right: 5%;
 }
 
 .buttonvideo-DL {
     width: 70vw;
-    height: 70vh;
+    margin-top: -5%;
+    /*height: 70vh;*/
 }
 
 .sec5mb-DL {
