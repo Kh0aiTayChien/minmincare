@@ -1,25 +1,25 @@
 <div class="sec8">
     <img src="{{asset('images/sec8/Group 10.png')}}" class="headersec8">
     <div class="row px-5 mx-5 mb-5 gx-3">
-        <div class="col-3  offset-1 d-flex justify-content-center align-content-center ">
+        <div class="col-3  offset-2 d-flex justify-content-center align-content-center ">
             <button class="tab-button btn btn-outline-white shadow-effect
                                 border-white text-white border-2 green-bg mitr-small button-shake active"
                     data-target="tab1" style="width: 100%; border-radius: 10px">
-                <div class="mx-5  font-size-custom">MẸ BẦU</div>
+                <div class=" font-size-custom">MẸ BẦU</div>
             </button>
         </div>
         <div class="col-3 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
                                 border-white text-white border-2 green-bg mitr-small button-shake"
                     data-target="tab2" style="width: 100% ; border-radius: 10px">
-                <div class="mx-5  font-size-custom">MẸ SAU SINH</div>
+                <div class=" font-size-custom">MẸ SAU SINH</div>
             </button>
         </div>
         <div class="col-3 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
                                 border-white text-white border-2 green-bg mitr-small button-shake"
                     data-target="tab3" style="width: 100% ; border-radius: 10px">
-                <div class="mx-5 font-size-custom">DINH DƯỠNG CHO CON</div>
+                <div class=" font-size-custom">DINH DƯỠNG CHO CON</div>
             </button>
         </div>
     </div>

@@ -174,7 +174,7 @@ class CartController extends Controller
 
         array_push($rows, []);
         $totalItems = count($rows) - 1;
-        Mail::to('chien.hcckt@gmail.com')->send(new InfoUserMailable($rows, $totalItems, $data));
+        Mail::to('info@minmincare.vn')->send(new InfoUserMailable($rows, $totalItems, $data));
         Sheets::sheet('chien')->append($rows);
 
         $session->delete();

@@ -26,8 +26,9 @@
     margin-top: 3%;
     position: absolute;
     right: 0;
-    width: 50vw;
-    /*height: 90vh;*/
+    width: 45%;
+    height: 40%;
+
 }
 
 .buttonvideo {
@@ -35,6 +36,11 @@
     right: 12%;
     width: 22vw;
     transform: translateY(60%);
+}
+@media screen and (min-aspect-ratio: 16/15) and (max-aspect-ratio: 16/9.5)  {
+    .buttonvideo {
+        transform: translateY(10%) !important;
+    }
 }
 
 .nga-min-link {

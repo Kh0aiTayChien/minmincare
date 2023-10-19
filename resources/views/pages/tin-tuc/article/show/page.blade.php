@@ -1,4 +1,8 @@
 <div class=" content-article ">
+    <div class="d-flex justify-content-center align-content-center">
+        <img src="{{$article->image}}" alt="" style="width: 62.5vw;
+        margin-bottom: 5rem; " class="img-fluid">
+    </div>
     <h2 align="center" class="tilte-text">{{$article->title}}</h2>
     <div class="d-flex justify-content-center align-content-center">
         <p class="datetime_text p-2 text-center pb-3"> Ngày đăng: {{$article->created_at}} </p>
