@@ -1,5 +1,5 @@
 <div class="sec3pc">
-    <img src="{{asset('images/sec3/Group 967.png')}}" class="imgvideo">
+    <img src="{{asset('images/sec3/Group 967.png')}}" class="imgvideo img-fluid">
     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="/images/sec3/utubeicon.png" class="buttonvideo">
     </button>
