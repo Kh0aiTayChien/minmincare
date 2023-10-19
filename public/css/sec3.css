@@ -4,7 +4,7 @@
 }
 
 .sec3pc {
-    margin-bottom: 9%;
+    margin-bottom: 11%;
 }
 
 .headersec3 {
@@ -34,6 +34,7 @@
     position: absolute;
     right: 12%;
     width: 22vw;
+    transform: translateY(60%);
 }
 
 .nga-min-link {

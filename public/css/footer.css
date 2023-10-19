@@ -58,6 +58,10 @@
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
+.footerlink {
+    text-decoration: none;
+}
+
 .intro1:hover {
     color: #F79420;
 }
