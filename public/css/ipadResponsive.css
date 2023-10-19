@@ -1,6 +1,19 @@
 .imgsec2-GT-test {
     border-radius: 25px;
 }
+
+@media screen and (max-width: 1300px) {
+    .logofooter {
+        width: 120%;
+    }
+    .intro {
+        font-size: 14px;
+    }
+    .intro1 {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .headersec2-img {
         width: 85%;

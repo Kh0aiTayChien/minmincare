@@ -29,10 +29,10 @@
                             GIỚI THIỆU
                         </h6>
                         <p>
-                            <a href="{{asset('gioi-thieu')}}" class="intro1">Về Min Min Care</a>
+                            <a href="https://ngaminmin.com/" class="intro1">Về Min Min Care</a>
                         </p>
                         <p class="intro2">
-                            <a href="{{asset('gioi-thieu')}}" class="intro1">Về ngũ cốc dinh dưỡng</a>
+                            <a href="https://ngaminmin.com/" class="intro1">Về ngũ cốc dinh dưỡng</a>
                         </p>
                         <h6 class="text-uppercase mb-4 intro">
                             SẢN PHẨM
@@ -152,14 +152,17 @@
                             <tspan x="0" y="40">SẢN PHẨM</tspan>
                         </text>
                     </g>
-                    <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_bầu)">
-                        <text id="Ngũ_cốc_cho_mẹ_bầu-2" data-name="Ngũ cốc cho mẹ bầu"
-                              transform="translate(4.85 359.35)"
-                              fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
-                              letter-spacing="0.05em">
-                            <tspan x="0" y="35">Ngũ cốc cho mẹ bầu</tspan>
-                        </text>
-                    </g>
+                    <a href="{{asset('san-pham')}}" class="footerlink">
+                        <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_bầu)">
+                            <text id="Ngũ_cốc_cho_mẹ_bầu-2" data-name="Ngũ cốc cho mẹ bầu"
+                                  transform="translate(4.85 359.35)"
+                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  letter-spacing="0.05em">
+                                <tspan x="0" y="35">Ngũ cốc cho mẹ bầu</tspan>
+                            </text>
+                        </g>
+                    </a>
+                    <a href="{{asset('san-pham')}}" class="footerlink">
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
                         <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
                               transform="translate(4.85 448.97)" fill="#fff" font-size="35"
@@ -167,26 +170,30 @@
                               font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="35">Ngũ cốc cho mẹ sau sinh</tspan>
                         </text>
-                    </g>
-                    <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_Min_Min_Care)">
-                        <text id="Về_Min_Min_Care-2" data-name="Về Min Min Care" transform="translate(4.85 96.04)"
-                              fill="#fff"
-                              font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
-                              letter-spacing="0.05em">
-                            <tspan x="0" y="35">Về Min Min Care</tspan>
-                        </text>
-                    </g>
-                    <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_ngũ_cốc_dinh_dưỡng)">
-                        <text id="Về_ngũ_cốc_dinh_dưỡng-2" data-name="Về ngũ cốc dinh dưỡng"
-                              transform="translate(4.85 184.17)"
-                              fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
-                              letter-spacing="0.05em">
-                            <tspan x="0" y="35">Về ngũ cốc dinh dưỡng</tspan>
-                        </text>
-                    </g>
+                    </g></a>
+                    <a href="https://ngaminmin.com/" class="footerlink">
+                        <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_Min_Min_Care)">
+                            <text id="Về_Min_Min_Care-2" data-name="Về Min Min Care" transform="translate(4.85 96.04)"
+                                  fill="#fff"
+                                  font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  letter-spacing="0.05em">
+                                <tspan x="0" y="35">Về Min Min Care</tspan>
+                            </text>
+                        </g>
+                    </a>
+                    <a href="https://ngaminmin.com/" class="footerlink">
+                        <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_ngũ_cốc_dinh_dưỡng)">
+                            <text id="Về_ngũ_cốc_dinh_dưỡng-2" data-name="Về ngũ cốc dinh dưỡng"
+                                  transform="translate(4.85 184.17)"
+                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  letter-spacing="0.05em">
+                                <tspan x="0" y="35">Về ngũ cốc dinh dưỡng</tspan>
+                            </text>
+                        </g>
+                    </a>
                 </g>
             </svg>
-            <p class="footermb-product">Sữa hạt dinh dưỡng</p>
+            <a href="{{asset('san-pham')}}" class="footerlink"><p class="footermb-product">Sữa hạt dinh dưỡng</p></a>
         </div>
         <div class="rightfootermb">
             <svg class="footerright" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -238,33 +245,39 @@
                     </filter>
                 </defs>
                 <g id="Group_5086" data-name="Group 5086" transform="translate(-712.977 -5096.666)">
-                    <g id="Group_1287" data-name="Group 1287">
-                        <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Đăng_ký_đại_lý)">
-                            <text id="Đăng_ký_đại_lý-2" data-name="Đăng ký đại lý" transform="translate(3.5 448.97)"
-                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
-                                  letter-spacing="0.05em">
-                                <tspan x="0" y="35">Đăng ký đại lý</tspan>
-                            </text>
+                    <a href="{{asset('lien-he')}}" class="footerlink">
+                        <g id="Group_1287" data-name="Group 1287">
+                            <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Đăng_ký_đại_lý)">
+                                <text id="Đăng_ký_đại_lý-2" data-name="Đăng ký đại lý" transform="translate(3.5 448.97)"
+                                      fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                      letter-spacing="0.05em">
+                                    <tspan x="0" y="35">Đăng ký đại lý</tspan>
+                                </text>
+                            </g>
                         </g>
-                    </g>
-                    <g id="Group_1288" data-name="Group 1288">
-                        <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Chuyên_mục_sức_khỏe)">
-                            <text id="Chuyên_mục_sức_khỏe-2" data-name="Chuyên mục sức khỏe"
-                                  transform="translate(3.5 96.04)" fill="#fff" font-size="35"
-                                  font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
-                                <tspan x="0" y="35">Chuyên mục sức khỏe</tspan>
-                            </text>
+                    </a>
+                    <a href="{{asset('kien-thuc')}}" class="footerlink">
+                        <g id="Group_1288" data-name="Group 1288">
+                            <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Chuyên_mục_sức_khỏe)">
+                                <text id="Chuyên_mục_sức_khỏe-2" data-name="Chuyên mục sức khỏe"
+                                      transform="translate(3.5 96.04)" fill="#fff" font-size="35"
+                                      font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
+                                    <tspan x="0" y="35">Chuyên mục sức khỏe</tspan>
+                                </text>
+                            </g>
                         </g>
-                    </g>
-                    <g id="Group_1289" data-name="Group 1289">
-                        <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Tin_tức_Min_Min_Care)">
-                            <text id="Tin_tức_Min_Min_Care-2" data-name="Tin tức Min Min Care"
-                                  transform="translate(3.5 272.59)" fill="#fff" font-size="35"
-                                  font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
-                                <tspan x="0" y="35">Tin tức Min Min Care</tspan>
-                            </text>
+                    </a>
+                    <a href="{{asset('tin-tuc')}}" class="footerlink">
+                        <g id="Group_1289" data-name="Group 1289">
+                            <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Tin_tức_Min_Min_Care)">
+                                <text id="Tin_tức_Min_Min_Care-2" data-name="Tin tức Min Min Care"
+                                      transform="translate(3.5 272.59)" fill="#fff" font-size="35"
+                                      font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
+                                    <tspan x="0" y="35">Tin tức Min Min Care</tspan>
+                                </text>
+                            </g>
                         </g>
-                    </g>
+                    </a>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#KIẾN_THỨC)">
                         <text id="KIẾN_THỨC-2" data-name="KIẾN THỨC" transform="translate(3.5 3.5)" fill="#fff"
                               font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">

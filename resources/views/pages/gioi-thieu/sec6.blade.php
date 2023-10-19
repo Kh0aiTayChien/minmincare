@@ -5,7 +5,7 @@
     <p class="contentsec2mb-GT">Để có được như ngày hôm nay thì Nga đã được ủng hộ và hỗ trợ rất nhiều từ chồng, người
         thân trong gia đình, bạn bè, nhân công sản xuất và những đại lý nhà phân phối. Mọi người đã giúp đưa sản phẩm
         tới gần hơn với người tiêu dùng và đồng hành trong hành trình suốt 7 năm với Min Min Care.</p>
-    <img src="{{asset('images/gioi-thieu/sec6/Group 1348.png')}}" class="imgsec6mb-GT">
+    <img src="{{asset('images/gioi-thieu/sec6/05-05.png')}}" class="imgsec6mb-GT">
     <p class="contentsec2mb-GT"><span class="bold-text">Sau hơn 7 năm</span> kinh doanh sản phẩm Min Min Care, Nga tìm
         thấy được ý nghĩa và giá trị tích cực của việc mình hướng đến. Bất kỳ người mẹ nào cũng mong muốn dành những
         điều tốt nhất cho đứa con của mình, nhưng không phải họ lúc nào cũng đủ thời gian để có được một giải pháp phù
@@ -18,7 +18,7 @@
 <div class="sec6-GT-test">
     <object data="{{asset('images/gioi-thieu/sec6/Group 22.png')}}" class="headersec6-GT"></object>
     <div class="row-test containersec6-GT-test">
-        <img src="{{asset('images/gioi-thieu/sec6/Group 5126.png')}}" class="imgsec6-GT-test col-md-5 col-xxl-4">
+        <img src="{{asset('images/gioi-thieu/sec6/05-05.png')}}" class="imgsec6-GT-test col-md-5 col-xxl-4">
         <div class="col-md-5 col-xxl-4 contentsec6-GT-test">
             <p class="textsec6-GT-test">Thời gian đầu do chưa có vốn nên không dễ dàng để vận hành. Nhưng Nga vẫn giữ
                 vững niềm tin bước tiếp, dần dần từng bước để đi qua khó khăn bằng những kinh nghiệm đã tích lũy ngày
