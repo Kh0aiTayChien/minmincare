@@ -32,7 +32,7 @@
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col boder-radius">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
@@ -52,7 +52,7 @@
             </div>
             <div class="carousel-item " id="2">
                 <div class="row gx-4">
-                    <div class="col boder-radius">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
@@ -74,7 +74,7 @@
             </div>
             <div class="carousel-item " id="3">
                 <div class="row gx-4">
-                    <div class="col boder-radius">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
@@ -96,7 +96,7 @@
             </div>
             <div class="carousel-item " id="4">
                 <div class="row gx-4">
-                    <div class="col boder-radius">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
@@ -119,7 +119,7 @@
             </div>
             <div class="carousel-item " id="5">
                 <div class="row gx-4">
-                    <div class="col boder-radius">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
                         <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
                     </div>
                     <div class="col ms-5">
@@ -234,7 +234,7 @@
         }
 
         .sec-5-dot {
-            transform: translate(75px, 200px);
+            transform: translate(150px, 200px);
             z-index: 999
         }
 

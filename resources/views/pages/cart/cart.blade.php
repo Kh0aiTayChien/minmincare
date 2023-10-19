@@ -11,7 +11,7 @@
                     <img src="{{ asset('images/header/sent.png') }}" alt="">
                 </div>
 
-                <div class=" p-2 mb-5" style="background-color: #ddd;">
+                <div class=" p-2 mb-5" style="background-color: white;">
                     <div class="table-responsive-lg">
                         <table class="table ">
                             <thead>
@@ -49,24 +49,25 @@
                                             <p class="card-text text-center mitr-small orange-text mt-3">
                                                 {{ number_format($cart->Product->price, 0, ',', '.') }}</p>
                                         </td>
-                                        <td class="d-flex align-content-center justify-content-center h-100">
+                                        <td class="">
                                             <div class="mt-3 h-100  text-center mitr-small">
                                                 <div class="d-flex justify-content-center">
                                                     <div
                                                         class=" plus d-flex align-content-center justify-content-center me-2"
                                                         data-id="{{$cart->id}}">
-                                                        <div class="cart-circle plus" style="margin-top: 2px">
+                                                        <div class="cart-circle plus" style="padding-top: 2px">
                                                         </div>
                                                     </div>
 
-                                                    <div class=" quantity me-2" data-id="{{$cart->id}}">
+                                                    <div class=" quantity d-flex align-content-center justify-content-center me-2 "
+                                                         data-id="{{$cart->id}}" style="padding-top: 0">
                                                         {{$cart->quantity}}
                                                     </div>
 
                                                     <div
                                                         class=" subtraction d-flex align-content-center justify-content-center"
                                                         data-id="{{$cart->id}}">
-                                                        <div class="cart-circle minus" style="margin-top: 2px">
+                                                        <div class="cart-circle minus" style="padding-top: 2px">
                                                         </div>
                                                     </div>
                                                 </div>
