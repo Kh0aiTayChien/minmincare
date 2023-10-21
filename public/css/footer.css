@@ -7,6 +7,15 @@
     src: url("/Fonts/Mulish-Medium.ttf");
 }
 
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("/Fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("/Fonts/Montserrat-Bold.ttf");
+}
+
 .linefooter {
     width: 105vw;
     margin-top: -2%;
