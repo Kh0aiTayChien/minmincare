@@ -54,7 +54,7 @@
                 <script>
                     function previewImage(event) {
                         var reader = new FileReader();
-                        reader.onload = function(){
+                        reader.onload = function () {
                             var preview = document.getElementById('image-review');
                             preview.src = reader.result;
                         }
@@ -86,7 +86,8 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{route('images.store')}}" autocomplete="off" enctype="multipart/form-data">
+                    <form method="POST" action="{{route('images.store')}}" autocomplete="off"
+                          enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <input type="hidden" name="_method" value="POST">
@@ -95,9 +96,10 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
+                                        <label class="form-control-label" for="category">Chủ đề<span
+                                                class="small text-danger">*</span></label>
                                         <select id="category" class="form-control" name="category">
                                             <option value="">-- Chọn chủ đề --</option>
                                             @foreach($categories as $category)
@@ -106,25 +108,36 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Tên ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="name" class="form-control" name="name"
+                                               placeholder="Tên ảnh">
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="image"> Upload ảnh tại đây <span
-                                                class="small text-danger">kích cỡ khuyến nghị 1500x800, định dạng PNG, JPG</span>
+                                        <label class="form-control-label" for="image"> Upload ảnh tại đây
                                         </label>
                                         <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
+                                        <div
+                                            class="small text-danger">kích cỡ pc khuyến nghị 1500x800, định dạng PNG, JPG</div>
+                                        <div
+                                            class="small text-danger">kích cỡ smartphone khuyến nghị 1200x600, định dạng PNG, JPG</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group focused">
-                                    <label class="form-control-label" for="title">Link điều hướng ảnh<span
-                                            class="small text-danger">*</span></label>
-                                    <input type="text" id="url" class="form-control" name="url"
-                                           placeholder="Link điều hướng ảnh">
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Link điều hướng ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="url" class="form-control" name="url"
+                                               placeholder="Link điều hướng ảnh">
+                                    </div>
                                 </div>
                             </div>
                         </div>

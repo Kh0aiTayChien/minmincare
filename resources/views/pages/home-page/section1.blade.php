@@ -45,7 +45,7 @@
 
     @endif
     <div id="carouselExampleControls" class="carousel slide w-100 d-none d-md-block" data-bs-ride="carousel"
-         data-interval="5000">
+         data-interval="20000">
         <div class="carousel-inner">
             @foreach($images as $key => $image)
                 <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
@@ -65,13 +65,13 @@
                 });
             </script>
         </div>
-        <button class="carousel-control-prev button-shake d-none" type="button"
+        <button class="carousel-control-prev button-shake " type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
             <img src="{{asset('images/arrow-l.png')}}" alt="" style="">
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next button-shake d-none" type="button"
+        <button class="carousel-control-next button-shake " type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next">
             <img src="{{asset('images/arrow-r.png')}}" alt="" style="">
@@ -80,18 +80,11 @@
     </div>
     <div id="carousel_mobile" class="carousel slide w-100 d-md-none" data-bs-ride="carousel" data-interval="5000">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('images/sec1/mobile/Mobile01.png')}}" class="img-slide" alt="img-slide">
-            </div>
-            <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile02.png')}}" class="img-slide" alt="img-slide">
-            </div>
-            <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile03.png')}}" class="img-slide" alt="img-slide">
-            </div>
-            <div class="carousel-item ">
-                <img src="{{asset('images/sec1/mobile/Mobile04.png')}}" class="img-slide" alt="img-slide">
-            </div>
+            @foreach($imageMobiles as $key => $image)
+                <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
+                </div>
+            @endforeach
         </div>
         <button class="carousel-control-prev button-shake" type="button" data-bs-target="#carousel_mobile"
                 data-bs-slide="prev">

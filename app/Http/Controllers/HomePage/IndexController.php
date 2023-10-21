@@ -22,6 +22,10 @@ class IndexController extends Controller
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);
         })->get();
+        $categoryImgSlugMobile = "anh-slide-mobile-01";
+        $imageMobiles = Image::whereHas('category', function ($query) use ($categoryImgSlugMobile) {
+            $query->where('slug', $categoryImgSlugMobile);
+        })->get();
 
         $news = Article::whereHas('category', function ($query) {
             $query->where('title', 'tin tức');
@@ -47,8 +51,9 @@ class IndexController extends Controller
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages/home-page/index', ['news' => $news, 'images' => $images, 'products' => $products
-                ,'new1' => $new1, 'new2' => $new2, 'new3' => $new3])
+                ->view('pages/home-page/index', ['news' => $news, 'images' => $images,
+                    'imageMobiles' => $imageMobiles, 'products' => $products,
+                    'new1' => $new1, 'new2' => $new2, 'new3' => $new3])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -56,7 +61,8 @@ class IndexController extends Controller
                 $query->where('session_code', $sessionId);
             })->get();
             return view('pages/home-page/index', ['news' => $news, 'carts' => $carts, 'images' => $images,
-                'products' => $products,'new1' => $new1, 'new2' => $new2, 'new3' => $new3]);
+                'imageMobiles' => $imageMobiles, 'products' => $products,
+                'new1' => $new1, 'new2' => $new2, 'new3' => $new3]);
         }
     }
 }
