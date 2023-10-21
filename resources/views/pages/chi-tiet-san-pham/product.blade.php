@@ -175,6 +175,7 @@
     }
     .card{
         width: 100%;
+        border: unset;
     }
     .custom-padding {
         padding: 2rem 8rem 2rem 8rem;

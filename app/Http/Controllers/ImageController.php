@@ -37,6 +37,7 @@ class ImageController extends Controller
     {
         $validatedData = $request->validate([
             'category' => 'required',
+            'name' => 'required',
         ], [
 
         ]);
@@ -62,8 +63,8 @@ class ImageController extends Controller
             // Cập nhật đường dẫn trong model Image
             $image->image_url = '/uploads/images/' . $imageName;
         }
+        $image->name = $request->name;
         $image->category_id = $validatedData['category'];
-        $image->url = $request->url;
         $image->save();
 
         return redirect()->route('images.index')->with('success', 'Tạo ảnh mới thành công!');
@@ -80,6 +81,7 @@ class ImageController extends Controller
     {
         $validatedData = $request->validate([
             'category' => 'required',
+            'name' => 'required',
         ], [
 
         ]);
@@ -107,6 +109,7 @@ class ImageController extends Controller
             // Cập nhật đường dẫn trong model Image
             $image->image_url = '/uploads/images/' . $imageName;
         }
+        $image->name = $request->name;
         $image->category_id = $validatedData['category'];
         $image->url = $request->url;
 //        dd($image);

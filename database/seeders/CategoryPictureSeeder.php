@@ -18,6 +18,13 @@ class CategoryPictureSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'title' => 'ảnh slide mobile 01',
+                'slug' => 'anh-slide-mobile-01',
+                'type' => 2,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ];
 
         DB::table('categories')->insert($data);
