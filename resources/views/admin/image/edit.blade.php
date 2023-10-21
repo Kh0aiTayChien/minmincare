@@ -99,7 +99,7 @@
                         <h6 class="heading-small text-muted mb-4">CẬP NHẬT ẢNH </h6>
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="category">Chủ đề<span
                                                 class="small text-danger">*</span></label>
@@ -112,27 +112,37 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Tên ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="name" class="form-control" name="name"
+                                               placeholder="Tên ảnh" value="{{$image->name}}">
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="image"> Upload ảnh tại đây <span
-                                                class="small text-danger">kích cỡ khuyến nghị 1500x800, định dạng PNG, JPG</span>
+                                        <label class="form-control-label" for="image"> Upload ảnh tại đây
                                         </label>
-
                                         <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
+                                        <div
+                                            class="small text-danger">kích cỡ pc khuyến nghị 1500x800, định dạng PNG, JPG</div>
+                                        <div
+                                            class="small text-danger">kích cỡ smartphone khuyến nghị 1200x600, định dạng PNG, JPG</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group focused">
-                                    <label class="form-control-label" for="title">Link điều hướng ảnh<span
-                                            class="small text-danger">*</span></label>
-                                    <input type="text" id="url" class="form-control" name="url"
-                                           value="{{$image->url}}"
-                                           placeholder="Link điều hướng ảnh">
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Link điều hướng ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="url" class="form-control" name="url"
+                                               value="{{$image->url}}"
+                                               placeholder="Link điều hướng ảnh">
+                                    </div>
                                 </div>
                             </div>
                         </div>
