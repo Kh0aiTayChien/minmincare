@@ -13,7 +13,7 @@
     body{
     }
     .datetime_text{
-        font-family: Mulish-SemiBold, sans-serif;
+        font-family: 'Montserrat-Medium', sans-serif;
         color: #F79421;
     }
     .content-article {
@@ -22,7 +22,7 @@
     }
     .tilte-text {
         color: #59843d;
-        font-family: "Mulish Black", sans-serif;
+        font-family: 'Montserrat-Bold', sans-serif;
     }
     .figure-image {
         display: flex;
@@ -47,7 +47,7 @@
         }
         .tilte-text {
             color: #59843d;
-            font-family: "Mulish Black", sans-serif;
+            font-family: "Montserrat-Bold", sans-serif;
             margin-bottom: 1rem;
         }
     }
