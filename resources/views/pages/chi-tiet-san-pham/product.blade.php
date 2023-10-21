@@ -1,14 +1,14 @@
 <div class=" show-product container-fluid custom-padding custom-margin ">
     <div class="row">
-        <div class="media-product col-lg-5 col-md-12 col-xs-12 ">
-            <div class="card media-card p-2 d-flex align-content-center justify-content-center sticky-top" style="height: 50vh">
-                <div class="display-media card-img-top d-flex align-content-center justify-content-center">
+        <div class=" col-lg-5 col-md-12 col-xs-12 ">
+            <div class="card  p-2 d-flex align-content-center justify-content-center sticky-top" style="">
+{{--                <div class="display-media card-img-top d-flex align-content-center justify-content-center">--}}
                     <img class="card-img-top img-fluid" src="{{$product->image}}" alt="">
-                </div>
+{{--                </div>--}}
 
-                <div class="card-body ">
+                <div class=" ">
 
-                    <div class="row">
+                    <div class="">
                         <div class="col-lg-12" style=" overflow-x: scroll;">
                             <div class="media-product ">
                                 <div class="item">
@@ -77,15 +77,13 @@
 
                         .card-img-top{
                             object-fit: cover;
-                            width: 20rem;
-                            margin: auto;
+                            margin: 1rem auto;
                         }
                         .media-product .item {
                             flex: 0 0 auto; /* Không cho phép các phần tử co lại */
                             margin-right: 10px;
                             height: 5rem;
                             width: 5rem;
-                            border: 1px solid grey;
                             font-size: 3rem;
                             cursor: pointer;
                             position: relative;
@@ -150,8 +148,8 @@
                             {{ number_format($product->price, 0, ',', '.') }}VNĐ
                         </span>
                     </div>
-                    <div class="mb-3 mt-3 d-flex justify-content-center align-content-center">
-                        <button class="btn btn-outline-white btn-block rounded-pill shadow-effect w-100
+                    <div class="mb-3 mt-3 d-flex justify-content-start align-content-center">
+                        <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-medium buy-button button-shake" data-id="{{$product->id}}">
                             <div class="mx-5">THÊM VÀO GIỎ HÀNG</div>
                         </button>
