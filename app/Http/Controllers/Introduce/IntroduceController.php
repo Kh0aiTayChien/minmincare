@@ -17,13 +17,16 @@ class IntroduceController extends Controller
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);
         })->get();
-
+        $categoryImgSlugMobile = "anh-slide-mobile-01";
+        $imageMobiles = Image::whereHas('category', function ($query) use ($categoryImgSlugMobile) {
+            $query->where('slug', $categoryImgSlugMobile);
+        })->get();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages.gioi-thieu.index', ['images' => $images])
+                ->view('pages.gioi-thieu.index', ['images' => $images, 'imageMobiles' => $imageMobiles])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -31,7 +34,7 @@ class IntroduceController extends Controller
                 $query->where('session_code', $sessionId);
             })->get();
 
-            return view('pages.gioi-thieu.index', ['carts' => $carts,  'images' => $images]);
+            return view('pages.gioi-thieu.index', ['carts' => $carts,  'images' => $images, 'imageMobiles' => $imageMobiles,]);
         }
     }
 }

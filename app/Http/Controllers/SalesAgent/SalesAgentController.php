@@ -19,13 +19,18 @@ class SalesAgentController extends Controller
             $query->where('slug', $categoryImgSlug);
         })->get();
 
+        $categoryImgSlugMobile = "anh-slide-mobile-01";
+        $imageMobiles = Image::whereHas('category', function ($query) use ($categoryImgSlugMobile) {
+            $query->where('slug', $categoryImgSlugMobile);
+        })->get();
+
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             $products = Product::all();
             return response()
-                ->view('pages.dai-ly.index', ['images' => $images])
+                ->view('pages.dai-ly.index', ['images' => $images,  'imageMobiles' => $imageMobiles ])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -36,7 +41,7 @@ class SalesAgentController extends Controller
 
             $products = Product::all();
 
-            return view('pages.dai-ly.index', ['carts' => $carts, 'products' => $products, 'images' => $images]);
+            return view('pages.dai-ly.index', ['carts' => $carts, 'products' => $products, 'images' => $images , 'imageMobiles' => $imageMobiles,]);
         }
     }
 }
