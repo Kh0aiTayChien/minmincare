@@ -16,8 +16,8 @@
             <span class="circle" id="5"></span>
         </div>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
-        <div class="carousel-indicators d-none">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators d-none" >
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
@@ -32,11 +32,11 @@
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
+                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 active ms-5">
                             <img src="{{asset('images/sec5/12345-04.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -52,11 +52,11 @@
             </div>
             <div class="carousel-item " id="2">
                 <div class="row gx-4">
-                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
+                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100" alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-05.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -74,11 +74,11 @@
             </div>
             <div class="carousel-item " id="3">
                 <div class="row gx-4">
-                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
+                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-06.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -96,11 +96,11 @@
             </div>
             <div class="carousel-item " id="4">
                 <div class="row gx-4">
-                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
+                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-07.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -119,11 +119,11 @@
             </div>
             <div class="carousel-item " id="5">
                 <div class="row gx-4">
-                    <div class="col boder-radius" style="padding: 0 0 8rem 10rem">
-                        <img src="{{asset('images/sec5/pregnant.png')}}" class="d-block " alt="Image 1">
+                    <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
+                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
                     </div>
                     <div class="col ms-5">
-                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block mt-5 image-rule"
+                        <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-sec-5 ms-5">
                             <img src="{{asset('images/sec5/12345-08.png')}}" class="mt-4 headersec5-HP" alt="">
@@ -234,7 +234,7 @@
         }
 
         .sec-5-dot {
-            transform: translate(150px, 200px);
+            transform: translate(78px, 100px);
             z-index: 999
         }
 
@@ -426,9 +426,7 @@
 
     .image-rule {
         width: 30vw;
-        /*scale: 120%;*/
-        transform: translateX(8%);
-        padding-bottom: 2%;
+        transform: translateX(10%);
     }
     @media screen and (max-width: 1200px) {
         .image-rule {
