@@ -26,7 +26,7 @@
 
     <div class=" tabs">
         <div class="row tab tab1 px-5 mt-5 gx-0 active">
-            <div class="col-1"></div>
+            <div class="col-2"></div>
             @foreach( $new1 as $article)
                 <div class="col-3 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1" style="width:20rem; "><a
@@ -50,7 +50,7 @@
             @endforeach
         </div>
         <div class="row tab tab2 px-5 mt-5 gx-0 ">
-            <div class="col-1"></div>
+            <div class="col-2"></div>
             @foreach( $new2 as $article)
                 <div class="col-3 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1" style="width:20rem; "><a
@@ -74,7 +74,7 @@
             @endforeach
         </div>
         <div class="row tab tab3 px-5 mt-5 gx-0 ">
-            <div class="col-1"></div>
+            <div class="col-2"></div>
             @foreach( $new3 as $article)
                 <div class="col-3 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1" style="width:20rem; "><a
