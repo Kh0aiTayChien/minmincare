@@ -41,7 +41,7 @@
     <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>
 </div>
 <a class="top-right-action" href="{{asset('/cart')}}">
-    <div style="position: relative; display: inline-block;">
+    <div style="position: relative; ">
         <img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake position-relative"
              style="width: 70%">
         @if(isset($carts))
@@ -107,7 +107,13 @@
 
     @media only screen and (max-width: 1100px) {
         .top-right-action {
-            display: none !important;
+            text-align: center;
+            cursor: pointer;
+            position: fixed;
+            right: -6%;
+            z-index: 2000;
+            scale: 60%;
+            top: 80%
         }
     }
 
