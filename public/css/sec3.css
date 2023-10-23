@@ -4,47 +4,59 @@
 }
 
 .sec3pc {
-    margin-bottom: 11%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.contentsec3-HP {
+    margin-right: 3%;
+    text-align: right;
+    justify-content: right;
 }
 
 .headersec3 {
-    margin-left: 12%;
-    margin-top: 5%;
-    width: 30.5%;
+    width: 87%;
+    text-align: right;
+    justify-content: right;
+    margin-bottom: 3%;
+    /*margin-left: 18%;*/
 }
 
 .contentsec3 {
     font-family: Montserrat-Medium, sans-serif;
-    width: 28vw;
-    margin-left: 16%;
+    /*width: 28vw;*/
+    /*margin-left: 16%;*/
     font-size: 15px;
     margin-top: 1%;
     text-align: justify;
+    justify-content: right;
 }
 
 .imgvideo {
     margin-top: 3%;
-    position: absolute;
-    right: 80px;
-    width: 45%;
-    height: 40%;
+    /*position: absolute;*/
+    /*right: 80px;*/
+    /*width: 45%;*/
+    /*height: 40%;*/
 
 }
 
 .buttonvideo {
-    position: absolute;
-    right: 12%;
-    width: 22vw;
-    transform: translateY(60%);
+    margin-left: 3%;
+    /*position: absolute;*/
+    /*right: 12%;*/
+    /*width: 22vw;*/
+    /*transform: translateY(60%);*/
 }
 @media screen and (min-aspect-ratio: 16/15) and (max-aspect-ratio: 16/9.5)  {
-    .buttonvideo {
-        transform: translateY(20%) translateX(-23%) !important;
-    }
+    /*.buttonvideo {*/
+    /*    transform: translateY(20%) translateX(-23%) !important;*/
+    /*}*/
 }
 
 .nga-min-link {
     text-decoration: none;
+
 }
 
 .button1 {
@@ -128,9 +140,9 @@
         margin-top: 7%;
     }
 
-    .buttonvideo {
-        margin-top: -3%;
-    }
+    /*.buttonvideo {*/
+    /*    margin-top: -3%;*/
+    /*}*/
 }
 
 @media screen and (max-width: 768px) {
