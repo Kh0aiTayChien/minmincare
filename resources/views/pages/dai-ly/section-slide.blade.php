@@ -33,9 +33,9 @@
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center"
+                    <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -64,9 +64,9 @@
             </div>
             <div class="carousel-item   " id="2">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center"
+                    <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -91,9 +91,9 @@
             </div>
             <div class="carousel-item   " id="3">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center"
+                    <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -119,9 +119,9 @@
             </div>
             <div class="carousel-item   " id="4">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center"
+                    <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
