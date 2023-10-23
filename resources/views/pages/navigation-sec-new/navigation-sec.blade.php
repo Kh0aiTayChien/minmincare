@@ -28,6 +28,12 @@
         background-size: cover;
         background-position-x: right;
     }
+
+    .navigation-mobile-sec a{
+        color: unset !important;
+        text-decoration: none !important;
+    }
+
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
         font-size: medium;

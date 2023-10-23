@@ -22,7 +22,7 @@
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
                                 border-white text-white border-2 green-bg mitr-small button-shake"
                     data-target="tab3" style="width: 100% ; border-radius: 10px">
-                <div class=" font-size-custom">SỮA HẠT LỢI SỮA</div>
+                <div class=" font-size-custom">NGŨ CỐC LỢI SỮA</div>
             </button>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-content-center">

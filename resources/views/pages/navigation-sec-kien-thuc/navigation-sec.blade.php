@@ -6,7 +6,7 @@
         {{--        </div>--}}
     </div>
 </a>
-<a class="navigation-mobile-sec d-block d-lg-none align-items-center justify-content-center" href="{{route('gioi-thieu.index')}}">
+<a class="navigation-mobile-sec d-block d-lg-none align-items-center justify-content-center" href="{{route('gioi-thieu.index')}}" style="text-decoration: unset">
     <div class="pt-2">
         <div class="headersec4-product d-block d-md-none">
             <p class="header-test-1-mb">Giới thiệu về</p>
@@ -28,6 +28,7 @@
         background-size: cover;
         background-position-x: right;
     }
+
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
         font-size: medium;

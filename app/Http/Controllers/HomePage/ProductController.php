@@ -105,12 +105,17 @@ class ProductController extends Controller
     {
         $product = Product::where('slug', $slug)->firstOrFail();
         $mediaProducts = MediaProduct::where('product_id', $product->id)->get();
+        $videoUrl  = $product->video_url;
+        $videoId = $this->getYouTubeVideoId($videoUrl);
+        $thumbnailUrl = "https://img.youtube.com/vi/{$videoId}/maxresdefault.jpg";
+
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 1440);
             return response()
-                ->view('pages/chi-tiet-san-pham/index', ['product' => $product, 'mediaProducts' => $mediaProducts])
+                ->view('pages/chi-tiet-san-pham/index', ['product' => $product,
+                    'mediaProducts' => $mediaProducts, 'thumbnailUrl' => $thumbnailUrl])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -119,7 +124,20 @@ class ProductController extends Controller
             })->get();
 
             return view('pages/chi-tiet-san-pham/index',
-                ['product' => $product, 'mediaProducts' => $mediaProducts, 'carts' => $carts]);
+                ['product' => $product, 'mediaProducts' => $mediaProducts,
+                    'carts' => $carts, 'thumbnailUrl' => $thumbnailUrl]);
         }
+    }
+
+    public function getYouTubeVideoId($videoUrl) {
+        $parsedUrl = parse_url($videoUrl);
+
+        // Kiểm tra xem đường dẫn có tồn tại hay không
+        if (isset($parsedUrl['path'])) {
+            $pathParts = explode('/', $parsedUrl['path']);
+            return end($pathParts);
+        }
+
+        return null; // hoặc giá trị mặc định khác tùy vào trường hợp của bạn
     }
 }

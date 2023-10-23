@@ -39,6 +39,10 @@
         padding-bottom: 5%;
         padding-top: 3%;
     }
+    a .navigation-mobile-sec {
+        color: unset !important;
+        text-decoration: none !important;
+    }
     .mitr-medium {
         font-family: Mitr-Medium, Mitr, sans-serif;
         font-size: medium;
