@@ -53,8 +53,9 @@
         text-align: center;
     }
     .headersec5mb-DL {
-        width: 65vw;
-        margin-top: 5%;
+        width: 75vw;
+        /*margin-top: 5%;*/
+        padding-bottom: 4%;
     }
     .utubesec5-DL {
         margin-left: 10%;

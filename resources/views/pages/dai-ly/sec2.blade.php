@@ -6,12 +6,14 @@
         <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL col-5">
     </div>
 </div>
-<div class="row-test conditionsec2-DL-test">
-    <img src="{{asset('images/dai-ly/sec2/Group 24.png')}}" class="headersec2-DL col-11">
-    <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="col-3 imgsec2-DL-left">
-    <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="col-3 imgsec2-DL-left1">
-    <img src="{{asset('images/dai-ly/sec2/Asset 4.png')}}" class="col-3 imgsec2-DL-right">
-    <img src="{{asset('images/dai-ly/sec2/Asset 5.png')}}" class="col-3 imgsec2-DL-right1">
+<div class="sec2bonus-DL">
+    <div class="row-test conditionsec2-DL-test">
+        <img src="{{asset('images/dai-ly/sec2/Group 24.png')}}" class="headersec2-DL col-11">
+        <img src="{{asset('images/dai-ly/sec2/Asset 2.png')}}" class="col-3 imgsec2-DL-left">
+        <img src="{{asset('images/dai-ly/sec2/Asset 3.png')}}" class="col-3 imgsec2-DL-left1">
+        <img src="{{asset('images/dai-ly/sec2/Asset 4.png')}}" class="col-3 imgsec2-DL-right">
+        <img src="{{asset('images/dai-ly/sec2/Asset 5.png')}}" class="col-3 imgsec2-DL-right1">
+    </div>
 </div>
 
 <div class="sec2mb-DL">
