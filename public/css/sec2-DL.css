@@ -121,7 +121,9 @@
     .sec2-DL {
         display: none;
     }
-
+    .sec2bonus-DL {
+        display: none;
+    }
     .dailymb2-DL {
         display: block;
     }

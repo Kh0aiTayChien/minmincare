@@ -8,7 +8,7 @@
     </div>
 </div>
 <div class="sec3mb-DL">
-    <img src="{{asset('images/dai-ly/sec3/Asset 7.png')}}" class="headersec3mb-DL">
+    <img src="{{asset('images/dai-ly/sec3/Group 6 (1).png')}}" class="headersec3mb-DL">
     <div class="">
         <img src="{{asset('images/dai-ly/sec3/Asset 1.png')}}" class="content1sec3mb-DL col-11">
 {{--        <img src="{{asset('images/dai-ly/sec3/Asset 9.png')}}" class="content2sec3mb-DL col-10">--}}
