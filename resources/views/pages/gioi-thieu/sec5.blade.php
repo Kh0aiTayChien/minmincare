@@ -15,7 +15,7 @@
                 mà còn là niềm hy vọng, niềm tin vào sự phát triển và thịnh vượng. Bởi chính trải nghiệm và mong muốn
                 của Nga, sản phẩm luôn luôn được nâng cao nhằm mang đến giải pháp dinh dưỡng toàn diện chuyên biệt cho
                 khách hàng của mình.</p>
-            <a href="{{asset('nga-minmin')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}"
+            <a href="{{asset('https://ngaminmin.com/')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}"
                                                    class="btn-start-test button-shake"></a>
         </div>
         <img src="{{asset('images/gioi-thieu/sec5/Group 1340.png')}}" class="bannersec5-GT-test col-sm-5 col-xl-4">
@@ -37,5 +37,5 @@
         mà còn là niềm hy vọng, niềm tin vào sự phát triển và thịnh vượng. Bởi chính trải nghiệm và mong muốn
         của Nga, sản phẩm luôn luôn được nâng cao nhằm mang đến giải pháp dinh dưỡng toàn diện chuyên biệt cho
         khách hàng của mình.</p>
-    <a href="{{asset('nga-minmin')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-startmb-GT"></a>
+    <a href="{{asset('https://ngaminmin.com/')}}"><img src="{{asset('images/gioi-thieu/sec5/Asset 1.png')}}" class="btn-startmb-GT"></a>
 </div>
