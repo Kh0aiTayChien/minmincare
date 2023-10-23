@@ -31,7 +31,7 @@
                              alt="Card image">
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
-                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}</p>
+                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM
                                     CHI TIẾT</a>
@@ -76,7 +76,7 @@
         width: 404px;
     }
     .height-text-card{
-        height: 2rem;
+        height: 4rem;
     }
     .carousel-sec-9 {
         width: 70%;
