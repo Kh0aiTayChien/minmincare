@@ -1,62 +1,66 @@
-<div class="sec3pc">
-    <img src="{{asset('images/sec3/1. Ảnh video Khởi nguồn trang chủ.png')}}" class="imgvideo img-fluid">
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <img src="/images/sec3/utubeicon.png" class="buttonvideo">
-    </button>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-            <div class="modal-content d-flex flex-row-reverse" style="background-color: rgba(0, 0, 0, 0.5);">
-                <button id="btn-close" type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                <div class="modal-body d-flex justify-content-center align-items-center">
-                    <div>
-                        <div style="width: 1100px; height: 600px; float: none; clear: both; margin: 2px auto;">
-                            <embed id="video-iframe"
-                                src="https://www.youtube.com/embed/vjJXQ9XlqqM?si=7exegozq6zCJfc9K"
-                                wmode="transparent"
-                                type="video/mp4"
-                                width="100%" height="100%"
-                                allow="autoplay; encrypted-media; picture-in-picture"
-                                allowfullscreen
-                                title="Keyboard Cat"
-                            >
+<div class="sec3pc row-test">
+    <div class="col-xxl-4 col-md-5 contentsec3-HP">
+        <img src="{{asset('images/sec3/Group 2 (2).png')}}" class="headersec3">
+        <p class="contentsec3"><span>Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp chuyên biệt dành riêng cho từng đối tượng. Được nghiên cứu bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và quốc tế, sản xuất từ nguồn nguyên liệu tự nhiên với công thức đột phá, độc quyền sở hữu.
+</span><br><br><span>Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu mang đến giải pháp dinh dưỡng, sức khỏe toàn diện cho mẹ, bé và cả gia đình Việt.</span>
+        </p>
+        <a href="{{asset('gioi-thieu')}}" id="nga-min-link" class="nga-min-link">
+            <svg class="button1 button-shake" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="282.96" height="90.24"
+                 viewBox="0 0 282.96 90.24">
+                <g id="Group_874" data-name="Group 874" transform="translate(-543.24 -3028.957)">
+                    <g id="Group_873" data-name="Group 873">
+                        <g id="Group_872" data-name="Group 872">
+                            <g id="Group_871" data-name="Group 871">
+                                <g id="Group_870" data-name="Group 870">
+                                    <path id="Path_1517" data-name="Path 1517"
+                                          d="M583.322,3097.595a28.5,28.5,0,0,1,0-57H776.087a28.5,28.5,0,0,1,0,57Z"
+                                          fill="#59843d"/>
+                                    <path id="Path_1518" data-name="Path 1518"
+                                          d="M776.088,3042.095a27,27,0,0,1,0,54H583.322a27,27,0,0,1,0-54H776.088m0-3H583.322a30,30,0,0,0,0,60H776.088a30,30,0,0,0,0-60Z"
+                                          fill="#fff"/>
+                                </g>
+                            </g>
+                            <text id="ĐỌC_CHI_TIẾT" data-name="ĐỌC CHI TIẾT" transform="translate(678.605 3077.256)"
+                                  fill="#fff"
+                                  font-size="22" font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                <tspan x="-78.508" y="0">ĐỌC CHI TIẾT</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </div>
+    <div class="col-xxl-4 col-md-5">
+        <button type="button" class="btn col-md-12" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/sec3/2-08.png" class="buttonvideo col-md-12">
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content d-flex flex-row-reverse" style="background-color: rgba(0, 0, 0, 0.5);">
+                    <button id="btn-close" type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <div>
+                            <div style="width: 1100px; height: 600px; float: none; clear: both; margin: 2px auto;">
+                                <embed id="video-iframe"
+                                       src="https://www.youtube.com/embed/vjJXQ9XlqqM?si=7exegozq6zCJfc9K"
+                                       wmode="transparent"
+                                       type="video/mp4"
+                                       width="100%" height="100%"
+                                       allow="autoplay; encrypted-media; picture-in-picture"
+                                       allowfullscreen
+                                       title="Keyboard Cat"
+                                >
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <img src="{{asset('images/sec3/Group 2 (2).png')}}" class="headersec3">
-    <p class="contentsec3"><span>Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp chuyên biệt dành riêng cho từng đối tượng. Được nghiên cứu bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và quốc tế, sản xuất từ nguồn nguyên liệu tự nhiên với công thức đột phá, độc quyền sở hữu.
-</span><br><br><span>Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga. Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của thương hiệu mang đến giải pháp dinh dưỡng, sức khỏe toàn diện cho mẹ, bé và cả gia đình Việt.</span>
-    </p>
-    <a href="{{asset('gioi-thieu')}}" id="nga-min-link" class="nga-min-link">
-        <svg class="button1 button-shake" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-             width="282.96" height="90.24"
-             viewBox="0 0 282.96 90.24">
-            <g id="Group_874" data-name="Group 874" transform="translate(-543.24 -3028.957)">
-                <g id="Group_873" data-name="Group 873">
-                    <g id="Group_872" data-name="Group 872">
-                        <g id="Group_871" data-name="Group 871">
-                            <g id="Group_870" data-name="Group 870">
-                                <path id="Path_1517" data-name="Path 1517"
-                                      d="M583.322,3097.595a28.5,28.5,0,0,1,0-57H776.087a28.5,28.5,0,0,1,0,57Z"
-                                      fill="#59843d"/>
-                                <path id="Path_1518" data-name="Path 1518"
-                                      d="M776.088,3042.095a27,27,0,0,1,0,54H583.322a27,27,0,0,1,0-54H776.088m0-3H583.322a30,30,0,0,0,0,60H776.088a30,30,0,0,0,0-60Z"
-                                      fill="#fff"/>
-                            </g>
-                        </g>
-                        <text id="ĐỌC_CHI_TIẾT" data-name="ĐỌC CHI TIẾT" transform="translate(678.605 3077.256)"
-                              fill="#fff"
-                              font-size="22" font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
-                            <tspan x="-78.508" y="0">ĐỌC CHI TIẾT</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </svg>
-    </a>
 </div>
 
 <div class="sec3mb">
@@ -65,7 +69,8 @@
         và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia viện dinh dưỡng quốc gia và sản xuất từ nguồn nguyên liệu
         100% tự nhiên với công thức đột phá, độc quyền sở hữu.</p><br>
     <div class="utube" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
-        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/vjJXQ9XlqqM?si=7exegozq6zCJfc9K" frameborder="0"
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/vjJXQ9XlqqM?si=7exegozq6zCJfc9K"
+                frameborder="0"
                 allowfullscreen></iframe>
         <br>
     </div>
@@ -104,10 +109,10 @@
             </g>
         </svg>
     </a><br>
-{{--    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>--}}
+    {{--    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>--}}
 </div>
 <style>
-    .btn-close{
+    .btn-close {
         cursor: pointer;
     }
 </style>
