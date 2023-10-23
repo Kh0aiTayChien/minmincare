@@ -16,7 +16,7 @@
 {{--            <span class="circle" id="5"></span>--}}
         </div>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -32,13 +32,13 @@
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius" style="overflow: hidden">
+                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
                     </div>
-                    <div class="col-4 ms-5" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
+                    <div class="col-4 " style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
-                        <div class="content-section-slide active ms-5">
+                        <div class="content-section-slide active ">
                             <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
@@ -55,13 +55,13 @@
             </div>
             <div class="carousel-item   " id="2">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius" style="overflow: hidden">
+                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
                     </div>
-                    <div class="col-4 ms-5" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
+                    <div class="col-4 " style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
-                        <div class="content-section-slide ms-5">
+                        <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
@@ -77,13 +77,13 @@
             </div>
             <div class="carousel-item   " id="3">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius" style="overflow: hidden">
+                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
                     </div>
-                    <div class="col-4 ms-5" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
+                    <div class="col-4 " style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
-                        <div class="content-section-slide ms-5">
+                        <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
@@ -99,13 +99,13 @@
             </div>
             <div class="carousel-item   " id="4">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius" style="overflow: hidden">
+                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
                     </div>
-                    <div class="col-4 ms-5" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block mt-5 image-rule"
+                    <div class="col-4 " style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
-                        <div class="content-section-slide ms-5">
+                        <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" class="mt-4" alt="">
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
@@ -216,7 +216,7 @@
             margin-right: 5px;
         }
         .section-slide-dot{
-            transform: translate(220px, 250px);
+            transform: translate(180px, 150px);
             z-index: 999
         }
         @media screen and (max-aspect-ratio: 16/10) {
@@ -407,8 +407,8 @@
     }
 
     .image-rule {
-        scale: 60%;
-        transform: translateX(-15%) translateY(20%);
+
+
     }
 
     .carousel-fade .carousel-item {

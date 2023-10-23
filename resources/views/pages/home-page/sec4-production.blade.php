@@ -133,7 +133,8 @@
     }
 
     .height-img-card {
-        /*object-fit: cover;*/
+        object-fit: cover;
+        height: 200px;
     }
 
     .height-text-card {
@@ -259,8 +260,7 @@
         }
 
         .height-img-card {
-            height: 160px;
-            width: 404px;
+           object-fit: cover;
             text-align: center;
         }
     }
