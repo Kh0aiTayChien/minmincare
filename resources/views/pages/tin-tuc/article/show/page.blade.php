@@ -59,6 +59,6 @@
 <script>
     $(document).ready(function() {
         $('.image img').addClass('img-fluid');
-        $('.image ').addClass('figure-image');
+        $('.image ').addClass('figure-image ');
     });
 </script>

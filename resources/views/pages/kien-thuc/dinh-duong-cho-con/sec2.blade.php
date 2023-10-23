@@ -1,4 +1,4 @@
-<div class="sec2-TT">
+<div class="secp-TT">
     <div class="row-test mb-4">
         <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test">
             <img src="{{asset('images/kien-thuc/sec2/Asset 6.png')}}" class="col-12 button-shake"></a>

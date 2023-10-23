@@ -148,7 +148,7 @@
              class="img-fluid headersec5mb-HP-test">
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <img class="card-img-top px-5" src="{{asset('images/sec5/pregenant-mobile.png')}}" alt="Card image">
+        <img class="card-img-top px-5" src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image">
     </div>
 
     <div class="slick-carousel position-relative">

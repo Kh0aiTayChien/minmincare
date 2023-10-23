@@ -1,4 +1,4 @@
-<div class="sec2-TT">
+<div class="secp-TT">
     @foreach($news as $article)
 
         <div class="card mb-4 mt-4 border-0 ">
