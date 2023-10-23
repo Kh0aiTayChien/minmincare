@@ -190,7 +190,7 @@
         }
 
         .card-text {
-            font-family: 'Mulish-SemiBold', sans-serif;
+            font-family: Montserrat-Medium, sans-serif;
         }
 
         .card-title {

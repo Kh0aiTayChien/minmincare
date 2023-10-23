@@ -41,7 +41,7 @@
                         <div class="content-sec-5 active ms-5">
                             <img src="{{asset('images/sec5/12345-04.png')}}" class="mt-4 headersec5-HP" alt="">
                             <div class="mt-3 " style="width: 65%; height: 10rem">
-                                <p class="text-justify card-text">
+                                <p class="text-justify card-text ">
                                     Được nghiên cứu độc quyền bởi đội ngũ chuyên gia dinh dưỡng hàng đầu trong nước và
                                     quốc tế. Với mục đích không chỉ tối đa hóa giải pháp dinh dưỡng toàn diện cho từng
                                     đối tượng, mà còn đem đến trải nghiệm vượt trội cho khách hàng.</p>
@@ -230,7 +230,7 @@
         }
 
         .card-text {
-            font-family: 'Mulish-SemiBold', sans-serif;
+            font-family: Montserrat-Medium, sans-serif;
         }
 
         .sec-5-dot {

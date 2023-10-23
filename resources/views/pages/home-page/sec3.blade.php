@@ -1,5 +1,5 @@
 <div class="sec3pc">
-    <img src="{{asset('images/sec3/Group 967.png')}}" class="imgvideo img-fluid">
+    <img src="{{asset('images/sec3/1. Ảnh video Khởi nguồn trang chủ.png')}}" class="imgvideo img-fluid">
     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="/images/sec3/utubeicon.png" class="buttonvideo">
     </button>
@@ -65,7 +65,7 @@
         và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia viện dinh dưỡng quốc gia và sản xuất từ nguồn nguyên liệu
         100% tự nhiên với công thức đột phá, độc quyền sở hữu.</p><br>
     <div class="utube" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
-        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/vjJXQ9XlqqM?si=7exegozq6zCJfc9K" frameborder="0"
                 allowfullscreen></iframe>
         <br>
     </div>
