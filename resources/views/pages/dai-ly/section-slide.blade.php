@@ -127,7 +127,7 @@
 
 <div class="section-slide-mobile mt-3">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/dai-ly/section-slide/quyenloimobile.png')}}" alt="" style="width: 45vw" class="img-fluid">
+        <img src="{{asset('images/dai-ly/section-slide/quyenloimobi.png')}}" alt="" style="width: 65vw" class="img-fluid mb-3">
     </div>
 
     <div class="d-flex align-content-center justify-content-center">

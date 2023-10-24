@@ -8,7 +8,7 @@
         <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-img">
     </div>
     <div class="headersec4-product d-block d-sm-none">
-        <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-mb">
+        <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-mb mb-5">
     </div>
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-4 " aria-label="Previous">
@@ -30,16 +30,16 @@
                             <a href="{{route('homepage.product.show',['slug' => $product->slug])}}" style="color: unset; text-decoration: unset">
                                 <p class="green-text font-size-custom-big text-center" style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                                <p class="height-text-card green-text text-center">
+                                <p class="green-text text-center">
                                     <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                                <p class="height-text-card orange-text font-size-custom text-center">
+                                <p class=" orange-text font-size-custom text-center">
                                     <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             </a>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                                <button class="btn btn-outline-white btn-sm rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
-                                    <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
+                                    <div class="mx-4 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
                                 </button>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
     }
 
     .font-size-custom {
-        font-size: 1rem;
+        font-size: 0.9rem!important;
         font-family: Mitr-Medium, sans-serif;
     }
 

@@ -56,9 +56,9 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card green-text text-center">
+                            <p class=" green-text text-center">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center">
+                            <p class=" orange-text font-size-custom text-center">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
