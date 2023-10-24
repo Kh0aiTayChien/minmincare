@@ -34,7 +34,7 @@
 </div>
 <style>
     .height-img-card {
-        height: 240px;
+        object-fit: cover;
         width: 404px;
         border-radius: 23px;
         max-width: 100%;
