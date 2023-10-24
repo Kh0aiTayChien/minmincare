@@ -19,7 +19,7 @@
 {{--    <object data="{{asset('images/gioi-thieu/sec3/Group 1343.svg')}}" class="arrangesec3mb-GT"></object>--}}
 {{--    <object data="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT1"></object>--}}
     <img src="{{asset('images/gioi-thieu/sec3/Asset 6.png')}}" class="arrangesec3mb-GT">
-    <img src="{{asset('images/gioi-thieu/sec3/Group 1306.png')}}" class="imgsec3mb-GT">
+    <img src="{{asset('images/gioi-thieu/sec3/sửa ảnh 17.10-07.png')}}" class="imgsec3mb-GT">
 </div>
 
 <div class="sec3-GT-test">

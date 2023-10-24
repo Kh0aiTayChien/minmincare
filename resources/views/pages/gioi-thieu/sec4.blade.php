@@ -3,7 +3,7 @@
     <p class="contentsec2mb-GT contentsec4mb-GT ">Min Min Care được lấy cảm hứng tên từ con trai của nhà sáng lập thương hiệu Ms Nga.
         Không chỉ thể hiện tình yêu thương của một người mẹ đối với đứa con, mà còn là để luôn gợi nhắc sứ mệnh của
         thương hiệu mang đến giải pháp dinh dưỡng, sức khỏe toàn diện cho mẹ, bé và cả gia đình Việt.</p>
-    <img src="{{asset('images/gioi-thieu/sec4/Minmin_care_package (1).jpg')}}" class="imgsec4mb-GT">
+    <img src="{{asset('images/gioi-thieu/sec2/Group 1301.png')}}" class="imgsec4mb-GT">
     <p class="contentsec2mb-GT">Hầu hết các bà mẹ đều nhất trí rằng làm mẹ là trải nghiệm hạnh phúc nhất trong cuộc
         đời họ. Không ai có thể thay thế vai trò của người phụ nữ, bởi họ là một nửa thế giới này.</p>
     <p class="contentsec2mb-GT">Để chăm sóc một gia đình khỏe mạnh và hạnh phúc, người mẹ cũng phải là một người

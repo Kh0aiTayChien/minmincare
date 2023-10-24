@@ -13,10 +13,11 @@
             <span class="circle" id="2"></span>
             <span class="circle" id="3"></span>
             <span class="circle" id="4"></span>
-{{--            <span class="circle" id="5"></span>--}}
+            {{--            <span class="circle" id="5"></span>--}}
         </div>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel"
+         data-bs-interval="false">
         <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -26,14 +27,15 @@
                     aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
-{{--            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"--}}
-{{--                    aria-label="Slide 5"></button>--}}
+            {{--            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"--}}
+            {{--                    aria-label="Slide 5"></button>--}}
         </div>
         <div class="carousel-inner h-100 ">
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                    <div class="col-7 d-flex justify-content-center align-content-center"
+                         style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -43,9 +45,16 @@
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
-                                    <li class="text-justify"><span class="dot"></span> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.</li>
-                                    <li class="text-justify"><span class="dot"></span> Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.</li>
-                                    <li class="text-justify"><span class="dot"></span> Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Đại lý của Min Min Care luôn được
+                                        hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Chính sách giá được xây dựng trên
+                                        sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi
+                                        trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Có hệ thống đưa ra các báo cáo để
+                                        có chính sách chăm sóc khách hàng hợp lý
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -55,8 +64,9 @@
             </div>
             <div class="carousel-item   " id="2">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                    <div class="col-7 d-flex justify-content-center align-content-center"
+                         style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -66,8 +76,12 @@
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
-                                    <li class="text-justify"><span class="dot"></span> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.</li>
-                                    <li class="text-justify"><span class="dot"></span> Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</li>
+                                    <li class="text-justify"><span class="dot"></span> Được hỗ trợ đào tạo quản lý tài
+                                        chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Có quy chuẩn kiểm tra và chuẩn
+                                        hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -77,8 +91,9 @@
             </div>
             <div class="carousel-item   " id="3">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                    <div class="col-7 d-flex justify-content-center align-content-center"
+                         style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -88,8 +103,13 @@
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
-                                    <li class="text-justify"><span class="dot"></span> Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất</li>
-                                    <li class="text-justify"><span class="dot"></span> Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</li>
+                                    <li class="text-justify"><span class="dot"></span> Các chương trình Marketing được
+                                        xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu
+                                        quả nhất
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Kênh truyền thông đa dạng và áp
+                                        dụng công nghệ mới nhất bởi đội ngũ Marketing Online
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -99,8 +119,9 @@
             </div>
             <div class="carousel-item   " id="4">
                 <div class="row gx-4">
-                    <div class="col-7 boder-radius d-flex justify-content-center align-content-center" style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block  " alt="Image 1">
+                    <div class="col-7 d-flex justify-content-center align-content-center"
+                         style="overflow: hidden">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
                     </div>
                     <div class="col-4 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
@@ -110,9 +131,15 @@
                             <div class="mt-3 " style="width: 70%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
-                                    <li class="text-justify"><span class="dot"></span> Hệ thống cấp độ đại lý rõ ràng có mức quyền lợi khác nhau </li>
-                                    <li class="text-justify"><span class="dot"></span> Được tham gia các chương trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức </li>
-                                    <li class="text-justify"><span class="dot"></span> Có event/ hoạt động ý nghĩa hàng tháng, hàng năm </li>
+                                    <li class="text-justify"><span class="dot"></span> Hệ thống cấp độ đại lý rõ ràng có
+                                        mức quyền lợi khác nhau
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Được tham gia các chương
+                                        trình/khóa học Min Min Care tổ chức hoặc phối hợp tổ chức
+                                    </li>
+                                    <li class="text-justify"><span class="dot"></span> Có event/ hoạt động ý nghĩa hàng
+                                        tháng, hàng năm
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -127,11 +154,13 @@
 
 <div class="section-slide-mobile mt-3">
     <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/dai-ly/section-slide/quyenloimobi.png')}}" alt="" style="width: 65vw" class="img-fluid mb-3">
+        <img src="{{asset('images/dai-ly/section-slide/Group 2 (3).png')}}" alt="" style="width: 60vw; margin-bottom: 5%; margin-top: 3%"
+             class="img-fluid">
     </div>
 
     <div class="d-flex align-content-center justify-content-center">
-        <img class=" px-1 mb-3" src="{{asset('images/dai-ly/section-slide/hand-shake.png')}}" alt="Card image">
+        <img class=" px-1 mb-3" src="{{asset('images/dai-ly/section-slide/hand-shake.png')}}"
+             alt="Card image">
     </div>
 
     <div class="slick-carousel position-relative">
@@ -145,26 +174,32 @@
         <div class="carousel-section-slide mt-2">
             <div class=""
                  style="width:100%;">
-                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
+                <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4"
+                     alt="">
                 <div class="card-body" style="">
-                    <p class="card-text text-justify" style=""> Đại lý của Min Min Care luôn được hưởng mức chiết khấu đại lý cực kỳ hấp dẫn.
-                        Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.
+                    <p class="card-text text-justify" style=""> Đại lý của Min Min Care luôn được hưởng mức chiết khấu
+                        đại lý cực kỳ hấp dẫn.
+                        Chính sách giá được xây dựng trên sự nghiên cứu thị trường và đối thủ cạnh tranh, chi phí sản
+                        xuất và khả năng chi trả của khách hàng nên đảm bảo cạnh tranh và lợi nhuận cao.
                         Có hệ thống đưa ra các báo cáo để có chính sách chăm sóc khách hàng hợp lý</p>
                 </div>
             </div>
             <div class=" "
                  style="width:100%; ">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" alt="Card image">
-                <div class="card-body" >
-                    <p class="card-text text-justify "> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo lộ trình hàng tháng, quý.
-                        Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại lý</p>
+                <div class="card-body">
+                    <p class="card-text text-justify "> Được hỗ trợ đào tạo quản lý tài chính, marketing, bán hàng theo
+                        lộ trình hàng tháng, quý.
+                        Có quy chuẩn kiểm tra và chuẩn hóa kỹ năng được tổ chức thường xuyên để đảm bảo chất lượng đại
+                        lý</p>
                 </div>
             </div>
             <div class=""
                  style="width:100%;  ">
                 <img class="card-img-top" src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" alt="Card image">
-                <div class="card-body" >
-                    <p class="card-text text-justify">Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất
+                <div class="card-body">
+                    <p class="card-text text-justify">Các chương trình Marketing được xây dựng rõ ràng, chi tiết về mục
+                        tiêu, có lộ trình triển khai hợp lý và hiệu quả nhất
                         Kênh truyền thông đa dạng và áp dụng công nghệ mới nhất bởi đội ngũ Marketing Online</p>
                 </div>
             </div>
@@ -204,9 +239,11 @@
         .green-text {
             color: #59843d;
         }
-        .col{
-            overflow: hidden ;
+
+        .col {
+            overflow: hidden;
         }
+
         .dot {
             display: inline-block;
             width: 8px;
@@ -215,12 +252,14 @@
             background-color: black;
             margin-right: 5px;
         }
-        .section-slide-dot{
+
+        .section-slide-dot {
             transform: translate(180px, 150px);
             z-index: 999
         }
+
         @media screen and (max-aspect-ratio: 16/10) {
-            .section-slide-dot{
+            .section-slide-dot {
                 right: 20vw;
                 top: 80%;
             }
@@ -229,6 +268,7 @@
         .section-slide-mobile {
             /*height: 110vh;*/
         }
+
         .slick-slide {
             margin: 5px;
         }
@@ -307,27 +347,35 @@
                 display: none;
             }
 
+            .headerslidemb-DL {
+                /*width: 70vw;*/
+            }
             .section-slide-mobile {
                 display: block;
             }
-            .section-slide-mobile  .slick-slide {
+
+            .section-slide-mobile .slick-slide {
                 overflow: auto;
             }
 
             .section-slide-mobile .slick-track {
                 height: 19rem !important;
             }
-            .section-slide-mobile .slick-list draggable{
+
+            .section-slide-mobile .slick-list draggable {
                 height: 19rem !important;
             }
+
             .section-slide-mobile .slick-slide {
                 margin: 0 20px 20px 20px !important;
             }
+
             .section-slide-mobile .slick-dots {
                 margin-top: -20px !important;
                 transform: translateY(14px);
             }
-            .section-slide-mobile .card-text{
+
+            .section-slide-mobile .card-text {
                 margin-bottom: 5px;
             }
 
@@ -415,7 +463,7 @@
         transition: opacity 0.5s ease-in-out; /* Đặt thời gian chuyển đổi là 0.5 giây */
     }
 
-    .content-section-slide{
+    .content-section-slide {
         font-family: "Mulish SemiBold", sans-serif;
     }
 </style>
