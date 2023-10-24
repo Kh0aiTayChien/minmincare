@@ -440,8 +440,9 @@
     }
 
     .customer-mb {
-        width: 50vw;
-        margin-left: 5%;
+        margin-top: 3%;
+        width: 60vw;
+        margin-left: 20%;
         background-image: url("/images/sec10/Group 5082.png");
         background-size: 100% 100%;
         padding-bottom: 5%;
@@ -453,7 +454,7 @@
         padding-left: 10px;
         margin-top: 5%;
         /*margin-top: -10%!important;*/
-        width: 42vw;
+        width: 52vw;
         margin-left: 5%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
@@ -482,7 +483,7 @@
         padding-top: 5px;
         margin-top: 5%;
         /*margin-top: -10%!important;*/
-        width: 42vw;
+        width: 52vw;
         margin-left: 5%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
@@ -499,7 +500,7 @@
         font-family: Mulish-ExtraBold, sans-serif;
         color: white;
         font-size: 12px;
-        width: 42vw;
+        width: 52vw;
         height: 30px;
         margin-left: 7%;
         margin-top: 1%;
