@@ -12,7 +12,7 @@
                     <img src="{{asset('images/sec1/arrow-down.png')}}" alt="" class="btn-shake-UpDown">
                 </a>
                 <img src="{{asset('images/sec1/btn-curve-bot.png')}}" alt="" class="mt-5 btn-curve">
-                <img src="{{asset('images/sec1/btn-curve-mobile.png')}}" alt="" class="mt-5 btn-curve-mobile">
+                <img src="{{asset('images/sec1/btn-c.png')}}" alt="" class="mt-5 btn-curve-mobile">
             </div>
 
             <div class="call-out-button d-flex justify-content-center align-items-center mb-5 d-none">

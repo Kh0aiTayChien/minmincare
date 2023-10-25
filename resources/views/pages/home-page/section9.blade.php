@@ -72,7 +72,7 @@
     }
 
     .height-img-card {
-        height: 200px;
+        object-fit: cover;
         width: 404px;
     }
     .height-text-card{
@@ -210,7 +210,7 @@
             height: 3.5rem;
         }
         .height-img-card {
-            height: 160px;
+            object-fit: cover;
             width: 404px;
             text-align: center;
         }

@@ -33,7 +33,7 @@
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
+                        <img src="{{asset('images/sec5/conumax.jpg')}}" class="w-100 boder-radius" alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
@@ -75,7 +75,7 @@
             <div class="carousel-item " id="3">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
+                        <img src="{{asset('images/sec5/vungnguyenlieu.jpg')}}" class="w-100 boder-radius" alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
@@ -97,7 +97,7 @@
             <div class="carousel-item " id="4">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
+                        <img src="{{asset('images/sec5/nano.jpg')}}" class="w-100 boder-radius" alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"

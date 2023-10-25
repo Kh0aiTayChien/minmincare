@@ -35,14 +35,15 @@
                 <div class="row gx-4">
                     <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1"
+                             style="scale: 90%; transform: translateY(-5%)">
                     </div>
-                    <div class="col-4 " style="overflow: hidden">
+                    <div class="col-5 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-section-slide active ">
                             <img src="{{asset('images/dai-ly/section-slide/01-chietkhau.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 70%; height: 10rem">
+                            <div class="mt-3 " style="width: 90%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Đại lý của Min Min Care luôn được
@@ -66,14 +67,15 @@
                 <div class="row gx-4">
                     <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius " alt="Image 1"
+                             style="scale: 90%; transform: translateY(-5%)">
                     </div>
-                    <div class="col-4 " style="overflow: hidden">
+                    <div class="col-5 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 1.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 70%; height: 10rem">
+                            <div class="mt-3 " style="width: 90%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Được hỗ trợ đào tạo quản lý tài
@@ -93,14 +95,15 @@
                 <div class="row gx-4">
                     <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1"
+                             style="scale: 90%; transform: translateY(-5%)">
                     </div>
-                    <div class="col-4 " style="overflow: hidden">
+                    <div class="col-5 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 2.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 70%; height: 10rem">
+                            <div class="mt-3 " style="width: 90%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Các chương trình Marketing được
@@ -121,14 +124,15 @@
                 <div class="row gx-4">
                     <div class="col-7 d-flex justify-content-center align-content-center"
                          style="overflow: hidden">
-                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1">
+                        <img src="{{asset('images/dai-ly/section-slide/battay.png')}}" class="d-block boder-radius" alt="Image 1"
+                             style="scale: 90%; transform: translateY(-5%)">
                     </div>
-                    <div class="col-4 " style="overflow: hidden">
+                    <div class="col-5 " style="overflow: hidden">
                         <img src="{{asset('images/dai-ly/section-slide/quyenloi.png')}}" class="d-block  image-rule"
                              alt="Image 2">
                         <div class="content-section-slide ">
                             <img src="{{asset('images/dai-ly/section-slide/Asset 3.png')}}" class="mt-4" alt="">
-                            <div class="mt-3 " style="width: 70%; height: 10rem">
+                            <div class="mt-3 " style="width: 90%; height: 10rem">
                                 <p class="text-justify card-text">
                                 <ul class="list-unstyled">
                                     <li class="text-justify"><span class="dot"></span> Hệ thống cấp độ đại lý rõ ràng có
