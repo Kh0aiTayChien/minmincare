@@ -146,7 +146,7 @@
                     <div class="mb-3 mt-3 d-flex justify-content-start align-content-center">
                         <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                                 border-white text-white border-2 green-bg mitr-medium buy-button button-shake" data-id="{{$product->id}}">
-                            <div class="mx-5">THÊM VÀO GIỎ HÀNG</div>
+                            <div class="mx-3">THÊM VÀO GIỎ HÀNG</div>
                         </button>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
             margin-top: 2rem !important;
         }
         .card-des{
-            display: none;
+
         }
     }
 

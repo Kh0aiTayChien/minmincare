@@ -20,7 +20,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0 1rem 0 1rem;
+        margin: 0 1rem 0 1rem !important;
     }
     .imgdatetime{
         width: 4% !important;
@@ -34,7 +34,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0 3rem 0 3rem;
+        margin: 0 10rem 0 10rem;
     }
     .imgdatetime{
         width: 4% !important;
