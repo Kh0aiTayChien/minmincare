@@ -156,13 +156,11 @@
 
 </div>
 
-<div class="section-slide-mobile mt-3">
-    <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/dai-ly/section-slide/Group 2 (3).png')}}" alt="" style="width: 60vw; margin-bottom: 5%; margin-top: 3%"
-             class="img-fluid">
-    </div>
+<div class="section-slide-mobile">
+    <p class="d-flex header-test-orange-mb align-content-center justify-content-center">Quyền lợi khi</p>
+    <p class="d-flex header-test-green-mb align-content-center justify-content-center">TRỞ THÀNH ĐẠI LÝ</p>
 
-    <div class="d-flex align-content-center justify-content-center">
+    <div class="d-flex align-content-center justify-content-center mt-4">
         <img class=" px-1 mb-3" src="{{asset('images/dai-ly/section-slide/hand-shake.png')}}"
              alt="Card image">
     </div>
@@ -356,6 +354,7 @@
             }
             .section-slide-mobile {
                 display: block;
+                margin-top: 8%;
             }
 
             .section-slide-mobile .slick-slide {

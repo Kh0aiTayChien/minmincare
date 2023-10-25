@@ -168,8 +168,8 @@
         }
         .imgbrand {
             width: 100vw;
-            scale: 125%;
-            transform: translateX(-5%);
+            scale: 155%;
+            transform: translateX(-3%);
         }
     }
 

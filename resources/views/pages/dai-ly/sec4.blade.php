@@ -4,7 +4,8 @@
 </div>
 
 <div class="sec4mb-DL">
-    <img src="{{asset('images/dai-ly/sec4/Group 8.png')}}" class="headersec4mb-DL"><br>
+    <p class="header-test-white-Semi-mb">Quy trình</p>
+    <p class="header-test-white-Black-mb">HỢP TÁC TINH GỌN</p>
 {{--    <div class="row-test">--}}
 {{--        <div class="col-2">--}}
 {{--            <img src="{{asset('images/dai-ly/sec4/buoc1.png')}}" class="step1 col-9">--}}

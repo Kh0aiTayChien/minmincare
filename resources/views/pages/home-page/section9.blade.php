@@ -3,9 +3,9 @@
         <img src="{{asset('images/sec9/Group 11.png')}}" alt="" style="" class="img-fluid img-sec9-test">
     </div>
     <div class="headersec4-product d-block d-md-none">
-{{--        <p class="header-sec9-mb-1">Tin tức</p>--}}
-{{--        <p class="header-sec9-mb-2">MIN MIN CARE</p>--}}
-        <img src="{{asset('images/sec9/Group 11.png')}}" alt="" style="" class="img-fluid img-sec9-test-mb">
+        {{--        <img src="{{asset('images/sec6/Group 9.png')}}" alt="" class="share-joy-mb" style="">--}}
+        <p class="header-test-orange-mb">Tin tức</p>
+        <p class="header-test-green-mb">MIN MIN CARE</p>
     </div>
     <div class="row" style="">
         <div class="col"></div>

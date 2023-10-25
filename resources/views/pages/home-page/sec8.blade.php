@@ -128,7 +128,11 @@
 </div>
 
 <div class="sec8mb">
-    <img src="{{asset('images/sec8/Group 10.png')}}" class="headersec8mb">
+    <div class="headersec4-product">
+        {{--        <img src="{{asset('images/sec6/Group 9.png')}}" alt="" class="share-joy-mb" style="">--}}
+        <p class="header-test-orange-mb">Chuyên mục</p>
+        <p class="header-test-green-mb">KIẾN THỨC</p>
+    </div>
     <div class="contentsec8mb">
         <a href="{{asset('kien-thuc')}}">
             <img src="{{asset('images/kien-thuc/sec2/me-bau.png')}}"

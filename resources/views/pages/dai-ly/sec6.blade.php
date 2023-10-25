@@ -23,7 +23,8 @@
 </div>
 
 <div class="sec6mb-DL">
-    <object data="{{asset('images/dai-ly/sec6/Group 3172.png')}}" class="headersec6mb-DL"></object>
+    <p class="header-test-orange-mb">Đại gia đình</p>
+    <p class="header-test-green-mb">MIN MIN CARE</p>
     <div class="utubesec6-DL" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
         <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
                 allowfullscreen></iframe>

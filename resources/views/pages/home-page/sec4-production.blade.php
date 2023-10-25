@@ -8,7 +8,9 @@
         <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-img">
     </div>
     <div class="headersec4-product d-block d-sm-none">
-        <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-mb mb-5">
+{{--        <img src="{{asset('images/sec4/Group 5.png')}}" class="headersec4-product-mb">--}}
+        <p class="header-test-white-Semi-mb">Niềm tự hào của</p>
+        <p class="header-test-white-Black-mb">MIN MIN CARE</p>
     </div>
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-4 " aria-label="Previous">

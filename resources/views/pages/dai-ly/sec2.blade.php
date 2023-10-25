@@ -17,8 +17,10 @@
 </div>
 
 <div class="sec2mb-DL">
-    <object data="{{asset('images/dai-ly/sec2/Asset 1.png')}}" class="headerbannersec2mb-DL"></object>
-    <img src="{{asset('images/dai-ly/sec2/Asset 6.png')}}" class="contentsec2mb-DL">
+{{--    <object data="{{asset('images/dai-ly/sec2/Asset 1.png')}}" class="headerbannersec2mb-DL"></object>--}}
+    <img src="{{asset('images/dai-ly/sec2/1, Tex Sec 1-02.png')}}" class="contentsec2mb-DL col-12">
+    <p class="header-test-white-Black-mb">MIN MIN CARE</p>
+    <p class="header-test-white-Semi-mb">Chỉ nhận hợp tác nếu</p>
     <img src="{{asset('images/dai-ly/sec2/arrange1.png')}}" class="condition1sec2mb-DL col-6">
     <img src="{{asset('images/dai-ly/sec2/arrange2.png')}}" class="condition1sec2mb-DL col-6">
     <img src="{{asset('images/dai-ly/sec2/arrange3.png')}}" class="conditionsec2mb-DL col-6">

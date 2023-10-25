@@ -12,7 +12,9 @@
 {{--</div>--}}
 
 <div class="sec3mb-GT">
-    <object data="{{asset('images/gioi-thieu/sec3/Group 1338.png')}}" class="headersec3mb-GT"></object>
+{{--    <object data="{{asset('images/gioi-thieu/sec3/Group 1338.png')}}" class="headersec3mb-GT"></object>--}}
+    <p class="header-test-orange-mb">Giá trị cốt lõi</p>
+    <p class="header-test-green-mb">MIN MIN CARE</p>
     <p class="contentsec2mb-GT">Những giá trị cốt lõi này là lời cam kết của Min Min Care đối với khách hàng, đối tác,
         các nhà đầu tư, với xã hội và với chính bản thân chúng tôi. Những giá trị này là kim chỉ nam cho mọi hoạt động
         của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng</p>
