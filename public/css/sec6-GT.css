@@ -75,6 +75,7 @@
         display: block;
         text-align: center;
         justify-content: center;
+        margin-top: 8%;
     }
     .imgsec6mb-GT {
         width: 90vw;
@@ -87,6 +88,6 @@
         scale: 105%;
     }
     .contentsec6mb-GT {
-        margin-top: -22%;
+        /*margin-top: -22%;*/
     }
 }

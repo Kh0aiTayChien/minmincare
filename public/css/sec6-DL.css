@@ -24,6 +24,7 @@
         text-align: center;
         background-color: #F1F1F2;
         padding-bottom: 7%;
+        padding-top: 8%;
     }
     .headersec6mb-DL {
         width: 50vw;
@@ -31,6 +32,7 @@
     }
     .utubesec6-DL {
         margin-left: 10%;
-        padding-bottom: 7%;
+        padding-bottom: 8%;
+        margin-top: 8%;
     }
 }

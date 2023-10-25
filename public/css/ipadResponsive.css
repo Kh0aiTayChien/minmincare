@@ -4,10 +4,10 @@
 
 @media screen and (max-width: 1300px) {
     .logofooter {
-        width: 120%;
+        width: 100%;
     }
     .intro {
-        font-size: 14px;
+        font-size: 13px;
     }
     .intro1 {
         font-size: 12px;
@@ -55,14 +55,5 @@
     }
     .headersec6-DL {
         width: 20vw;
-    }
-    .logofooter {
-        width: 120%;
-    }
-    .intro {
-        font-size: 14px;
-    }
-    .intro1 {
-        font-size: 12px;
     }
 }

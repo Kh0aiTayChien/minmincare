@@ -144,17 +144,19 @@
     }
 
     .contentsec2mb-DL {
-        width: 115%;
-        margin-left: 15%;
+        margin-top: 18%;
+        margin-bottom: 10%;
+        /*width: 115%;*/
+        /*margin-left: 15%;*/
     }
 
     .condition1sec2mb-DL {
-        margin-top: -12%;
+        margin-top: 5%;
         transform: translateX(2%);
     }
 
     .conditionsec2mb-DL {
-        padding-bottom: 5%;
+        padding-bottom: 8%;
         transform: translateX(2%);
     }
 

@@ -169,6 +169,9 @@
         margin-left: 10%;
         font-family: Montserrat-Medium, sans-serif;
     }
+    .HP-1 {
+        margin-top: 8%;
+    }
 
     .button1mb {
         width: 38vw;
@@ -182,5 +185,6 @@
 
     .utube {
         margin-left: 7%;
+        transform: translateY(-5%);
     }
 }

@@ -35,10 +35,46 @@
     color: #59843d;
 }
 
-.header-test-green-LH-mb {
-    font-size: 22px;
-    font-family: Mitr-SemiBold, sans-serif;
+.header-test-green-mb {
+    font-size: 26px;
+    font-family: Montserrat-Black, sans-serif;
     color: #59843d;
+    line-height: 15px;
+}
+
+.header-test-orange-mb {
+    font-size: 23px;
+    font-family: Montserrat-SemiBold, sans-serif;
+    color: #F79420;
+    line-height: 15px;
+}
+
+.header-test-green-mb-1 {
+    font-size: 25px;
+    font-family: Montserrat-Black, sans-serif;
+    color: #59843d;
+    line-height: 15px;
+}
+
+.header-test-orange-mb-1 {
+    font-size: 22px;
+    font-family: Montserrat-SemiBold, sans-serif;
+    color: #F79420;
+    line-height: 15px;
+}
+
+.header-test-white-Black-mb {
+    font-size: 26px;
+    font-family: Montserrat-Black, sans-serif;
+    color: white;
+    line-height: 10px;
+}
+
+.header-test-white-Semi-mb {
+    font-size: 23px;
+    font-family: Montserrat-SemiBold, sans-serif;
+    color: white;
+    line-height: 10px;
 }
 
 .headersec1-LH {
@@ -55,15 +91,9 @@
     justify-content: center;
 }
 
-.header-test-orange-LH-mb {
-    font-size: 20px;
-    font-family: Mitr-Regular, sans-serif;
-    color: #F79420;
-    /*line-height: 5px;*/
-    text-align: justify;
-    justify-content: center;
-    /*line-height: 20px;*/
-}
+
+
+
 
 .line-height-test {
     line-height: 15px;

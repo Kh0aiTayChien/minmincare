@@ -143,12 +143,15 @@
 </div>
 
 <div class="section-5-mobile mt-3 mb-3">
-    <div class="d-flex align-content-center justify-content-center">
-        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw"
-             class="img-fluid headersec5mb-HP-test">
+    <div class="headersec4-product">
+{{--        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw"--}}
+{{--             class="img-fluid headersec5mb-HP-test">--}}
+        <p class="header-test-orange-mb">Thước đo</p>
+        <p class="header-test-green-mb">CHUẨN MỰC</p>
+        <p class="header-test-green-mb">CAO CẤP</p>
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <img class="card-img-top px-5" src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image">
+        <img class="card-img-top px-5 mt-3" src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image">
     </div>
 
     <div class="slick-carousel position-relative">
