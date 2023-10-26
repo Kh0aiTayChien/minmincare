@@ -163,8 +163,8 @@
     </div>
 
     <div class="d-flex align-content-center justify-content-center">
-        <img class=" px-1 mb-3" src="{{asset('images/dai-ly/section-slide/hand-shake.png')}}"
-             alt="Card image">
+        <img class=" px-1 mb-3 img-fluid" src="{{asset('images/dai-ly/section-slide/battay.png')}}"
+             alt="Card image" style="object-fit: cover">
     </div>
 
     <div class="slick-carousel position-relative">
