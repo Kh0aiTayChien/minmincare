@@ -79,7 +79,7 @@ class NewsController extends Controller
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages.tin-tuc.article.index')->with('article', $article)
+                ->view('pages.tin-tuc.article.index',['article' => $article])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
