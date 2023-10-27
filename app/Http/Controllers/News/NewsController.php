@@ -37,7 +37,6 @@ class NewsController extends Controller
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare Tin Tức');
 
-
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
@@ -55,27 +54,27 @@ class NewsController extends Controller
         }
     }
 
-    public function show(Request $request, $slug)
+    public function show($slug, Request $request)
     {
         $article = Article::where('slug', $slug)->firstOrFail();
-         $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle('MinMinCare/tin-tuc/'.$slug);
         SEOMeta::setDescription('MinMinCare/'.$slug);
 
         OpenGraph::setDescription('MinMinCare/'.$slug);
         OpenGraph::setTitle('MinMinCare/tin-tuc/'.$slug);
-        OpenGraph::setUrl('https://minmincare.com.vn/tin-tuc/'.$slug);
+        OpenGraph::setUrl(route('homepage.index',['slug' =>$slug]));
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('https://minmincare.com.vn/'.$article->image);
+        OpenGraph::addImage(route('homepage.index').$article->image);
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare/'.$slug);
-        JsonLd::addImage('https://minmincare.com.vn/'.$article->image);
+        JsonLd::addImage(route('homepage.index').$article->image);
 
+        $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
