@@ -17,25 +17,25 @@ class NewsController extends Controller
 {
     public function index(Request $request)
     {
+        $categorySlug = 'tin-tuc';
+        $news = Article::where('status',1)
+            ->whereHas('category', function ($query) use ($categorySlug) {
+                $query->where('slug', $categorySlug);
+            })->paginate(5);
+
         SEOMeta::setTitle('MinMinCare Tin Tức');
         SEOMeta::setDescription('MinMinCare Tin Tức');
 
         OpenGraph::setDescription('MinMinCare/');
-        OpenGraph::setTitle('MinMinCare/san-pham/');
+        OpenGraph::setTitle('MinMinCare/tin-tuc/');
         OpenGraph::setUrl('https://minmincare.com.vn/tin-tuc');
-        OpenGraph::addProperty('type', 'product');
+        OpenGraph::addProperty('type', 'article');
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare Tin Tức');
-
-        $categorySlug = 'tin-tuc';
-        $news = Article::where('status',1)
-            ->whereHas('category', function ($query) use ($categorySlug) {
-                $query->where('slug', $categorySlug);
-            })->paginate(5);
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
@@ -74,7 +74,6 @@ class NewsController extends Controller
         JsonLd::setDescription('MinMinCare/'.$slug);
         JsonLd::addImage(route('homepage.index').$article->image);
 
-        $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
