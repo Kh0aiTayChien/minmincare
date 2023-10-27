@@ -74,8 +74,9 @@
 </div>
 
 <div class="sec5mb-DL">
-    <object data="{{asset('images/dai-ly/sec5/Group 3171.png')}}" class="headersec5mb-DL"></object>
-    <div class="utubesec5-DL" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
+    <p class="header-test-orange-mb">Khách hàng</p>
+    <p class="header-test-green-mb">TIN TƯỞNG LỰA CHỌN</p>
+    <div class="utubesec5-DL DL-1" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
         <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
                 allowfullscreen></iframe>
         <br>

@@ -31,6 +31,7 @@
         text-align: center;
         background-image: url("/images/dai-ly/sec2/Group 3173.png");
         background-size: cover;
+        padding-top: 14%;
     }
     .headersec4mb-DL {
         width: 60vw;
@@ -46,6 +47,7 @@
     .bannersec3mb-DL {
         width: 85vw;
         border-radius: 15px;
+        margin-bottom: 7%;
     }
     .step1 {
         transform: translateY(-80%);

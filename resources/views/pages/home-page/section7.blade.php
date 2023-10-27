@@ -3,7 +3,9 @@
             <img src="{{asset('images/sec7/Asset 1.svg')}}" alt="" class="share-joy" style="">
     </div>
     <div class="headersec4-product d-block d-md-none">
-        <img src="{{asset('images/sec6/Group 9.png')}}" alt="" class="share-joy-mb" style="">
+{{--        <img src="{{asset('images/sec6/Group 9.png')}}" alt="" class="share-joy-mb" style="">--}}
+        <p class="header-test-orange-mb">Nơi chia sẻ</p>
+        <p class="header-test-green-mb">NIỀM VUI</p>
     </div>
 {{--    <div class="headersec4-product d-block d-md-none ">--}}
 {{--        <p><span class="header-sec9-mb-1">Nơi chia sẻ  </span> <span class="header-sec9-mb-2"> NIỀM VUI</span> </p>--}}
@@ -17,12 +19,12 @@
         </button>
 
         <div class="carousel-sec-7 col-9">
-            <div><img src="{{asset('images/sec7/thước đo PC-02.png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/thước đo PC-03.png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/thước đo PC-04.png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/thước đo PC-05.png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/thước đo PC-06.png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/thước đo PC-07.png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 7 (2).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 8 (1).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 9 (1).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 10 (1).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 11 (1).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 12 (1).png')}}" class="img-fluid-test shadow-test"></div>
         </div>
     </div>
 </div>
@@ -31,7 +33,7 @@
         background-color: #F1F1F2;
         /*height: 70vh;*/
         padding-bottom: 3%;
-        padding-top: 1%;
+        padding-top: 7%;
     }
 
     .wrapper {

@@ -79,10 +79,8 @@
     }
 
     .headersec5mb-GT {
-        width: 100vw;
-        scale: 125%;
-        margin-top: 3%;
-        transform: translateX(-8%);
+        margin-top: 8%;
+        /*transform: translateX(-8%);*/
     }
 
     .textsec5mb-GT {

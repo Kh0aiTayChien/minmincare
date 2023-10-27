@@ -39,13 +39,14 @@
         display: block;
         text-align: center;
         justify-content: center;
+        margin-top: 8%;
     }
     .headersec4mb-GT {
         width: 100vw;
         margin-top: 6%;
     }
     .contentsec4mb-GT {
-        margin-top: -10%;
+        /*margin-top: -10%;*/
     }
     .imgsec4mb-GT {
         width: 90vw;
