@@ -64,7 +64,7 @@ class Knowledge2Controller extends Controller
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages.kien-thuc.me-sau-sinh.show.index')->with('article', $article)
+                ->view('pages.kien-thuc.me-sau-sinh.show.index',['article' => $article])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
