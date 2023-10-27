@@ -127,8 +127,7 @@ class ProductController extends Controller
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare/'.$slug);
-        JsonLd::addImage($product->image);
-
+        JsonLd::addImage('https://minmincare.com.vn/'.$product->image);
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
