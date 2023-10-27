@@ -5,6 +5,10 @@ namespace App\Http\Controllers\KnowledgeController;
 use App\Http\Controllers\Controller;
 use App\Models\Article;
 use App\Models\Cart;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
@@ -37,8 +41,26 @@ class Knowledge3Controller extends Controller
     }
     public function show(Request $request, $slug)
     {
+
         $article = Article::where('slug', $slug)->first();
         $sessionCookie = config('session.cookie');
+
+        SEOMeta::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
+        SEOMeta::setDescription('MinMinCare Dinh Dưỡng Cho Con |'.$article->name);
+
+        OpenGraph::setDescription('MinMinCare Dinh Dưỡng Cho Con  |'.$article->name);
+        OpenGraph::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
+        OpenGraph::setUrl('https://minmincare.com.vn/kien-thuc/dinh-duong-cho-con/'.$slug);
+        OpenGraph::addProperty('type', 'article');
+        OpenGraph::addImage($article->image);
+
+        TwitterCard::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
+        TwitterCard::setSite('');
+
+        JsonLd::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
+        JsonLd::setDescription('MinMinCare Dinh Dưỡng Cho Con |'.$article->name);
+        JsonLd::addImage($article->image);
+
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
