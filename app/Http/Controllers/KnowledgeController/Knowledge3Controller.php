@@ -42,7 +42,7 @@ class Knowledge3Controller extends Controller
     public function show(Request $request, $slug)
     {
 
-        $article = Article::where('slug', $slug)->first();
+        $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
