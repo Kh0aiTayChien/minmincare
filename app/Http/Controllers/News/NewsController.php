@@ -17,12 +17,6 @@ class NewsController extends Controller
 {
     public function index(Request $request)
     {
-        $categorySlug = 'tin-tuc';
-        $news = Article::where('status',1)
-            ->whereHas('category', function ($query) use ($categorySlug) {
-                $query->where('slug', $categorySlug);
-        })->paginate(5);
-
         SEOMeta::setTitle('MinMinCare Tin Tức');
         SEOMeta::setDescription('MinMinCare Tin Tức');
 
@@ -36,6 +30,12 @@ class NewsController extends Controller
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare Tin Tức');
+
+        $categorySlug = 'tin-tuc';
+        $news = Article::where('status',1)
+            ->whereHas('category', function ($query) use ($categorySlug) {
+                $query->where('slug', $categorySlug);
+            })->paginate(5);
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
@@ -74,6 +74,7 @@ class NewsController extends Controller
         JsonLd::setDescription('MinMinCare/'.$slug);
         JsonLd::addImage(route('homepage.index').$article->image);
 
+        $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
