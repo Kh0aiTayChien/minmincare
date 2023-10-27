@@ -50,7 +50,7 @@ class NewsController extends Controller
                 $query->where('session_code', $sessionId);
             })->get();
 
-            return view('pages.tin-tuc.index', ['news' => $news, 'carts' => $carts]);
+            return response()->view('pages.tin-tuc.index', ['news' => $news, 'carts' => $carts]);
         }
     }
 
@@ -86,7 +86,7 @@ class NewsController extends Controller
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
             })->get();
-            return view('pages.tin-tuc.article.index', ['article' => $article, 'carts' => $carts]);
+            return response()->view('pages.tin-tuc.article.index', ['article' => $article, 'carts' => $carts]);
         }
     }
 }
