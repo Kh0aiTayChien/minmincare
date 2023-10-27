@@ -26,7 +26,6 @@
                 </div>
             </div>
             <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews mt-4 mb-4">
-
         @endforeach
     @endif
 </div>
