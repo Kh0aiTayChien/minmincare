@@ -8,6 +8,10 @@ use App\Models\Cart;
 use App\Models\Product;
 use App\Http\Controllers\Controller;
 use App\Models\Session;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
@@ -108,6 +112,23 @@ class ProductController extends Controller
         $videoUrl  = $product->video_url;
         $videoId = $this->getYouTubeVideoId($videoUrl);
         $thumbnailUrl = "https://img.youtube.com/vi/{$videoId}/maxresdefault.jpg";
+
+        SEOMeta::setTitle('MinMinCare/san-pham/'.$slug);
+        SEOMeta::setDescription('MinMinCare/'.$slug);
+
+        OpenGraph::setDescription('MinMinCare/'.$slug);
+        OpenGraph::setTitle('MinMinCare/san-pham/'.$slug);
+        OpenGraph::setUrl('https://minmincare.com.vn/san-pham/'.$slug);
+        OpenGraph::addProperty('type', 'product');
+        OpenGraph::addImage($product->image);
+
+        TwitterCard::setTitle('MinMinCare');
+        TwitterCard::setSite('');
+
+        JsonLd::setTitle('MinMinCare');
+        JsonLd::setDescription('MinMinCare/'.$slug);
+        JsonLd::addImage($product->image);
+
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {

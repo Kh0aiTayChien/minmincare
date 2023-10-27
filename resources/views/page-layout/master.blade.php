@@ -68,6 +68,7 @@
     <link href="{{asset('/css/sec11-QC.css')}}" rel="stylesheet">
     <link href="{{asset('/css/section1-NM.css')}}" rel="stylesheet">
     <link href="{{asset('/css/ipadResponsive.css')}}" rel="stylesheet">
+    {!! SEO::generate() !!}
 </head>
 <body>
 @include('page-layout/header')
