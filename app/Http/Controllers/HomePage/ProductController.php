@@ -120,7 +120,7 @@ class ProductController extends Controller
         OpenGraph::setTitle('MinMinCare/san-pham/'.$slug);
         OpenGraph::setUrl('https://minmincare.com.vn/san-pham/'.$slug);
         OpenGraph::addProperty('type', 'product');
-        OpenGraph::addImage($product->image);
+        OpenGraph::addImage('https://minmincare.com.vn/'.$product->image);
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');

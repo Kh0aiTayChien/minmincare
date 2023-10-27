@@ -52,14 +52,14 @@ class Knowledge3Controller extends Controller
         OpenGraph::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
         OpenGraph::setUrl('https://minmincare.com.vn/kien-thuc/dinh-duong-cho-con/'.$slug);
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage($article->image);
+        OpenGraph::addImage('https://minmincare.com.vn/'.$article->image);
 
         TwitterCard::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
         JsonLd::setDescription('MinMinCare Dinh Dưỡng Cho Con |'.$article->name);
-        JsonLd::addImage($article->image);
+        JsonLd::addImage('https://minmincare.com.vn/'.$article->image);
 
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();

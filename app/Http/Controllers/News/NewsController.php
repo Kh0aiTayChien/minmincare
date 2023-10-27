@@ -66,15 +66,15 @@ class NewsController extends Controller
         OpenGraph::setDescription('MinMinCare/'.$slug);
         OpenGraph::setTitle('MinMinCare/tin-tuc/'.$slug);
         OpenGraph::setUrl('https://minmincare.com.vn/tin-tuc/'.$slug);
-        OpenGraph::addProperty('type', 'product');
-        OpenGraph::addImage($article->image);
+        OpenGraph::addProperty('type', 'article');
+        OpenGraph::addImage('https://minmincare.com.vn/'.$article->image);
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare/'.$slug);
-        JsonLd::addImage($article->image);
+        JsonLd::addImage('https://minmincare.com.vn/'.$article->image);
 
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
