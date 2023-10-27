@@ -142,8 +142,7 @@ class ProductController extends Controller
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
             })->get();
-
-            return view('pages/chi-tiet-san-pham/index',
+            return response()->view('pages/chi-tiet-san-pham/index',
                 ['product' => $product, 'mediaProducts' => $mediaProducts,
                     'carts' => $carts, 'thumbnailUrl' => $thumbnailUrl]);
         }
