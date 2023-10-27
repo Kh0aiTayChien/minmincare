@@ -57,7 +57,7 @@ class NewsController extends Controller
 
     public function show(Request $request, $slug)
     {
-        $article = Article::where('slug', $slug)->first();
+        $article = Article::where('slug', $slug)->firstOrFail();
          $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle('MinMinCare/tin-tuc/'.$slug);
@@ -75,7 +75,6 @@ class NewsController extends Controller
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare/'.$slug);
         JsonLd::addImage($article->image);
-
 
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
