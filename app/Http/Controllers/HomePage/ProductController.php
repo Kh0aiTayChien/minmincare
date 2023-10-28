@@ -118,16 +118,16 @@ class ProductController extends Controller
 
         OpenGraph::setDescription('MinMinCare/'.$slug);
         OpenGraph::setTitle('MinMinCare/san-pham/'.$slug);
-        OpenGraph::setUrl('https://minmincare.com.vn/san-pham/'.$slug);
+        OpenGraph::setUrl(route('kien-thuc.me-sau-sinh.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'product');
-        OpenGraph::addImage('https://minmincare.com.vn/'.$product->image);
+        OpenGraph::addImage(url($product->image));
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('MinMinCare/'.$slug);
-        JsonLd::addImage('https://minmincare.com.vn/'.$product->image);
+        JsonLd::addImage(url($product->image));
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
