@@ -45,19 +45,19 @@ class Knowledge3Controller extends Controller
         $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
 
-        SEOMeta::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
+        SEOMeta::setTitle($article->title);
         SEOMeta::setDescription('MinMinCare Dinh Dưỡng Cho Con |'.$article->name);
 
         OpenGraph::setDescription('MinMinCare Dinh Dưỡng Cho Con  |'.$article->name);
-        OpenGraph::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
+        OpenGraph::setTitle($article->title);
         OpenGraph::setUrl(route('kien-thuc.dinh-duong-cho-con.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage(url($article->image));;
 
-        TwitterCard::setTitle('MinMinCare Dinh Dưỡng Cho Con-'.$slug);
+        TwitterCard::setTitle($article->title);
         TwitterCard::setSite('');
 
-        JsonLd::setTitle('MinMinCare Dinh Dưỡng Cho Con -'.$slug);
+        JsonLd::setTitle($article->title);
         JsonLd::setDescription('MinMinCare Dinh Dưỡng Cho Con |'.$article->name);
         JsonLd::addImage(url($article->image));;
 
