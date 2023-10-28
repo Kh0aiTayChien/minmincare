@@ -23,7 +23,7 @@
             <div><img src="{{asset('images/sec7/Group 8 (1).png')}}" class="img-fluid-test shadow-test"></div>
             <div><img src="{{asset('images/sec7/Group 9 (1).png')}}" class="img-fluid-test shadow-test"></div>
             <div><img src="{{asset('images/sec7/Group 10 (1).png')}}" class="img-fluid-test shadow-test"></div>
-            <div><img src="{{asset('images/sec7/Group 11 (1).png')}}" class="img-fluid-test shadow-test"></div>
+            <div><img src="{{asset('images/sec7/Group 7 (3).png')}}" class="img-fluid-test shadow-test"></div>
             <div><img src="{{asset('images/sec7/Group 12 (1).png')}}" class="img-fluid-test shadow-test"></div>
         </div>
     </div>
