@@ -49,16 +49,16 @@ class KnowledgeController extends Controller
 
         OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->name);
         OpenGraph::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
-        OpenGraph::setUrl('https://minmincare.com.vn/kien-thuc/'.$slug);
+        OpenGraph::setUrl(route('kien-thuc.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('https://minmincare.com.vn/'.$article->image);
+        OpenGraph::addImage(url($article->image));;
 
         TwitterCard::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare Kiến Thức Mẹ Bầu -'.$slug);
         JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
-        JsonLd::addImage('https://minmincare.com.vn/'.$article->image);
+        JsonLd::addImage(url($article->image));;
 
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
