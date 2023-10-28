@@ -34,14 +34,14 @@ class IndexController extends Controller
         OpenGraph::setTitle('MinMinCare');
         OpenGraph::setUrl('https://minmincare.com.vn/');
         OpenGraph::addProperty('type', 'homepage');
-        OpenGraph::addImage($images[0]);
+        OpenGraph::addImage(url($images[0]));
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        JsonLd::addImage($images[0]);
+        JsonLd::addImage(url($images[0]));
 
 
         $products = Product::orderBy('order_number', 'asc')->get();
