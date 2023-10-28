@@ -56,6 +56,7 @@ Route::post('/subtraction', [CartController::class, 'subtraction'])->name('homep
 Route::post('/delete_cart', [CartController::class, 'delete_cart'])->name('homepage.cart.delete');
 Route::middleware('throttle:10,60')->group(function (Router $router) {
     Route::post("/send", [CartController::class, 'send'])->name('homepage.cart.send');
+    Route::post("/send-register", [IndexController::class, 'send'])->name('homepage.register.send');
 });
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {

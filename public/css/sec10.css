@@ -343,7 +343,7 @@
 .button5 {
     width: 26.65vw;
     /*position: absolute;*/
-    margin-left: -4%;
+    margin-left: -6%;
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1920px) {
@@ -515,7 +515,7 @@
         font-size: 12px;
         width: 52vw;
         height: 30px;
-        margin-left: 7%;
+        margin-left: 4.95%;
         margin-top: 1%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
     }
