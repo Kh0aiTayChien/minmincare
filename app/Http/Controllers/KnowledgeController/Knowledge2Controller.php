@@ -45,9 +45,9 @@ class Knowledge2Controller extends Controller
         $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle($article->title);
-        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh |'.$article->name);
+        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh'.$article->title);
 
-        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh |'.$article->name);
+        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh'.$article->title);
         OpenGraph::setTitle($article->title);
         OpenGraph::setUrl(route('homepage.product.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
