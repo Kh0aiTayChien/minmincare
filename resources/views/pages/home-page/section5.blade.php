@@ -53,7 +53,7 @@
             <div class="carousel-item " id="2">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100" alt="Image 1">
+                        <img src="{{asset('images/sec5/7.jpg')}}" class="w-100 boder-radius" alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"

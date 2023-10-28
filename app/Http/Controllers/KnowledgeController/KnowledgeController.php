@@ -5,6 +5,10 @@ namespace App\Http\Controllers\KnowledgeController;
 use App\Http\Controllers\Controller;
 use App\Models\Article;
 use App\Models\Cart;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
@@ -37,13 +41,30 @@ class KnowledgeController extends Controller
     }
     public function show(Request $request, $slug)
     {
-        $article = Article::where('slug', $slug)->first();
+        $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
+
+        SEOMeta::setTitle('MinMinCare Kiến Thức Mẹ Bầu -'.$slug);
+        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+
+        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->name);
+        OpenGraph::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
+        OpenGraph::setUrl(route('kien-thuc.show',['slug' => $slug]));
+        OpenGraph::addProperty('type', 'article');
+        OpenGraph::addImage(url($article->image));;
+
+        TwitterCard::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
+        TwitterCard::setSite('');
+
+        JsonLd::setTitle('MinMinCare Kiến Thức Mẹ Bầu -'.$slug);
+        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+        JsonLd::addImage(url($article->image));;
+
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
             $cookie = Cookie::make($sessionCookie, $sessionId, 44640);
             return response()
-                ->view('pages.kien-thuc.show.index')->with('article', $article)
+                ->view('pages.kien-thuc.show.index',['article' => $article])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);

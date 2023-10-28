@@ -12,16 +12,41 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
 use App\Models\Category;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\TwitterCard;
+use Artesaos\SEOTools\Facades\JsonLd;
 
 class IndexController extends Controller
 {
     public function index(Request $request)
     {
-        $products = Product::orderBy('order_number', 'asc')->get();
         $categoryImgSlug = "anh-slide-pc-01";
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);
         })->get();
+
+        SEOMeta::setTitle('MinMinCare');
+        SEOMeta::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        SEOMeta::setCanonical('https://minmincare.com.vn/');
+
+        OpenGraph::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        OpenGraph::setTitle('MinMinCare');
+        OpenGraph::setUrl('https://minmincare.com.vn/');
+        OpenGraph::addProperty('type', 'homepage');
+        OpenGraph::addImage(url($images[0]->image_url));
+
+        TwitterCard::setTitle('MinMinCare');
+        TwitterCard::setSite('');
+
+        JsonLd::setTitle('MinMinCare');
+        JsonLd::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        JsonLd::addImage(url($images[0]->image_url));
+
+
+        $products = Product::orderBy('order_number', 'asc')->get();
+
+
         $categoryImgSlugMobile = "anh-slide-mobile-01";
         $imageMobiles = Image::whereHas('category', function ($query) use ($categoryImgSlugMobile) {
             $query->where('slug', $categoryImgSlugMobile);

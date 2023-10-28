@@ -8,6 +8,10 @@ use App\Models\Cart;
 use App\Models\Product;
 use App\Http\Controllers\Controller;
 use App\Models\Session;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
@@ -109,6 +113,22 @@ class ProductController extends Controller
         $videoId = $this->getYouTubeVideoId($videoUrl);
         $thumbnailUrl = "https://img.youtube.com/vi/{$videoId}/maxresdefault.jpg";
 
+        SEOMeta::setTitle('MinMinCare/san-pham/'.$slug);
+        SEOMeta::setDescription('MinMinCare/'.$slug);
+
+        OpenGraph::setDescription('MinMinCare/'.$slug);
+        OpenGraph::setTitle('MinMinCare/san-pham/'.$slug);
+        OpenGraph::setUrl(route('kien-thuc.me-sau-sinh.show',['slug' => $slug]));
+        OpenGraph::addProperty('type', 'product');
+        OpenGraph::addImage(url($product->image));
+
+        TwitterCard::setTitle('MinMinCare');
+        TwitterCard::setSite('');
+
+        JsonLd::setTitle('MinMinCare');
+        JsonLd::setDescription('MinMinCare/'.$slug);
+        JsonLd::addImage(url($product->image));
+
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
             $sessionId = Str::uuid()->toString();
@@ -122,8 +142,7 @@ class ProductController extends Controller
             $carts = Cart::whereHas('session', function ($query) use ($sessionId) {
                 $query->where('session_code', $sessionId);
             })->get();
-
-            return view('pages/chi-tiet-san-pham/index',
+            return response()->view('pages/chi-tiet-san-pham/index',
                 ['product' => $product, 'mediaProducts' => $mediaProducts,
                     'carts' => $carts, 'thumbnailUrl' => $thumbnailUrl]);
         }

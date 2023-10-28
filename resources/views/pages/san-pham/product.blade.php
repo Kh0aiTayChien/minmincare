@@ -1,4 +1,4 @@
-<div class=" d-flex justify-content-center align-items-center custom-mt ">
+<div class=" d-flex justify-content-center align-items-center ">
     <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%" class="custom-top">
 </div>
 <div class=" mb-4" style="">

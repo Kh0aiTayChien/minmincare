@@ -1,30 +1,33 @@
 <div class="secp-TT">
-    @foreach($news as $article)
+    @if(isset($news) && !empty($news))
+        @foreach($news as $article)
 
-        <div class="card mb-4 mt-4 border-0 ">
-            <div class="row">
-                <div class="col-lg-4 col-xs-12">
-                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
-                        <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
-                    </a>
-                </div>
-                <div class="card-body col-lg-8 col-xs-12">
-                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
-                        <p class="textdatetime p-2"><img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}"
-                                                         class="imgdatetime">
-                            {{$article->created_at}}</p>
+            <div class="card mb-4 mt-4 border-0 ">
+                <div class="row">
+                    <div class="col-lg-4 col-xs-12">
+                        <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}"
+                           style="text-decoration: unset; color: unset">
+                            <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
+                        </a>
+                    </div>
+                    <div class="card-body col-lg-8 col-xs-12">
+                        <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}"
+                           style="text-decoration: unset; color: unset">
+                            <p class="textdatetime p-2"><img src="{{asset('images/tin-tuc/sec2/Asset 3.svg')}}"
+                                                             class="imgdatetime">
+                                {{$article->created_at}}</p>
 
-                        <div class="green-text"><h4
-                                class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,77)}}</h4>
-                        </div>
-                        <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
-                    </a>
+                            <div class="green-text"><h4
+                                    class="card-title h5 h4-sm titlenews">{{\Illuminate\Support\Str::limit($article->title,77)}}</h4>
+                            </div>
+                            <p class="card-text titletext">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 200)) }}</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews mt-4 mb-4">
-
-    @endforeach
+            <img src="{{asset('images/tin-tuc/sec2/Asset 4.svg')}}" class="linenews mt-4 mb-4">
+        @endforeach
+    @endif
 </div>
 <div class="d-flex justify-content-center align-content-center mt-3 mb-3">
     {{ $news->links() }}
