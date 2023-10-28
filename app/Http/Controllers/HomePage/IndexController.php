@@ -32,11 +32,11 @@ class IndexController extends Controller
 
         SEOMeta::setTitle('MinMinCare');
         SEOMeta::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        SEOMeta::setCanonical(request()->getHost());
+        SEOMeta::setCanonical('https://minmincare.com.vn/');
 
         OpenGraph::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         OpenGraph::setTitle('MinMinCare');
-        OpenGraph::setUrl(request()->getHost());
+        OpenGraph::setUrl('https://minmincare.com.vn/');
         OpenGraph::addProperty('type', 'homepage');
         OpenGraph::addImage(url($images[0]->image_url));
 
@@ -44,7 +44,7 @@ class IndexController extends Controller
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
-        JsonLd::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        JsonLd::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         JsonLd::addImage(url($images[0]->image_url));
 
 
