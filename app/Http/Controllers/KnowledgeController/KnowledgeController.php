@@ -45,9 +45,9 @@ class KnowledgeController extends Controller
         $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle($article->title);
-        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->title);
 
-        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->name);
+        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->title);
         OpenGraph::setTitle($article->title);
         OpenGraph::setUrl(route('kien-thuc.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
@@ -57,7 +57,7 @@ class KnowledgeController extends Controller
         TwitterCard::setSite('');
 
         JsonLd::setTitle($article->title);
-        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->title);
         JsonLd::addImage(url($article->image));;
 
         if ($request->Cookie($sessionCookie) == null) {

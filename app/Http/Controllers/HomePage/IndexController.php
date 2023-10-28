@@ -32,11 +32,11 @@ class IndexController extends Controller
 
         SEOMeta::setTitle('MinMinCare');
         SEOMeta::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        SEOMeta::setCanonical(url());
+        SEOMeta::setCanonical(request()->getHost());
 
         OpenGraph::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         OpenGraph::setTitle('MinMinCare');
-        OpenGraph::setUrl(url());
+        OpenGraph::setUrl(request()->getHost());
         OpenGraph::addProperty('type', 'homepage');
         OpenGraph::addImage(url($images[0]->image_url));
 

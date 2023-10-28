@@ -67,10 +67,10 @@ class NewsController extends Controller
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage(url($article->image));
 
-        TwitterCard::setTitle('MinMinCare');
+        TwitterCard::setTitle($article->title);
         TwitterCard::setSite('');
 
-        JsonLd::setTitle('MinMinCare');
+        JsonLd::setTitle($article->title);
         JsonLd::setDescription('MinMinCare/'.$slug);
         JsonLd::addImage(url($article->image));
 
