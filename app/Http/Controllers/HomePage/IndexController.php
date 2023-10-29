@@ -38,15 +38,29 @@ class IndexController extends Controller
         OpenGraph::setTitle('MinMinCare');
         OpenGraph::setUrl('https://minmincare.com.vn/');
         OpenGraph::addProperty('type', 'homepage');
-        OpenGraph::addImage(url($images[0]->image_url));
+        if (!empty($images) && isset($images[0]) && isset($images[0]->image_url)) {
+            // Kiểm tra xem mảng $images không rỗng, và phần tử đầu tiên có thuộc tính 'image_url'
+            OpenGraph::addImage(url($images[0]->image_url));
+        } else {
+            // Xử lý khi mảng $images rỗng hoặc không có thuộc tính 'image_url' trong phần tử đầu tiên
+            // Ví dụ, bạn có thể thêm một hình ảnh mặc định hoặc xử lý lỗi theo ý muốn của bạn.
+            OpenGraph::addImage(url('path/to/default/image.jpg'));
+        }
+
 
         TwitterCard::setTitle('MinMinCare');
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
         JsonLd::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        JsonLd::addImage(url($images[0]->image_url));
-
+        if (!empty($images) && isset($images[0]) && isset($images[0]->image_url)) {
+            // Kiểm tra xem mảng $images không rỗng và phần tử đầu tiên có thuộc tính 'image_url'
+            JsonLd::addImage(url($images[0]->image_url));
+        } else {
+            // Xử lý khi mảng $images rỗng hoặc không có thuộc tính 'image_url' trong phần tử đầu tiên
+            // Ví dụ, bạn có thể thêm một hình ảnh mặc định hoặc xử lý lỗi theo ý muốn của bạn.
+            JsonLd::addImage(url('path/to/default/image.jpg'));
+        }
 
         $products = Product::orderBy('order_number', 'asc')->get();
 
