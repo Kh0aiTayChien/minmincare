@@ -95,6 +95,8 @@
                         <div class="col-lg-12">
                             <div class="text-center">
                                 <h5 class="font-weight-bold">Ảnh và video minh họa</h5>
+                                <div class="small text-danger">kích cỡ  khuyến nghị 900x600px, không quá 800kb, định dạng PNG, JPG
+                                    <br>tổng không vượt quá 5mb</div>
                             </div>
                             <div class="media-product" data-id="{{$product->id}}">
                                 <span class="item d-flex justify-content-center align-content-center me-2">
@@ -345,6 +347,7 @@
                                         <input type="file" id="image" class="form-control" name="image"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)"
                                         >
+                                        <div class="small text-danger">kích cỡ  khuyến nghị 900x600px, không quá 800kb, định dạng PNG, JPG, tổng không vượt quá 5mb</div>
                                     </div>
                                 </div>
                             </div>
