@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\HomePage;
 
 use App\Http\Controllers\Controller;
+use App\Mail\InfoUserMailable;
+use App\Mail\RegisterMailable;
 use App\Models\Article;
 use App\Models\Cart;
 use App\Models\Image;
@@ -10,12 +12,14 @@ use App\Models\Product;
 use App\Models\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use App\Models\Category;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\TwitterCard;
 use Artesaos\SEOTools\Facades\JsonLd;
+use Revolution\Google\Sheets\Facades\Sheets;
 
 class IndexController extends Controller
 {
@@ -27,10 +31,10 @@ class IndexController extends Controller
         })->get();
 
         SEOMeta::setTitle('MinMinCare');
-        SEOMeta::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        SEOMeta::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         SEOMeta::setCanonical('https://minmincare.com.vn/');
 
-        OpenGraph::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        OpenGraph::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         OpenGraph::setTitle('MinMinCare');
         OpenGraph::setUrl('https://minmincare.com.vn/');
         OpenGraph::addProperty('type', 'homepage');
@@ -48,7 +52,7 @@ class IndexController extends Controller
         TwitterCard::setSite('');
 
         JsonLd::setTitle('MinMinCare');
-        JsonLd::setDescription('hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
+        JsonLd::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
         if (!empty($images) && isset($images[0]) && isset($images[0]->image_url)) {
             // Kiểm tra xem mảng $images không rỗng và phần tử đầu tiên có thuộc tính 'image_url'
             JsonLd::addImage(url($images[0]->image_url));
@@ -57,7 +61,6 @@ class IndexController extends Controller
             // Ví dụ, bạn có thể thêm một hình ảnh mặc định hoặc xử lý lỗi theo ý muốn của bạn.
             JsonLd::addImage(url('path/to/default/image.jpg'));
         }
-
 
         $products = Product::orderBy('order_number', 'asc')->get();
 
@@ -104,5 +107,17 @@ class IndexController extends Controller
                 'imageMobiles' => $imageMobiles, 'products' => $products,
                 'new1' => $new1, 'new2' => $new2, 'new3' => $new3]);
         }
+    }
+
+    public function send(Request $request)
+    {
+        $viewData = [
+            'status' => 'register_send',
+        ];
+        $name = $request->name;
+        $phone = $request->phone;
+        $question = $request->question;
+        Mail::to('nguyenthunga221291@gmail.com')->send(new RegisterMailable($name, $phone, $question));
+        return response()->json($viewData);
     }
 }

@@ -16,8 +16,9 @@
             <span class="circle" id="5"></span>
         </div>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators d-none" >
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel"
+         data-bs-interval="false">
+        <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
@@ -33,7 +34,7 @@
             <div class="carousel-item  active " id="1">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 boder-radius" alt="Image 1">
+                        <img src="{{asset('images/sec5/conumax.jpg')}}" class="w-100 boder-radius" alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
@@ -144,16 +145,63 @@
 
 <div class="section-5-mobile mt-3 mb-3">
     <div class="headersec4-product">
-{{--        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw"--}}
-{{--             class="img-fluid headersec5mb-HP-test">--}}
+        {{--        <img src="{{asset('images/sec5/Group 7.png')}}" alt="" style="width: 70vw"--}}
+        {{--             class="img-fluid headersec5mb-HP-test">--}}
         <p class="header-test-orange-mb">Thước đo</p>
         <p class="header-test-green-mb">CHUẨN MỰC</p>
         <p class="header-test-green-mb">CAO CẤP</p>
     </div>
-    <div class="d-flex align-content-center justify-content-center">
-        <img class="card-img-top px-5 mt-3" src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image">
+    <div class="d-flex align-content-center justify-content-center px-5">
+        <img class="card-img-top mobile-img-top mt-3 boder-radius" src="{{asset('images/sec5/conumax.jpg')}}"
+             alt="Card image">
+        <img class="card-img-top mobile-img-top mt-3 boder-radius d-none" src="{{asset('images/sec5/7.jpg')}}"
+             alt="Card image ">
+        <img class="card-img-top mobile-img-top mt-3 boder-radius d-none"
+             src="{{asset('images/sec5/vungnguyenlieu.jpg')}}" alt="Card image ">
+        <img class="card-img-top mobile-img-top mt-3 boder-radius d-none" src="{{asset('images/sec5/nano.jpg')}}"
+             alt="Card image ">
+        <img class="card-img-top mobile-img-top mt-3 boder-radius d-none"
+             src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image ">
     </div>
+    <script>
+        $(document).ready(function () {
+            let currentImageIndex = 0;
+            let totalImages = $('.mobile-img-top').length;
 
+            function showImage(index) {
+                $('.mobile-img-top').addClass('d-none');
+                $('.mobile-img-top').eq(index).removeClass('d-none');
+            }
+
+            let buttonClicked = false;
+
+            $('.custom-prev-arrow-5').click(function () {
+                if (!buttonClicked) {
+                    buttonClicked = true;
+
+                    setTimeout(function() {
+                        currentImageIndex = (currentImageIndex - 1 + totalImages) % totalImages;
+                        showImage(currentImageIndex);
+
+                        buttonClicked = false;
+                    }, 500);
+                }
+            });
+
+            $('.custom-next-arrow-5').click(function () {
+                if (!buttonClicked) {
+                    buttonClicked = true;
+
+                    setTimeout(function() {
+                        currentImageIndex = (currentImageIndex + 1) % totalImages;
+                        showImage(currentImageIndex);
+
+                        buttonClicked = false;
+                    }, 500);
+                }
+            });
+        });
+    </script>
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-5" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect"/>
@@ -396,6 +444,8 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
+                draggable: false, // Ngăn kéo
+                swipe: false, //
                 prevArrow: $('.custom-prev-arrow-5'),
                 nextArrow: $('.custom-next-arrow-5'),
             });
@@ -431,6 +481,7 @@
         width: 30vw;
         transform: translateX(10%);
     }
+
     @media screen and (max-width: 1200px) {
         .image-rule {
             width: 39vw;

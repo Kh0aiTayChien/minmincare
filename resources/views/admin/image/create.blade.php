@@ -126,9 +126,9 @@
                                         <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
                                         <div
-                                            class="small text-danger">kích cỡ pc khuyến nghị 1500x800, định dạng PNG, JPG</div>
+                                            class="small text-danger">kích cỡ pc khuyến nghị 700x1000px, không quá 800kb, định dạng PNG, JPG</div>
                                         <div
-                                            class="small text-danger">kích cỡ smartphone khuyến nghị 1200x600, định dạng PNG, JPG</div>
+                                            class="small text-danger">kích cỡ smartphone khuyến nghị 1200x600, không quá 800kb, định dạng PNG, JPG</div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">

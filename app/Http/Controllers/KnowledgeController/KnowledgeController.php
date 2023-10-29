@@ -44,20 +44,20 @@ class KnowledgeController extends Controller
         $article = Article::where('slug', $slug)->firstOrFail();
         $sessionCookie = config('session.cookie');
 
-        SEOMeta::setTitle('MinMinCare Kiến Thức Mẹ Bầu -'.$slug);
-        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+        SEOMeta::setTitle($article->title);
+        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->title);
 
-        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->name);
-        OpenGraph::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
+        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Bầu  |'.$article->title);
+        OpenGraph::setTitle($article->title);
         OpenGraph::setUrl(route('kien-thuc.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage(url($article->image));;
 
-        TwitterCard::setTitle('MinMinCare Kiến Thức Mẹ Bầu-'.$slug);
+        TwitterCard::setTitle($article->title);
         TwitterCard::setSite('');
 
-        JsonLd::setTitle('MinMinCare Kiến Thức Mẹ Bầu -'.$slug);
-        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->name);
+        JsonLd::setTitle($article->title);
+        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Bầu |'.$article->title);
         JsonLd::addImage(url($article->image));;
 
         if ($request->Cookie($sessionCookie) == null) {

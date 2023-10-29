@@ -158,6 +158,7 @@
                                         <input type="file" id="image" class="form-control" name="image"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
                                     </div>
+                                    <div class="small text-danger">kích cỡ  khuyến nghị 900x600px, không quá 800kb, định dạng PNG, JPG</div>
                                 </div>
                             </div>
                         </div>

@@ -58,19 +58,19 @@ class NewsController extends Controller
     {
         $article = Article::where('slug', $slug)->firstOrFail();
 
-        SEOMeta::setTitle('MinMinCare/tin-tuc/'.$slug);
+        SEOMeta::setTitle($article->title);
         SEOMeta::setDescription('MinMinCare/'.$slug);
 
         OpenGraph::setDescription('MinMinCare/'.$slug);
-        OpenGraph::setTitle('MinMinCare/tin-tuc/'.$slug);
+        OpenGraph::setTitle($article->title);
         OpenGraph::setUrl(route('tin-tuc.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage(url($article->image));
 
-        TwitterCard::setTitle('MinMinCare');
+        TwitterCard::setTitle($article->title);
         TwitterCard::setSite('');
 
-        JsonLd::setTitle('MinMinCare');
+        JsonLd::setTitle($article->title);
         JsonLd::setDescription('MinMinCare/'.$slug);
         JsonLd::addImage(url($article->image));
 
