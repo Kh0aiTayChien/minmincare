@@ -1,5 +1,8 @@
-<div class=" d-flex justify-content-center align-items-center ">
+<div class=" justify-content-center align-items-center d-none d-md-flex">
     <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 65%" class="custom-top">
+</div>
+<div class=" d-flex justify-content-center align-items-center d-md-none">
+    <img src="{{asset('images/sec2/Group 1344.png')}}" alt="" style="scale: 45%" class="custom-top">
 </div>
 <div class=" mb-4" style="">
     <div class="row px-5 mx-5 mb-5 gx-3 gy-2">

@@ -1,6 +1,10 @@
 <div class=" content-article ">
-    <div class="d-flex justify-content-center align-content-center mt-4">
+    <div class="justify-content-center align-content-center mt-4 d-none d-md-flex">
         <img src="{{$article->image}}" alt="" style="width: 62.5vw;
+        margin-bottom: 2rem; " class="img-fluid">
+    </div>
+    <div class="d-flex justify-content-center align-content-center mt-4 d-md-none">
+        <img src="{{$article->image}}" alt="" style=" scale: 100%;
         margin-bottom: 2rem; " class="img-fluid">
     </div>
     <h2 align="center" class="tilte-text">{{$article->title}}</h2>
