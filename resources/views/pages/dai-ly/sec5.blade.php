@@ -3,7 +3,7 @@
     <div class="row-test">
         <div class="col-md-4">
             <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL">
-                <img src="/images/dai-ly/sec5/Asset 3.png" class="buttonvideo-DL-left col-xl-12 col-md-12">
+                <img src="/images/dai-ly/sec5/Ảnh video-01.png" class="buttonvideo-DL-left col-xl-12 col-md-12">
             </button>
             <div class="modal fade" id="exampleModal-DL" tabindex="-1" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-4">
             <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL-2">
-                <img src="/images/dai-ly/sec5/Asset 3.png" class="buttonvideo-DL-mid col-xl-12 col-md-12">
+                <img src="/images/dai-ly/sec5/Ảnh video-02.png" class="buttonvideo-DL-mid col-xl-12 col-md-12">
             </button>
             <div class="modal fade" id="exampleModal-DL-2" tabindex="-1" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
@@ -49,7 +49,7 @@
         </div>
         <div class="col-md-4">
             <button type="button" class="imgbtn" data-bs-toggle="modal" data-bs-target="#exampleModal-DL-3">
-                <img src="/images/dai-ly/sec5/Asset 3.png" class="buttonvideo-DL-right col-xl-12 col-md-12">
+                <img src="/images/dai-ly/sec5/Ảnh video-03.png" class="buttonvideo-DL-right col-xl-12 col-md-12">
             </button>
             <div class="modal fade" id="exampleModal-DL-3" tabindex="-1" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
