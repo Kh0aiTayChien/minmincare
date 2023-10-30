@@ -121,7 +121,7 @@
             <div class="carousel-item " id="5">
                 <div class="row gx-4">
                     <div class="col boder-radius" style="padding: 0 0 8rem 2rem">
-                        <img src="{{asset('images/sec5/thuocdo.png')}}" class="w-100 " alt="Image 1">
+                        <img src="{{asset('images/sec5/10.jpg')}}" class="w-100 " alt="Image 1">
                     </div>
                     <div class="col ms-5">
                         <img src="{{asset('images/sec5/Group 6.png')}}" class="d-block  image-rule"
@@ -161,7 +161,7 @@
         <img class="card-img-top mobile-img-top mt-3 boder-radius d-none" src="{{asset('images/sec5/nano.jpg')}}"
              alt="Card image ">
         <img class="card-img-top mobile-img-top mt-3 boder-radius d-none"
-             src="{{asset('images/sec5/thuocdo.png')}}" alt="Card image ">
+             src="{{asset('images/sec5/10.jpg')}}" alt="Card image ">
     </div>
     <script>
         $(document).ready(function () {
