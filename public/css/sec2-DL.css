@@ -144,7 +144,7 @@
     }
 
     .contentsec2mb-DL {
-        margin-top: 18%;
+        /*margin-top: 18%;*/
         margin-bottom: 10%;
         /*width: 115%;*/
         /*margin-left: 15%;*/
@@ -161,6 +161,9 @@
     }
 
     .dailymb2-DL {
-        margin-top: -20%;
+        /*margin-top: -20%;*/
+    }
+    .bannersec2-DL-mb {
+        margin-top: 25%;
     }
 }
