@@ -17,7 +17,7 @@
 </div>
 
 <div class="sec2mb-DL">
-    <img src="{{asset('images/dai-ly/sec2/Group 2094.png')}}" class="bannersec2-DL-mb col-12">
+    <img src="{{asset('images/dai-ly/sec2/8-088.png')}}" class="bannersec2-DL-mb col-12">
     <img src="{{asset('images/dai-ly/sec2/1, Tex Sec 1-02.png')}}" class="contentsec2mb-DL col-12">
     <p class="header-test-white-Black-mb">MIN MIN CARE</p>
     <p class="header-test-white-Semi-mb">Chỉ nhận hợp tác nếu</p>
