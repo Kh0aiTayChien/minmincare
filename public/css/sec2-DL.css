@@ -129,7 +129,7 @@
     }
 
     .sec2mb-DL {
-        margin-top: -12%;
+        /*margin-top: -12%;*/
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -144,7 +144,7 @@
     }
 
     .contentsec2mb-DL {
-        /*margin-top: 18%;*/
+        margin-top: -8%;
         margin-bottom: 10%;
         /*width: 115%;*/
         /*margin-left: 15%;*/
@@ -164,6 +164,6 @@
         /*margin-top: -20%;*/
     }
     .bannersec2-DL-mb {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
     }
 }
