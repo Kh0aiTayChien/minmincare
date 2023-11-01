@@ -15,11 +15,35 @@
     <div class="content p-3 pb-5">
         {!! $article->content!!}
     </div>
+    <div class="d-flex align-content-center justify-content-start">
 
+        <a href="{{route('tin-tuc.index')}}"
+           class="btn  btn-block mb-3 rounded-pill border-1 monte-semibold super-long button-shake">
+           <span>
+            <svg xmlns="http://www.w3.org/2000/svg" height="1.1em" viewBox="0 0 448 512">
+                <style>svg {
+                        fill: lightslategrey
+                    }</style><path
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            </span>
+            <span>XEM THÊM BÀI VIẾT</span>
+        </a>
+    </div>
 </div>
 <style>
     body{
     }
+    .monte-semibold {
+        font-family: Montserrat-Bold, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: lightslategrey;
+        border-color: lightslategrey;
+    }
+    .monte-semibold:hover{
+        color: lightslategrey !important;
+    }
+
     .datetime_text{
         font-family: "Montserrat-Medium", sans-serif;
         color: #F79421;
