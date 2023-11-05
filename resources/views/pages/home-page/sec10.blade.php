@@ -38,12 +38,13 @@
 <script>
     $('#registration-form').submit(function (e) {
         e.preventDefault();
-        alert('Bạn đã gửi thông tin thành công');
         let fullname = $('#fullname').val();
         let phone = $('#phone').val();
         let question = $('#question').val();
         let csrfToken = $('meta[name="csrf-token"]').attr('content');
-
+        alert('Bạn đã gửi thông tin thành công');
+        $('.svg-input-customer-mb').val('');
+        $('.svg-input-bot-mb').val('');
         $.ajax({
             url: '/send-register', // Thay đổi đường dẫn tới phần xử lý dữ liệu
             method: 'POST',
@@ -57,7 +58,6 @@
             },
             success: function (response) {
 
-                // Add any other actions you want to perform on success here
             },
             error: function (xhr, status, error) {
                 console.error(error);
@@ -67,12 +67,13 @@
 
     $('#registration-form-mb').submit(function (e) {
         e.preventDefault();
-        alert('Bạn đã gửi thông tin thành công');
         let fullname = $('#fullnamem').val();
         let phone = $('#phonem').val();
         let question = $('#questionm').val();
         let csrfToken = $('meta[name="csrf-token"]').attr('content');
-
+        alert('Bạn đã gửi thông tin thành công');
+        $('.svg-input-customer-mb').val('');
+        $('.svg-input-bot-mb').val('');
         $.ajax({
             url: '/send-register', // Thay đổi đường dẫn tới phần xử lý dữ liệu
             method: 'POST',

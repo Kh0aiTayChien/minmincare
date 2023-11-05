@@ -305,6 +305,9 @@
             let phone = $('.phone').val()
             let address = $('.address').val()
             let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $('.name').val('')
+            $('.phone').val('')
+            $('.address').val('')
             alert('Bạn đã gửi thông tin thanh toán thành công')
             $.ajax({
                 url: '/send',
