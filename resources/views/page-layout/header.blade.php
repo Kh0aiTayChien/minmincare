@@ -541,6 +541,16 @@
             lienHeLink.style.color = "#59843D";
             trangChuLink.style.color = "#404041";
         }
+        if (currentUrl.indexOf("cart") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            gioiThieuLink.style.color = ""; // Đặt màu sắc về mặc định (có thể để trống để nó quay về CSS mặc định)
+            sanPhamLink.style.color = "";
+            daiLyLink.style.color = "";
+            tinTucLink.style.color = "";
+            kienThucLink.style.color = "";
+            lienHeLink.style.color = "";
+            trangChuLink.style.color = "";
+        }
     });
 </script>
 <script>
