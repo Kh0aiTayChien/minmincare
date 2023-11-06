@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
-use App\Models\Category;
+use App\Models\SeoMeta as MySeoMeta;;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\TwitterCard;
@@ -30,36 +30,35 @@ class IndexController extends Controller
             $query->where('slug', $categoryImgSlug);
         })->get();
 
-        SEOMeta::setTitle('MinMinCare');
-        SEOMeta::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        SEOMeta::setCanonical('https://minmincare.com.vn/');
+        $seoMeta = MySeoMeta::first(); // Lấy bản ghi đầu tiên từ bảng seo_meta
 
-        OpenGraph::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        OpenGraph::setTitle('MinMinCare');
-        OpenGraph::setUrl('https://minmincare.com.vn/');
-        OpenGraph::addProperty('type', 'homepage');
-        if (!empty($images) && isset($images[0]) && isset($images[0]->image_url)) {
-            // Kiểm tra xem mảng $images không rỗng, và phần tử đầu tiên có thuộc tính 'image_url'
-            OpenGraph::addImage(url($images[0]->image_url));
-        } else {
-            // Xử lý khi mảng $images rỗng hoặc không có thuộc tính 'image_url' trong phần tử đầu tiên
-            // Ví dụ, bạn có thể thêm một hình ảnh mặc định hoặc xử lý lỗi theo ý muốn của bạn.
-            OpenGraph::addImage(url('path/to/default/image.jpg'));
-        }
+        if ($seoMeta) {
+            SEOMeta::setTitle($seoMeta->title);
+            SEOMeta::setDescription($seoMeta->description);
+            SEOMeta::setCanonical($seoMeta->canonical_url);
 
+            OpenGraph::setDescription($seoMeta->og_description);
+            OpenGraph::setTitle($seoMeta->og_title);
+            OpenGraph::setUrl($seoMeta->og_url);
+            OpenGraph::addProperty('type', 'homepage');
 
-        TwitterCard::setTitle('MinMinCare');
-        TwitterCard::setSite('');
+            if ($seoMeta->og_image) {
+                OpenGraph::addImage(url($seoMeta->og_image));
+            } else {
+                OpenGraph::addImage(url($images[0]->image_url));
+            }
 
-        JsonLd::setTitle('MinMinCare');
-        JsonLd::setDescription('Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.');
-        if (!empty($images) && isset($images[0]) && isset($images[0]->image_url)) {
-            // Kiểm tra xem mảng $images không rỗng và phần tử đầu tiên có thuộc tính 'image_url'
-            JsonLd::addImage(url($images[0]->image_url));
-        } else {
-            // Xử lý khi mảng $images rỗng hoặc không có thuộc tính 'image_url' trong phần tử đầu tiên
-            // Ví dụ, bạn có thể thêm một hình ảnh mặc định hoặc xử lý lỗi theo ý muốn của bạn.
-            JsonLd::addImage(url('path/to/default/image.jpg'));
+            TwitterCard::setTitle($seoMeta->twitter_title);
+            TwitterCard::setSite($seoMeta->twitter_site);
+
+            JsonLd::setTitle($seoMeta->title);
+            JsonLd::setDescription($seoMeta->jsonld_description);
+
+            if ($seoMeta->jsonld_image) {
+                JsonLd::addImage(url($seoMeta->jsonld_image));
+            } else {
+                JsonLd::addImage(url($images[0]->image_url));
+            }
         }
 
         $products = Product::orderBy('order_number', 'asc')->get();
