@@ -9,7 +9,7 @@ class SeoMetaSeeder extends Seeder
 {
     public function run()
     {
-        DB::table('seo_meta')->insert([
+        DB::table('seo_metas')->insert([
             'title' => 'MinMinCare',
             'description' => 'Hàng đầu Việt Nam về sản phẩm ngũ cốc dinh dưỡng và sức khỏe cho gia đình Việt.',
             'canonical_url' => 'https://minmincare.com.vn/',
