@@ -21,7 +21,7 @@
 {{--    <object data="{{asset('images/gioi-thieu/sec3/Group 1343.svg')}}" class="arrangesec3mb-GT"></object>--}}
 {{--    <object data="{{asset('images/gioi-thieu/sec3/Group 1339.svg')}}" class="arrangesec3mb-GT1"></object>--}}
     <img src="{{asset('images/gioi-thieu/sec3/Asset 6.png')}}" class="arrangesec3mb-GT">
-    <img src="{{asset('images/gioi-thieu/sec3/sửa ảnh 17.10-07.png')}}" class="imgsec3mb-GT">
+    <img src="{{asset('images/gioi-thieu/sec3/sua-anh.jpg')}}" class="imgsec3mb-GT">
 </div>
 
 <div class="sec3-GT-test">
@@ -33,6 +33,6 @@
                 cho mọi hoạt động của Min Min Care để trở thành một doanh nghiệp hướng tới sứ mệnh thiêng liêng:</p><br>
             <object data="{{asset('images/gioi-thieu/sec3/Group 7698.svg')}}" class="arrangesec3-GT-test"></object>
         </div>
-        <img src="{{asset('images/gioi-thieu/sec3/sửa ảnh 17.10-07.png')}}" class="col-xxl-4 col-md-5 imgsec3-GT-test">
+        <img src="{{asset('images/gioi-thieu/sec3/sua-anh.jpg')}}" class="col-xxl-4 col-md-5 imgsec3-GT-test">
     </div>
 </div>
