@@ -197,7 +197,7 @@
     }
 
     .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
     }
 
     @media only screen and (max-width: 1200px) {

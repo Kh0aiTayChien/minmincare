@@ -190,7 +190,7 @@
     }
 
     .Montserrat-medium {
-        font-family: Montserrat-Medium, Montserrat, sans-serif;
+        font-family: Montserrat-Medium, sans-serif;
     }
 
     @media only screen and (max-width: 1200px) {

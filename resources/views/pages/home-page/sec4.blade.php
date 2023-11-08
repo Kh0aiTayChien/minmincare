@@ -29,7 +29,7 @@
                                     <g id="Group_878" data-name="Group 878">
                                         <text class="testsec4" id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT"
                                               transform="translate(1140.522 3842.765)" fill="#fff" font-size="22"
-                                              font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                              font-family="Montserrat-Bold" letter-spacing="0.1em">
                                             <tspan x="-77.622" y="0">XEM CHI TIẾT</tspan>
                                         </text>
                                     </g>
@@ -69,7 +69,7 @@
                                     <g id="Group_878" data-name="Group 878">
                                         <text class="testsec4" id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT"
                                               transform="translate(1140.522 3842.765)" fill="#fff" font-size="22"
-                                              font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                              font-family="Montserrat-Bold" letter-spacing="0.1em">
                                             <tspan x="-77.622" y="0">XEM CHI TIẾT</tspan>
                                         </text>
                                     </g>
@@ -111,7 +111,7 @@
                         <g id="Group_878" data-name="Group 878">
                             <text class="testsec4" id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT"
                                   transform="translate(1140.522 3842.765)" fill="#fff" font-size="22"
-                                  font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                  font-family="Montserrat-Bold" letter-spacing="0.1em">
                                 <tspan x="-77.622" y="0">XEM CHI TIẾT</tspan>
                             </text>
                         </g>
@@ -143,7 +143,7 @@
                         <g id="Group_878" data-name="Group 878">
                             <text class="testsec4" id="XEM_CHI_TIẾT" data-name="XEM CHI TIẾT"
                                   transform="translate(1140.522 3842.765)" fill="#fff" font-size="22"
-                                  font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                  font-family="Montserrat-Bold" letter-spacing="0.1em">
                                 <tspan x="-77.622" y="0">XEM CHI TIẾT</tspan>
                             </text>
                         </g>

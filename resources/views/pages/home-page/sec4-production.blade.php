@@ -124,12 +124,12 @@
 
     .font-size-custom {
         font-size: 0.9rem!important;
-        font-family: Montserrat-Medium, sans-serif;
+        font-family: Montserrat-Bold, sans-serif !important;
     }
 
     .font-size-custom-big {
         font-size: 1.2rem;
-        font-family: Montserrat-Medium, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
     }
 
     .orange-text {

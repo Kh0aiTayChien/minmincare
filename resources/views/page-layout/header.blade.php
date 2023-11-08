@@ -45,7 +45,7 @@
         <img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake position-relative"
              style="width: 70%">
         @if(isset($carts))
-            <div class="position-absolute Montserrat-medium cart-number" style="top: 0; right: 20px;
+            <div class="position-absolute Montserrat-Bold cart-number" style="top: 0; right: 20px;
         background-color: orange; color: white; border-radius: 100%; padding: 5px 11px; font-size: 16px;">
                 {{ count($carts) }}
             </div>
@@ -157,8 +157,8 @@
         }
     }
 
-    .Montserrat-medium {
-        font-family: Montserrat-Medium, Montserrat, sans-serif;
+    .Montserrat-Bold {
+        font-family: Montserrat-Bold, Montserrat, sans-serif;
     }
 
     .green-bg {

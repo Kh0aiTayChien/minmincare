@@ -31,8 +31,8 @@
                              alt="Card image">
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
-                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>
-                            <div class="d-flex align-content-center justify-content-center Montserrat-medium ">
+                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 66)) }}</p>
+                            <div class="d-flex align-content-center justify-content-center Montserrat-Bold ">
                                 <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM
                                     CHI TIẾT</a>
                             </div>
@@ -46,7 +46,7 @@
     </div>
     <div class="d-flex align-content-center justify-content-center">
         <a href="{{route('tin-tuc.index')}}"
-           class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white Montserrat-medium longer-btn shadow-test button-shake">XEM
+           class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white Montserrat-Bold longer-btn shadow-test button-shake">XEM
             THÊM</a>
     </div>
 </div>
@@ -68,9 +68,12 @@
     }
     .font-size-custom{
         font-size: 1rem;
-        font-family: Montserrat-Medium, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
     }
 
+    .Montserrat-Bold {
+        font-family: Montserrat-Bold, sans-serif;
+    }
     .height-img-card {
         object-fit: cover;
         width: 404px;

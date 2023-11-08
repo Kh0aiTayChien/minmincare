@@ -56,7 +56,7 @@
         background-color: #59843d;
     }
     .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
     }
     .mitr-small {
         font-family: "Montserrat SemiBold", sans-serif;

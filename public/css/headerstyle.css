@@ -57,7 +57,7 @@ ul li a {
 }
 
 ul li a p {
-    font-family: 'Montserrat-Medium', sans-serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 13px;
 }
 
@@ -232,7 +232,7 @@ ul.iconmb {
     .textlink {
         margin-top: 8%;
         font-size: 23px;
-        font-family: Montserrat-SemiBold, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         margin-right: 8%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     }

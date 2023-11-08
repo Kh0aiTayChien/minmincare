@@ -95,19 +95,19 @@
                             display: flex;
                         }
                         .mitr-small {
-                            font-family: Mitr-Medium, Mitr, sans-serif;
+                            font-family: Montserrat-Bold, sans-serif;
                             font-size: x-small;
                             letter-spacing: 1px;
                             color: gray;
                         }
 
                         .mitr-medium {
-                            font-family: Mitr-Medium, Mitr, sans-serif;
+                            font-family: Montserrat-Bold, sans-serif;
                             font-size: medium;
                         }
 
                         .mitr-big {
-                            font-family: Mitr-Medium, Mitr, sans-serif;
+                            font-family: Montserrat-Bold, sans-serif;
                             font-size: x-large;
                         }
                         .border-green{

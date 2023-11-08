@@ -141,14 +141,14 @@
                 <g id="Group_5085" data-name="Group 5085" transform="translate(-93.441 -5096.666)">
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#GIỚI_THIỆU)">
                         <text id="GIỚI_THIỆU-2" data-name="GIỚI THIỆU" transform="translate(3.5 3.5)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">GIỚI THIỆU</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#SẢN_PHẨM)">
                         <text id="SẢN_PHẨM-2" data-name="SẢN PHẨM" transform="translate(4.85 265.63)" fill="#fff"
                               font-size="35"
-                              font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">SẢN PHẨM</tspan>
                         </text>
                     </g>
@@ -280,19 +280,19 @@
                     </a>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#KIẾN_THỨC)">
                         <text id="KIẾN_THỨC-2" data-name="KIẾN THỨC" transform="translate(3.5 3.5)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">KIẾN THỨC</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#TIN_TỨC)">
                         <text id="TIN_TỨC-2" data-name="TIN TỨC" transform="translate(3.5 177.21)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">TIN TỨC</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#LIÊN_HỆ)">
                         <text id="LIÊN_HỆ-2" data-name="LIÊN HỆ" transform="translate(3.5 352.39)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">LIÊN HỆ</tspan>
                         </text>
                     </g>

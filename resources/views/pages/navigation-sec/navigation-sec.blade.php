@@ -44,7 +44,7 @@
         text-decoration: none !important;
     }
     .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         font-size: medium;
     }
     .longer-btn {
