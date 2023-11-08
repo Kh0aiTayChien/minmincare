@@ -8,11 +8,11 @@
             </g>
         </g>
         <text id="Tầm_nhìn" data-name="Tầm nhìn" transform="translate(407.084 2085.281)" fill="#f79420"
-              font-size="57.877" font-family="Mitr-Regular, Mitr">
+              font-size="57.877" font-family="Montserrat-Regular, Montserrat">
             <tspan x="0" y="0">Tầm nhìn</tspan>
         </text>
         <text id="SỨ_MỆNH" data-name="SỨ MỆNH" transform="translate(546.349 2161.088)" fill="#59843d" font-size="74"
-              font-family="Mitr-SemiBold, Mitr" font-weight="600">
+              font-family="Montserrat-SemiBold, Montserrat" font-weight="600">
             <tspan x="0" y="0">SỨ MỆNH</tspan>
         </text>
     </g>

@@ -2,22 +2,22 @@
      viewBox="0 0 700.413 234.245">
     <style>
         @font-face {
-        font-family: Mitr-SemiBold;
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: Montserrat-SemiBold;
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: Mitr-Bold;
-        src: url("/Fonts/Mitr-Bold.ttf");
+        font-family: Montserrat-Bold;
+        src: url("/Fonts/Montserrat-Bold.ttf");
         }
     </style>
     <g id="Group_1343" data-name="Group 1343" transform="translate(-92.38 -4379.213)">
         <text id="Vì_sức_khỏe_mẹ_bé" data-name="Vì sức khỏe mẹ &amp; bé" transform="translate(157.793 4380.868)"
-              fill="#59843d" font-size="35" font-family="Mitr-SemiBold, Mitr" font-weight="600"
+              fill="#59843d" font-size="35" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"
               letter-spacing="0.025em">
             <tspan x="0" y="40">Vì sức khỏe mẹ, bé &amp; gia đình Việt</tspan>
         </text>
         <text id="Dinh_dưỡng_cao_cấp" data-name="Dinh dưỡng cao cấp" transform="translate(157.793 4457.163)"
-              fill="#59843d" font-size="35" font-family="Mitr-SemiBold, Mitr" font-weight="600"
+              fill="#59843d" font-size="35" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"
               letter-spacing="0.025em">
             <tspan x="0" y="40">Dinh dưỡng cao cấp</tspan>
         </text>

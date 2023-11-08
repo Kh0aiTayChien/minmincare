@@ -215,8 +215,8 @@
 
 <style>
     @font-face {
-        font-family: 'Mulish-SemiBold';
-        src: url("/Fonts/Mulish-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
     }
 
     .to-right {
@@ -226,7 +226,7 @@
     }
 
     .card-text {
-        font-family: 'Mulish-SemiBold', sans-serif;
+        font-family: 'Montserrat-SemiBold', sans-serif;
     }
 
     .sec-5-dot {
@@ -394,12 +394,12 @@
 
 <style>
     @font-face {
-        font-family: 'Mulish-Black';
-        src: url("/Fonts/Mulish-Black.ttf");
+        font-family: 'Montserrat-Black';
+        src: url("/Fonts/Montserrat-Black.ttf");
     }
 
     .Muslish-Black {
-        font-family: 'Mulish-Black', sans-serif !important;
+        font-family: 'Montserrat-Black', sans-serif !important;
         font-size: 16px;
     }
 
@@ -444,7 +444,7 @@
     }
 
     .content-sec-5 {
-        font-family: "Mulish SemiBold", sans-serif;
+        font-family: "Montserrat SemiBold", sans-serif;
     }
 </style>
 <script>

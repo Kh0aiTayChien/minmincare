@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="503" height="180.138" viewBox="0 0 503 180.138">
     <style>
         @font-face {
-        font-family: 'Mitr-SemiBold';
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: 'Mitr-Regular';
-        src: url("/Fonts/Mitr-Regular.ttf");
+        font-family: 'Montserrat-Regular';
+        src: url("/Fonts/Montserrat-Regular.ttf");
         }
     </style>
     <g id="Group_858" data-name="Group 858" transform="translate(-297.888 -2474.766)">
         <text id="Khởi_nguồn" data-name="Khởi nguồn" transform="translate(800.888 2541.766)" fill="#f79420"
-              font-size="57.877" font-family="Mitr-Regular, Mitr">
+              font-size="57.877" font-family="Montserrat-Regular, Montserrat">
             <tspan x="-322.895" y="0">Khởi nguồn</tspan>
         </text>
         <text id="MIN_MIN_CARE" data-name="MIN MIN CARE" transform="translate(800.888 2623.904)" fill="#59843d"
-              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+              font-size="74" font-family="Montserrat-SemiBold, Montserrat" font-weight="600">
             <tspan x="-502.09" y="0">MIN MIN CARE</tspan>
         </text>
     </g>

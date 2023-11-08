@@ -276,8 +276,8 @@
     </div>
     <style>
         @font-face {
-            font-family: 'Mulish-SemiBold';
-            src: url("/Fonts/Mulish-SemiBold.ttf");
+            font-family: 'Montserrat-SemiBold';
+            src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
 
         .card-text {
@@ -494,7 +494,7 @@
     }
 
     .content-sec-5 {
-        font-family: "Mulish SemiBold", sans-serif;
+        font-family: "Montserrat SemiBold", sans-serif;
     }
 </style>
 <script>

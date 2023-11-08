@@ -44,7 +44,7 @@
         color: lightslategrey !important;
     }
     .datetime_text{
-        font-family: Mulish-SemiBold, sans-serif;
+        font-family: Montserrat-SemiBold, sans-serif;
         color: #F79421;
     }
     .content-article {
@@ -53,7 +53,7 @@
     }
     .tilte-text {
         color: #59843d;
-        font-family: "Mulish Black", sans-serif;
+        font-family: "Montserrat Black", sans-serif;
     }
     .figure-image {
         display: flex;
@@ -78,7 +78,7 @@
         }
         .tilte-text {
             color: #59843d;
-            font-family: "Mulish Black", sans-serif;
+            font-family: "Montserrat Black", sans-serif;
             margin-bottom: 1rem;
         }
     }

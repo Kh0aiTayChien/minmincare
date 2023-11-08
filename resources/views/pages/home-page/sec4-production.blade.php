@@ -30,11 +30,11 @@
                         </a>
                         <div class="card-body">
                             <a href="{{route('homepage.product.show',['slug' => $product->slug])}}" style="color: unset; text-decoration: unset">
-                                <p class="green-text font-size-custom-big text-center" style="height: 3rem">
+                                <p class="green-text font-size-custom-big text-center " style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                                <p class="green-text text-center">
+                                <p class="green-text text-center line-custom">
                                     <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                                <p class=" orange-text font-size-custom text-center">
+                                <p class=" orange-text font-size-custom text-center line-custom">
                                     <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             </a>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
@@ -61,7 +61,9 @@
     .section-4 {
         background-image: url("{{asset('images/sec4/background.png')}}");
     }
-
+    .line-custom {
+        line-height: 0.4; /* Thiết lập line-height theo ý muốn (thường là 1 hoặc số gần 1) */
+    }
     .longer-btn {
         width: 200px;
     }
@@ -122,12 +124,12 @@
 
     .font-size-custom {
         font-size: 0.9rem!important;
-        font-family: Mitr-Medium, sans-serif;
+        font-family: Montserrat-Medium, sans-serif;
     }
 
     .font-size-custom-big {
         font-size: 1.2rem;
-        font-family: Mitr-Medium, sans-serif;
+        font-family: Montserrat-Medium, sans-serif;
     }
 
     .orange-text {

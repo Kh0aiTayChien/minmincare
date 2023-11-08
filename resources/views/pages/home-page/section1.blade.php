@@ -17,7 +17,7 @@
 
             <div class="call-out-button d-flex justify-content-center align-items-center mb-5 d-none">
                 <button
-                    class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 mitr-medium shadow-effect button-shake">
+                    class="btn register btn-outline-white btn-lg rounded-pill border-white text-white border-2 green-bg me-3 Montserrat-medium shadow-effect button-shake">
                     <div class="px-4">ĐĂNG KÍ ĐẠI LÝ</div>
                 </button>
                 <script>
@@ -35,7 +35,7 @@
 
                 </script>
                 <button
-                    class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 mitr-medium shadow-effect button-shake">
+                    class="btn btn-outline-white btn-lg rounded-pill border-white text-white border-2 ms-3 Montserrat-medium shadow-effect button-shake">
                     <a href="{{route('homepage.product.index')}}" style="text-decoration: unset; color: unset">
                         <div class="px-4">MUA SẢN PHẨM</div>
                     </a>
@@ -189,8 +189,8 @@
         background-color: #59843d;
     }
 
-    .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+    .Montserrat-medium {
+        font-family: Montserrat-Medium, Montserrat, sans-serif;
     }
 
     @media only screen and (max-width: 1200px) {

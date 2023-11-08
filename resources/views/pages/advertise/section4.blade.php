@@ -163,8 +163,8 @@
     </div>
     <style>
         @font-face {
-            font-family: 'Mulish-SemiBold';
-            src: url("/Fonts/Mulish-SemiBold.ttf");
+            font-family: 'Montserrat-SemiBold';
+            src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
 
         .to-right{
@@ -173,7 +173,7 @@
             height: auto;
         }
         .card-text {
-            font-family: 'Mulish-SemiBold', sans-serif;
+            font-family: 'Montserrat-SemiBold', sans-serif;
         }
         .sec-4-dot {
             transform: translate(75px, 120px);
@@ -369,7 +369,7 @@
     }
 
     .content-sec-4 {
-        font-family: "Mulish SemiBold", sans-serif;
+        font-family: "Montserrat SemiBold", sans-serif;
     }
 </style>
 <script>
