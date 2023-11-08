@@ -57,13 +57,13 @@
                              alt="Card image">
                         </a>
                         <div class="card-body">
-                            <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
+                            <p class="height-text-card green-text font-size-custom-big text-center " style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class=" green-text text-center">
+                            <p class=" green-text text-center line-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class=" orange-text font-size-custom text-center">
+                            <p class=" orange-text font-size-custom text-center line-custom">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                         border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
@@ -89,11 +89,11 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card green-text text-center">
+                            <p class="height-text-card green-text text-center line-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center">
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                         border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
@@ -117,13 +117,13 @@
                                  alt="Card image">
                         </a>
                         <div class="card-body">
-                            <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
+                            <p class="height-text-card green-text font-size-custom-big text-center " style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card green-text text-center">
+                            <p class="height-text-card green-text text-center line-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center">
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                         border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
@@ -149,11 +149,11 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card green-text text-center">
+                            <p class="height-text-card green-text text-center line-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center">
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                         border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
@@ -179,11 +179,11 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
                                 <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
-                            <p class="height-text-card green-text text-center">
+                            <p class="height-text-card green-text text-center line-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
-                            <p class="height-text-card orange-text font-size-custom text-center">
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
-                            <div class="d-flex align-content-center justify-content-center mitr-medium ">
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
                         border-white text-white border-2 green-bg mitr-small buy-button button-shake"
                                         data-id="{{$product->id}}">
@@ -350,5 +350,8 @@
 
     .orange-text {
         color: #F79420
+    }
+    .line-custom {
+        line-height: 0.4; /* Thiết lập line-height theo ý muốn (thường là 1 hoặc số gần 1) */
     }
 </style>
