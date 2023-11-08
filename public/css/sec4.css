@@ -1,23 +1,23 @@
 @font-face {
-    font-family: 'Mitr-SemiBold';
-    src: url("/Fonts/Mitr-SemiBold.ttf");
+    font-family: 'Montserrat-SemiBold';
+    src: url("/Fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
-    font-family: 'Mitr-Regular';
-    src: url("/Fonts/Mitr-Regular.ttf");
+    font-family: 'Montserrat-Regular';
+    src: url("/Fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-    font-family: 'Mulish-SemiBold';
-    src: url("/Fonts/Mulish-SemiBold.ttf");
+    font-family: 'Montserrat-SemiBold';
+    src: url("/Fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
-    font-family: 'Mulish-Black';
-    src: url("/Fonts/Mulish-Black.ttf");
+    font-family: 'Montserrat-Black';
+    src: url("/Fonts/Montserrat-Black.ttf");
 }
 
 @font-face {
-    font-family: 'Mulish-ExtraBold';
-    src: url("/Fonts/Mulish-ExtraBold.ttf");
+    font-family: 'Montserrat-ExtraBold';
+    src: url("/Fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
@@ -116,13 +116,13 @@
 }
 
 .headersec4 {
-    font-family: 'Mitr-SemiBold', sans-serif;
+    font-family: 'Montserrat-SemiBold', sans-serif;
     /*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));*/
     font-size: 20px;
 }
 
 .contentsec4 {
-    font-family: 'Mulish-SemiBold', sans-serif;
+    font-family: 'Montserrat-SemiBold', sans-serif;
 
 }
 
@@ -177,7 +177,7 @@
         width: 100vw;
         font-size: 15px;
         /*margin-left: 20%;*/
-        font-family: 'Mitr-SemiBold', sans-serif;
+        font-family: 'Montserrat-SemiBold', sans-serif;
         color: white;
         padding-top: 4%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
@@ -187,7 +187,7 @@
         width: 100vw;
         font-size: 15px;
         /*margin-left: 20%;*/
-        font-family: 'Mitr-SemiBold', sans-serif;
+        font-family: 'Montserrat-SemiBold', sans-serif;
         color: white;
         /*padding-top: 4%;*/
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
@@ -196,7 +196,7 @@
         font-size: 15px;
         margin-left: 10%;
         width: 80vw;
-        font-family: 'Mulish-SemiBold', sans-serif;
+        font-family: 'Montserrat-SemiBold', sans-serif;
         text-align: justify;
         color: white;
     }

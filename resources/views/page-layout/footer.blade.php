@@ -156,7 +156,7 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_bầu)">
                             <text id="Ngũ_cốc_cho_mẹ_bầu-2" data-name="Ngũ cốc cho mẹ bầu"
                                   transform="translate(4.85 359.35)"
-                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Ngũ cốc cho mẹ bầu</tspan>
                             </text>
@@ -166,7 +166,7 @@
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
                         <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
                               transform="translate(4.85 448.97)" fill="#fff" font-size="35"
-                              font-family="Mulish-Medium, Mulish"
+                              font-family="Montserrat-Medium, Montserrat"
                               font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="35">Ngũ cốc cho mẹ sau sinh</tspan>
                         </text>
@@ -175,7 +175,7 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_Min_Min_Care)">
                             <text id="Về_Min_Min_Care-2" data-name="Về Min Min Care" transform="translate(4.85 96.04)"
                                   fill="#fff"
-                                  font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Về Min Min Care</tspan>
                             </text>
@@ -185,7 +185,7 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_ngũ_cốc_dinh_dưỡng)">
                             <text id="Về_ngũ_cốc_dinh_dưỡng-2" data-name="Về ngũ cốc dinh dưỡng"
                                   transform="translate(4.85 184.17)"
-                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Về ngũ cốc dinh dưỡng</tspan>
                             </text>
@@ -249,7 +249,7 @@
                         <g id="Group_1287" data-name="Group 1287">
                             <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Đăng_ký_đại_lý)">
                                 <text id="Đăng_ký_đại_lý-2" data-name="Đăng ký đại lý" transform="translate(3.5 448.97)"
-                                      fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                      fill="#fff" font-size="35" font-family="Montserrat-Medium, Mulish" font-weight="500"
                                       letter-spacing="0.05em">
                                     <tspan x="0" y="35">Đăng ký đại lý</tspan>
                                 </text>

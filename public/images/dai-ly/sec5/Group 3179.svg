@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="836" height="189.786" viewBox="0 0 836 189.786">
     <style>
         @font-face {
-        font-family: 'Mitr-SemiBold';
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: 'Mitr-Regular';
-        src: url("/Fonts/Mitr-Regular.ttf");
+        font-family: 'Montserrat-Regular';
+        src: url("/Fonts/Montserrat-Regular.ttf");
         }
     </style>
     <g id="Group_3179" data-name="Group 3179" transform="translate(-542 -5614.507)">
         <text id="Khách_hàng" data-name="Khách hàng" transform="translate(960 5681.507)" fill="#f79420"
-              font-size="57.877" font-family="Mitr-Regular, Mitr">
+              font-size="57.877" font-family="Montserrat-Regular, Montserrat">
             <tspan x="-167.698" y="0">Khách hàng</tspan>
         </text>
         <text id="TIN_TƯỞNG_LỰA_CHỌN" data-name="TIN TƯỞNG LỰA CHỌN" transform="translate(960 5773.293)" fill="#59843d"
-              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+              font-size="74" font-family="Montserrat-SemiBold, Montserrat" font-weight="600">
             <tspan x="-417.286" y="0">TIN TƯỞNG LỰA CHỌN</tspan>
         </text>
     </g>

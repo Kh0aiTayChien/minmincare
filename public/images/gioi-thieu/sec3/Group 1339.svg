@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="541.413" height="157.95" viewBox="0 0 541.413 157.95">
     <style>
         @font-face {
-        font-family: 'Mitr-SemiBold';
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: 'Mitr-Bold';
-        src: url("/Fonts/Mitr-Bold.ttf");
+        font-family: 'Montserrat-Bold';
+        src: url("/Fonts/Montserrat-Bold.ttf");
         }
     </style>
   <g id="Group_1339" data-name="Group 1339" transform="translate(-600 -4379.213)">
     <text id="Không_ngừng_phát_triển_" data-name="Không ngừng phát triển
-" transform="translate(665.413 4380.868)" fill="#59843d" font-size="35" font-family="Mitr-SemiBold, Mitr" font-weight="600" letter-spacing="0.025em"><tspan x="0" y="40">Không ngừng phát triển</tspan></text>
-    <text id="Trách_nhiệm_xã_hội" data-name="Trách nhiệm xã hội" transform="translate(665.413 4457.163)" fill="#59843d" font-size="35" font-family="Mitr-SemiBold, Mitr" font-weight="600" letter-spacing="0.025em"><tspan x="0" y="40">Trách nhiệm xã hội</tspan></text>
+" transform="translate(665.413 4380.868)" fill="#59843d" font-size="35" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em"><tspan x="0" y="40">Không ngừng phát triển</tspan></text>
+    <text id="Trách_nhiệm_xã_hội" data-name="Trách nhiệm xã hội" transform="translate(665.413 4457.163)" fill="#59843d" font-size="35" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em"><tspan x="0" y="40">Trách nhiệm xã hội</tspan></text>
     <g id="Group_1337" data-name="Group 1337">
       <g transform="matrix(1, 0, 0, 1, 600, 4379.21)" filter="url(#Rectangle_136)">
         <g id="Rectangle_136-2" data-name="Rectangle 136" transform="translate(0 1.31)" fill="#59843d" stroke="#fff" stroke-miterlimit="10" stroke-width="2">
@@ -20,7 +20,7 @@
           <rect x="1" y="1" width="48.001" height="48.001" rx="24" fill="none"/>
         </g>
       </g>
-      <text id="_4" data-name="4" transform="translate(600.14 4379.213)" fill="#fff" font-size="31" font-family="Mitr-Bold, Mitr" font-weight="700"><tspan x="15.561" y="36">4</tspan></text>
+      <text id="_4" data-name="4" transform="translate(600.14 4379.213)" fill="#fff" font-size="31" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="15.561" y="36">4</tspan></text>
     </g>
     <g id="Group_1338" data-name="Group 1338">
       <g transform="matrix(1, 0, 0, 1, 600, 4379.21)" filter="url(#Rectangle_137)">
@@ -29,7 +29,7 @@
           <rect x="1" y="1" width="48.001" height="48.001" rx="24" fill="none"/>
         </g>
       </g>
-      <text id="_5" data-name="5" transform="translate(600.14 4456.443)" fill="#fff" font-size="31" font-family="Mitr-Bold, Mitr" font-weight="700"><tspan x="14.863" y="36">5</tspan></text>
+      <text id="_5" data-name="5" transform="translate(600.14 4456.443)" fill="#fff" font-size="31" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="14.863" y="36">5</tspan></text>
     </g>
   </g>
 </svg>

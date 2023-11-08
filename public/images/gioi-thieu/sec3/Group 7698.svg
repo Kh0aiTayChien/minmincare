@@ -2,12 +2,12 @@
      viewBox="0 0 600.378 224.693">
     <style>
         @font-face {
-        font-family: Mitr-SemiBold;
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: Montserrat-SemiBold;
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: Mitr-Bold;
-        src: url("/Fonts/Mitr-Bold.ttf");
+        font-family: Montserrat-Bold;
+        src: url("/Fonts/Montserrat-Bold.ttf");
         }
     </style>
     <g id="Group_7698" data-name="Group 7698" transform="translate(-304.514 -2257.958)">
@@ -16,28 +16,28 @@
         </filter>
         <text id="Vì_sức_khỏe_mẹ_bé" data-name="Vì sức khỏe mẹ &amp; bé" transform="translate(369.926 2271.062)"
               fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1" font-size="18"
-              font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
+              font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="10">Vì sức khỏe mẹ, bé</tspan>
             <tspan x="0" y="35">&amp; gia đình Việt</tspan>
         </text>
         <text id="Dinh_dưỡng_cao_cấp" data-name="Dinh dưỡng cao cấp" transform="translate(369.926 2347.356)"
               fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1" font-size="18"
-              font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
+              font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="18">Dinh dưỡng cao cấp</tspan>
         </text>
         <text id="Không_ngừng_phát_triển_" data-name="Không ngừng phát triển
 " transform="translate(680.891 2271.062)" fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1"
-              font-size="18" font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
+              font-size="18" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="18">Không ngừng phát triển</tspan>
         </text>
         <text id="Trách_nhiệm_xã_hội" data-name="Trách nhiệm xã hội" transform="translate(680.891 2347.356)"
               fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1" font-size="18"
-              font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
+              font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="18">Trách nhiệm xã hội</tspan>
         </text>
         <text id="Hoàn_toàn_từ_tự_nhiên_" data-name="Hoàn toàn từ tự nhiên
 " transform="translate(369.926 2423.651)" fill="#59843d" stroke="#59843d" stroke-miterlimit="10" stroke-width="1"
-              font-size="18" font-family="Mulish-SemiBold, Mulish" font-weight="600" letter-spacing="0.025em">
+              font-size="18" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.025em">
             <tspan x="0" y="18">Hoàn toàn từ tự nhiên</tspan>
         </text>
         <g id="Group_7693" data-name="Group 7693" class="circle-test" filter="url(#my-drop-shadow)">
@@ -49,7 +49,7 @@
                 </g>
             </g>
             <text id="_1" data-name="1" transform="translate(304.793 2257.958)" fill="#fff" font-size="31"
-                  font-family="Mitr-Bold, Mitr" font-weight="700">
+                  font-family="Montserrat-Bold, Montserrat" font-weight="700">
                 <tspan x="16.832" y="36">1</tspan>
             </text>
         </g>
@@ -62,7 +62,7 @@
                 </g>
             </g>
             <text id="_4" data-name="4" transform="translate(615.618 2257.958)" fill="#fff" font-size="31"
-                  font-family="Mitr-Bold, Mitr" font-weight="700">
+                  font-family="Montserrat-Bold, Montserrat" font-weight="700">
                 <tspan x="15.561" y="36">4</tspan>
             </text>
         </g>
@@ -75,7 +75,7 @@
                 </g>
             </g>
             <text id="_2" data-name="2" transform="translate(304.793 2335.188)" fill="#fff" font-size="31"
-                  font-family="Mitr-Bold, Mitr" font-weight="700">
+                  font-family="Montserrat-Bold, Mitr" font-weight="700">
                 <tspan x="15.871" y="36">2</tspan>
             </text>
         </g>

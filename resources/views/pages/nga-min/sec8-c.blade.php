@@ -59,7 +59,7 @@
         font-family: Mitr-Medium, Mitr, sans-serif;
     }
     .mitr-small {
-        font-family: "Mulish SemiBold", sans-serif;
+        font-family: "Montserrat SemiBold", sans-serif;
     }
 
     .longer-btn {

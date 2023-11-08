@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="712" height="189.786" viewBox="0 0 712 189.786">
     <style>
         @font-face {
-        font-family: 'Mitr-SemiBold';
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: 'Mitr-Regular';
-        src: url("/Fonts/Mitr-Regular.ttf");
+        font-family: 'Montserrat-Regular';
+        src: url("/Fonts/Montserrat-Regular.ttf");
         }
     </style>
     <g id="Group_3178" data-name="Group 3178" transform="translate(-604 -4686.048)">
         <text id="Quy_trình" data-name="Quy trình" transform="translate(960 4753.048)" fill="#fff" font-size="57.877"
-              font-family="Mitr-Regular, Mitr">
+              font-family="Montserrat-Regular, Montserrat">
             <tspan x="-133.435" y="0">Quy trình</tspan>
         </text>
         <text id="HỢP_TÁC_TINH_GỌN" data-name="HỢP TÁC TINH GỌN" transform="translate(960 4844.834)" fill="#fff"
-              font-size="74" font-family="Mitr-SemiBold, Mitr" font-weight="600">
+              font-size="74" font-family="Montserrat-SemiBold, Montserrat" font-weight="600">
             <tspan x="-355.385" y="0">HỢP TÁC TINH GỌN</tspan>
         </text>
     </g>

@@ -220,8 +220,8 @@
     </div>
     <style>
         @font-face {
-            font-family: 'Mulish-SemiBold';
-            src: url("/Fonts/Mulish-SemiBold.ttf");
+            font-family: 'Montserrat-SemiBold';
+            src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
 
         .rounded-custom {
@@ -233,7 +233,7 @@
         }
 
         .card-title {
-            font-family: 'Mulish SemiBold', sans-serif;
+            font-family: 'Montserrat SemiBold', sans-serif;
         }
 
         .green-border {
@@ -437,7 +437,7 @@
 <style>
     .text-justify {
         text-align: justify;
-        font-family: Mulish-SemiBold, sans-serif
+        font-family: Montserrat-SemiBold, sans-serif
     }
 
     .shadow-effect {
@@ -468,7 +468,7 @@
     }
 
     .content-section-slide {
-        font-family: "Mulish SemiBold", sans-serif;
+        font-family: "Montserrat SemiBold", sans-serif;
     }
 </style>
 <script>

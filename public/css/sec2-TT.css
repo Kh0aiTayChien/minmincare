@@ -50,7 +50,7 @@
 }
 
 .textdatetime {
-    font-family: Mulish-SemiBold, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
     color: #F79421;
 }
 
@@ -60,15 +60,15 @@
 }
 
 .titlenews {
-    font-family: Mitr-Medium, sans-serif;
+    font-family: Montserrat-Medium, sans-serif;
 }
 
 .titletext {
-    font-family: Mulish-SemiBold, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
     /*font-size: 15px;*/
     text-align: justify;
 }
 
 .newscontent {
-    font-family: Mulish-SemiBold, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
