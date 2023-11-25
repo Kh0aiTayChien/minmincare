@@ -37,9 +37,9 @@
     </div>
 </div>
 
-<div class="right-action">
-    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>
-</div>
+{{--<div class="right-action">--}}
+{{--    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>--}}
+{{--</div>--}}
 <a class="top-right-action" href="{{asset('/cart')}}">
     <div style="position: relative; ">
         <img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake position-relative"
