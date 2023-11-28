@@ -45,11 +45,11 @@ class Knowledge2Controller extends Controller
         $sessionCookie = config('session.cookie');
 
         SEOMeta::setTitle($article->title);
-        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh'.$article->title);
+        SEOMeta::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh |'.$article->title);
 
-        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh'.$article->title);
+        OpenGraph::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh |'.$article->title);
         OpenGraph::setTitle($article->title);
-        OpenGraph::setUrl(route('homepage.product.show',['slug' => $slug]));
+        OpenGraph::setUrl(route('kien-thuc.me-sau-sinh.show',['slug' => $slug]));
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage(url($article->image));
 
@@ -57,7 +57,7 @@ class Knowledge2Controller extends Controller
         TwitterCard::setSite('');
 
         JsonLd::setTitle($article->title);
-        JsonLd::setDescription('MinMinCare/'.$slug);
+        JsonLd::setDescription('MinMinCare Kiến Thức Mẹ Sau Sinh |'.$article->title);
         JsonLd::addImage(url($article->image));
 
         if ($request->Cookie($sessionCookie) == null) {
