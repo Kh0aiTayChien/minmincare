@@ -40,8 +40,8 @@
 {{--<div class="right-action">--}}
 {{--    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>--}}
 {{--</div>--}}
-<a class="right-action" href="https://zalo.me/0989985091">
-    <div style=" ">
+<a class="right-action " href="https://zalo.me/0989985091">
+    <div style=" " class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/header/zalo.png')}}" alt="" class="cart button-shake  img-fluid"
              style="width: 20%; ">
     </div>
@@ -95,7 +95,7 @@
 
     .right-action {
         text-align: center;
-        bottom: 120px;
+        top: 80%;
         cursor: pointer;
         position: fixed;
         right: -100px;
@@ -130,7 +130,7 @@
 
         .right-action {
             text-align: center;
-            bottom: 90px;
+            top: 84% ;
             cursor: pointer;
             position: fixed;
             right: -115px;
