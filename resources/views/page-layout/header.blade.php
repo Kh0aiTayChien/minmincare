@@ -99,7 +99,7 @@
         cursor: pointer;
         position: fixed;
         right: -100px;
-        z-index: 1000;
+        z-index: 2000;
     }
 
     .top-right-action {
@@ -134,7 +134,7 @@
             cursor: pointer;
             position: fixed;
             right: -115px;
-            z-index: 999;
+            z-index: 2000;
             scale: 100%;
         }
 
