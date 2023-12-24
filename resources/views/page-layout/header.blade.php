@@ -40,6 +40,12 @@
 {{--<div class="right-action">--}}
 {{--    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>--}}
 {{--</div>--}}
+<a class="right-action" href="https://zalo.me/0989985091">
+    <div style=" ">
+        <img src="{{asset('images/header/zalo.png')}}" alt="" class="cart button-shake  img-fluid"
+             style="width: 20%; ">
+    </div>
+</a>
 <a class="top-right-action" href="{{asset('/cart')}}">
     <div style="position: relative; ">
         <img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake position-relative"
@@ -89,10 +95,10 @@
 
     .right-action {
         text-align: center;
-        bottom: 30px;
+        bottom: 120px;
         cursor: pointer;
         position: fixed;
-        right: 20px;
+        right: -100px;
         z-index: 1000;
     }
 
@@ -113,7 +119,7 @@
             right: -6%;
             z-index: 2000;
             scale: 60%;
-            top: 80%
+            top: 75%
         }
     }
 
@@ -124,12 +130,12 @@
 
         .right-action {
             text-align: center;
-            bottom: 10px;
+            bottom: 90px;
             cursor: pointer;
             position: fixed;
-            right: 1px;
+            right: -115px;
             z-index: 999;
-            width: 20%;
+            scale: 100%;
         }
 
         .overlay {
