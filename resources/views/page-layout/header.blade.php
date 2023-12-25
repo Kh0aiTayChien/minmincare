@@ -40,7 +40,7 @@
 {{--<div class="right-action">--}}
 {{--    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>--}}
 {{--</div>--}}
-<a class="right-action " href="https://zalo.me/0989985091">
+<a class="right-action " target="_blank" href="https://zalo.me/0989985091">
     <div style=" " class="d-flex align-content-center justify-content-center">
         <img src="{{asset('images/header/zalo.png')}}" alt="" class="cart button-shake  img-fluid"
              style="width: 20%; ">
@@ -71,11 +71,11 @@
 
     #scrollUp {
         text-align: center;
-        bottom: 30px;
+        bottom: 21%;
         cursor: pointer;
         display: none;
         position: fixed;
-        right: 10px;
+        right: 40px;
         z-index: 1200;
     }
 

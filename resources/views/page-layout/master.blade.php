@@ -83,8 +83,8 @@
 <script>
     window.fbAsyncInit = function() {
         FB.init({
-            xfbml: true,
-            version: 'v18.0'
+            xfbml            : true,
+            version          : 'v18.0'
         });
     };
 
