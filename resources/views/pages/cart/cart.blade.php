@@ -127,8 +127,7 @@
                     </div>
                     <button type="submit"
                             class="btn green-bg btn-block mt-2 w-100 text-white mitr-medium submit-cart shadow-effect">
-                        ĐẶT MUA
-                        NGAY
+                        THANH TOÁN NGAY
                     </button>
                 </form>
             </div>
@@ -308,7 +307,7 @@
             $('.name').val('')
             $('.phone').val('')
             $('.address').val('')
-            alert('Bạn đã gửi thông tin thanh toán thành công')
+            // alert('Bạn đã gửi thông tin thanh toán thành công')
             $.ajax({
                 url: '/send',
                 method: 'POST',
@@ -321,6 +320,7 @@
                     'X-CSRF-TOKEN': csrfToken
                 },
                 success: function (response) {
+                    window.location.href = '/payment';
                     // alert('Bạn đã gửi thông tin thanh toán thành công')
                     // $('.card-cart').remove();
                     // $('.lds-dual-ring').removeClass('d-none');

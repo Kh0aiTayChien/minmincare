@@ -51,6 +51,7 @@ Route::get('/san-pham-hat', [\App\Http\Controllers\HomePage\ProductController::c
 Route::get('/san-pham/{slug}', [\App\Http\Controllers\HomePage\ProductController::class, 'show'])->name('homepage.product.show');
 Route::get('/advertise', [advertise::class, 'index'])->name('advertise.index');
 Route::get('/cart', [CartPageController::class, 'index'])->name('cart.index');
+Route::get('/payment', [CartController::class, 'payment'])->name('cart.payment');
 Route::post('/buy-action', [CartController::class, 'buy_action'])->name('homepage.cart.buy_action');
 Route::post('/plus', [CartController::class, 'plus'])->name('homepage.cart.plus');
 Route::post('/subtraction', [CartController::class, 'subtraction'])->name('homepage.cart.subtraction');
