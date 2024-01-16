@@ -34,7 +34,7 @@
 
                                 <div class="form-group Montserrat-Medium">
                                     <p>
-                                        Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng trải nghiệm sử dụng website, và các mục đích cụ thể khác đã được mô tả trong <a href="#">chính sách riêng tư</a> của chúng tôi.
+                                        Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng trải nghiệm sử dụng website, và các mục đích cụ thể khác đã được mô tả trong <a href="/thong-tin.rar">chính sách riêng tư</a> của chúng tôi.
                                     </p>
                                 </div>
 
