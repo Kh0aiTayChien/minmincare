@@ -1,6 +1,6 @@
 <div class=" show-cart container-fluid custom-padding custom-margin ">
     <div class="row">
-        <div class="media-product col-lg-8 col-md-12 col-xs-12 ">
+        <div class="media-product offset-lg-2 col-lg-8 col-md-12 col-xs-12 ">
 
             <div id="" style="" class="shadow-effect  ">
                 <div class="green-bg mitr-medium text-white " style="height: 2rem ; border-radius: 23px 23px 0 0 ">
@@ -46,13 +46,6 @@
 
             </div>
 
-        </div>
-        <div class="description-product col-xl-4 col-lg-4 col-md-12 col-xs-12 pt-5 ps-5">
-                <img src="http://127.0.0.1:8000/images/lien-he/Group 25.png" class="col-12 d-none d-sm-block headersec1-LH">
-                <p class="header-test-orange-LH col-12 d-none d-sm-block">Địa chỉ : Xóm 3 Thôn Cấn Hạ, Xã Hữu Cấn, Huyện Quốc
-                    Oai, Thành Phố Hà Nội</p>
-                <p class="header-test-orange-LH col-12 d-none d-sm-block">Số điện thoại: 0989985091</p>
-                <p class="header-test-orange-LH col-12 d-none d-sm-block">Email: info@minmincare.vn</p>
         </div>
     </div>
 </div>
@@ -229,12 +222,12 @@
             $('.name').val('')
             $('.phone').val('')
             $('.address').val('')
-             var message = "CẢM ƠN BẠN, ĐƠN HÀNG CỦA BẠN ĐÃ ĐƯỢC NHẬN! \n\n" +
-                    "PHƯƠNG THỨC THANH TOÁN: \n\n" +
+             var message = "CẢM ƠN BẠN, ĐƠN HÀNG CỦA BẠN ĐÃ ĐƯỢC NHẬN! \n" +
+                    "PHƯƠNG THỨC THANH TOÁN: \n" +
                     "1. CHUYỂN KHOẢN NGÂN HÀNG: \n" +
                     "Công ty TNHH Thương mại và Dịch vụ dinh dưỡng Min Min Việt Nam\n" +
-                    "Ngân hàng Agribank\n" +
-                    "STK: 2209201006707 \n\n" +
+                    "Ngân hàng Agribank" +
+                    "STK: 2209201006707 \n" +
                     "2. THANH TOÁN TIỀN MẶT: \n" +
                     "Thanh toán cho nhân viên giao hàng ngay khi nhận được đơn hàng của mình";
 
