@@ -229,11 +229,16 @@
             $('.name').val('')
             $('.phone').val('')
             $('.address').val('')
-            alert('Thông tin chuyển khoản ngân hàng: Nguyễn Thu Nga\n'
-            +'\nCông ty TNHH Thương mại và Dịch vụ dinh dưỡng Min Min Việt Nam\n'
-            + '\nNgân hàng Agribank\n'
-            + '\nSTK: 2209201006707\n'
-            )
+             var message = "CẢM ƠN BẠN, ĐƠN HÀNG CỦA BẠN ĐÃ ĐƯỢC NHẬN! \n\n" +
+                    "PHƯƠNG THỨC THANH TOÁN: \n\n" +
+                    "1. CHUYỂN KHOẢN NGÂN HÀNG: \n" +
+                    "Công ty TNHH Thương mại và Dịch vụ dinh dưỡng Min Min Việt Nam\n" +
+                    "Ngân hàng Agribank\n" +
+                    "STK: 2209201006707 \n\n" +
+                    "2. THANH TOÁN TIỀN MẶT: \n" +
+                    "Thanh toán cho nhân viên giao hàng ngay khi nhận được đơn hàng của mình";
+
+              alert(message);
         });
         $(document).ready(function () {
             let popup = $("#popup");
