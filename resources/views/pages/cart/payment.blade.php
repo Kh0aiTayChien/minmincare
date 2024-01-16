@@ -239,11 +239,11 @@
                     "Thanh toán cho nhân viên giao hàng ngay khi nhận được đơn hàng của mình";
 
               alert(message);
+                window.location.href = '/san-pham'; // Chuyển hướng về trang chủ
+
+
         });
-        $(document).ready(function () {
-            let popup = $("#popup");
-            popup.draggable();
-        });
+
     });
 </script>
 <style>
