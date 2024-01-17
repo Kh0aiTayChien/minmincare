@@ -308,6 +308,9 @@
             $('.phone').val('')
             $('.address').val('')
             // alert('Bạn đã gửi thông tin thanh toán thành công')
+            setTimeout(function() {
+                window.location.href = '/payment';
+            }, 1000); //
             $.ajax({
                 url: '/send',
                 method: 'POST',
@@ -320,7 +323,6 @@
                     'X-CSRF-TOKEN': csrfToken
                 },
                 success: function (response) {
-                    window.location.href = '/payment';
                     // alert('Bạn đã gửi thông tin thanh toán thành công')
                     // $('.card-cart').remove();
                     // $('.lds-dual-ring').removeClass('d-none');
