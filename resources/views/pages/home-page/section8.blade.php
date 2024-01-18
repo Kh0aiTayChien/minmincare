@@ -14,7 +14,7 @@
 {{--                        riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill Montserrat-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -26,7 +26,7 @@
 {{--                        riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill Montserrat-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -38,7 +38,7 @@
 {{--                        riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill mitr-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="btn green-bg btn-sm mb-3 rounded-pill Montserrat-medium text-white shadow-test width-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -49,7 +49,7 @@
 {{--            </div>--}}
 {{--            <div class="mt-3 d-flex justify-content-center ">--}}
 {{--                <div class="d-flex align-content-center justify-content-center">--}}
-{{--                    <a href="#" class="shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn">XEM--}}
+{{--                    <a href="#" class="shadow-test btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white Montserrat-medium longer-btn">XEM--}}
 {{--                        THÊM</a>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -66,7 +66,7 @@
 {{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill Montserrat-medium width-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -78,7 +78,7 @@
 {{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="shadow-test btn green-border green-text btn-sm mb-3 rounded-pill Montserrat-medium width-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -90,7 +90,7 @@
 {{--                    <p class="card-text mt-5">Min Min Care là thương hiệu tiên phong về ngũ cốc dinh dưỡng cao cấp dành riêng--}}
 {{--                        cho mẹ bầu và mẹ sau sinh. Được nghiên cứu bởi đội ngũ chuyên gia....</p>--}}
 {{--                    <div class="d-flex align-content-center justify-content-center mt-5">--}}
-{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill mitr-medium width-test shadow-test">XEM CHI TIẾT</a>--}}
+{{--                        <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill Montserrat-medium width-test shadow-test">XEM CHI TIẾT</a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
@@ -145,7 +145,7 @@
 {{--    </div>--}}
 
 {{--        <div class="d-flex align-content-center justify-content-center position-absolute w-100" style="margin-top: 150%">--}}
-{{--            <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium ">XEM--}}
+{{--            <a href="#" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white Montserrat-medium ">XEM--}}
 {{--                THÊM</a>--}}
 {{--        </div>--}}
 

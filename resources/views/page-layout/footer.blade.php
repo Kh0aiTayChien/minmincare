@@ -91,6 +91,7 @@
         <p class="footermb-product">Mail: info@minmincare.vn</p>
         <p class="footermb-product">Địa chỉ: Tuyết Nghĩa, Quốc Oai, thành phố Hà Nội</p>
     </div>
+    <a href="#" class="linkaddressmb"><img src="{{asset('images/footer/Group 5082.png')}}" class="addresslogomb"></a>
     <div class="contentfooter">
         <div class="leftfootermb">
             <svg class="footerleft" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -147,14 +148,14 @@
                 <g id="Group_5085" data-name="Group 5085" transform="translate(-93.441 -5096.666)">
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#GIỚI_THIỆU)">
                         <text id="GIỚI_THIỆU-2" data-name="GIỚI THIỆU" transform="translate(3.5 3.5)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">GIỚI THIỆU</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#SẢN_PHẨM)">
                         <text id="SẢN_PHẨM-2" data-name="SẢN PHẨM" transform="translate(4.85 265.63)" fill="#fff"
                               font-size="35"
-                              font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">SẢN PHẨM</tspan>
                         </text>
                     </g>
@@ -162,27 +163,26 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_bầu)">
                             <text id="Ngũ_cốc_cho_mẹ_bầu-2" data-name="Ngũ cốc cho mẹ bầu"
                                   transform="translate(4.85 359.35)"
-                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Ngũ cốc cho mẹ bầu</tspan>
                             </text>
                         </g>
                     </a>
                     <a href="{{asset('san-pham')}}" class="footerlink">
-                        <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
-                            <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
-                                  transform="translate(4.85 448.97)" fill="#fff" font-size="35"
-                                  font-family="Mulish-Medium, Mulish"
-                                  font-weight="500" letter-spacing="0.05em">
-                                <tspan x="0" y="35">Ngũ cốc cho mẹ sau sinh</tspan>
-                            </text>
-                        </g>
-                    </a>
+                    <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
+                        <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
+                              transform="translate(4.85 448.97)" fill="#fff" font-size="35"
+                              font-family="Montserrat-Medium, Montserrat"
+                              font-weight="500" letter-spacing="0.05em">
+                            <tspan x="0" y="35">Ngũ cốc cho mẹ sau sinh</tspan>
+                        </text>
+                    </g></a>
                     <a href="https://ngaminmin.com/" class="footerlink">
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_Min_Min_Care)">
                             <text id="Về_Min_Min_Care-2" data-name="Về Min Min Care" transform="translate(4.85 96.04)"
                                   fill="#fff"
-                                  font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Về Min Min Care</tspan>
                             </text>
@@ -192,7 +192,7 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_ngũ_cốc_dinh_dưỡng)">
                             <text id="Về_ngũ_cốc_dinh_dưỡng-2" data-name="Về ngũ cốc dinh dưỡng"
                                   transform="translate(4.85 184.17)"
-                                  fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Về ngũ cốc dinh dưỡng</tspan>
                             </text>
@@ -256,7 +256,7 @@
                         <g id="Group_1287" data-name="Group 1287">
                             <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Đăng_ký_đại_lý)">
                                 <text id="Đăng_ký_đại_lý-2" data-name="Đăng ký đại lý" transform="translate(3.5 448.97)"
-                                      fill="#fff" font-size="35" font-family="Mulish-Medium, Mulish" font-weight="500"
+                                      fill="#fff" font-size="35" font-family="Montserrat-Medium, Mulish" font-weight="500"
                                       letter-spacing="0.05em">
                                     <tspan x="0" y="35">Đăng ký đại lý</tspan>
                                 </text>
@@ -287,19 +287,19 @@
                     </a>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#KIẾN_THỨC)">
                         <text id="KIẾN_THỨC-2" data-name="KIẾN THỨC" transform="translate(3.5 3.5)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">KIẾN THỨC</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#TIN_TỨC)">
                         <text id="TIN_TỨC-2" data-name="TIN TỨC" transform="translate(3.5 177.21)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">TIN TỨC</tspan>
                         </text>
                     </g>
                     <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#LIÊN_HỆ)">
                         <text id="LIÊN_HỆ-2" data-name="LIÊN HỆ" transform="translate(3.5 352.39)" fill="#fff"
-                              font-size="35" font-family="Mitr-Medium, Mitr" font-weight="500" letter-spacing="0.05em">
+                              font-size="35" font-family="Montserrat-Bold" font-weight="500" letter-spacing="0.05em">
                             <tspan x="0" y="40">LIÊN HỆ</tspan>
                         </text>
                     </g>

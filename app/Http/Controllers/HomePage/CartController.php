@@ -132,10 +132,8 @@ class CartController extends Controller
         $cart->delete();
         return response()->json($viewData);
     }
-
     public function send(Request $request)
     {
-
         $sessionCookie = config('session.cookie');
         $sessionID = $request->Cookie($sessionCookie);
         $session = Session::where('session_code', $sessionID)->firstOrFail();
@@ -179,5 +177,55 @@ class CartController extends Controller
 
         $session->delete();
         return response()->json($viewData);
+    }
+
+    public function sendEmail(Request $request)
+    {
+        $sessionCookie = config('session.cookie');
+        $sessionID = $request->Cookie($sessionCookie);
+        $session = Session::where('session_code', $sessionID)->firstOrFail();
+
+        $cartID = $request->input('cart');
+
+        $carts = Cart::where('session_id', $session->id)->get();
+        $viewData = [
+            'status' => 'send',
+        ];
+        Sheets::spreadsheet(config('sheet.spreadsheet_id'));
+
+        $rows = [];
+        $data= [];
+
+        foreach ($carts as $cart) {
+            $row = [
+                $request->name,
+                $request->phone,
+                $request->address,
+                $cart->Product->name,
+                $cart->quantity,
+                $cart->Product->price,
+                $cart->quantity * $cart->Product->price
+            ];
+            $item = [
+                $cart->Product->name,
+                $cart->quantity,
+                $cart->Product->price,
+                $cart->quantity * $cart->Product->price
+            ];
+
+            $rows[] = $row; // Append the row to the $rows array
+            $data[] = $item;
+        }
+
+        array_push($rows, []);
+        $totalItems = count($rows) - 1;
+        Mail::to('info@minmincare.vn')->send(new InfoUserMailable($rows, $totalItems, $data));
+        Sheets::sheet('chien')->append($rows);
+        dd($session);
+        $session->delete();
+        return response()->json($viewData);
+    }
+    public function payment(){
+        return view('pages.cart.index-c');
     }
 }

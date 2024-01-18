@@ -38,7 +38,7 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
-                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
+                            <p class="card-text " style="height: 5rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <a href="{{route('kien-thuc.show',['slug' => $article->slug])}}"
                                    class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM
@@ -62,7 +62,7 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
-                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
+                            <p class="card-text " style="height: 5rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <a href="{{route('kien-thuc.me-sau-sinh.show',['slug' => $article->slug])}}"
                                    class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM
@@ -86,7 +86,7 @@
                         <div class="card-body">
                             <p class="height-text-card green-text font-size-custom">
                                 <strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
-                            <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
+                            <p class="card-text " style="height: 5rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 65)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
                                 <a href="{{route('kien-thuc.dinh-duong-cho-con.show',['slug' => $article->slug])}}"
                                    class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long button-shake">XEM

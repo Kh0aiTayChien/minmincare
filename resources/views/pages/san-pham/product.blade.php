@@ -9,35 +9,35 @@
         <div class="col-md-1 col-xs-0"></div>
         <div class="col-md-2  d-flex justify-content-center align-content-center ">
             <button class="tab-button btn btn-outline-white shadow-effect
-                                border-white text-white border-2 green-bg mitr-small button-shake active"
+                                border-white text-white border-2 green-bg mitr-medium button-shake active"
                     data-target="tab1" style="width: 100%; border-radius: 10px">
                 <div class=" font-size-custom">TẤT CẢ SẢN PHẨM</div>
             </button>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
-                                border-white text-white border-2 green-bg mitr-small button-shake"
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
                     data-target="tab2" style="width: 100% ; border-radius: 10px">
                 <div class="  font-size-custom">NGŨ CỐC MẸ BẦU</div>
             </button>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
-                                border-white text-white border-2 green-bg mitr-small button-shake"
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
                     data-target="tab3" style="width: 100% ; border-radius: 10px">
                 <div class=" font-size-custom">NGŨ CỐC LỢI SỮA</div>
             </button>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
-                                border-white text-white border-2 green-bg mitr-small button-shake"
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
                     data-target="tab4" style="width: 100% ; border-radius: 10px">
                 <div class=" font-size-custom">SỮA HẠT DINH DƯỠNG</div>
             </button>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-content-center">
             <button class="tab-button btn btn-outline-white btn-block  shadow-effect
-                                border-white text-white border-2 green-bg mitr-small button-shake"
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
                     data-target="tab5" style="width: 100% ; border-radius: 10px">
                 <div class="font-size-custom">HẠT GRANOLA</div>
             </button>
@@ -65,7 +65,7 @@
                                 <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
                                 <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
-                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                        border-white text-white border-2 green-bg mitr-medium buy-button button-shake"
                                         data-id="{{$product->id}}">
                                     <div class="mx-1 font-size-custom">THÊM VÀO GIỎ HÀNG</div>
                                 </button>
@@ -324,19 +324,19 @@
     }
 
     .mitr-small {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-family: Montserrat-Medium, Mitr, sans-serif;
         font-size: x-small;
         letter-spacing: 1px;
         color: gray;
     }
 
     .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
-        font-size: medium;
+        font-family: Montserrat-Bold, sans-serif;
+        font-size: 0.8rem !important;
     }
 
     .mitr-big {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+        font-family: Montserrat-Black, sans-serif;
         font-size: large;
     }
 

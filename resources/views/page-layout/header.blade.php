@@ -37,15 +37,21 @@
     </div>
 </div>
 
-<div class="right-action">
-    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>
-</div>
+{{--<div class="right-action">--}}
+{{--    <div><img src="{{asset('images/sec1/mess.png')}}" alt="" class="button-shake" style="width: 70%"></div>--}}
+{{--</div>--}}
+<a class="right-action " target="_blank" href="https://zalo.me/0989985091">
+    <div style=" " class="d-flex align-content-center justify-content-center">
+        <img src="{{asset('images/header/zalo.png')}}" alt="" class="cart button-shake  img-fluid"
+             style="width: 20%; ">
+    </div>
+</a>
 <a class="top-right-action" href="{{asset('/cart')}}">
     <div style="position: relative; ">
         <img src="{{asset('images/header/cart-no-num.png')}}" alt="" class="cart button-shake position-relative"
              style="width: 70%">
         @if(isset($carts))
-            <div class="position-absolute mitr-medium cart-number" style="top: 0; right: 20px;
+            <div class="position-absolute Montserrat-Bold cart-number" style="top: 0; right: 20px;
         background-color: orange; color: white; border-radius: 100%; padding: 5px 11px; font-size: 16px;">
                 {{ count($carts) }}
             </div>
@@ -65,11 +71,11 @@
 
     #scrollUp {
         text-align: center;
-        bottom: 30px;
+        bottom: 21%;
         cursor: pointer;
         display: none;
         position: fixed;
-        right: 10px;
+        right: 40px;
         z-index: 1200;
     }
 
@@ -89,11 +95,11 @@
 
     .right-action {
         text-align: center;
-        bottom: 30px;
+        top: 80%;
         cursor: pointer;
         position: fixed;
-        right: 20px;
-        z-index: 1000;
+        right: -100px;
+        z-index: 2000;
     }
 
     .top-right-action {
@@ -113,7 +119,7 @@
             right: -6%;
             z-index: 2000;
             scale: 60%;
-            top: 80%
+            top: 75%
         }
     }
 
@@ -124,12 +130,12 @@
 
         .right-action {
             text-align: center;
-            bottom: 10px;
+            top: 84% ;
             cursor: pointer;
             position: fixed;
-            right: 1px;
-            z-index: 999;
-            width: 20%;
+            right: -115px;
+            z-index: 2000;
+            scale: 100%;
         }
 
         .overlay {
@@ -157,8 +163,8 @@
         }
     }
 
-    .mitr-medium {
-        font-family: Mitr-Medium, Mitr, sans-serif;
+    .Montserrat-Bold {
+        font-family: Montserrat-Bold, Montserrat, sans-serif;
     }
 
     .green-bg {

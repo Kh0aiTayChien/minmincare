@@ -31,7 +31,7 @@
 
 .header-test-green-LH {
     font-size: 40px;
-    font-family: Mitr-SemiBold, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
     color: #59843d;
 }
 
@@ -84,7 +84,7 @@
 
 .header-test-orange-LH {
     font-size: 17px;
-    font-family: Montserrat-Medium, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     text-align: left;
     justify-content: center;
 }
@@ -144,7 +144,7 @@
     background-color: white;
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     border: 2.5px #59843d solid;
-    font-family: Mitr-Medium, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     letter-spacing: 2px;
     margin-left: 70%;
     width: 18.5vw;
@@ -220,7 +220,7 @@
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     margin-left: 1%;
     border: 2.5px white solid;
-    font-family: Mitr-Medium, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     color: white;
     letter-spacing: 2px;
 }
@@ -234,7 +234,7 @@
     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     margin-left: 1%;
     border: 3px #59843d solid;
-    font-family: Mitr-Medium, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     color: #59843d;
     letter-spacing: 2px;
 }
@@ -262,7 +262,7 @@
 }
 
 .text1customersec10 {
-    font-family: Mitr-Regular, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     /*font-weight: bold;*/
     color: white;
     padding-top: 5%;
@@ -272,7 +272,7 @@
 }
 
 .text2customersec10 {
-    font-family: Mitr-SemiBold, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
     font-weight: bold;
     color: white;
     margin-top: -3%;
@@ -478,7 +478,7 @@
     }
 
     input::placeholder {
-        font-family: Mulish-SemiBold, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
     }
 
     .svg-input-customer-mb:focus {
@@ -510,7 +510,7 @@
         border-radius: 5px;
         background-color: #59843d;
         border: 2px white solid;
-        font-family: Mulish-ExtraBold, sans-serif;
+        font-family: Montserrat-ExtraBold, sans-serif;
         color: white;
         font-size: 12px;
         width: 52vw;
@@ -530,7 +530,7 @@
     }
 
     .text1customersec10mb {
-        font-family: Mitr-Regular, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         /*font-weight: bold;*/
         color: white;
         padding-top: 5%;
@@ -544,7 +544,7 @@
     }
 
     .text2customersec10mb {
-        font-family: Mitr-SemiBold, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         font-weight: bold;
         color: white;
         margin-top: -10%;
@@ -555,7 +555,7 @@
     }
     .header-test-orange-mb-LH {
         font-size: 23px;
-        font-family: Montserrat-SemiBold, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         color: #F79420;
     }
     .header-test-green-mb-LH {
@@ -566,7 +566,7 @@
     }
     .header-test-orange-LH {
         font-size: 17px;
-        font-family: Montserrat-Medium, sans-serif;
+        font-family: Montserrat-Bold, sans-serif;
         text-align: justify;
         justify-content: center;
     }

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500.265" height="173.807" viewBox="0 0 478.265 173.807">
     <style>
         @font-face {
-        font-family: 'Mitr-SemiBold';
-        src: url("/Fonts/Mitr-SemiBold.ttf");
+        font-family: 'Montserrat-SemiBold';
+        src: url("/Fonts/Montserrat-SemiBold.ttf");
         }
         @font-face {
-        font-family: 'Mitr-Regular';
-        src: url("/Fonts/Mitr-Regular.ttf");
+        font-family: 'Montserrat-Regular';
+        src: url("/Fonts/Montserrat-Regular.ttf");
         }
     </style>
     <g id="Group_7691" data-name="Group 7691" transform="translate(-1014.9 -1296.728)">
@@ -18,11 +18,11 @@
             </g>
         </g>
         <text id="Tầm_nhìn" data-name="Tầm nhìn" transform="translate(1014.9 1363.728)" fill="#f79420"
-              font-size="57.877" font-family="Mitr-Regular, Mitr">
+              font-size="57.877" font-family="Montserrat-Regular, Montserrat">
             <tspan x="0" y="0">Tầm nhìn</tspan>
         </text>
         <text id="SỨ_MỆNH" data-name="SỨ MỆNH" transform="translate(1154.165 1439.534)" fill="#59843d" font-size="74"
-              font-family="Mitr-SemiBold, Mitr" font-weight="600">
+              font-family="Montserrat-SemiBold, Montserrat" font-weight="600">
             <tspan x="0" y="0">SỨ MỆNH</tspan>
         </text>
     </g>

@@ -20,26 +20,26 @@
 
 /*.header-test-1-mb {*/
 /*    font-size: 22px;*/
-/*    font-family: Mitr-Regular, sans-serif;*/
+/*    font-family: Montserrat-Regular, sans-serif;*/
 /*    color: white;*/
 /*    line-height: 5px;*/
 /*    padding-top: 20px;*/
 /*}*/
 /*.header-test-2-mb {*/
 /*    font-size: 27px;*/
-/*    font-family: Mitr-SemiBold, sans-serif;*/
+/*    font-family: Montserrat-SemiBold, sans-serif;*/
 /*    color: white;*/
 /*}*/
 
 .header-test-green {
     font-size: 50px;
-    font-family: Mitr-SemiBold, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
     color: #59843d;
 }
 
 .header-test-orange {
     font-size: 40px;
-    font-family: Mitr-Regular, sans-serif;
+    font-family: Montserrat-Regular, sans-serif;
     color: #F79420;
     line-height: 5px;
 }

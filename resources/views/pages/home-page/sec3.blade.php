@@ -25,7 +25,7 @@
                                 </g>
                                 <text id="ĐỌC_CHI_TIẾT" data-name="ĐỌC CHI TIẾT" transform="translate(678.605 3077.256)"
                                       fill="#fff"
-                                      font-size="22" font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                                      font-size="22" font-family="Montserrat-Bold" letter-spacing="0.1em">
                                     <tspan x="-78.508" y="0">ĐỌC CHI TIẾT</tspan>
                                 </text>
                             </g>
@@ -105,7 +105,7 @@
                         </g>
                         <text id="ĐỌC_CHI_TIẾT" data-name="ĐỌC CHI TIẾT" transform="translate(678.605 3077.256)"
                               fill="#fff"
-                              font-size="22" font-family="Mitr-Medium, Mitr" letter-spacing="0.1em">
+                              font-size="22" font-family="Montserrat-Bold" letter-spacing="0.1em">
                             <tspan x="-78.508" y="0">ĐỌC CHI TIẾT</tspan>
                         </text>
                     </g>

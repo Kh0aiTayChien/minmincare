@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: 'Mulish-Medium';
-    src: url("/Fonts/Mulish-Medium.ttf");
+    font-family: 'Montserrat-Medium';
+    src: url("/Fonts/Montserrat-Medium.ttf");
 }
 
 @font-face {
@@ -58,7 +58,7 @@
 }
 
 .intro {
-    font-family: 'Mitr-Medium', sans-serif;
+    font-family: 'Montserrat-Medium', sans-serif;
     /*font-weight: bold;*/
     color: white;
     font-size: 20px;
@@ -66,7 +66,7 @@
 }
 
 .intro1 {
-    font-family: 'Mulish-Medium', sans-serif;
+    font-family: 'Montserrat-Medium', sans-serif;
     list-style-type: none;
     text-decoration: none;
     color: white;
@@ -150,7 +150,7 @@
         margin-left: 6%;
     }
     .footermb-product {
-        font-family: Mulish-Medium, sans-serif;
+        font-family: Montserrat-Medium, sans-serif;
         font-size: 13px;
         color: white;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
