@@ -8,7 +8,9 @@
                 <!-- Grid column -->
                 <div class="col-md-3 contentLeftfooter">
                     <img src="{{asset('images/footer/Group 930.png')}}" class="logofooter"><br>
-                    <p class="intro1" style="color: white; text-align: justify">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH
+                    <p class=""
+                       style="color: white; text-align: justify; font-family: 'Montserrat-Bold', sans-serif;     filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));">
+                        CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH
                         DƯỠNG MIN MIN VIỆT NAM </p>
                     <p class="intro1" style="color: white">Mã số thuế: 0109227288</p>
                     <p class="intro1" style="color: white; text-align: justify">Đại diện: NGUYỄN ĐÌNH VĂN</p>
@@ -65,9 +67,9 @@
                     <a class="intro1" style="color: white" href="{{asset('download/chinh-sach-bao-mat.rar')}}"
                        download="chinh-sach-bao-mat.rar">Chính sách bảo mật thông tin</a> <br><br>
                     <a class="intro1" style="color: white" href="{{asset('download/chinh-sach-thanh-toan.rar')}}"
-                       download="chinh-sach-bao-thanh-toan.rar">Chính sách thanh toán</a> <br><br>
-                    <a class="intro1" style="color: white" href="{{asset('download/chinh-sach-van-chuyen.rar')}}"
-                       download="chinh-sach-van-chuyen.rar">Chính sách vận chuyển</a> <br><br>
+                       download="chinh-sach-thanh-toan.rar">Chính sách thanh toán</a> <br><br>
+                    <a class="intro1" style="color: white" href="{{asset('download/Chinh-sach-van-chuyen.rar')}}"
+                       download="Chinh-sach-van-chuyen.rar">Chính sách vận chuyển</a> <br><br>
                     <a class="intro1" style="color: white" href="{{asset('download/Chinh-sach-hoan-tien-doi-tra.rar')}}"
                        download="Chinh-sach-hoan-tien-doi-tra.rar">Chính sách hoàn tiền, đổi trả</a>
                 </div>
@@ -84,7 +86,7 @@
     <img src="{{asset('images/footer/Group 4239.png')}}" class="linefootermb" id="Informationmb">
     <img src="{{asset('images/footer/Group 930.png')}}" class="logofootermb">
     <div class="" style="margin-left: 5%; text-align: justify; width: 90%">
-        <p class="footermb-product">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH DƯỠNG MIN MIN VIỆT NAM</p>
+        <p class="" style="font-size: 14px; color: white; text-align: justify; font-family: 'Montserrat-Bold', sans-serif; filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH DƯỠNG MIN MIN VIỆT NAM</p>
         <p class="footermb-product">Mã số thuế: 0109227288</p>
         <p class="footermb-product">Người đại diện: NGUYỄN ĐÌNH VĂN</p>
         <p class="footermb-product">Số điện thoại: 0989985091</p>
@@ -162,21 +164,23 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_bầu)">
                             <text id="Ngũ_cốc_cho_mẹ_bầu-2" data-name="Ngũ cốc cho mẹ bầu"
                                   transform="translate(4.85 359.35)"
-                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat"
+                                  font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Ngũ cốc cho mẹ bầu</tspan>
                             </text>
                         </g>
                     </a>
                     <a href="{{asset('san-pham')}}" class="footerlink">
-                    <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
-                        <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
-                              transform="translate(4.85 448.97)" fill="#fff" font-size="35"
-                              font-family="Montserrat-Medium, Montserrat"
-                              font-weight="500" letter-spacing="0.05em">
-                            <tspan x="0" y="35">Ngũ cốc cho mẹ sau sinh</tspan>
-                        </text>
-                    </g></a>
+                        <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Ngũ_cốc_cho_mẹ_sau_sinh)">
+                            <text id="Ngũ_cốc_cho_mẹ_sau_sinh-2" data-name="Ngũ cốc cho mẹ sau sinh"
+                                  transform="translate(4.85 448.97)" fill="#fff" font-size="35"
+                                  font-family="Montserrat-Medium, Montserrat"
+                                  font-weight="500" letter-spacing="0.02em">
+                                <tspan x="0" y="34">Ngũ cốc cho mẹ sau sinh</tspan>
+                            </text>
+                        </g>
+                    </a>
                     <a href="https://ngaminmin.com/" class="footerlink">
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_Min_Min_Care)">
                             <text id="Về_Min_Min_Care-2" data-name="Về Min Min Care" transform="translate(4.85 96.04)"
@@ -191,7 +195,8 @@
                         <g transform="matrix(1, 0, 0, 1, 93.44, 5096.67)" filter="url(#Về_ngũ_cốc_dinh_dưỡng)">
                             <text id="Về_ngũ_cốc_dinh_dưỡng-2" data-name="Về ngũ cốc dinh dưỡng"
                                   transform="translate(4.85 184.17)"
-                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"
+                                  fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat"
+                                  font-weight="500"
                                   letter-spacing="0.05em">
                                 <tspan x="0" y="35">Về ngũ cốc dinh dưỡng</tspan>
                             </text>
@@ -255,7 +260,8 @@
                         <g id="Group_1287" data-name="Group 1287">
                             <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Đăng_ký_đại_lý)">
                                 <text id="Đăng_ký_đại_lý-2" data-name="Đăng ký đại lý" transform="translate(3.5 448.97)"
-                                      fill="#fff" font-size="35" font-family="Montserrat-Medium, Mulish" font-weight="500"
+                                      fill="#fff" font-size="35" font-family="Montserrat-Medium, Montserrat"
+                                      font-weight="500"
                                       letter-spacing="0.05em">
                                     <tspan x="0" y="35">Đăng ký đại lý</tspan>
                                 </text>
@@ -267,7 +273,7 @@
                             <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Chuyên_mục_sức_khỏe)">
                                 <text id="Chuyên_mục_sức_khỏe-2" data-name="Chuyên mục sức khỏe"
                                       transform="translate(3.5 96.04)" fill="#fff" font-size="35"
-                                      font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
+                                      font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.05em">
                                     <tspan x="0" y="35">Chuyên mục sức khỏe</tspan>
                                 </text>
                             </g>
@@ -278,7 +284,7 @@
                             <g transform="matrix(1, 0, 0, 1, 712.98, 5096.67)" filter="url(#Tin_tức_Min_Min_Care)">
                                 <text id="Tin_tức_Min_Min_Care-2" data-name="Tin tức Min Min Care"
                                       transform="translate(3.5 272.59)" fill="#fff" font-size="35"
-                                      font-family="Mulish-Medium, Mulish" font-weight="500" letter-spacing="0.05em">
+                                      font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.05em">
                                     <tspan x="0" y="35">Tin tức Min Min Care</tspan>
                                 </text>
                             </g>
@@ -314,19 +320,23 @@
         {{--        </div>--}}
     </div>
     <div class="" style="margin-left: 5%; text-align: justify; width: 90%">
-        <p class="text-uppercase" style="font-family: Montserrat-Bold, sans-serif; font-size: 13px; filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3)); color: white; margin-left: 2%;">
+        <p class="text-uppercase"
+           style="font-family: Montserrat-Bold, sans-serif; font-size: 13px; filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3)); color: white; margin-top: -2%">
             chính sách
         </p>
         <div class="policy">
             <a class="policy2" style="color: white" href="{{asset('download/chinh-sach-bao-mat.rar')}}"
                download="chinh-sach-bao-mat.rar"><p class="footermb-product"> Chính sách bảo mật thông tin</p></a><br>
             <a class="policy2" style="color: white" href="{{asset('download/chinh-sach-thanh-toan.rar')}}"
-               download="chinh-sach-bao-thanh-toan.rar"><p class="footermb-product policy1"> Chính sách thanh toán</p></a> <br>
-            <a class="policy2" style="color: white" href="{{asset('download/chinh-sach-van-chuyen.rar')}}"
-               download="chinh-sach-van-chuyen.rar"><p class="footermb-product policy1"> Chính sách vận chuyển</p></a> <br>
+               download="chinh-sach-thanh-toan.rar"><p class="footermb-product policy1"> Chính sách thanh toán</p>
+            </a> <br>
+            <a class="policy2" style="color: white" href="{{asset('download/Chinh-sach-van-chuyen.rar')}}"
+               download="Chinh-sach-van-chuyen.rar"><p class="footermb-product policy1"> Chính sách vận chuyển</p></a>
+            <br>
             <a class="policy2" style="color: white"
                href="{{asset('download/Chinh-sach-hoan-tien-doi-tra.rar')}}"
-               download="Chinh-sach-hoan-tien-doi-tra.rar"><p class="footermb-product policy1"> Chính sách hoàn tiền, đổi trả</p></a>
+               download="Chinh-sach-hoan-tien-doi-tra.rar"><p class="footermb-product policy1"> Chính sách hoàn tiền,
+                    đổi trả</p></a>
         </div>
     </div>
 </div>

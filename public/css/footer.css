@@ -136,31 +136,31 @@
         width: 80vw;
     }
     .footerleft {
-        width: 45vw;
+        width: 48vw;
     }
     .footerright {
-        width: 50vw;
+        width: 49vw;
     }
     .contentfooter {
-        display: flex;
+        display: block;
     }
     .leftfootermb {
         /*position: absolute;*/
         /*margin-top: -40%;*/
-        margin-left: 6%;
+        margin-left: 5%;
     }
     .footermb-product {
         font-family: Montserrat-Medium, sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         color: white;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
-        margin-left: 2%;
+        margin-left: 0.5%;
         /*text-decoration: none;*/
     }
     .rightfootermb {
         /*position: absolute;*/
         margin-top: -1%;
-        margin-left: 3%;
+        margin-left: 5%;
     }
     .linefootermb {
         margin-top: -5.5%;
@@ -168,7 +168,7 @@
         margin-left: -5%;
     }
     .policy {
-        transform: translateY(-1%);
+        /*transform: translateY(-1%);*/
     }
     .policy1 {
         margin-top: -6%;
