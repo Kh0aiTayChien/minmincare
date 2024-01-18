@@ -66,8 +66,8 @@
                     <h6 class="intro text-uppercase" style="color: white">Chính sách</h6> <br>
                     <a class="intro1" style="color: white" href="{{asset('download/chinh-sach-bao-mat.rar')}}"
                        download="chinh-sach-bao-mat.rar">Chính sách bảo mật thông tin</a> <br><br>
-                    <a class="intro1" style="color: white" href="{{asset('download/chinh-sach-thanh-toan.rar')}}"
-                       download="chinh-sach-thanh-toan.rar">Chính sách thanh toán</a> <br><br>
+                    <a class="intro1" style="color: white" href="{{asset('download/Chinh-sach-thanh-toan.rar')}}"
+                       download="Chinh-sach-thanh-toan.rar">Chính sách thanh toán</a>
                     <a class="intro1" style="color: white" href="{{asset('download/Chinh-sach-van-chuyen.rar')}}"
                        download="Chinh-sach-van-chuyen.rar">Chính sách vận chuyển</a> <br><br>
                     <a class="intro1" style="color: white" href="{{asset('download/Chinh-sach-hoan-tien-doi-tra.rar')}}"
