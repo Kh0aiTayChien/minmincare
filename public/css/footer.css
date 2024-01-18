@@ -1,5 +1,12 @@
 .footerpc {
     background-image: url("/images/footer/Group 828.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.footer-test {
+    transform: translateX(3%);
 }
 
 @font-face {
@@ -28,7 +35,7 @@
 
 .logofooter {
     scale: 80%;
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
 
 
@@ -51,7 +58,7 @@
 }
 
 .intro {
-    font-family: 'Montserrat-Medium', sans-serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     /*font-weight: bold;*/
     color: white;
     font-size: 20px;
@@ -80,18 +87,19 @@
 }
 
 .contentLeftfooter {
-    margin-left: 10%!important;
+    /*margin-left: 10%!important;*/
     margin-top: -3%!important;
-    transform: translateX(-20%);
+    /*transform: translateX(-20%);*/
 }
 
 .contentMidfooter {
-    margin-left: 8%!important;
+    padding-left: 8%!important;
 
 }
 
 .contentRightFooter {
-    transform: translateX(15%);
+    /*transform: translateX(15%);*/
+    padding-left: 5%;
 }
 
 .footermb {
@@ -105,7 +113,7 @@
     .footermb {
         display: block;
         background-image: url("/images/footer/Group 1269.png");
-        padding-bottom: 2%;
+        padding-bottom: 5%;
     }
     .logofootermb {
         width: 45vw;
@@ -145,8 +153,9 @@
         font-family: Montserrat-Medium, sans-serif;
         font-size: 13px;
         color: white;
-        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
         margin-left: 2%;
+        /*text-decoration: none;*/
     }
     .rightfootermb {
         /*position: absolute;*/
@@ -157,5 +166,14 @@
         margin-top: -5.5%;
         width: 107vw;
         margin-left: -5%;
+    }
+    .policy {
+        transform: translateY(-1%);
+    }
+    .policy1 {
+        margin-top: -6%;
+    }
+    .policy2 {
+        text-decoration: none;
     }
 }
