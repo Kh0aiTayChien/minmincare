@@ -11,7 +11,7 @@
                     <p class="intro1" style="color: white; text-align: justify">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DINH
                         DƯỠNG MIN MIN VIỆT NAM </p>
                     <p class="intro1" style="color: white">Mã số thuế: 0109227288</p>
-                    <p class="intro1" style="color: white">Người đại diện: NGUYỄN ĐÌNH VĂN</p>
+                    <p class="intro1" style="color: white; text-align: justify">Đại diện: NGUYỄN ĐÌNH VĂN</p>
                     <p class="intro1" style="color: white">Số điện thoại: 0989985091</p>
                     <p class="intro1" style="color: white">Mail: info@minmincare.vn</p>
                     <p class="intro1" style="color: white; text-align: justify">Địa chỉ: Tuyết Nghĩa, Quốc Oai, thành
@@ -91,7 +91,6 @@
         <p class="footermb-product">Mail: info@minmincare.vn</p>
         <p class="footermb-product">Địa chỉ: Tuyết Nghĩa, Quốc Oai, thành phố Hà Nội</p>
     </div>
-    <a href="#" class="linkaddressmb"><img src="{{asset('images/footer/Group 5082.png')}}" class="addresslogomb"></a>
     <div class="contentfooter">
         <div class="leftfootermb">
             <svg class="footerleft" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -315,8 +314,7 @@
         {{--        </div>--}}
     </div>
     <div class="" style="margin-left: 5%; text-align: justify; width: 90%">
-        <p class="text-uppercase"
-           style="font-family: Mitr-Medium, sans-serif; font-size: 13px; filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3)); color: white; margin-left: 2%;">
+        <p class="text-uppercase" style="font-family: Montserrat-Bold, sans-serif; font-size: 13px; filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3)); color: white; margin-left: 2%;">
             chính sách
         </p>
         <div class="policy">
