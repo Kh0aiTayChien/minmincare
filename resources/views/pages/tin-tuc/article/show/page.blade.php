@@ -84,9 +84,32 @@
         }
     }
 </style>
+<style>
+    /* Thiết lập chiều cao mặc định là 685vh cho PC */
+    iframe {
+        width: 100%;
+        height: 80vh;
+    }
+
+    /* Sử dụng media query để thay đổi chiều cao thành 185vh cho mobile */
+    @media (max-width: 767px) {
+        iframe {
+            height: 30vh;
+        }
+    }
+</style>
 <script>
     $(document).ready(function() {
         $('.image img').addClass('img-fluid');
         $('.image ').addClass('figure-image ');
+        // Tìm tất cả thẻ <oembed> và chuyển đổi thành thẻ <iframe>
+        $('oembed').each(function () {
+            var url = $(this).attr('url');
+            var iframe = $('<iframe>').attr({
+                'src': url,
+                'width': '100%', // Đặt chiều rộng là 100%
+            });
+            $(this).replaceWith(iframe);
+        });
     });
 </script>
