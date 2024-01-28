@@ -86,14 +86,14 @@
 </style>
 <style>
     /* Thiết lập chiều cao mặc định là 685vh cho PC */
-    iframe {
+    .content iframe {
         width: 100%;
         height: 80vh;
     }
 
     /* Sử dụng media query để thay đổi chiều cao thành 185vh cho mobile */
     @media (max-width: 767px) {
-        iframe {
+        .content iframe {
             height: 30vh;
         }
     }
