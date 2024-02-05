@@ -2,7 +2,7 @@
     @if(isset($images[0]))
         <div class=" d-flex align-items-center  position-absolute row flex-column-reverse dr-link "
              style="z-index: 200; padding-top: 30%; height: 100.2%; transform: translateY(1px)"
-             data-url="{{$images[0]->url}}">
+             data-url="">
 
             <div class="position-relative d-flex flex-column-reverse">
                 <a href="#sec2" class="arrow-down position-absolute d-none d-md-block">
@@ -49,15 +49,44 @@
         <div class="carousel-inner">
             @foreach($images as $key => $image)
                 <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+                    <a href="{{$image->url}}" class="url-item"></a>
                     <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
                 </div>
             @endforeach
             <script>
                 $(document).ready(function () {
+                    // Hàm cập nhật data-url và xử lý lớp active
+                    function updateDrLink() {
+                        let activeIndex = $('.carousel-item.active').index();
+                        $('.dr-link').removeClass('active').hide();
+                        $('.dr-link').eq(activeIndex).addClass('active').show();
+                    }
+
+                    // Sự kiện khi slide được chuyển
+                    $('#carouselExampleControls').on('slid.bs.carousel', function () {
+                        updateDrLink();
+                    });
+
+                    // Cập nhật data-url và xử lý lớp active khi trang web được tải
+                    updateDrLink();
+
+                    // Sự kiện khi .dr-link được click
                     $('.dr-link').click(function () {
-                        console.log(1);
-                        let url = $(this).data('url');
-                        window.location.href = url;
+                        let activeIndex = $('.carousel-item.active').index();
+                        let activeUrl = $('.carousel-item.active .img-slide').data('url');
+
+                        // Kích hoạt sự kiện click trên thẻ a của active slide
+                        $('.carousel-item.active .url-item').attr('href', activeUrl).trigger('click');
+                    });
+
+                    // Sự kiện khi thẻ a có lớp .url-item được click
+                    $('.url-item').click(function (e) {
+                        // Ngăn chặn hành động mặc định của thẻ a
+                        e.preventDefault();
+
+                        // Xử lý logic khi thẻ a được click
+                        let url = $(this).attr('href');
+                        window.open(url, '_blank');
                     });
                 });
                 $('.arrow-down').click(function (event) {
