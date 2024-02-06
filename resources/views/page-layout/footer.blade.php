@@ -18,6 +18,11 @@
                     <p class="intro1" style="color: white">Mail: info@minmincare.vn</p>
                     <p class="intro1" style="color: white; text-align: justify">Địa chỉ: Tuyết Nghĩa, Quốc Oai, thành
                         phố Hà Nội</p>
+
+                    <a href='http://online.gov.vn/Home/WebDetails/113399'>
+                        <img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" alt="" style="width: 50%">
+                    </a>
+
                 </div>
                 <div class="col-md-3 mx-auto mb-4 contentMidfooter">
                     <!-- Links -->
@@ -338,5 +343,8 @@
                download="Chinh-sach-hoan-tien-doi-tra.rar"><p class="footermb-product policy1"> Chính sách hoàn tiền,
                     đổi trả</p></a>
         </div>
+        <a href='http://online.gov.vn/Home/WebDetails/113399'>
+            <img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" alt="" style="width: 50%">
+        </a>
     </div>
 </div>
