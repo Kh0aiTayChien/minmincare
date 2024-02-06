@@ -20,7 +20,7 @@
                         phố Hà Nội</p>
 
                     <a href='http://online.gov.vn/Home/WebDetails/113399'>
-                        <img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" alt="" style="width: 50%">
+                        <img src="{{asset('images/footer/logoSaleNoti.png')}}" alt="" style="width: 50%">
                     </a>
 
                 </div>
@@ -344,7 +344,7 @@
                     đổi trả</p></a>
         </div>
         <a href='http://online.gov.vn/Home/WebDetails/113399'>
-            <img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" alt="" style="width: 50%">
+            <img src="{{asset('images/footer/logoSaleNoti.png')}}" alt="" style="width: 50%">
         </a>
     </div>
 </div>
