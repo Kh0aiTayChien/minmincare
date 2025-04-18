@@ -42,6 +42,30 @@
                 <div class="font-size-custom">HẠT GRANOLA</div>
             </button>
         </div>
+
+        <div class="col-md-3 col-xs-0"></div>
+
+        <div class="col-md-2  d-flex justify-content-center align-content-center ">
+            <button class="tab-button btn btn-outline-white shadow-effect
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
+                    data-target="tab6" style="width: 100%; border-radius: 10px">
+                <div class=" font-size-custom">CHĂM SÓC NHÀ CỬA</div>
+            </button>
+        </div>
+        <div class="col-md-2  d-flex justify-content-center align-content-center ">
+            <button class="tab-button btn btn-outline-white shadow-effect
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
+                    data-target="tab7" style="width: 100%; border-radius: 10px">
+                <div class=" font-size-custom">CHĂM SÓC TÓC</div>
+            </button>
+        </div>
+        <div class="col-md-2  d-flex justify-content-center align-content-center ">
+            <button class="tab-button btn btn-outline-white shadow-effect
+                                border-white text-white border-2 green-bg mitr-medium button-shake"
+                    data-target="tab8" style="width: 100%; border-radius: 10px">
+                <div class=" font-size-custom">CHĂM SÓC DA</div>
+            </button>
+        </div>
     </div>
 </div>
 
@@ -169,6 +193,99 @@
     <div class="row tab tab5  mt-5 gy-4 gx-0 " style="padding: 0 10%">
         @if(isset($nuts))
             @foreach( $nuts as $product)
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center line-custom">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 ">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+
+    <div class="row tab tab6  mt-5 gy-4 gx-0 " style="padding: 0 10%">
+        @if(isset($home_care))
+            @foreach( $home_care as $product)
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center line-custom">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 ">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+
+    <div class="row tab tab7  mt-5 gy-4 gx-0 " style="padding: 0 10%">
+        @if(isset($nuts))
+            @foreach( $hair_care as $product)
+                <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
+                    <div class="card rounded-custom shadow-effect me-1"
+                         style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                        <a href="{{route('homepage.product.show',['slug' => $product->slug])}}">
+                            <img class="card-img-top border-up border-up height-img-card" src="{{$product->image}}"
+                                 alt="Card image">
+                        </a>
+                        <div class="card-body">
+                            <p class="height-text-card green-text font-size-custom-big text-center" style="height: 3rem">
+                                <strong>{{\Illuminate\Support\Str::limit($product->name,60)}}</strong></p>
+                            <p class="height-text-card green-text text-center line-custom">
+                                <strong>{{\Illuminate\Support\Str::limit($product->product_type,15)}}</strong></p>
+                            <p class="height-text-card orange-text font-size-custom text-center line-custom">
+                                <strong>{{ number_format($product->price, 0, ',', '.') }} VNĐ</strong></p>
+                            <div class="d-flex align-content-center justify-content-center mitr-medium line-custom">
+                                <button class="btn btn-outline-white btn-lg rounded-pill shadow-effect
+                        border-white text-white border-2 green-bg mitr-small buy-button button-shake"
+                                        data-id="{{$product->id}}">
+                                    <div class="mx-1 ">THÊM VÀO GIỎ HÀNG</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+    </div>
+
+    <div class="row tab tab8  mt-5 gy-4 gx-0 " style="padding: 0 10%">
+        @if(isset($skin_care))
+            @foreach( $skin_care as $product)
                 <div class="col-lg-3 col-md-4 d-flex justify-content-center align-content-center">
                     <div class="card rounded-custom shadow-effect me-1"
                          style="width:14rem;" href="{{route('homepage.product.show',['slug' => $product->slug])}}">

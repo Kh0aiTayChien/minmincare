@@ -1,21 +1,22 @@
 <div class="secp-TT">
     <div class="row-test mb-4">
         <a href="{{asset('kien-thuc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test">
-            <img src="{{asset('images/kien-thuc/sec2/me-bau.png')}}" class="col-12 button-shake"></a>
+            <img src="{{asset('images/kien-thuc/sec2/Asset 6.png')}}" class="col-12 button-shake"></a>
         <a href="{{asset('kien-thuc/me-sau-sinh')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 3.png')}}" class="col-12 button-shake"></a>
         <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 4.png')}}" class="col-12 button-shake"></a>
+
         <a href="{{asset('kien-thuc/cham-soc-nha-cua')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/cham-soc-nha-cua.png')}}" class="col-12 button-shake"></a>
         <a href="{{asset('kien-thuc/cham-soc-toc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
-                src="{{asset('images/kien-thuc/sec2/cham-soc-toc.png')}}" class="col-12 button-shake"></a>
+                src="{{asset('images/kien-thuc/sec2/cham-soc-toc-active.png')}}" class="col-12 button-shake"></a>
         <a href="{{asset('kien-thuc/cham-soc-da')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/cham-soc-da.png')}}" class="col-12 button-shake"></a>
     </div>
     @foreach($articles as $article)
         <div class="card mb-4 mt-4 border-0 ">
-            <a href="{{route('kien-thuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
+            <a href="{{route('kien-thuc.cham-soc-nha-cua.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
                 <div class="row">
                     <div class="col-lg-4 col-xs-12">
                         <img class="card-img-left height-img-card border-radius " src="{{$article->image}}"/>
@@ -79,4 +80,5 @@
     .green-text:hover {
         color: #F79421;
     }
+
 </style>

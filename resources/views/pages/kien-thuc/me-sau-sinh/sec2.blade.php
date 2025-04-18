@@ -6,6 +6,12 @@
                 src="{{asset('images/kien-thuc/sec2/sau-sinh.png')}}" class="col-12 button-shake"></a>
         <a href="{{asset('kien-thuc/dinh-duong-cho-con')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
                 src="{{asset('images/kien-thuc/sec2/Asset 4.png')}}" class="col-12 button-shake"></a>
+        <a href="{{asset('kien-thuc/cham-soc-nha-cua')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
+                src="{{asset('images/kien-thuc/sec2/cham-soc-nha-cua.png')}}" class="col-12 button-shake"></a>
+        <a href="{{asset('kien-thuc/cham-soc-toc')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
+                src="{{asset('images/kien-thuc/sec2/cham-soc-toc.png')}}" class="col-12 button-shake"></a>
+        <a href="{{asset('kien-thuc/cham-soc-da')}}" class="col-xxl-4 col-sm-4 col-9 menuKT shadow-test"><img
+                src="{{asset('images/kien-thuc/sec2/cham-soc-da.png')}}" class="col-12 button-shake"></a>
     </div>
     @foreach($articles as $article)
         <div class="card mb-4 mt-4 border-0 ">

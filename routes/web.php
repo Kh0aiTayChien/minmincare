@@ -37,6 +37,9 @@ Route::get('/lien-he', [ContactController::class, 'index'])->name('lien-he.index
 Route::get('/kien-thuc', [KnowledgeController::class, 'index'])->name('kien-thuc.index');
 Route::get('/kien-thuc/me-sau-sinh', [Knowledge2Controller::class, 'index'])->name('kien-thuc.me-sau-sinh.index');
 Route::get('/kien-thuc/dinh-duong-cho-con', [Knowledge3Controller::class, 'index'])->name('kien-thuc.dinh-duong-cho-con.index');
+Route::get('/kien-thuc/cham-soc-nha-cua', [App\Http\Controllers\KnowledgeController\KnowledgeHomeCareController::class, 'index'])->name('kien-thuc.cham-soc-nha-cua.index');
+Route::get('/kien-thuc/cham-soc-toc', [App\Http\Controllers\KnowledgeController\KnowledgeHairCareController::class, 'index'])->name('kien-thuc.cham-soc-toc.index');
+Route::get('/kien-thuc/cham-soc-da', [App\Http\Controllers\KnowledgeController\KnowledgeSkinCareController::class, 'index'])->name('kien-thuc.cham-soc-da.index');
 Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
 Route::get('/nga-minmin', [NgaMinController::class, 'index'])->name('Nga-min.index');
 Route::get('/dai-ly', [SalesAgentController::class,'index'])->name('dai-ly.index');
@@ -45,6 +48,9 @@ Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('tin-tuc.sh
 Route::get('/kien-thuc/{slug}', [App\Http\Controllers\KnowledgeController\KnowledgeController::class, 'show'])->name('kien-thuc.show');
 Route::get('/kien-thuc/me-sau-sinh/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge2Controller::class, 'show'])->name('kien-thuc.me-sau-sinh.show');
 Route::get('/kien-thuc/dinh-duong-cho-con/{slug}', [App\Http\Controllers\KnowledgeController\Knowledge3Controller::class, 'show'])->name('kien-thuc.dinh-duong-cho-con.show');
+Route::get('/kien-thuc/cham-soc-nha-cua/{slug}', [App\Http\Controllers\KnowledgeController\KnowledgeHomeCareController::class, 'show'])->name('kien-thuc.cham-soc-nha-cua.show');
+Route::get('/kien-thuc/cham-soc-toc/{slug}', [App\Http\Controllers\KnowledgeController\KnowledgeHairCareController::class, 'show'])->name('kien-thuc.cham-soc-toc.show');
+Route::get('/kien-thuc/cham-soc-da/{slug}', [App\Http\Controllers\KnowledgeController\KnowledgeSkinCareController::class, 'show'])->name('kien-thuc.cham-soc-da.show');
 Route::get('/san-pham', [\App\Http\Controllers\HomePage\ProductController::class, 'index1'])->name('homepage.product.index');
 Route::get('/san-pham-sua-hat', [\App\Http\Controllers\HomePage\ProductController::class, 'index2'])->name('homepage.product.index2');
 Route::get('/san-pham-hat', [\App\Http\Controllers\HomePage\ProductController::class, 'index3'])->name('homepage.product.index3');

@@ -28,10 +28,18 @@ class ProductController extends Controller
         $category3 = Category::where('slug', 'sua-hat-dinh-duong')->firstOrFail()->id;
         $category4 = Category::where('slug', 'hat-granola')->firstOrFail()->id;
 
+        $category5 = Category::where('slug', 'cham-soc-nha-cua')->firstOrFail()->id;
+        $category6 = Category::where('slug', 'cham-soc-toc')->firstOrFail()->id;
+        $category7 = Category::where('slug', 'cham-soc-da')->firstOrFail()->id;
+
         $cereals = $category1->products;
         $milk_pregnant = Product::where('category_id', $category2)->get();
         $nut_milks = Product::where('category_id', $category3)->get();
         $nuts = Product::where('category_id', $category4)->get();
+
+        $home_care = Product::where('category_id', $category5)->get();
+        $hair_care = Product::where('category_id', $category6)->get();
+        $skin_care = Product::where('category_id', $category7)->get();
 
         $sessionCookie = config('session.cookie');
         if ($request->Cookie($sessionCookie) == null) {
@@ -41,7 +49,8 @@ class ProductController extends Controller
                 ->view('pages.san-pham.index',
                     ['products' => $products, 'cereals' => $cereals,
                         'milk_pregnant' => $milk_pregnant, 'nut_milks' => $nut_milks,
-                        'nuts' => $nuts])
+                        'nuts' => $nuts, 'home_care' => $home_care, 'hair_care' =>$hair_care,
+                        'skin_care' => $skin_care])
                 ->withCookie($cookie);
         } else {
             $sessionId = $request->Cookie($sessionCookie);
@@ -52,7 +61,8 @@ class ProductController extends Controller
             return view('pages.san-pham.index',
                 ['products' => $products, 'carts' => $carts, 'cereals' => $cereals,
                     'milk_pregnant' => $milk_pregnant, 'nut_milks' => $nut_milks,
-                    'nuts' => $nuts]);
+                    'nuts' => $nuts, 'home_care' => $home_care, 'hair_care' =>$hair_care,
+                    'skin_care' => $skin_care]);
         }
     }
 
