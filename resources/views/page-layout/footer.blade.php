@@ -35,7 +35,7 @@
                     <p class="intro2">
                         <a href="https://ngaminmin.com/" class="intro1">Về ngũ cốc dinh dưỡng</a>
                     </p>
-                    <h6 class="text-uppercase mb-4 intro">
+                    <h6 class="text-uppercase mb-4 intro d-none">
                         SẢN PHẨM
                     </h6>
                     <p>
