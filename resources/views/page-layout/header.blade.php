@@ -12,7 +12,7 @@
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
-            <li class="col-xxl-4 col-md-4">
+            <li class="col-xxl-4 col-md-4 d-none">
                 <a href="{{route('homepage.product.index')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
