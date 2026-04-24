@@ -380,7 +380,7 @@
                         class="textlink">GIỚI
                         THIỆU</p></a>
             </li>
-            <li class="contact linemenu">
+            <li class="contact linemenu d-none">
                 <a href="{{route('homepage.product.index')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
                         class="textlink">SẢN
                         PHẨM</p></a>
