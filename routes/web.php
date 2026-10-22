@@ -4,6 +4,8 @@ use App\Http\Controllers\advertise\advertise;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ImageController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\HomePage\CartController;
 use App\Http\Controllers\CartPage\CartPageController;
 use App\Http\Controllers\HomePage\IndexController;
@@ -68,8 +70,8 @@ Route::middleware('throttle:10,60')->group(function (Router $router) {
 });
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
-    Route::resource('images', 'ImageController');
-    Route::resource('products', 'ProductController');
+    Route::resource('images', ImageController::class);
+    Route::resource('products', ProductController::class);
     Route::resource('articles', 'ArticleController')->except(['index']);
     Route::get('index/{conditionView}', [ArticleController::class, 'index'])->name('articles.index');
     Route::delete('articles/forceDel/{article} ', [ArticleController::class, 'forceDestroy'])->name('articles.forceDestroy');

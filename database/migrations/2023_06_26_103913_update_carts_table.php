@@ -8,6 +8,12 @@ class UpdateCartsTable extends Migration
 {
     public function up()
     {
+        // The initial SQLite schema already uses cascading deletes. SQLite
+        // cannot alter an existing foreign key in place.
+        if (config('database.default') === 'sqlite') {
+            return;
+        }
+
         Schema::table('carts', function (Blueprint $table) {
             $table->dropForeign(['session_id']);
 
@@ -17,6 +23,10 @@ class UpdateCartsTable extends Migration
 
     public function down()
     {
+        if (config('database.default') === 'sqlite') {
+            return;
+        }
+
         Schema::table('carts', function (Blueprint $table) {
             $table->dropForeign(['session_id']);
 

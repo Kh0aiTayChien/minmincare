@@ -15,7 +15,7 @@ class CreateCartsTable extends Migration
             $table->integer('quantity');
             $table->timestamps();
 
-            $table->foreign('session_id')->references('id')->on('sessions');
+            $table->foreign('session_id')->references('id')->on('sessions')->onDelete('cascade');
             $table->foreign('product_id')->references('id')->on('products');
         });
     }

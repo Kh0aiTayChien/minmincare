@@ -20,6 +20,9 @@ return [
 
     'driver' => env('SESSION_DRIVER', 'file'),
 
+    // Keep existing sessions readable during the Laravel 13 upgrade.
+    'serialization' => env('SESSION_SERIALIZATION', 'php'),
+
     /*
     |--------------------------------------------------------------------------
     | Session Lifetime
